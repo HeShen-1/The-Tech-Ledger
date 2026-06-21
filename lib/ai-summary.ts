@@ -29,14 +29,14 @@ export async function generateAiSummary(
   }
 
   try {
-    const res = await fetch("https://api.deepseek.com/v1/chat/completions", {
+    const res = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${DEEPSEEK_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "deepseek-chat",
+        model: "deepseek-v4-flash",
         messages: [
           {
             role: "system",
@@ -46,6 +46,58 @@ export async function generateAiSummary(
           { role: "user", content: buildPrompt(signals, period) },
         ],
         max_tokens: 1200,
+        temperature: 0.7,
+      }),
+    });
+    if (!res.ok) {
+      console.error("[ai-summary] DeepSeek API failed:", res.status);
+      return null;
+    }
+    const data = await res.json();
+    return data?.choices?.[0]?.message?.content ?? null;
+  } catch (error) {
+    console.error("[ai-summary] Failed:", error);
+    return null;
+  }
+}
+
+function buildSummaryPrompt(existingSummaries: string[], period: string): string {
+  const items = existingSummaries
+    .map((s, i) => `${i + 1}. ${s}`)
+    .join("\n\n");
+
+  return `You are the editor-in-chief of "The Tech Ledger". Below are ${period} AI-generated report summaries. Synthesize them into a single cohesive ${period} editorial report. Highlight the most important trends, cross-cutting themes, and notable developments. Write in the style of a newspaper editorial — authoritative, concise, insightful. Keep it under 600 words. Do not use bullet points. Write in flowing prose.
+
+EXISTING SUMMARIES:
+${items}`;
+}
+
+export async function generateAiSummaryFromSummaries(
+  existingSummaries: string[],
+  period: string = "weekly",
+): Promise<string | null> {
+  if (!DEEPSEEK_KEY) {
+    console.warn("[ai-summary] DEEPSEEK_API_KEY not set");
+    return null;
+  }
+
+  try {
+    const res = await fetch("https://api.deepseek.com/chat/completions", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${DEEPSEEK_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: "deepseek-v4-flash",
+        messages: [
+          {
+            role: "system",
+            content: "You are a newspaper editor writing concise, insightful technology reports that synthesize multiple summaries.",
+          },
+          { role: "user", content: buildSummaryPrompt(existingSummaries, period) },
+        ],
+        max_tokens: 1500,
         temperature: 0.7,
       }),
     });

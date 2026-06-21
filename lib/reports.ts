@@ -1,7 +1,7 @@
 import { kv } from "@vercel/kv";
 import type { TrendingResponse, Signal } from "./types";
 import { getTrending } from "./aggregator";
-import { generateAiSummary } from "./ai-summary";
+import { generateAiSummary, generateAiSummaryFromSummaries } from "./ai-summary";
 
 const REPORT_PREFIX = "report:daily:";
 const WEEKLY_PREFIX = "report:weekly:";
@@ -120,25 +120,20 @@ export async function generateWeeklyReport(): Promise<{ ok: boolean }> {
       weekKey(new Date(d)) === wk,
   );
   if (thisWeek.length === 0) return { ok: false };
-  const allSignals: Signal[] = [];
+  // Collect daily AI summaries
+  const dailySummaries: string[] = [];
   for (const d of thisWeek) {
-    const report = await getDailyReport(d);
-    if (report) allSignals.push(...report.signals);
+    const aiText = await kv.get<string>(REPORT_PREFIX + d + ":ai");
+    if (aiText) dailySummaries.push(`[${d}] ${aiText.slice(0, 500)}`);
   }
-  // Dedup by URL
-  const seen = new Set<string>();
-  const unique = allSignals.filter((s) => {
-    if (seen.has(s.url)) return false;
-    seen.add(s.url);
-    return true;
-  });
+  const aiSummary = dailySummaries.length > 0
+    ? await generateAiSummaryFromSummaries(dailySummaries, "weekly")
+    : null;
   await kv.set(
     WEEKLY_PREFIX + wk,
-    { signals: unique.slice(0, 30), days: thisWeek.length, week: wk },
+    { signals: [], days: thisWeek.length, week: wk },
     { ex: 86400 * 365 },
   );
-  // Generate AI summary
-  const aiSummary = await generateAiSummary(unique, "weekly");
   if (aiSummary) {
     await kv.set(WEEKLY_PREFIX + wk + ":ai", aiSummary, { ex: 86400 * 365 });
   }
@@ -150,24 +145,24 @@ export async function generateMonthlyReport(): Promise<{ ok: boolean }> {
   const dates = await getReportDates();
   const thisMonth = dates.filter((d) => d.startsWith(mo));
   if (thisMonth.length === 0) return { ok: false };
-  const allSignals: Signal[] = [];
+  // Collect weekly AI summaries for this month
+  const weeklySummaries: string[] = [];
+  const seenWeeks = new Set<string>();
   for (const d of thisMonth) {
-    const report = await getDailyReport(d);
-    if (report) allSignals.push(...report.signals);
+    const wk = weekKey(new Date(d));
+    if (seenWeeks.has(wk)) continue;
+    seenWeeks.add(wk);
+    const aiText = await kv.get<string>(WEEKLY_PREFIX + wk + ":ai");
+    if (aiText) weeklySummaries.push(`[Week ${wk}] ${aiText.slice(0, 500)}`);
   }
-  const seen = new Set<string>();
-  const unique = allSignals.filter((s) => {
-    if (seen.has(s.url)) return false;
-    seen.add(s.url);
-    return true;
-  });
+  const aiSummary = weeklySummaries.length > 0
+    ? await generateAiSummaryFromSummaries(weeklySummaries, "monthly")
+    : null;
   await kv.set(
     MONTHLY_PREFIX + mo,
-    { signals: unique.slice(0, 50), days: thisMonth.length, month: mo },
+    { signals: [], days: thisMonth.length, month: mo },
     { ex: 86400 * 365 },
   );
-  // Generate AI summary
-  const aiSummary = await generateAiSummary(unique, "monthly");
   if (aiSummary) {
     await kv.set(MONTHLY_PREFIX + mo + ":ai", aiSummary, { ex: 86400 * 365 });
   }

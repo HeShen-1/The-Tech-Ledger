@@ -13,8 +13,16 @@ export async function POST(request: Request) {
   }
   try {
     const daily = await snapshotDaily();
-    await generateWeeklyReport();
-    await generateMonthlyReport();
+    // Weekly: only on Sundays (day 0)
+    if (new Date().getDay() === 0) {
+      await generateWeeklyReport();
+    }
+    // Monthly: only on last day of month
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    if (tomorrow.getDate() === 1) {
+      await generateMonthlyReport();
+    }
     return NextResponse.json({ ok: true, daily: daily.key });
   } catch (error) {
     console.error("[api/reports/snapshot] Failed:", error);
