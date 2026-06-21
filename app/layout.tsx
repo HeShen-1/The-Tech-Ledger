@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { ScrollProgress } from "@/components/scroll-progress";
 import { RefreshToast } from "@/components/refresh-toast";
+import { validateConfig } from "@/lib/startup";
 import "./globals.css";
+
+validateConfig();
 
 export const metadata: Metadata = {
   title: "The Tech Ledger — Real-Time Tech Intelligence",

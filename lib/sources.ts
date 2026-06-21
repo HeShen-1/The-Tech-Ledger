@@ -1,4 +1,5 @@
 import type { RawSignal } from "./types";
+import { getCachedTrending } from "./cache";
 
 const FIRECRAWL_KEY = process.env.FIRECRAWL_API_KEY;
 const TAVILY_KEY = process.env.TAVILY_API_KEY;
@@ -201,24 +202,32 @@ export async function fetchAllSources(): Promise<RawSignal[]> {
 }
 
 export async function getSourceStatuses() {
-  const sources = [
-    { name: "GitHub Trending", fetcher: fetchGitHubTrending },
-    { name: "Hacker News", fetcher: fetchHackerNews },
-    { name: "arXiv Papers", fetcher: fetchArxiv },
-    { name: "Tech Blogs", fetcher: fetchBlogs },
-  ];
-  return Promise.all(sources.map(async (s) => {
-    const start = Date.now();
-    try {
-      const data = await s.fetcher();
-      return { name: s.name, status: "ok" as const, latency: Date.now() - start, count: data.length };
-    } catch (error: any) {
-      return {
-        name: s.name,
-        status: error?.name === "AbortError" ? "timeout" as const : "error" as const,
-        latency: Date.now() - start,
-        count: 0,
-      };
+  const nameMap: Record<string, string> = {
+    github: "GitHub Trending",
+    hackernews: "Hacker News",
+    arxiv: "arXiv Papers",
+    blog: "Tech Blogs",
+  };
+  // Derive from cached trending data — no extra API calls
+  try {
+    const cached = await getCachedTrending();
+    if (cached) {
+      const counts = new Map<string, number>();
+      for (const s of cached.signals) {
+        counts.set(s.source, (counts.get(s.source) ?? 0) + 1);
+      }
+      return (["github", "hackernews", "arxiv", "blog"] as const).map((key) => ({
+        name: nameMap[key],
+        status: "ok" as const,
+        latency: 0,
+        count: counts.get(key) ?? 0,
+      }));
     }
+  } catch { /* fall through to empty */ }
+  return (["github", "hackernews", "arxiv", "blog"] as const).map((key) => ({
+    name: nameMap[key],
+    status: "ok" as const,
+    latency: 0,
+    count: 0,
   }));
 }
