@@ -75,3 +75,4 @@
 {"t":0,"agent":"ace920b","agent_type":"general-purpose","event":"agent_stop","success":true,"duration_ms":78058}
 {"t":0,"agent":"aa446f1","agent_type":"general-purpose","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"aa446f1","agent_type":"general-purpose","event":"agent_stop","success":true,"duration_ms":102891}
+{"t":0,"agent":"a1e4903","agent_type":"unknown","event":"agent_stop","success":true}
