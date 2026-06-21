@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd D:/vsCode/vercel && git add app/layout.tsx components/footer.tsx components/nav.tsx app/about/page.tsx .env.local && git commit -m \\\"feat: rename to The Tech Ledger, fix footer links, a...",
-  "error": "Exit code 1\nwarning: in the working copy of 'app/layout.tsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'components/footer.tsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'components/nav.tsx', LF will be replaced by CRLF the next time Git touches it\nThe following paths are ignored by one of your .gitignore files:\n.env.local\nhint: Use -f if you really want to add them.\nhint: Disable this message with \"gi...",
-  "timestamp": "2026-06-21T15:10:32.436Z",
+  "tool_input_preview": "{\"command\":\"cd D:/vsCode/vercel && npx tsc --noEmit 2>&1 && npx codegraph update 2>&1\",\"description\":\"Type check and update CodeGraph\"}",
+  "error": "Exit code 1\nerror: unknown command 'update'",
+  "timestamp": "2026-06-21T15:28:02.793Z",
   "retry_count": 1
 }

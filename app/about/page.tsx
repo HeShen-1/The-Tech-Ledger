@@ -45,7 +45,7 @@ export default function AboutPage() {
         <p className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
           The Mission
         </p>
-        <div className="max-w-2xl space-y-5 font-body text-base leading-relaxed text-[#525252]">
+        <div className="mx-auto max-w-2xl space-y-5 font-body text-base leading-relaxed text-[#525252]">
           <p>
             <span className="float-left mr-3 font-serif text-7xl font-black leading-[0.7] text-[#111111]">T</span>
             he technology landscape moves fast. Every day, thousands of repositories star on GitHub, hundreds of stories
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <p className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
           How It Works
         </p>
-        <div className="max-w-2xl space-y-6">
+        <div className="mx-auto max-w-2xl space-y-6">
           <p className="font-body text-base leading-relaxed text-[#525252]">
             Every time you visit, a pipeline of specialized APIs fires in parallel to gather the latest signals:
           </p>
@@ -135,7 +135,7 @@ export default function AboutPage() {
         <p className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
           Edition
         </p>
-        <div className="max-w-2xl space-y-3 font-mono text-[10px] uppercase tracking-[0.15em] text-[#737373]">
+        <div className="mx-auto max-w-2xl space-y-3 text-center font-mono text-[10px] uppercase tracking-[0.15em] text-[#737373]">
           <p>
             <span className="text-[#111111] font-bold">Vol. I</span> &middot; Printed in Digital &middot; Est. June 2026
           </p>
@@ -143,7 +143,7 @@ export default function AboutPage() {
             <span className="text-[#111111] font-bold">Publisher</span> &middot; The Tech Ledger Press
           </p>
           <p>
-            <span className="text-[#111111] font-bold">Editor-in-Chief</span> &middot; You
+            <span className="text-[#111111] font-bold">Editor-in-Chief</span> &middot; He Wenwan
           </p>
           <p className="pt-2 text-[#525252] normal-case tracking-normal">
             Built as an open-source portfolio project. All source code available on request.
