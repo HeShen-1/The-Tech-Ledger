@@ -275,11 +275,22 @@
       "agent_type": "general-purpose",
       "started_at": "2026-06-21T16:27:25.724Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-06-21T16:28:09.909Z",
+      "duration_ms": 44185
+    },
+    {
+      "agent_id": "a036a2cf271bbf6e0",
+      "agent_type": "general-purpose",
+      "started_at": "2026-06-21T16:30:04.833Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-06-21T16:32:55.064Z",
+      "duration_ms": 170231
     }
   ],
-  "total_spawned": 31,
-  "total_completed": 30,
+  "total_spawned": 32,
+  "total_completed": 32,
   "total_failed": 0,
-  "last_updated": "2026-06-21T16:27:25.839Z"
+  "last_updated": "2026-06-21T16:32:55.179Z"
 }
