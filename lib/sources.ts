@@ -31,27 +31,44 @@ async function fetchGitHubTrending(): Promise<RawSignal[]> {
 
 function parseTrendingMarkdown(md: string): RawSignal[] {
   const repos: RawSignal[] = [];
-  // GitHub trending markdown entries look like:
-  // [owner / **repo**](url)
-  // description text
-  // Language • Stars today
-  const regex = /\[([^\]]+?)\s*\/\s*\*?\*?([^*\n]+?)\*?\*?\]\(([^)]+)\)\s*\n([^\n]+?)\n([^\n]*?)(?:\n|$)/g;
-  let match;
-  while ((match = regex.exec(md)) !== null && repos.length < 10) {
-    const [, owner, name, url, desc, meta] = match;
-    const repoName = name.trim().replace(/\*/g, "");
-    const parts = meta.split("•").map((s) => s.trim());
-    const language = parts[0] || "Unknown";
-    const starsStr = parts[1] || "0";
+  // Format:
+  // ## [owner / **repo**](url)
+  // description line
+  // Language[stars](url) [forks](url)
+  // ...
+  // X,XXX stars today
+  const lines = md.split("\n");
+  for (let i = 0; i < lines.length && repos.length < 10; i++) {
+    const headingMatch = lines[i].match(/^##\s+\[(.+?)\s*\/\s*\*?\*?(.+?)\*?\*?\]\(([^)]+)\)/);
+    if (!headingMatch) continue;
+    const owner = headingMatch[1].trim();
+    const name = headingMatch[2].trim().replace(/\*/g, "");
+    const url = headingMatch[3];
+    const desc = (lines[i + 1] || "").trim();
+    const summary = desc && !desc.startsWith("[") && !desc.startsWith("!") ? desc : undefined;
+    // Language line: "JavaScript[44,139](url) [7,306](url)"
+    const metaLine = lines[i + 2] || "";
+    const langMatch = metaLine.match(/^([A-Za-z+#.]+)\s*\[/);
+    const language = langMatch ? langMatch[1].trim() : "Unknown";
+    // Find stars today in subsequent lines
+    let stars = 0;
+    for (let j = i + 3; j < Math.min(i + 10, lines.length); j++) {
+      const starMatch = lines[j].match(/^([\d,]+)\s+stars?\s+today/);
+      if (starMatch) {
+        stars = parseInt(starMatch[1].replace(/,/g, ""), 10) || 0;
+        break;
+      }
+    }
     repos.push({
-      title: `${owner.trim()}/${repoName}`,
-      url: url || `https://github.com/${owner.trim()}/${repoName}`,
+      title: `${owner}/${name}`,
+      url: url || `https://github.com/${owner}/${name}`,
       source: "github" as const,
-      score: parseStars(starsStr),
-      summary: desc.trim() || undefined,
-      category: language.replace(/\*/g, "").trim() || "Unknown",
+      score: stars,
+      summary,
+      category: language || "Unknown",
       timestamp: new Date().toISOString(),
     });
+    i += 2; // skip past description and meta lines
   }
   return repos;
 }
