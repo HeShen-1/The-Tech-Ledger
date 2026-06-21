@@ -1,10 +1,23 @@
+<div align="center">
+
 # The Tech Ledger（科技账本）
+
+[![Vercel Deploy](https://img.shields.io/github/deployments/HeShen-1/The-Tech-Ledger/production?label=Vercel&logo=vercel&logoColor=white&style=flat-square)](https://the-tech-ledger.vercel.app)
+[![License](https://img.shields.io/badge/license-Apache%202.0-%23D2211D?style=flat-square)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&style=flat-square)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white&style=flat-square)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square)](https://tailwindcss.com)
+[![CI](https://img.shields.io/github/actions/workflow/status/HeShen-1/The-Tech-Ledger/ci.yml?label=CI&logo=githubactions&logoColor=white&style=flat-square)](https://github.com/HeShen-1/The-Tech-Ledger/actions)
 
 > 实时科技热点聚合器 · 新闻印刷编辑设计 · Vercel 部署
 
 **「所有值得印刷的科技新闻。」** — 追踪软件工程和 AI 研究热点的数字报纸，以印刷品的权威感和清晰度呈现。
 
-🔗 **在线地址:** [https://the-tech-ledger.vercel.app](https://the-tech-ledger.vercel.app)
+🔗 **在线地址:** [the-tech-ledger.vercel.app](https://the-tech-ledger.vercel.app)
+
+[English](README.md) · [简体中文](README_ZH.md)
+
+</div>
 
 ---
 
