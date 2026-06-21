@@ -1,4 +1,4 @@
-# The Signal — CLAUDE.md
+# The Tech Ledger — CLAUDE.md
 
 > Real-time tech trending aggregator · Newsprint editorial aesthetic · Vercel deployment
 
@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-The Signal is a single-page Next.js application that aggregates trending technology content from GitHub, Hacker News, tech blogs, and arXiv, presenting it with a distinctive Newsprint design system — sharp geometry, serif typography, high information density, zero-radius design. Built to showcase full-stack capability for technical recruiting.
+The Tech Ledger is a single-page Next.js application that aggregates trending technology content from GitHub, Hacker News, tech blogs, and arXiv, presenting it with a distinctive Newsprint design system — sharp geometry, serif typography, high information density, zero-radius design. Built to showcase full-stack capability for technical recruiting.
 
 **Target:** HR recruiters & technical interviewers evaluating full-stack ability.
 **Live at:** Vercel deployment (URL configured post-deploy).
@@ -243,6 +243,38 @@ Browser → Next.js SSR (page.tsx) → /api/trending (KV check) → Firecrawl/Ta
 - No `console.log` in production paths (use `console.error` for errors)
 - Environment variables accessed only in server code (`process.env.XXX`)
 - Route handlers export `runtime = "nodejs"` and `dynamic = "force-dynamic"`
+
+---
+
+## CodeGraph
+
+This project has an initialized CodeGraph index (`.codegraph/`) — a tree-sitter-parsed knowledge graph of every symbol, edge, and file. Reads are sub-millisecond.
+
+### After Every File Change
+
+After writing or editing any `.ts`/`.tsx` file, update the index:
+
+```bash
+npx codegraph update
+```
+
+This keeps the graph in sync. The file watcher auto-detects changes with ~500ms debounce, but explicit update guarantees freshness for the next query.
+
+### When to Use CodeGraph vs Grep/Read
+
+| Question | Tool |
+|---|---|
+| "Where is X defined?" / "Find symbol named X" | `codegraph_search` |
+| "What calls function Y?" | `codegraph_callers` |
+| "What does Y call?" | `codegraph_callees` |
+| "What would break if I changed Z?" | `codegraph_impact` |
+| "Show me Y's signature / source" | `codegraph_node` |
+| "Give me context for a task/area" | `codegraph_context` |
+| "See several related symbols' source" | `codegraph_explore` |
+| "What files exist under path/" | `codegraph_files` |
+| "Is the index healthy?" | `codegraph_status` |
+
+**Answer directly with CodeGraph — don't delegate exploration to sub-agents.** CodeGraph IS the pre-built index. For "how does X work" questions, use `codegraph_context` first, then ONE `codegraph_explore` for the symbols it surfaces.
 
 ---
 
