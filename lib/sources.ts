@@ -20,41 +20,40 @@ async function fetchGitHubTrending(): Promise<RawSignal[]> {
     headers: { Authorization: `Bearer ${FIRECRAWL_KEY}`, "Content-Type": "application/json" },
     body: JSON.stringify({
       url: "https://github.com/trending?since=daily",
-      formats: ["extract"],
-      extract: {
-        schema: {
-          type: "object",
-          properties: {
-            repositories: {
-              type: "array",
-              items: {
-                type: "object",
-                properties: {
-                  name: { type: "string" },
-                  url: { type: "string" },
-                  description: { type: "string" },
-                  stars: { type: "string" },
-                  language: { type: "string" },
-                },
-              },
-            },
-          },
-        },
-      },
+      formats: ["markdown"],
     }),
   }, FIRECRAWL_TIMEOUT_MS);
   if (!res.ok) { console.error("[sources] Firecrawl failed:", res.status); return []; }
   const data = await res.json();
-  const repos = data?.data?.extract?.repositories ?? [];
-  return repos.slice(0, 10).map((repo: any) => ({
-    title: repo.name ?? "Unknown",
-    url: repo.url ?? `https://github.com/${repo.name}`,
-    source: "github" as const,
-    score: parseStars(repo.stars),
-    summary: repo.description ?? null,
-    category: repo.language ?? "Unknown",
-    timestamp: new Date().toISOString(),
-  }));
+  const markdown: string = data?.data?.markdown ?? "";
+  return parseTrendingMarkdown(markdown);
+}
+
+function parseTrendingMarkdown(md: string): RawSignal[] {
+  const repos: RawSignal[] = [];
+  // GitHub trending markdown entries look like:
+  // [owner / **repo**](url)
+  // description text
+  // Language • Stars today
+  const regex = /\[([^\]]+?)\s*\/\s*\*?\*?([^*\n]+?)\*?\*?\]\(([^)]+)\)\s*\n([^\n]+?)\n([^\n]*?)(?:\n|$)/g;
+  let match;
+  while ((match = regex.exec(md)) !== null && repos.length < 10) {
+    const [, owner, name, url, desc, meta] = match;
+    const repoName = name.trim().replace(/\*/g, "");
+    const parts = meta.split("•").map((s) => s.trim());
+    const language = parts[0] || "Unknown";
+    const starsStr = parts[1] || "0";
+    repos.push({
+      title: `${owner.trim()}/${repoName}`,
+      url: url || `https://github.com/${owner.trim()}/${repoName}`,
+      source: "github" as const,
+      score: parseStars(starsStr),
+      summary: desc.trim() || undefined,
+      category: language.replace(/\*/g, "").trim() || "Unknown",
+      timestamp: new Date().toISOString(),
+    });
+  }
+  return repos;
 }
 
 function parseStars(s: string | undefined): number {
