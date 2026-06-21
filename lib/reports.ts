@@ -8,6 +8,10 @@ const WEEKLY_PREFIX = "report:weekly:";
 const MONTHLY_PREFIX = "report:monthly:";
 const DATES_KEY = "report:dates";
 
+function kvAvailable(): boolean {
+  return !!process.env.KV_URL && !process.env.KV_URL.includes("xxx");
+}
+
 function todayKey(): string {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -59,6 +63,7 @@ export async function getDailyReport(
   sources: number;
   aiSummary?: string;
 } | null> {
+  if (!kvAvailable()) return null;
   const report = await kv.get<{
     signals: Signal[];
     snapshotAt: string;
@@ -71,6 +76,7 @@ export async function getDailyReport(
 }
 
 export async function getReportDates(): Promise<string[]> {
+  if (!kvAvailable()) return [];
   try {
     const dates = await kv.smembers(DATES_KEY);
     return (dates as string[]).sort().reverse();
@@ -88,6 +94,7 @@ export async function getWeeklyReport(
   week: string;
   aiSummary?: string;
 } | null> {
+  if (!kvAvailable()) return null;
   try {
     const report = await kv.get<{
       signals: Signal[];
@@ -111,6 +118,7 @@ export async function getMonthlyReport(
   month: string;
   aiSummary?: string;
 } | null> {
+  if (!kvAvailable()) return null;
   try {
     const report = await kv.get<{
       signals: Signal[];
