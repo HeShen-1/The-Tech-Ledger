@@ -10,7 +10,6 @@ import type { SourceStatus } from "@/lib/types";
 type SourceFilter = "all" | Signal["source"];
 
 const tabs: { key: SourceFilter; label: string }[] = [
-  { key: "all", label: "All" },
   { key: "github", label: "GitHub" },
   { key: "hackernews", label: "Hacker News" },
   { key: "arxiv", label: "arXiv" },
@@ -51,6 +50,11 @@ export function SignalList({ signals, sources }: { signals: Signal[]; sources: S
           Trending
         </h2>
       </div>
+
+      {/* Signal count */}
+      <p className="mb-4 font-mono text-[10px] uppercase tracking-[0.15em] text-[#737373]">
+        {signals.length} signals across {new Set(signals.map(s => s.source)).size} sources
+      </p>
 
       {/* Source tabs */}
       <div className="mb-6 flex flex-wrap gap-1">
