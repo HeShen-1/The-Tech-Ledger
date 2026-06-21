@@ -13,9 +13,10 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["'Playfair Display'", "'Times New Roman'", "serif"],
-        sans: ["'Inter'", "'Helvetica Neue'", "sans-serif"],
-        mono: ["'JetBrains Mono'", "'Courier New'", "monospace"],
+        serif: ["var(--font-serif)", "'Times New Roman'", "serif"],
+        sans: ["var(--font-sans)", "'Helvetica Neue'", "sans-serif"],
+        mono: ["var(--font-mono)", "'Courier New'", "monospace"],
+        body: ["var(--font-body)", "Georgia", "serif"],
       },
       animation: {
         "pulse-soft": "pulse-soft 2s ease-in-out infinite",

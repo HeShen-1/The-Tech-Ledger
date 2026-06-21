@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  .font-body {
-    font-family: 'Lora', Georgia, serif;
-  }
-}
-
 @layer utilities {
   .sharp-corners {
     border-radius: 0px !important;
