@@ -4,6 +4,7 @@ const FIRECRAWL_KEY = process.env.FIRECRAWL_API_KEY;
 const TAVILY_KEY = process.env.TAVILY_API_KEY;
 const EXA_KEY = process.env.EXA_API_KEY;
 const TIMEOUT_MS = 8000;
+const FIRECRAWL_TIMEOUT_MS = 15000;
 
 async function fetchWithTimeout(url: string, init: RequestInit, timeoutMs: number): Promise<Response> {
   const controller = new AbortController();
@@ -41,7 +42,7 @@ async function fetchGitHubTrending(): Promise<RawSignal[]> {
         },
       },
     }),
-  }, TIMEOUT_MS);
+  }, FIRECRAWL_TIMEOUT_MS);
   if (!res.ok) { console.error("[sources] Firecrawl failed:", res.status); return []; }
   const data = await res.json();
   const repos = data?.data?.extract?.repositories ?? [];
