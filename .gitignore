@@ -1,7 +1,30 @@
+# Dependencies
 node_modules/
+
+# Build output
 .next/
 out/
+
+# Environment
 .env.local
 .env*.local
+
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code
+.omc/
+
+# Superpowers brainstorming artifacts
+.superpowers/
+
+# Texture preview / temp
+pic/
+
+# CodeGraph index
+.codegraph/
+
+# OS
+.DS_Store
+Thumbs.db
