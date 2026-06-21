@@ -6,7 +6,7 @@ import { getCachedTrending, setCachedTrending } from "./cache";
 function scoreLabel(source: Signal["source"], score: number): string {
   switch (source) {
     case "github":
-      return `★ ${score.toLocaleString()}`;
+      return `⭐ ${score.toLocaleString()}`;
     case "hackernews":
       return `▲ ${score}`;
     case "arxiv":
