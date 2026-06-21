@@ -6,7 +6,9 @@
 
 ## 1. System Overview
 
-The Tech Ledger is a single-page Next.js application deployed on Vercel. It aggregates trending technology content from four external data sources, caches results in Vercel KV, and renders them with a Newsprint editorial design system.
+The Tech Ledger is a single-page Next.js application deployed on Vercel. It aggregates trending technology content from four external data sources, caches results in Vercel KV using a **daily cache strategy** (first request of the day fetches all sources, subsequent requests serve from cache until midnight), and renders them with a Newsprint editorial design system. A cron job captures hourly report snapshots for historical browsing.
+
+**Daily Cache Key Format:** `trending:daily:YYYY-MM-DD` — TTL is seconds until midnight UTC.
 
 ```
 ┌──────────────┐     ┌──────────────────┐     ┌─────────────────┐
@@ -54,27 +56,37 @@ the-signal/
 │   ├── error.tsx               # Error boundary (client component)
 │   ├── not-found.tsx           # 404 page
 │   ├── globals.css             # Tailwind directives + custom utilities
+│   ├── reports/
+│   │   └── page.tsx            # Reports page with calendar date picker
 │   └── api/
 │       ├── trending/
 │       │   └── route.ts        # GET /api/trending — cached signal aggregation
-│       └── sources/
-│           └── route.ts        # GET /api/sources — source health status
+│       ├── sources/
+│       │   └── route.ts        # GET /api/sources — source health status
+│       └── reports/
+│           ├── snapshot/
+│           │   └── route.ts    # POST /api/reports/snapshot — hourly snapshot capture
+│           ├── dates/
+│           │   └── route.ts    # GET /api/reports/dates — list available report dates
+│           └── [date]/
+│               └── route.ts    # GET /api/reports/[date] — historical report by date
 ├── components/
-│   ├── nav.tsx                 # Sticky header, nav links, LiveIndicator
+│   ├── nav.tsx                 # Sticky header, nav links, LiveIndicator, edition metadata
 │   ├── hero.tsx                # Hero masthead with staggered title animation
 │   ├── live-indicator.tsx      # Green dot pulse status
 │   ├── signal-card.tsx         # Individual trending item card
-│   ├── signal-list.tsx         # Staggered list container for signal cards
-│   ├── source-breakdown.tsx    # Source status grid with mini bar charts
+│   ├── signal-list.tsx         # Staggered list container with inline source breakdown
 │   ├── scroll-progress.tsx     # Animated scroll progress bar
 │   ├── refresh-toast.tsx       # Slide-down notification on data refresh
+│   ├── report-calendar.tsx     # Calendar date picker for historical reports
 │   └── footer.tsx              # Inverted (black) footer with links
 ├── lib/
 │   ├── types.ts                # Shared TypeScript interfaces
 │   ├── cache.ts                # Vercel KV read/write wrappers
 │   ├── dedup.ts                # URL normalization + title similarity dedup
 │   ├── sources.ts              # Firecrawl, Tavily, Exa API clients
-│   └── aggregator.ts           # Orchestrator: fetch → dedup → rank → cache
+│   ├── aggregator.ts           # Orchestrator: fetch → dedup → rank → cache
+│   └── reports.ts              # Report snapshot capture + retrieval
 ├── docs/
 │   ├── PRD.md                  # Product requirements
 │   ├── ARCHITECTURE.md         # This document
@@ -101,13 +113,13 @@ the-signal/
 ```
 1. Browser requests /
 2. Next.js SSR calls page.tsx
-3. page.tsx fetches /api/trending and /api/sources in parallel
-4. /api/trending checks Vercel KV for cached TrendingResponse
+3. page.tsx fetches /api/trending in parallel
+4. /api/trending checks Vercel KV for cached TrendingResponse (key: trending:daily:YYYY-MM-DD)
    ├── HIT  → return cached data (fast path, ~50ms)
-   └── MISS → Promise.allSettled([Firecrawl, Tavily, Exa, Tavily-blogs])
+   └── MISS → Promise.allSettled([Firecrawl, Tavily-HN, Exa, Tavily-blogs])
               → deduplicateSignals() via URL + title similarity
-              → rankSignals() via score × time decay
-              → setCachedTrending(response, TTL=300)
+              → rankSignals() via score × per-source time decay
+              → setCachedTrending(response, TTL=seconds-until-midnight)
               → return response
 5. page.tsx receives JSON, passes to client components
 6. Client hydrates with Framer Motion entry animations
@@ -115,13 +127,30 @@ the-signal/
 
 ### 4.2 Cache Strategy
 
-- **Key:** `trending:latest`, `sources:latest`
-- **TTL:** 300 seconds (5 minutes)
-- **Pattern:** Cache-aside (read-through)
+- **Key:** `trending:daily:YYYY-MM-DD`
+- **TTL:** Seconds until midnight UTC (first request each day triggers a fresh fetch)
+- **Pattern:** Cache-aside (read-through), search-once-per-day
 - **Fallback:** On KV failure, fetch sources directly (no caching)
 - **Manual Refresh:** `/api/trending?refresh={REFRESH_TOKEN}` bypasses cache
 
-### 4.3 Data Aggregation
+### 4.3 Cron Job: Hourly Report Snapshots
+
+A scheduled cron job (Vercel Cron or external) calls `POST /api/reports/snapshot` hourly. Each snapshot captures the current aggregate signal state (top signals, source counts, edition metadata) and persists it to Vercel KV under a date-indexed key. Users can browse historical snapshots via the Reports calendar UI at `/reports`.
+
+### 4.4 Per-Source Time Decay
+
+Each source has its own half-life, reflecting the pace of each community:
+
+| Source | Half-Life | Rationale |
+|--------|-----------|-----------|
+| GitHub Trending | 6 hours | Repos trend rapidly, then drop off |
+| Hacker News | 12 hours | Front-page lifetime ~12-18h |
+| Tech Blogs | 48 hours | Engineering blog posts have longer shelf life |
+| arXiv Papers | 168 hours (7 days) | Research papers stay relevant weeks |
+
+Decay formula: `score × exp(-ageHours / halfLifeHours)` → sort descending.
+
+### 4.5 Data Aggregation
 
 ```
 Raw signals (from 4 sources)
@@ -147,14 +176,16 @@ Raw signals (from 4 sources)
 RootLayout
 ├── ScrollProgress          (fixed, z-60)
 ├── RefreshToast            (fixed, z-70)
-├── Nav                     (sticky, z-40)
+├── Nav                     (sticky, z-40, edition metadata)
 │   └── LiveIndicator
 ├── HomePage (SSR)
 │   ├── Hero                (with signalCount prop)
-│   ├── SignalList          (with signals[] prop)
+│   ├── SignalList          (with signals[] prop, inline source breakdown)
 │   │   └── SignalCard[]    (with signal + index props)
-│   ├── SourceBreakdown     (with sources[] prop)
 │   └── Footer
+├── ReportsPage
+│   ├── ReportCalendar      (date picker for historical snapshots)
+│   └── SignalList          (displays snapshot data for selected date)
 ├── Loading (suspense fallback)
 ├── Error (error boundary)
 └── NotFound (404)
@@ -164,12 +195,12 @@ RootLayout
 
 | Component | Type | Data Source | Key Behavior |
 |-----------|------|-------------|--------------|
-| `Nav` | Client | None | Scroll-driven bottom border, sticky |
+| `Nav` | Client | Edition metadata | Scroll-driven bottom border; displays city edition |
 | `Hero` | Client | `signalCount` prop | Staggered word animation, decorative accent line |
 | `LiveIndicator` | Client | None | CSS pulse animation, 2s loop |
-| `SignalCard` | Client | `signal` prop | Hover: accent line + warm bg; click: micro-scale |
-| `SignalList` | Client | `signals[]` prop | Staggered children entry (100ms delay between) |
-| `SourceBreakdown` | Client | `sources[]` prop | In-view animation trigger, status-colored bars |
+| `SignalCard` | Client | `signal` prop | Hover: accent line + warm bg; click: micro-scale; medal badge |
+| `SignalList` | Client | `signals[]` prop | Staggered children entry (100ms delay); inline source breakdown and medal ranking |
+| `ReportCalendar` | Client | `/api/reports/dates` | Calendar grid with date picker; highlights dates with snapshots |
 | `ScrollProgress` | Client | `useScroll()` | Spring physics, 3px accent→ink gradient bar |
 | `RefreshToast` | Client | Internal polling | 5-min interval check, AnimatePresence slide-down |
 | `Footer` | Server | None | Inverted (black bg), static content |
@@ -225,7 +256,46 @@ No global state store needed. Data flows unidirectionally:
   name: string,                    // "GitHub Trending" | "Hacker News" | "arXiv Papers" | "Tech Blogs"
   status: "ok" | "timeout" | "error",
   latency: number,                 // Response time in ms
-  count: number                    // Number of signals from this source
+  count: number                    // Number of deduped signals from Trending feed
+}
+```
+
+**Note:** Source Desk now reads deduped signal counts directly from the Trending feed rather than maintaining a separate data path. Each Signal carries a `source` field; counts are derived by grouping.
+
+#### `POST /api/reports/snapshot`
+
+Called hourly by a cron job. Captures the current trending state and persists to KV.
+```ts
+// Response
+{
+  success: boolean,
+  date: string,          // ISO date key, e.g. "2026-06-21"
+  signalCount: number
+}
+```
+
+#### `GET /api/reports/dates`
+
+Returns the list of dates that have report snapshots available.
+
+**Response:**
+```ts
+{
+  dates: string[]        // e.g. ["2026-06-19", "2026-06-20", "2026-06-21"]
+}
+```
+
+#### `GET /api/reports/[date]`
+
+Retrieves the historical snapshot for a given date.
+
+**Response:**
+```ts
+{
+  date: string,
+  signals: Signal[],
+  sourceCounts: Record<string, number>,
+  generatedAt: string    // ISO timestamp of snapshot creation
 }
 ```
 
