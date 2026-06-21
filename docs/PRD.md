@@ -1,6 +1,6 @@
 # The Tech Ledger — Product Requirements Document
 
-> **Version:** 1.0.0 | **Date:** 2026-06-21 | **Status:** Design Approved
+> **Version:** 1.1.0 | **Date:** 2026-06-22 | **Status:** Design Approved
 
 ---
 
@@ -53,7 +53,10 @@ Tech recruiters increasingly value candidates who can point to live, deployed pr
 | **Live Status** | Green dot indicator showing data freshness | P0 |
 | **Scroll Progress** | Thin progress bar at page top | P1 |
 | **Data Refresh** | Toast notification when new signals arrive | P1 |
-| **Reports** | Daily/weekly/monthly report snapshots with a calendar date picker | P2 |
+| **Reports** | Daily/weekly/monthly report snapshots with a calendar date picker | P1 |
+| **AI Reports** | DeepSeek v4-flash powered editorial summaries at daily/weekly/monthly cadences; summary-of-summaries pipeline (weekly from dailies, monthly from weeklies) | P2 |
+| **KV Guard** | kvAvailable() guard prevents SSR hangs when Vercel KV is not provisioned | P1 |
+| **In-Flight Dedup** | dedupedFetchAllSources() prevents concurrent cold-cache requests from multiplying API calls | P1 |
 | **IP-based City Edition** | Detect visitor city from IP and display as a newspaper edition header | P2 |
 | **Per-Source Time Decay** | GitHub 6h, HN 12h, Blogs 48h, arXiv 168h half-life decay curves | P0 |
 

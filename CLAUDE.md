@@ -71,6 +71,9 @@ the-signal/
 │   ├── scroll-progress.tsx     # Top progress bar
 │   ├── refresh-toast.tsx       # Slide-down data notification
 │   ├── report-calendar.tsx     # Calendar date picker for reports
+│   ├── week-calendar.tsx       # Weekly digest calendar component
+│   ├── report-preview.tsx      # Report summary preview card
+│   ├── ai-report.tsx           # Full AI-generated editorial report display
 │   └── footer.tsx              # Inverted (black) footer
 ├── lib/
 │   ├── types.ts                # Shared TypeScript interfaces
@@ -78,7 +81,9 @@ the-signal/
 │   ├── dedup.ts                # URL norm + Levenshtein title dedup
 │   ├── sources.ts              # Firecrawl/Tavily/Exa API clients
 │   ├── aggregator.ts           # fetch → dedup → rank → cache orchestrator
-│   └── reports.ts              # Report snapshot capture + retrieval
+│   ├── ai-summary.ts           # DeepSeek API client for AI-generated editorial reports
+│   ├── reports.ts              # Report snapshot capture + retrieval
+│   └── startup.ts              # Startup validation (warns on placeholder tokens)
 ├── docs/
 │   ├── PRD.md                  # Product requirements
 │   └── ARCHITECTURE.md         # Architecture details
@@ -239,6 +244,12 @@ For historical reports: `Browser → /reports → /api/reports/dates → pick da
 | arXiv Papers | 168 hours (7 days) |
 
 Decay formula: `score × exp(-ageHours / halfLifeHours)` → sort descending.
+
+### API Call Optimization
+- **In-flight request dedup:** `dedupedFetchAllSources()` prevents concurrent cold-cache requests from multiplying external API calls
+- **Source status from cache:** Source Desk counts derived from cached trending data (no redundant API calls to `/api/sources`)
+- **AI summary throttling:** Only regenerates AI summaries when top 3 signals change + 6-hour cooldown
+- **kvAvailable() guard:** All KV operations in cache.ts and reports.ts guarded against placeholder `KV_URL` (prevents SSR hangs)
 
 ### Error Resilience
 - `Promise.allSettled` for parallel source fetching (single failure doesn't block)
