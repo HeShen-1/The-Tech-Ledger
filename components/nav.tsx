@@ -8,7 +8,8 @@ import { useState } from "react";
 const links = [
   { href: "#trending", label: "Trending" },
   { href: "#sources", label: "Sources" },
-  { href: "#about", label: "About" },
+  { href: "/api", label: "API" },
+  { href: "/about", label: "About" },
 ];
 
 export function Nav() {

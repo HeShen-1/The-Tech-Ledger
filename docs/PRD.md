@@ -1,4 +1,4 @@
-# The Signal — Product Requirements Document
+# The Tech Ledger — Product Requirements Document
 
 > **Version:** 1.0.0 | **Date:** 2026-06-21 | **Status:** Design Approved
 
@@ -6,7 +6,7 @@
 
 ## 1. Executive Summary
 
-**The Signal** is a real-time technology trending aggregator styled as a digital newspaper. It fetches hot topics from GitHub Trending, Hacker News, tech blogs, and AI research papers, then presents them with a Newsprint editorial aesthetic — sharp geometry, serif typography, high information density, and zero-radius design.
+**The Tech Ledger** is a real-time technology trending aggregator styled as a digital newspaper. It fetches hot topics from GitHub Trending, Hacker News, tech blogs, and AI research papers, then presents them with a Newsprint editorial aesthetic — sharp geometry, serif typography, high information density, and zero-radius design.
 
 **Target Audience:** HR recruiters and technical interviewers evaluating full-stack capability.
 **Core Value Proposition:** A single URL that demonstrates frontend design taste, backend data engineering, API integration, and production deployment — all in one project.
@@ -15,7 +15,7 @@
 
 ## 2. Problem Statement
 
-Tech recruiters increasingly value candidates who can point to live, deployed projects. However, most portfolio pieces fall into two traps: (1) static, template-looking landing pages that show no engineering depth, or (2) functional but visually generic tools that show no design sensibility. The Signal solves both — it's a real data pipeline with a distinctive, memorable visual identity.
+Tech recruiters increasingly value candidates who can point to live, deployed projects. However, most portfolio pieces fall into two traps: (1) static, template-looking landing pages that show no engineering depth, or (2) functional but visually generic tools that show no design sensibility. The Tech Ledger solves both — it's a real data pipeline with a distinctive, memorable visual identity.
 
 ---
 
