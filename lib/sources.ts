@@ -42,7 +42,7 @@ function parseTrendingMarkdown(md: string): RawSignal[] {
     const headingMatch = lines[i].match(/^##\s+\[(.+?)\s*\/\s*\*?\*?(.+?)\*?\*?\]\(([^)]+)\)/);
     if (!headingMatch) continue;
     const owner = headingMatch[1].trim();
-    const name = headingMatch[2].trim().replace(/\*/g, "");
+    const name = headingMatch[2].replace(/\*/g, "").replace(/\s+/g, " ").trim();
     const url = headingMatch[3];
     const desc = (lines[i + 1] || "").trim();
     const summary = desc && !desc.startsWith("[") && !desc.startsWith("!") ? desc : undefined;
