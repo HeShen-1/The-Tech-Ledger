@@ -44,16 +44,31 @@ function parseTrendingMarkdown(md: string): RawSignal[] {
     const owner = headingMatch[1].trim();
     const name = headingMatch[2].replace(/\*/g, "").replace(/\s+/g, " ").trim();
     const url = headingMatch[3];
-    const desc = (lines[i + 1] || "").trim();
-    const summary = desc && !desc.startsWith("[") && !desc.startsWith("!") ? desc : undefined;
-    // Language line: "JavaScript[44,139](url) [7,306](url)"
-    const metaLine = lines[i + 2] || "";
-    const langMatch = metaLine.match(/^([A-Za-z+#.]+)\s*\[/);
-    const language = langMatch ? langMatch[1].trim() : "Unknown";
-    // Find stars today in subsequent lines
+    // Find description: first non-empty, non-link line after heading
+    let summary: string | undefined;
+    let langIdx = i + 1;
+    for (let k = i + 1; k < Math.min(i + 8, lines.length); k++) {
+      const line = lines[k].trim();
+      if (!line || line.startsWith("[") || line.startsWith("![")) { langIdx = k + 1; continue; }
+      if (line.match(/^[A-Za-z+#.]+[\s\[]/)) break;
+      if (!summary) { summary = line; }
+      langIdx = k + 1;
+    }
+    // Find language: first line matching "LangName[number](url)"
+    let language = "Unknown";
     let stars = 0;
-    for (let j = i + 3; j < Math.min(i + 10, lines.length); j++) {
-      const starMatch = lines[j].match(/^([\d,]+)\s+stars?\s+today/);
+    for (let k = langIdx; k < Math.min(i + 12, lines.length); k++) {
+      const line = lines[k].trim();
+      const langMatch = line.match(/^([A-Za-z+#.\s-]+?)\s*\[[\d,]+\]\(/);
+      if (langMatch) {
+        language = langMatch[1].trim();
+        langIdx = k + 1;
+        break;
+      }
+    }
+    // Find stars today
+    for (let k = langIdx; k < Math.min(i + 15, lines.length); k++) {
+      const starMatch = lines[k].match(/^([\d,]+)\s+stars?\s+today/);
       if (starMatch) {
         stars = parseInt(starMatch[1].replace(/,/g, ""), 10) || 0;
         break;
@@ -68,7 +83,7 @@ function parseTrendingMarkdown(md: string): RawSignal[] {
       category: language || "Unknown",
       timestamp: new Date().toISOString(),
     });
-    i += 2; // skip past description and meta lines
+    // i advances naturally via for loop — no extra skip needed
   }
   return repos;
 }
