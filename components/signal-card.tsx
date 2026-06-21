@@ -31,11 +31,8 @@ export function SignalCard({ signal, index }: { signal: Signal; index: number })
       aria-labelledby={`signal-${signal.id}`}
     >
       <div className="flex items-baseline gap-3 pl-2">
-        <span
-          className="min-w-[80px] font-mono text-[10px] font-bold uppercase tracking-widest"
-          style={{ color: isLead ? "#CC0000" : "#737373" }}
-        >
-          {isLead ? "Lead Story" : signal.category}
+        <span className="min-w-[36px] font-serif text-2xl font-black leading-none" style={{ color: index === 0 ? "#CC0000" : index < 3 ? "#111111" : "#E5E5E0" }}>
+          {String(index + 1).padStart(2, "0")}
         </span>
         <div className="min-w-0 flex-1">
           <h3 id={`signal-${signal.id}`} className={`font-serif font-black leading-tight text-[#111111] ${isLead ? "text-xl lg:text-2xl" : "text-base lg:text-lg"}`}>

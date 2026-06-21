@@ -5,9 +5,10 @@ import { useRef } from "react";
 import type { SourceStatus, Signal } from "@/lib/types";
 import { Activity } from "lucide-react";
 
-function StatusDot({ status }: { status: SourceStatus["status"] }) {
-  const bg = status === "ok" ? "#22C55E" : status === "timeout" ? "#F59E0B" : "#EF4444";
-  return <span className="inline-block h-2 w-2 flex-shrink-0" style={{ backgroundColor: bg }} aria-label={status} />;
+function StatusDot({ count }: { count: number }) {
+  const bg = count <= 3 ? "#EF4444" : count <= 6 ? "#F59E0B" : "#22C55E";
+  const label = count <= 3 ? "Low" : count <= 6 ? "Medium" : "High";
+  return <span className="inline-block h-2 w-2 flex-shrink-0" style={{ backgroundColor: bg }} aria-label={label} />;
 }
 
 const sourceMap: Record<string, Signal["source"]> = {
@@ -59,9 +60,11 @@ export function SourceBreakdown({ sources, signals }: { sources: SourceStatus[];
                 />
               </div>
               <div className="mt-1.5 flex items-baseline justify-between">
-                <span className="font-mono text-[10px] text-[#525252]">{source.latency}ms</span>
+                <span className="font-mono text-[9px] uppercase tracking-widest text-[#737373]">
+                  {count <= 3 ? "Low Activity" : count <= 6 ? "Moderate" : "Active"}
+                </span>
                 <span className="flex items-center gap-1.5">
-                  <StatusDot status={source.status} />
+                  <StatusDot count={count} />
                   <span className="font-serif text-lg font-black text-[#111111]">{count}</span>
                 </span>
               </div>

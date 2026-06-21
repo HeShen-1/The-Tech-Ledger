@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { LiveIndicator } from "./live-indicator";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const links = [
   { href: "#trending", label: "Trending" },
@@ -16,6 +16,14 @@ export function Nav() {
   const { scrollY } = useScroll();
   const borderOpacity = useTransform(scrollY, [0, 50], [0, 1]);
   const [open, setOpen] = useState(false);
+  const [city, setCity] = useState("New York");
+
+  useEffect(() => {
+    fetch("https://ipapi.co/json/")
+      .then((r) => r.json())
+      .then((d) => { if (d.city) setCity(d.city); })
+      .catch(() => {}); // keep default
+  }, []);
 
   return (
     <motion.header
@@ -37,7 +45,7 @@ export function Nav() {
           <div className="hidden items-center gap-3 lg:flex">
             <div className="h-4 w-px bg-[#E5E5E0]" />
             <span className="font-mono text-[9px] uppercase tracking-[0.1em] text-[#737373]">
-              Vol. 1 &nbsp;|&nbsp; {new Date().toLocaleDateString("en-US", { year: "numeric", month: "numeric", day: "numeric" })} &nbsp;|&nbsp; New York Edition
+              Vol. 1 &nbsp;|&nbsp; {new Date().toLocaleDateString("en-US", { year: "numeric", month: "numeric", day: "numeric" })} &nbsp;|&nbsp; {city} Edition
             </span>
           </div>
           <div className="hidden gap-6 md:flex">
