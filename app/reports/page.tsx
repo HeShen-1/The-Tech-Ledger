@@ -3,8 +3,10 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { ReportCalendar } from "@/components/report-calendar";
 import { ReportPreview } from "@/components/report-preview";
+import { SignalList } from "@/components/signal-list";
 import Link from "next/link";
 import { Calendar, ArrowRight } from "lucide-react";
+import type { TrendingResponse, SourcesResponse } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Reports — The Tech Ledger",
@@ -28,8 +30,32 @@ async function getDates(): Promise<string[]> {
   }
 }
 
+async function getTrendingForReports(): Promise<TrendingResponse> {
+  try {
+    const res = await fetch(`${API_BASE}/api/trending`, { next: { revalidate: 300 } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  } catch {
+    return { signals: [], total: 0, cached: false, cachedAt: null, stale: false };
+  }
+}
+
+async function getSourcesForReports(): Promise<SourcesResponse> {
+  try {
+    const res = await fetch(`${API_BASE}/api/sources`, { next: { revalidate: 300 } });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  } catch {
+    return { sources: [], updatedAt: new Date().toISOString() };
+  }
+}
+
 export default async function ReportsPage() {
-  const dates = await getDates();
+  const [dates, trending, sources] = await Promise.all([
+    getDates(),
+    getTrendingForReports(),
+    getSourcesForReports(),
+  ]);
   const now = new Date();
   const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
   const hasToday = dates.includes(today);
@@ -115,19 +141,17 @@ export default async function ReportsPage() {
 
         {dates.length === 0 && (
           <p className="mt-4 font-body text-sm italic text-[#737373]">
-            No snapshots yet. Reports are generated hourly — check back soon.
+            No stored snapshots yet. Reports are generated hourly. Showing today&apos;s live data below.
           </p>
         )}
 
-        {/* Latest snapshot preview */}
-        {dates.length > 0 && (
-          <div className="mt-16 border-t-4 border-[#111111] pt-10">
-            <h2 className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
-              Latest Report — {dates[0]}
-            </h2>
-            <ReportPreview date={dates[0]} />
-          </div>
-        )}
+        {/* Today's Report — live trending data */}
+        <div className="mt-16 border-t-4 border-[#111111] pt-10">
+          <h2 className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
+            Today&apos;s Report — {today}
+          </h2>
+          <SignalList signals={trending.signals} sources={sources.sources} />
+        </div>
       </main>
       <Footer />
     </>

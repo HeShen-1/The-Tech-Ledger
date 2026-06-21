@@ -30,7 +30,12 @@ export function Nav() {
       initial={{ y: -20, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-      className="fixed top-0 left-0 right-0 z-40 bg-[#F9F9F7]"
+      className="fixed top-0 left-0 right-0 z-40"
+      style={{
+        backgroundColor: "#F9F9F7",
+        backgroundImage: `url('/cardboard-flat.png')`,
+        backgroundRepeat: "repeat",
+      }}
     >
       <motion.div
         className="absolute bottom-0 left-0 right-0 h-px bg-[#111111]"
@@ -79,7 +84,12 @@ export function Nav() {
         <motion.div
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
-          className="border-b border-[#111111] bg-[#F9F9F7] md:hidden"
+          className="border-b border-[#111111] md:hidden"
+          style={{
+            backgroundColor: "#F9F9F7",
+            backgroundImage: `url('/cardboard-flat.png')`,
+            backgroundRepeat: "repeat",
+          }}
         >
           {links.map((l) => (
             <a

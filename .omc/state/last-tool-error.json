@@ -1,7 +1,7 @@
 {
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd D:/vsCode/vercel && npx tsc --noEmit 2>&1 && git add -A && git commit -m \\\"fix: rewrite GitHub Trending parser to match actual markdown format\\\"\",\"description\":\"Type check and commit pa...",
-  "error": "Exit code 2\nlib/sources.ts(67,7): error TS2322: Type 'string | null' is not assignable to type 'string | undefined'.\r\n  Type 'null' is not assignable to type 'string | undefined'.",
-  "timestamp": "2026-06-21T15:44:48.078Z",
+  "tool_name": "mcp__chrome-devtools__select_page",
+  "tool_input_preview": "{\"pageIdx\":1}",
+  "error": "MCP error -32602: Input validation error: Invalid arguments for tool select_page: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"pageId\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
+  "timestamp": "2026-06-21T16:49:53.507Z",
   "retry_count": 1
 }
