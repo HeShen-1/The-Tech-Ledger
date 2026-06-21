@@ -1,11 +1,10 @@
 [allowlist]
-description = "Placeholder API keys in .env.example"
+description = "Placeholder API keys in example env file"
 
-[[allowlist.rules]]
-id = "generic-api-key"
+paths = [
+  ".env.example",
+]
 
-[allowlist.paths]
-value = [".env.example"]
-
-[[allowlist.regexes]]
-regex = "(fc-xxx|tvly-xxx|sk-xxx|change-me-to-random-string|redis://xxx)"
+regexes = [
+  "(fc-xxx|tvly-xxx|sk-xxx|change-me-to-random-string|redis://xxx)",
+]
