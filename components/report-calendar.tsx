@@ -61,7 +61,7 @@ export function ReportCalendar({ year, month, dates }: CalendarProps) {
           return (
             <div
               key={d}
-              className={`border-b border-r border-[#E5E5E0] p-2 ${i % 7 === 6 ? "border-r-0" : ""} ${isToday ? "bg-[#F5F5F5]" : ""}`}
+              className={`border-b border-r border-[#E5E5E0] p-2 ${i % 7 === 6 ? "border-r-0" : ""}`}
             >
               {hasReport ? (
                 <Link

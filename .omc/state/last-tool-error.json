@@ -1,7 +1,7 @@
 {
-  "tool_name": "mcp__chrome-devtools__select_page",
-  "tool_input_preview": "{\"pageIdx\":1}",
-  "error": "MCP error -32602: Input validation error: Invalid arguments for tool select_page: [\n  {\n    \"code\": \"invalid_type\",\n    \"expected\": \"number\",\n    \"received\": \"undefined\",\n    \"path\": [\n      \"pageId\"\n    ],\n    \"message\": \"Required\"\n  }\n]",
-  "timestamp": "2026-06-21T16:49:53.507Z",
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd D:/vsCode/vercel && npx tsc --noEmit 2>&1 && git add -A && git commit -m \\\"feat: AI report summary on reports page, fix calendar today highlight\\\"\",\"description\":\"Type check and commit ...",
+  "error": "Exit code 2\ncomponents/ai-report.tsx(89,16): error TS2802: Type 'Set<string>' can only be iterated through when using the '--downlevelIteration' flag or with a '--target' of 'es2015' or higher.",
+  "timestamp": "2026-06-21T16:58:30.745Z",
   "retry_count": 1
 }

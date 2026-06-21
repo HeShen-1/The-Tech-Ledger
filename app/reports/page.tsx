@@ -3,7 +3,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { ReportCalendar } from "@/components/report-calendar";
 import { ReportPreview } from "@/components/report-preview";
-import { SignalList } from "@/components/signal-list";
+import { AiReport } from "@/components/ai-report";
 import Link from "next/link";
 import { Calendar, ArrowRight } from "lucide-react";
 import type { TrendingResponse, SourcesResponse } from "@/lib/types";
@@ -150,7 +150,7 @@ export default async function ReportsPage() {
           <h2 className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
             Today&apos;s Report — {today}
           </h2>
-          <SignalList signals={trending.signals} sources={sources.sources} />
+          <AiReport trending={trending} sources={sources} />
         </div>
       </main>
       <Footer />
