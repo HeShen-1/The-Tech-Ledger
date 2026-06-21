@@ -44,10 +44,29 @@ export async function snapshotDaily(): Promise<{ ok: boolean; key: string }> {
     },
     { ex: 86400 * 90 },
   );
-  // Generate AI summary
-  const aiSummary = await generateAiSummary(data.signals, "daily");
-  if (aiSummary) {
-    await kv.set(REPORT_PREFIX + key + ":ai", aiSummary, { ex: 86400 * 90 });
+  // Smart AI generation — don't regenerate if recently done
+  const existingAi = await kv.get<string>(REPORT_PREFIX + key + ":ai");
+  const lastAiTime = await kv.get<string>(REPORT_PREFIX + key + ":ai:time");
+  let shouldGenerate = !existingAi;
+  if (existingAi && lastAiTime) {
+    const hoursSince = (Date.now() - new Date(lastAiTime).getTime()) / 3600000;
+    if (hoursSince > 6) {
+      // Check if top signals meaningfully changed
+      const prevSignals = await kv.get<{ signals: Signal[] }>(REPORT_PREFIX + key);
+      if (prevSignals) {
+        const prevTop = prevSignals.signals.slice(0, 3).map(s => s.url).join(",");
+        const currTop = data.signals.slice(0, 3).map(s => s.url).join(",");
+        shouldGenerate = prevTop !== currTop;
+      }
+    }
+  }
+
+  if (shouldGenerate) {
+    const aiSummary = await generateAiSummary(data.signals, "daily");
+    if (aiSummary) {
+      await kv.set(REPORT_PREFIX + key + ":ai", aiSummary, { ex: 86400 * 90 });
+      await kv.set(REPORT_PREFIX + key + ":ai:time", new Date().toISOString(), { ex: 86400 });
+    }
   }
   // Add to dates set
   await kv.sadd(DATES_KEY, key);

@@ -3,6 +3,16 @@ import { fetchAllSources } from "./sources";
 import { deduplicateSignals } from "./dedup";
 import { getCachedTrending, setCachedTrending } from "./cache";
 
+const inFlight = new Map<string, Promise<RawSignal[]>>();
+
+async function dedupedFetchAllSources(): Promise<RawSignal[]> {
+  const key = "all";
+  if (inFlight.has(key)) return inFlight.get(key)!;
+  const promise = fetchAllSources().finally(() => inFlight.delete(key));
+  inFlight.set(key, promise);
+  return promise;
+}
+
 function scoreLabel(source: Signal["source"], score: number): string {
   switch (source) {
     case "github":
@@ -78,7 +88,7 @@ export async function getTrending(): Promise<TrendingResponse> {
   const cached = await getCachedTrending();
   if (cached) return { ...cached, cached: true };
 
-  const raw = await fetchAllSources();
+  const raw = await dedupedFetchAllSources();
   const deduped = deduplicateSignals(raw);
   const signals = transformToSignals(deduped);
   const ranked = rankSignals(signals).slice(0, 20);
@@ -95,7 +105,7 @@ export async function getTrending(): Promise<TrendingResponse> {
 }
 
 export async function refreshTrending(): Promise<TrendingResponse> {
-  const raw = await fetchAllSources();
+  const raw = await dedupedFetchAllSources();
   const deduped = deduplicateSignals(raw);
   const signals = transformToSignals(deduped);
   const ranked = rankSignals(signals).slice(0, 20);
