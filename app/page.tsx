@@ -1,7 +1,6 @@
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
 import { SignalList } from "@/components/signal-list";
-import { SourceBreakdown } from "@/components/source-breakdown";
 import { Footer } from "@/components/footer";
 import type { TrendingResponse, SourcesResponse } from "@/lib/types";
 
@@ -39,8 +38,7 @@ export default async function HomePage() {
       <Nav />
       <main>
         <Hero signalCount={trending.total} />
-        <SignalList signals={trending.signals} />
-        <SourceBreakdown sources={sources.sources} />
+        <SignalList signals={trending.signals} sources={sources.sources} />
       </main>
       <Footer />
     </>
