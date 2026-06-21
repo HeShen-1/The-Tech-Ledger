@@ -18,7 +18,7 @@
   "crons": [
     {
       "path": "/api/reports/snapshot?token=REPLACE_WITH_YOUR_REFRESH_TOKEN",
-      "schedule": "0 * * * *"
+      "schedule": "0 6 * * *"
     }
   ]
 }
