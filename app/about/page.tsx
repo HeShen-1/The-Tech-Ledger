@@ -45,7 +45,7 @@ export default function AboutPage() {
         <p className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
           The Mission
         </p>
-        <div className="mx-auto max-w-2xl space-y-5 font-body text-base leading-relaxed text-[#525252]">
+        <div className="space-y-5 font-body text-base leading-relaxed text-[#525252]">
           <p>
             <span className="float-left mr-3 font-serif text-7xl font-black leading-[0.7] text-[#111111]">T</span>
             he technology landscape moves fast. Every day, thousands of repositories star on GitHub, hundreds of stories
@@ -70,7 +70,7 @@ export default function AboutPage() {
         <p className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
           How It Works
         </p>
-        <div className="mx-auto max-w-2xl space-y-6">
+        <div className="space-y-6">
           <p className="font-body text-base leading-relaxed text-[#525252]">
             Every time you visit, a pipeline of specialized APIs fires in parallel to gather the latest signals:
           </p>
