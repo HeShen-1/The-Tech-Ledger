@@ -1,5 +1,7 @@
 # The Tech Ledger — 设计规格书
 
+> **Note:** This spec has evolved since the original design session. See `CLAUDE.md` for the current design system and `docs/PRD.md` for the current feature set. This document is preserved for historical reference and as the original design direction.
+
 > 实时科技热点追踪网站 | Ink & Paper 纸媒美学 | Vercel 部署
 > 2026-06-21
 
@@ -90,11 +92,12 @@ Browser → Next.js SSR → Client Component
 
 ## 五、页面结构
 
-单页应用，纵向四段式：
+单页应用 + 报告页，纵向四段式：
 
 ```
+首页 /：
 ┌─────────────────────────────────┐
-│  NAV · THE TECH LEDGER · LIVE · ABOUT │  ← 置顶导航
+│  NAV · THE TECH LEDGER · LIVE · ABOUT │  ← 置顶导航（含城市版）│
 ├─────────────────────────────────┤
 │                                 │
 │  HERO · 头版标题                │
@@ -104,20 +107,27 @@ Browser → Next.js SSR → Client Component
 │                                 │
 ├─────────────────────────────────┤
 │  TRENDING · 趋势信号流          │
+│  [All | GitHub | HN | arXiv | Blogs] │ ← 来源标签过滤
 │  ┌─ Lead Story (大卡片) ────┐  │
+│  │  [金/银/铜奖牌]            │  │
 │  ├─ Signal #2 ──────────────┤  │
 │  ├─ Signal #3 ──────────────┤  │
 │  ├─ Signal #4 ──────────────┤  │
 │  └─ Signal #5 ──────────────┘  │
-│  [加载更多]                     │
-├─────────────────────────────────┤
-│  SOURCES · 数据源仪表盘         │
-│  GitHub  │  HN  │  arXiv  │ ... │
-│  迷你柱状图 / 标签分布          │
+│  ── 数据源分布（内联）────     │
 ├─────────────────────────────────┤
 │  FOOTER · 关于 · API · 隐私     │
-│  "Real-time tech intelligence.  │
-│   No noise. Just signal."      │
+└─────────────────────────────────┘
+
+报告页 /reports：
+┌─────────────────────────────────┐
+│  REPORTS · 历史报告             │
+│  ┌── ReportCalendar ────────┐  │
+│  │  日/周/月 日历视图       │  │
+│  └──────────────────────────┘  │
+│  选中日期的信号快照             │
+│  ┌─ Signal (快照) ──────────┐  │
+│  └──────────────────────────┘  │
 └─────────────────────────────────┘
 ```
 
@@ -127,15 +137,17 @@ Browser → Next.js SSR → Client Component
 
 | 组件 | 职责 | 纸媒特色 |
 |------|------|---------|
-| `Nav` | 置顶导航 + LIVE 指示 | 底部细线分割 |
+| `Nav` | 置顶导航 + LIVE 指示 + 城市版元数据 | 底部细线分割 |
 | `Hero` | 头版标题 + 实时状态 | 衬线大标题、装饰竖线、日期戳 |
 | `LiveIndicator` | 实时指示灯 | 绿点呼吸动画 2s loop |
-| `SignalCard` | 单条趋势新闻 | 分类标签、来源链接、阅读时间估算 |
-| `SignalList` | 信号流列表容器 | stagger 入场、行间暖色分割线 |
-| `SourceBreakdown` | 数据源分布图 | 双栏排版、迷你柱状图 |
+| `SignalCard` | 单条趋势新闻 + 金银铜奖牌徽章 | 分类标签、来源链接、阅读时间估算 |
+| `SignalList` | 信号流列表容器 + 内联数据源分布 | stagger 入场、行间暖色分割线、来源标签过滤 |
 | `ScrollProgress` | 阅读进度条 | 顶部细线，scroll-driven (CSS) |
 | `RefreshToast` | 新数据到达通知 | 顶部滑入，3s 自动消失 |
+| `ReportCalendar` | 历史报告日历选择器 | 日历网格、有快照的日期高亮 |
 | `Footer` | 关于 / 数据源 / 隐私 | 衬线标题、简洁链接 |
+
+> **注意:** `SourceBreakdown` 已内联到 `SignalList` 组件中，不再作为独立页面区块。来源计数直接来自 Trending feed 的去重信号数据。
 
 ---
 
@@ -225,8 +237,19 @@ REFRESH_TOKEN=random-secret
 |--------|------|---------|
 | GitHub Trending | Firecrawl 爬取 | 每日/每周热门仓库 |
 | Hacker News | Tavily 搜索 + Firecrawl | 首页热门 + 高评论文章 |
-| 技术博客 | Tavily + Exa | 工程博客、技术新闻 |
-| AI 论文 | Exa 语义搜索 | arXiv CS.AI / CS.CL 最新论文 |
+| 技术博客 | Tavily 搜索 | 9 个工程博客域名：github.blog, stackoverflow.blog, netflixtechblog.com, cloudflare.com, LinkedIn Engineering, Slack Engineering, Stripe Engineering, Facebook Engineering, Rust Blog |
+| AI 论文 | Exa 语义搜索 | arXiv CS.AI / CS.CL / CS.LG 最新论文 |
+
+### 时间衰减（各源半衰期）
+
+| 数据源 | 半衰期 | 说明 |
+|--------|--------|------|
+| GitHub Trending | 6 小时 | 仓库趋势变化快 |
+| Hacker News | 12 小时 | 首页帖子寿命约 12-18h |
+| 技术博客 | 48 小时 | 工程博文保质期较长 |
+| arXiv 论文 | 168 小时（7 天） | 研究论文长期有效 |
+
+排名公式：`score × exp(-ageHours / halfLifeHours)`
 
 ---
 
@@ -265,26 +288,36 @@ the-signal/
 │   ├── loading.tsx         # 加载骨架屏
 │   ├── error.tsx           # 错误边界
 │   ├── not-found.tsx       # 404
+│   ├── reports/
+│   │   └── page.tsx        # 报告页（日历 + 历史快照）
 │   └── api/
 │       ├── trending/
 │       │   └── route.ts    # GET /api/trending
-│       └── sources/
-│           └── route.ts    # GET /api/sources
+│       ├── sources/
+│       │   └── route.ts    # GET /api/sources
+│       └── reports/
+│           ├── snapshot/
+│           │   └── route.ts # POST /api/reports/snapshot（定时快照）
+│           ├── dates/
+│           │   └── route.ts # GET /api/reports/dates
+│           └── [date]/
+│               └── route.ts # GET /api/reports/[date]
 ├── components/
 │   ├── nav.tsx
 │   ├── hero.tsx
 │   ├── live-indicator.tsx
 │   ├── signal-card.tsx
-│   ├── signal-list.tsx
-│   ├── source-breakdown.tsx
+│   ├── signal-list.tsx     # 内联数据源分布
 │   ├── scroll-progress.tsx
 │   ├── refresh-toast.tsx
+│   ├── report-calendar.tsx # 报告日历选择器
 │   └── footer.tsx
 ├── lib/
 │   ├── aggregator.ts       # 数据聚合 + 排名
 │   ├── sources.ts          # Firecrawl, Tavily, Exa 客户端
 │   ├── cache.ts            # Vercel KV 封装
 │   ├── dedup.ts            # URL 标准化 + 标题去重
+│   ├── reports.ts          # 报告快照捕获与检索
 │   └── types.ts            # 共享类型定义
 ├── styles/
 │   └── tokens.css          # 设计 Token CSS 变量

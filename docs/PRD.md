@@ -47,16 +47,19 @@ Tech recruiters increasingly value candidates who can point to live, deployed pr
 | **Real-time Trending Feed** | Aggregated hot topics from GitHub, HN, arXiv, tech blogs | P0 |
 | **Newsprint Hero** | Newspaper-style masthead with date stamp, live indicator, signal count | P0 |
 | **Signal Cards** | Individual trending items with category, source, score, read time | P0 |
-| **Source Dashboard** | Visual breakdown of which sources are contributing signals | P0 |
+| **Source Desk** | Deduped signal counts per source, rendered inline within the trending feed | P0 |
+| **Source Tabs** | Filter trending feed by source: All, GitHub, HN, arXiv, Blogs | P0 |
+| **Medal Ranking** | Gold/silver/bronze tier badges based on signal score thresholds | P1 |
 | **Live Status** | Green dot indicator showing data freshness | P0 |
 | **Scroll Progress** | Thin progress bar at page top | P1 |
 | **Data Refresh** | Toast notification when new signals arrive | P1 |
+| **Reports** | Daily/weekly/monthly report snapshots with a calendar date picker | P2 |
+| **IP-based City Edition** | Detect visitor city from IP and display as a newspaper edition header | P2 |
+| **Per-Source Time Decay** | GitHub 6h, HN 12h, Blogs 48h, arXiv 168h half-life decay curves | P0 |
 
 ### 5.2 Out of Scope (MVP)
 
 - User accounts / authentication
-- Search / filter functionality
-- Historical data / archives
 - Dark mode (Newsprint is light-only by design)
 - RSS / email subscriptions
 - Admin dashboard
@@ -97,10 +100,12 @@ The entire UI follows a single, opinionated design language: **Newsprint**.
 
 | Source | Tool | Content | Refresh |
 |--------|------|---------|---------|
-| GitHub Trending | Firecrawl (scrape) | Daily/weekly trending repos | Per request, cached 5min |
-| Hacker News | Tavily (search) | Front page, high-point articles | Per request, cached 5min |
-| AI Papers | Exa (semantic) | arXiv CS.AI / CS.CL / CS.LG | Per request, cached 5min |
-| Tech Blogs | Tavily (search) | Engineering blogs | Per request, cached 5min |
+| GitHub Trending | Firecrawl (scrape) | Daily/weekly trending repos | Daily cache (TTL until midnight) |
+| Hacker News | Tavily (search) | Front page, high-point articles | Daily cache (TTL until midnight) |
+| AI Papers | Exa (semantic) | arXiv CS.AI / CS.CL / CS.LG | Daily cache (TTL until midnight) |
+| Tech Blogs | Tavily (search) | 9 domains: github.blog, stackoverflow.blog, netflixtechblog.com, cloudflare.com, linkedin engineering, slack engineering, stripe engineering, fb engineering, rust blog | Daily cache (TTL until midnight) |
+
+**Cron Job:** Hourly report snapshots capture aggregate signal state for historical reporting.
 
 ---
 
@@ -111,6 +116,7 @@ The entire UI follows a single, opinionated design language: **Newsprint**.
 - LCP < 2.5s
 - CLS = 0
 - Animations at 60fps (transform/opacity only)
+- **Daily Cache:** Search each source once per day. Key format: `trending:daily:YYYY-MM-DD`, TTL until midnight. Subsequent requests within the same day serve from cache, avoiding redundant API calls to external sources.
 
 ### Accessibility
 - WCAG 2.1 AA compliant

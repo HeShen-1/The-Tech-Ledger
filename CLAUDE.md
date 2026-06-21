@@ -48,30 +48,37 @@ npx tsc --noEmit # Type check
 the-signal/
 ├── app/
 │   ├── layout.tsx              # Root layout, metadata, fonts (Playfair/Lora/Inter/JetBrains Mono)
-│   ├── page.tsx                # SSR homepage — fetches /api/trending + /api/sources
+│   ├── page.tsx                # SSR homepage — fetches /api/trending
 │   ├── loading.tsx             # Skeleton loading
 │   ├── error.tsx               # Error boundary
 │   ├── not-found.tsx           # 404
 │   ├── globals.css             # Tailwind directives + custom utilities
+│   ├── reports/
+│   │   └── page.tsx            # Reports page with calendar date picker
 │   └── api/
 │       ├── trending/route.ts   # GET /api/trending (cached aggregation)
-│       └── sources/route.ts    # GET /api/sources (health status)
+│       ├── sources/route.ts    # GET /api/sources (health status)
+│       └── reports/
+│           ├── snapshot/route.ts   # POST /api/reports/snapshot (cron)
+│           ├── dates/route.ts      # GET /api/reports/dates
+│           └── [date]/route.ts     # GET /api/reports/[date]
 ├── components/
-│   ├── nav.tsx                 # Sticky header + LiveIndicator
+│   ├── nav.tsx                 # Sticky header + LiveIndicator + edition metadata
 │   ├── hero.tsx                # Masthead with staggered word animation
 │   ├── live-indicator.tsx      # Green dot pulse
-│   ├── signal-card.tsx         # Individual trending item
-│   ├── signal-list.tsx         # Staggered list container
-│   ├── source-breakdown.tsx    # Source status + mini bar charts
+│   ├── signal-card.tsx         # Individual trending item (medal badge support)
+│   ├── signal-list.tsx         # Staggered list container with inline source breakdown
 │   ├── scroll-progress.tsx     # Top progress bar
 │   ├── refresh-toast.tsx       # Slide-down data notification
+│   ├── report-calendar.tsx     # Calendar date picker for reports
 │   └── footer.tsx              # Inverted (black) footer
 ├── lib/
 │   ├── types.ts                # Shared TypeScript interfaces
 │   ├── cache.ts                # Vercel KV wrappers
 │   ├── dedup.ts                # URL norm + Levenshtein title dedup
 │   ├── sources.ts              # Firecrawl/Tavily/Exa API clients
-│   └── aggregator.ts           # fetch → dedup → rank → cache orchestrator
+│   ├── aggregator.ts           # fetch → dedup → rank → cache orchestrator
+│   └── reports.ts              # Report snapshot capture + retrieval
 ├── docs/
 │   ├── PRD.md                  # Product requirements
 │   └── ARCHITECTURE.md         # Architecture details
@@ -213,12 +220,25 @@ Fast, snappy, mechanical. No bouncy/spring easing.
 ```
 Browser → Next.js SSR (page.tsx) → /api/trending (KV check) → Firecrawl/Tavily/Exa → aggregate → KV write → JSON → render
 ```
+For historical reports: `Browser → /reports → /api/reports/dates → pick date → /api/reports/[date] → render snapshot`
 
-### Caching
-- Cache-aside pattern with Vercel KV
-- TTL: 300s (5 min)
-- Read-through: check KV → miss → fetch → write KV → return
-- Manual refresh: `/api/trending?refresh={REFRESH_TOKEN}`
+### Daily Cache (Primary Strategy)
+- **Key format:** `trending:daily:YYYY-MM-DD`
+- **TTL:** Seconds until midnight UTC (not a fixed 300s)
+- **Behavior:** First request each day fetches all sources fresh, subsequent requests serve from cache until midnight
+- **Pattern:** Cache-aside (read-through)
+- **Manual refresh:** `/api/trending?refresh={REFRESH_TOKEN}`
+- **Hourly snapshots:** Cron job calls `POST /api/reports/snapshot` to capture aggregate state for the Reports page
+
+### Per-Source Time Decay
+| Source | Half-Life |
+|--------|-----------|
+| GitHub Trending | 6 hours |
+| Hacker News | 12 hours |
+| Tech Blogs | 48 hours |
+| arXiv Papers | 168 hours (7 days) |
+
+Decay formula: `score × exp(-ageHours / halfLifeHours)` → sort descending.
 
 ### Error Resilience
 - `Promise.allSettled` for parallel source fetching (single failure doesn't block)
@@ -293,7 +313,7 @@ REFRESH_TOKEN=        # Random secret for cache refresh
 
 ## Key Documents
 
-- **PRD:** `docs/PRD.md` — Product requirements, user stories, success criteria
-- **Architecture:** `docs/ARCHITECTURE.md` — Full system design, data flow, security
-- **Design Spec:** `docs/superpowers/specs/2026-06-21-the-signal-design.md`
+- **PRD:** `docs/PRD.md` — Product requirements, user stories, features, success criteria
+- **Architecture:** `docs/ARCHITECTURE.md` — Full system design, daily cache, per-source decay, data flow, API design, security
+- **Design Spec:** `docs/superpowers/specs/2026-06-21-the-signal-design.md` — Historical design specification (evolved; see PRD for current feature set)
 - **Implementation Plan:** `docs/superpowers/plans/2026-06-21-the-signal-plan.md`
