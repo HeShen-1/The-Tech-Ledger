@@ -151,11 +151,21 @@ async function fetchBlogs(): Promise<RawSignal[]> {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       api_key: TAVILY_KEY,
-      query: "latest software engineering technology blog post",
+      query: "latest technology engineering blog post software development",
       search_depth: "advanced",
-      max_results: 5,
+      max_results: 8,
       include_answer: false,
-      include_domains: ["engineering.fb.com", "blog.rust-lang.org"],
+      include_domains: [
+        "engineering.fb.com",
+        "blog.rust-lang.org",
+        "github.blog",
+        "stackoverflow.blog",
+        "netflixtechblog.com",
+        "blog.cloudflare.com",
+        "engineering.linkedin.com",
+        "slack.engineering",
+        "stripe.com/blog/engineering",
+      ],
     }),
   }, TIMEOUT_MS);
   if (!res.ok) { console.error("[sources] Tavily blogs failed:", res.status); return []; }
