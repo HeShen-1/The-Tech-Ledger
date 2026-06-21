@@ -61,21 +61,17 @@ export function ReportCalendar({ year, month, dates }: CalendarProps) {
           return (
             <div
               key={d}
-              className={`border-b border-r border-[#E5E5E0] p-2 ${i % 7 === 6 ? "border-r-0" : ""}`}
+              className={`border-b border-r border-[#E5E5E0] p-2 ${i % 7 === 6 ? "border-r-0" : ""} ${isToday ? "border border-[#CC0000]" : ""}`}
             >
-              {hasReport ? (
-                <Link
-                  href={`/reports/${dateStr}`}
-                  className="flex flex-col items-center transition-colors hover:bg-[#F5F5F5]"
-                >
-                  <span className={`font-mono text-sm font-bold ${isToday ? "text-[#CC0000]" : "text-[#111111]"}`}>{d}</span>
-                  <span className="mt-0.5 h-1.5 w-1.5 bg-[#CC0000]" />
-                </Link>
-              ) : (
-                <span className="flex flex-col items-center">
-                  <span className={`font-mono text-sm font-bold ${isToday ? "text-[#CC0000]" : "text-[#737373]"}`}>{d}</span>
+              <Link
+                href={`/reports/${dateStr}`}
+                className="flex flex-col items-center transition-colors hover:bg-[#F5F5F5]"
+              >
+                <span className={`font-mono text-sm font-bold ${isToday ? "text-[#CC0000]" : hasReport ? "text-[#111111]" : "text-[#737373]"}`}>
+                  {d}
                 </span>
-              )}
+                {hasReport && <span className="mt-0.5 h-1.5 w-1.5 bg-[#CC0000]" />}
+              </Link>
             </div>
           );
         })}
