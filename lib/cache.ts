@@ -2,6 +2,10 @@ import { kv } from "@vercel/kv";
 import type { TrendingResponse, SourcesResponse } from "./types";
 
 const SOURCES_KEY = "sources:latest";
+
+function kvAvailable(): boolean {
+  return !!process.env.KV_URL && !process.env.KV_URL.includes("xxx");
+}
 const DEFAULT_TTL = 300;
 
 function dailyKey(): string {
@@ -17,6 +21,7 @@ function secondsUntilMidnight(): number {
 }
 
 export async function getCachedTrending(): Promise<TrendingResponse | null> {
+  if (!kvAvailable()) return null;
   try {
     return await kv.get<TrendingResponse>(dailyKey());
   } catch (error) {
@@ -26,6 +31,7 @@ export async function getCachedTrending(): Promise<TrendingResponse | null> {
 }
 
 export async function setCachedTrending(data: TrendingResponse): Promise<void> {
+  if (!kvAvailable()) return;
   try {
     await kv.set(dailyKey(), data, { ex: secondsUntilMidnight() });
   } catch (error) {
@@ -34,6 +40,7 @@ export async function setCachedTrending(data: TrendingResponse): Promise<void> {
 }
 
 export async function getCachedSources(): Promise<SourcesResponse | null> {
+  if (!kvAvailable()) return null;
   try {
     return await kv.get<SourcesResponse>(SOURCES_KEY);
   } catch (error) {
@@ -43,6 +50,7 @@ export async function getCachedSources(): Promise<SourcesResponse | null> {
 }
 
 export async function setCachedSources(data: SourcesResponse, ttl = DEFAULT_TTL): Promise<void> {
+  if (!kvAvailable()) return;
   try {
     await kv.set(SOURCES_KEY, data, { ex: ttl });
   } catch (error) {
