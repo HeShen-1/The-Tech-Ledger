@@ -56,22 +56,21 @@ export function SignalList({ signals, sources }: { signals: Signal[]; sources: S
       <div className="mb-6 flex flex-wrap gap-1">
         {tabs.map((t) => {
           const active = filter === t.key;
+          const count = t.key === "all" ? signals.length : signals.filter((s) => s.source === t.key).length;
           return (
             <button
               key={t.key}
               onClick={() => setFilter(t.key)}
-              className={`border px-4 py-2 font-mono text-[10px] font-bold uppercase tracking-[0.15em] transition-all duration-200 min-h-[36px]
+              className={`border px-4 py-2 font-mono text-[10px] font-bold uppercase tracking-[0.15em] transition-all duration-200 min-h-[36px] inline-flex items-center gap-1.5
                 ${active
                   ? "border-[#111111] bg-[#111111] text-[#F9F9F7]"
                   : "border-[#E5E5E0] bg-transparent text-[#737373] hover:border-[#111111] hover:text-[#111111]"
                 }`}
             >
               {t.label}
-              {filter === t.key && (
-                <span className="ml-1.5 text-[#CC0000]">
-                  {filtered.length}
-                </span>
-              )}
+              <span className={active ? "text-[#CC0000]" : "text-[#737373]"}>
+                {count}
+              </span>
             </button>
           );
         })}
