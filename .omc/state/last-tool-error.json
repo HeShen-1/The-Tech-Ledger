@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__playwright__playwright_navigate",
+  "tool_input_preview": "{\"url\":\"https://www.aura.build/\",\"width\":1440,\"height\":900}",
+  "error": "Failed to initialize browser: browserType.launch: Executable doesn't exist at C:\\Users\\river\\AppData\\Local\\ms-playwright\\chromium-1200\\chrome-win64\\chrome.exe\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install         ...",
+  "timestamp": "2026-06-21T13:48:44.545Z",
+  "retry_count": 1
+}
