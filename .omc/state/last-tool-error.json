@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd D:/vsCode/vercel && git remote add origin https://github.com/HeShen-1/The-Tech-Ledger.git 2>&1 || git remote set-url origin https://github.com/HeShen-1/The-Tech-Ledger.git && git branch...",
-  "error": "Exit code 128\nfatal: unable to access 'https://github.com/HeShen-1/The-Tech-Ledger.git/': Recv failure: Connection was reset",
-  "timestamp": "2026-06-21T17:54:19.062Z",
-  "retry_count": 1
-}
