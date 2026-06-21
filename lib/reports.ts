@@ -71,8 +71,13 @@ export async function getDailyReport(
 }
 
 export async function getReportDates(): Promise<string[]> {
-  const dates = await kv.smembers(DATES_KEY);
-  return (dates as string[]).sort().reverse();
+  try {
+    const dates = await kv.smembers(DATES_KEY);
+    return (dates as string[]).sort().reverse();
+  } catch (error) {
+    console.error("[reports] KV getReportDates failed:", error);
+    return [];
+  }
 }
 
 export async function getWeeklyReport(
@@ -83,14 +88,19 @@ export async function getWeeklyReport(
   week: string;
   aiSummary?: string;
 } | null> {
-  const report = await kv.get<{
-    signals: Signal[];
-    days: number;
-    week: string;
-  }>(WEEKLY_PREFIX + week);
-  if (!report) return null;
-  const aiSummary = await kv.get<string>(WEEKLY_PREFIX + week + ":ai");
-  return { ...report, aiSummary: aiSummary ?? undefined };
+  try {
+    const report = await kv.get<{
+      signals: Signal[];
+      days: number;
+      week: string;
+    }>(WEEKLY_PREFIX + week);
+    if (!report) return null;
+    const aiSummary = await kv.get<string>(WEEKLY_PREFIX + week + ":ai");
+    return { ...report, aiSummary: aiSummary ?? undefined };
+  } catch (error) {
+    console.error("[reports] KV getWeeklyReport failed:", error);
+    return null;
+  }
 }
 
 export async function getMonthlyReport(
@@ -101,15 +111,20 @@ export async function getMonthlyReport(
   month: string;
   aiSummary?: string;
 } | null> {
-  const report = await kv.get<{
-    signals: Signal[];
+  try {
+    const report = await kv.get<{
+      signals: Signal[];
     days: number;
     month: string;
   }>(MONTHLY_PREFIX + month);
-  if (!report) return null;
-  const aiSummary = await kv.get<string>(MONTHLY_PREFIX + month + ":ai");
-  return { ...report, aiSummary: aiSummary ?? undefined };
-}
+      if (!report) return null;
+      const aiSummary = await kv.get<string>(MONTHLY_PREFIX + month + ":ai");
+      return { ...report, aiSummary: aiSummary ?? undefined };
+    } catch (error) {
+      console.error("[reports] KV getMonthlyReport failed:", error);
+      return null;
+    }
+  }
 
 export async function generateWeeklyReport(): Promise<{ ok: boolean }> {
   const wk = weekKey();
