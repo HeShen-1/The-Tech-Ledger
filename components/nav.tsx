@@ -34,6 +34,12 @@ export function Nav() {
           <a href="/" className="font-serif text-lg font-black tracking-tight text-[#111111]">
             THE TECH LEDGER
           </a>
+          <div className="hidden items-center gap-3 lg:flex">
+            <div className="h-4 w-px bg-[#E5E5E0]" />
+            <span className="font-mono text-[9px] uppercase tracking-[0.1em] text-[#737373]">
+              Vol. 1 &nbsp;|&nbsp; {new Date().toLocaleDateString("en-US", { year: "numeric", month: "numeric", day: "numeric" })} &nbsp;|&nbsp; New York Edition
+            </span>
+          </div>
           <div className="hidden gap-6 md:flex">
             {links.map((l) => (
               <a

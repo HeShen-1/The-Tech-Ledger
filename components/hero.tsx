@@ -31,16 +31,6 @@ export function Hero({ signalCount }: { signalCount: number }) {
       />
 
       <div className="ml-4 sm:ml-8">
-        {/* Edition metadata */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.3 }}
-          className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]"
-        >
-          Vol. I &mdash; {today} &mdash; Digital Edition
-        </motion.p>
-
         {/* Masthead */}
         <motion.h1
           variants={stagger}

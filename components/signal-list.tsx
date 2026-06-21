@@ -93,7 +93,7 @@ export function SignalList({ signals, sources }: { signals: Signal[]; sources: S
 
       {/* Source desk — compact summary below */}
       <div className="mt-12 border-t-4 border-[#111111] pt-6">
-        <SourceBreakdown sources={sources} />
+        <SourceBreakdown sources={sources} signals={signals} />
       </div>
     </section>
   );
