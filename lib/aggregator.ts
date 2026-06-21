@@ -38,10 +38,18 @@ function generateId(url: string): string {
   return Buffer.from(url).toString("base64url").slice(0, 16);
 }
 
-function timeDecay(timestamp: string): number {
+const HALF_LIFE_HOURS: Record<Signal["source"], number> = {
+  github: 6,
+  hackernews: 12,
+  blog: 48,
+  arxiv: 168,
+};
+
+function timeDecay(timestamp: string, source: Signal["source"]): number {
   const ageHours =
     (Date.now() - new Date(timestamp).getTime()) / (1000 * 60 * 60);
-  return Math.exp(-ageHours / 24);
+  const halfLife = HALF_LIFE_HOURS[source];
+  return Math.exp((-Math.LN2 * ageHours) / halfLife);
 }
 
 function transformToSignals(raw: RawSignal[]): Signal[] {
@@ -62,7 +70,7 @@ function transformToSignals(raw: RawSignal[]): Signal[] {
 
 function rankSignals(signals: Signal[]): Signal[] {
   return signals
-    .map((s) => ({ ...s, score: s.score * timeDecay(s.timestamp) }))
+    .map((s) => ({ ...s, score: s.score * timeDecay(s.timestamp, s.source) }))
     .sort((a, b) => b.score - a.score);
 }
 

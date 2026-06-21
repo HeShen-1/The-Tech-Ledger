@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:18:57.358Z",
+  "updatedAt": "2026-06-21T16:27:25.724Z",
   "missions": [
     {
       "id": "session:ccef7ac3-8916-42ce-84dd-939132fad81c:none",
@@ -7,14 +7,14 @@
       "name": "none",
       "objective": "Session mission",
       "createdAt": "2026-06-21T14:34:06.306Z",
-      "updatedAt": "2026-06-21T16:18:57.358Z",
-      "status": "done",
-      "workerCount": 30,
+      "updatedAt": "2026-06-21T16:27:25.724Z",
+      "status": "running",
+      "workerCount": 31,
       "taskCounts": {
-        "total": 30,
+        "total": 31,
         "pending": 0,
         "blocked": 0,
-        "inProgress": 0,
+        "inProgress": 1,
         "completed": 30,
         "failed": 0
       },
@@ -318,25 +318,19 @@
           "latestUpdate": "completed",
           "completedSummary": null,
           "updatedAt": "2026-06-21T16:18:57.358Z"
+        },
+        {
+          "name": "general-purpose:a9cbd6a",
+          "role": "general-purpose",
+          "ownership": "a9cbd6ae95ad01586",
+          "status": "running",
+          "currentStep": null,
+          "latestUpdate": null,
+          "completedSummary": null,
+          "updatedAt": "2026-06-21T16:27:25.724Z"
         }
       ],
       "timeline": [
-        {
-          "id": "session-start:a05a25a2db6554af4:2026-06-21T16:10:33.960Z",
-          "at": "2026-06-21T16:10:33.960Z",
-          "kind": "update",
-          "agent": "general-purpose:a05a25a",
-          "detail": "started general-purpose:a05a25a",
-          "sourceKey": "session-start:a05a25a2db6554af4"
-        },
-        {
-          "id": "session-stop:a05a25a2db6554af4:2026-06-21T16:10:59.174Z",
-          "at": "2026-06-21T16:10:59.174Z",
-          "kind": "completion",
-          "agent": "general-purpose:a05a25a",
-          "detail": "completed",
-          "sourceKey": "session-stop:a05a25a2db6554af4"
-        },
         {
           "id": "session-start:a3a5b7501dd33cc0a:2026-06-21T16:17:24.967Z",
           "at": "2026-06-21T16:17:24.967Z",
@@ -352,6 +346,14 @@
           "agent": "general-purpose:a3a5b75",
           "detail": "completed",
           "sourceKey": "session-stop:a3a5b7501dd33cc0a"
+        },
+        {
+          "id": "session-start:a9cbd6ae95ad01586:2026-06-21T16:27:25.724Z",
+          "at": "2026-06-21T16:27:25.724Z",
+          "kind": "update",
+          "agent": "general-purpose:a9cbd6a",
+          "detail": "started general-purpose:a9cbd6a",
+          "sourceKey": "session-start:a9cbd6ae95ad01586"
         }
       ]
     }
