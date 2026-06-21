@@ -55,7 +55,7 @@ export function AiReport({
   const totalSources = new Set(signals.map((s) => s.source)).size;
 
   return (
-    <div className="max-w-3xl space-y-6 font-body text-base leading-relaxed text-[#525252]">
+    <div className="space-y-6 font-body text-base leading-relaxed text-[#525252]">
       {/* Lead paragraph */}
       <p>
         <span className="float-left mr-3 font-serif text-7xl font-black leading-[0.7] text-[#111111]">T</span>

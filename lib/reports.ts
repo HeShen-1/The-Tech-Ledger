@@ -1,6 +1,7 @@
 import { kv } from "@vercel/kv";
 import type { TrendingResponse, Signal } from "./types";
 import { getTrending } from "./aggregator";
+import { generateAiSummary } from "./ai-summary";
 
 const REPORT_PREFIX = "report:daily:";
 const WEEKLY_PREFIX = "report:weekly:";
@@ -39,6 +40,11 @@ export async function snapshotDaily(): Promise<{ ok: boolean; key: string }> {
     },
     { ex: 86400 * 90 },
   );
+  // Generate AI summary
+  const aiSummary = await generateAiSummary(data.signals, "daily");
+  if (aiSummary) {
+    await kv.set(REPORT_PREFIX + key + ":ai", aiSummary, { ex: 86400 * 90 });
+  }
   // Add to dates set
   await kv.sadd(DATES_KEY, key);
   return { ok: true, key };
@@ -51,8 +57,17 @@ export async function getDailyReport(
   snapshotAt: string;
   total: number;
   sources: number;
+  aiSummary?: string;
 } | null> {
-  return kv.get(REPORT_PREFIX + date);
+  const report = await kv.get<{
+    signals: Signal[];
+    snapshotAt: string;
+    total: number;
+    sources: number;
+  }>(REPORT_PREFIX + date);
+  if (!report) return null;
+  const aiSummary = await kv.get<string>(REPORT_PREFIX + date + ":ai");
+  return { ...report, aiSummary: aiSummary ?? undefined };
 }
 
 export async function getReportDates(): Promise<string[]> {
@@ -62,14 +77,38 @@ export async function getReportDates(): Promise<string[]> {
 
 export async function getWeeklyReport(
   week: string,
-): Promise<{ signals: Signal[]; days: number; week: string } | null> {
-  return kv.get(WEEKLY_PREFIX + week);
+): Promise<{
+  signals: Signal[];
+  days: number;
+  week: string;
+  aiSummary?: string;
+} | null> {
+  const report = await kv.get<{
+    signals: Signal[];
+    days: number;
+    week: string;
+  }>(WEEKLY_PREFIX + week);
+  if (!report) return null;
+  const aiSummary = await kv.get<string>(WEEKLY_PREFIX + week + ":ai");
+  return { ...report, aiSummary: aiSummary ?? undefined };
 }
 
 export async function getMonthlyReport(
   month: string,
-): Promise<{ signals: Signal[]; days: number; month: string } | null> {
-  return kv.get(MONTHLY_PREFIX + month);
+): Promise<{
+  signals: Signal[];
+  days: number;
+  month: string;
+  aiSummary?: string;
+} | null> {
+  const report = await kv.get<{
+    signals: Signal[];
+    days: number;
+    month: string;
+  }>(MONTHLY_PREFIX + month);
+  if (!report) return null;
+  const aiSummary = await kv.get<string>(MONTHLY_PREFIX + month + ":ai");
+  return { ...report, aiSummary: aiSummary ?? undefined };
 }
 
 export async function generateWeeklyReport(): Promise<{ ok: boolean }> {
@@ -98,6 +137,11 @@ export async function generateWeeklyReport(): Promise<{ ok: boolean }> {
     { signals: unique.slice(0, 30), days: thisWeek.length, week: wk },
     { ex: 86400 * 365 },
   );
+  // Generate AI summary
+  const aiSummary = await generateAiSummary(unique, "weekly");
+  if (aiSummary) {
+    await kv.set(WEEKLY_PREFIX + wk + ":ai", aiSummary, { ex: 86400 * 365 });
+  }
   return { ok: true };
 }
 
@@ -122,5 +166,10 @@ export async function generateMonthlyReport(): Promise<{ ok: boolean }> {
     { signals: unique.slice(0, 50), days: thisMonth.length, month: mo },
     { ex: 86400 * 365 },
   );
+  // Generate AI summary
+  const aiSummary = await generateAiSummary(unique, "monthly");
+  if (aiSummary) {
+    await kv.set(MONTHLY_PREFIX + mo + ":ai", aiSummary, { ex: 86400 * 365 });
+  }
   return { ok: true };
 }

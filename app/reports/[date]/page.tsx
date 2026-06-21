@@ -18,6 +18,7 @@ async function getReport(
   snapshotAt: string;
   total: number;
   sources: number;
+  aiSummary?: string;
 } | null> {
   try {
     const res = await fetch(`${API_BASE}/api/reports/${date}`, {
@@ -69,6 +70,12 @@ export default async function DailyReportPage({
             <p className="font-serif text-lg italic text-[#737373]">
               No signals captured for this date.
             </p>
+          </div>
+        ) : report.aiSummary ? (
+          <div className="space-y-6 font-body text-base leading-relaxed text-[#525252]">
+            {report.aiSummary.split("\n\n").map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
           </div>
         ) : (
           <div>
