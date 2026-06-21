@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "About — The Tech Ledger",
@@ -20,7 +22,9 @@ const stackItems = [
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-28">
+    <>
+      <Nav />
+      <main className="mx-auto max-w-screen-xl px-4 py-28">
       {/* ===== Section 1: Masthead ===== */}
       <section className="mb-20">
         <p className="mb-4 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
@@ -159,6 +163,8 @@ export default function AboutPage() {
       >
         &larr; Back to the Ledger
       </Link>
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }
