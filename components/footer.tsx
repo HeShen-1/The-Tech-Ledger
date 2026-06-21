@@ -2,9 +2,8 @@ import { Newspaper } from "lucide-react";
 
 const sourceList = ["GitHub Trending", "Hacker News", "arXiv", "Engineering Blogs"];
 const infoLinks = [
-  { label: "About", href: "#" },
+  { label: "About", href: "/about" },
   { label: "API", href: "/api/trending" },
-  { label: "Privacy", href: "#" },
   { label: "Vercel ▲", href: "https://vercel.com" },
 ];
 
@@ -17,7 +16,7 @@ export function Footer() {
           <div className="max-w-xs">
             <div className="mb-4 flex items-center gap-2">
               <Newspaper className="h-5 w-5 text-[#F9F9F7]" strokeWidth={1.5} />
-              <p className="font-serif text-lg font-black text-[#F9F9F7]">THE SIGNAL</p>
+              <p className="font-serif text-lg font-black text-[#F9F9F7]">THE TECH LEDGER</p>
             </div>
             <p className="font-body text-sm leading-relaxed text-[#A3A3A3]">
               Real-time tech intelligence. No noise. Just signal.
@@ -61,7 +60,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-[#404040] pt-6 text-center font-mono text-[10px] uppercase tracking-[0.15em] text-[#737373]">
-          &copy; {new Date().getFullYear()} The Signal &middot; Printed in Digital &middot; Edition Vol. I
+          &copy; {new Date().getFullYear()} The Tech Ledger &middot; Printed in Digital &middot; Edition Vol. I
         </div>
       </div>
     </footer>

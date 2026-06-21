@@ -31,7 +31,7 @@ export function Nav() {
       <nav className="mx-auto flex max-w-screen-xl items-center justify-between px-4 py-4" aria-label="Main navigation">
         <div className="flex items-center gap-8">
           <a href="/" className="font-serif text-lg font-black tracking-tight text-[#111111]">
-            THE SIGNAL
+            THE TECH LEDGER
           </a>
           <div className="hidden gap-6 md:flex">
             {links.map((l) => (
