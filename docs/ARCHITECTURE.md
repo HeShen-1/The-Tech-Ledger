@@ -1,4 +1,4 @@
-# The Signal — Architecture Document
+# The Tech Ledger — Architecture Document
 
 > **Version:** 1.0.0 | **Date:** 2026-06-21
 
@@ -6,7 +6,7 @@
 
 ## 1. System Overview
 
-The Signal is a single-page Next.js application deployed on Vercel. It aggregates trending technology content from four external data sources, caches results in Vercel KV, and renders them with a Newsprint editorial design system.
+The Tech Ledger is a single-page Next.js application deployed on Vercel. It aggregates trending technology content from four external data sources, caches results in Vercel KV, and renders them with a Newsprint editorial design system.
 
 ```
 ┌──────────────┐     ┌──────────────────┐     ┌─────────────────┐

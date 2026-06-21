@@ -19,7 +19,7 @@ export function SourceBreakdown({ sources }: { sources: SourceStatus[] }) {
     <section id="sources" className="mx-auto max-w-screen-xl px-4 py-16">
       <div className="mb-8 border-b-4 border-[#111111] pb-3">
         <h2 className="font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
-          Signal Sources
+          SOURCE DESK
         </h2>
       </div>
 
@@ -31,7 +31,8 @@ export function SourceBreakdown({ sources }: { sources: SourceStatus[] }) {
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.3, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
             className={`border-[#111111] bg-[#F9F9F7] p-5 transition-all duration-200 hover:bg-[#F5F5F5]
-              ${i !== 3 ? "sm:border-r" : ""}
+              ${i % 2 === 0 ? "sm:border-r" : ""}
+              ${i !== 3 ? "lg:border-r" : ""}
               border-b sm:border-b border-t border-l
               ${i === 0 ? "sm:border-l" : ""}
             `}

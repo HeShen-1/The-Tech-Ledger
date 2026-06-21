@@ -1,4 +1,4 @@
-# The Signal — 设计规格书
+# The Tech Ledger — 设计规格书
 
 > 实时科技热点追踪网站 | Ink & Paper 纸媒美学 | Vercel 部署
 > 2026-06-21
@@ -7,7 +7,7 @@
 
 ## 一、项目定位
 
-**The Signal** 是一个实时科技热点聚合网站，面向技术招聘场景展示全栈开发能力。从 GitHub Trending、Hacker News、技术博客、AI 论文等数据源实时抓取热点，以报纸头版排版美学呈现。
+**The Tech Ledger** 是一个实时科技热点聚合网站，面向技术招聘场景展示全栈开发能力。从 GitHub Trending、Hacker News、技术博客、AI 论文等数据源实时抓取热点，以报纸头版排版美学呈现。
 
 **目标受众**：HR / 技术面试官
 **核心价值**：展示前端设计感 + 后端数据工程 + Vercel 部署经验
@@ -94,7 +94,7 @@ Browser → Next.js SSR → Client Component
 
 ```
 ┌─────────────────────────────────┐
-│  NAV · THE SIGNAL · LIVE · ABOUT │  ← 置顶导航
+│  NAV · THE TECH LEDGER · LIVE · ABOUT │  ← 置顶导航
 ├─────────────────────────────────┤
 │                                 │
 │  HERO · 头版标题                │
