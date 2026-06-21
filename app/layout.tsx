@@ -4,16 +4,16 @@ import { RefreshToast } from "@/components/refresh-toast";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Signal — Real-Time Tech Intelligence",
+  title: "The Tech Ledger — Real-Time Tech Intelligence",
   description: "Real-time technology pulse from GitHub, Hacker News, and the open web. No noise. Just signal.",
   openGraph: {
-    title: "The Signal — Real-Time Tech Intelligence",
+    title: "The Tech Ledger — Real-Time Tech Intelligence",
     description: "Real-time technology pulse from GitHub, Hacker News, and the open web.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Signal",
+    title: "The Tech Ledger",
     description: "Real-time tech intelligence. No noise. Just signal.",
   },
 };
