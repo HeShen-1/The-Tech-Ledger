@@ -68,6 +68,14 @@ export default async function ReportsPage() {
   const weekStr = `${now.getFullYear()}-W${String(weekNum).padStart(2, "0")}`;
   const monthStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
 
+  // Display names
+  const weekDaysOffset = (weekNum - 1) * 7;
+  const weekStart = new Date(start.getTime() + weekDaysOffset * 86400000);
+  const weekMonday = new Date(weekStart.getTime() - (weekStart.getDay() === 0 ? 6 : weekStart.getDay() - 1) * 86400000);
+  const weekSunday = new Date(weekMonday.getTime() + 6 * 86400000);
+  const weekLabel = `${weekMonday.toLocaleDateString("en-US", { month: "long", day: "numeric" })} – ${weekSunday.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}`;
+  const monthLabel = new Date(now.getFullYear(), now.getMonth(), 1).toLocaleDateString("en-US", { month: "long", year: "numeric" });
+
   return (
     <>
       <Nav />
@@ -101,7 +109,7 @@ export default async function ReportsPage() {
             </p>
           </Link>
           <Link
-            href={`/reports/weekly/${weekStr}`}
+            href={`/reports/weekly/${weekLabel}`}
             className="border border-[#111111] p-5 transition-all duration-200 hover:bg-[#F5F5F5] hover:shadow-[4px_4px_0px_0px_#111111]"
           >
             <ArrowRight
@@ -112,7 +120,7 @@ export default async function ReportsPage() {
               Weekly Digest
             </h3>
             <p className="mt-1 font-mono text-[10px] uppercase text-[#737373]">
-              {weekStr}
+              {weekLabel}
             </p>
           </Link>
           <Link
@@ -127,7 +135,7 @@ export default async function ReportsPage() {
               Monthly Digest
             </h3>
             <p className="mt-1 font-mono text-[10px] uppercase text-[#737373]">
-              {monthStr}
+              {monthLabel}
             </p>
           </Link>
         </div>
