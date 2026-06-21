@@ -1,6 +1,6 @@
 # The Tech Ledger — Architecture Document
 
-> **Version:** 1.0.0 | **Date:** 2026-06-21
+> **Version:** 1.1.0 | **Date:** 2026-06-22
 
 ---
 
@@ -312,9 +312,74 @@ Retrieves the historical snapshot for a given date.
 
 ---
 
-## 7. Design System: Newsprint
+## 7. AI Summary Pipeline
 
-### 7.1 Design Tokens
+### 7.1 Overview
+
+The Tech Ledger generates AI-powered editorial reports that summarize trending signals. Reports are generated at three cadences:
+
+| Cadence | Trigger | Summary Type |
+|---------|---------|--------------|
+| Daily | Every day at ~23:59 UTC | AI summary from current trending signals |
+| Weekly | Sundays only | Digest synthesized from the week's daily AI summaries |
+| Monthly | Month-end only | Digest synthesized from the month's weekly AI summaries |
+
+### 7.2 Summary-of-Summaries Architecture
+
+```
+Daily signals → lib/ai-summary.ts (DeepSeek v4-flash) → daily AI report → KV snapshot
+                                                                    ↓
+Weekly digest ← synthesis of 7 daily AI summaries ← DeepSeek v4-flash
+                                                                    ↓
+Monthly digest ← synthesis of 4-5 weekly AI summaries ← DeepSeek v4-flash
+```
+
+This hierarchical approach means weekly and monthly reports never re-process raw signals — they synthesize the AI-generated summaries from the tier below, producing richer, more coherent digests.
+
+### 7.3 DeepSeek API Integration
+
+- **Model:** `deepseek-v4-flash` via OpenAI-compatible endpoint `/chat/completions`
+- **Client:** `lib/ai-summary.ts` — prompt templates for daily/weekly/monthly editorial tone
+- **Throttling:** AI summaries only regenerate when the top 3 signals change AND at least 6 hours have elapsed since the last generation
+- **Fallback:** If DeepSeek API is unavailable, reports display the raw trending feed without AI commentary
+- **Week labels:** Human-readable format ("June 22–28, 2026") instead of ISO week numbers
+
+### 7.4 Report Components
+
+| Component | Purpose |
+|-----------|---------|
+| `ai-report.tsx` | Full AI-generated editorial report display |
+| `report-preview.tsx` | Summary preview card on the reports index |
+| `week-calendar.tsx` | Calendar navigation for weekly digest page |
+| `report-calendar.tsx` | Calendar date picker for daily reports |
+
+---
+## 8. API Call Optimization
+
+### 8.1 In-Flight Request Deduplication
+
+`dedupedFetchAllSources()` wraps the source fetch pipeline. When multiple concurrent requests arrive during a cold-cache window, only one actually calls the external APIs — all others wait for and share the single in-flight promise. This prevents request multiplication that would otherwise trigger rate limits from Firecrawl, Tavily, and Exa simultaneously.
+
+### 8.2 Source Status from Cache
+
+Source Desk status counts are now derived directly from the cached trending response rather than making separate `/api/sources` calls. Each `Signal` carries a `source` field; counts are computed by grouping — eliminating a redundant API round-trip.
+
+### 8.3 AI Summary Throttling
+
+AI summaries are expensive (LLM API call). Regeneration is gated on two conditions:
+1. The top 3 ranked signals have changed since the last summary was generated
+2. At least 6 hours have elapsed since the last generation
+
+This prevents unnecessary LLM calls when the trending feed is stable.
+
+### 8.4 KV Availability Guard
+
+`kvAvailable()` checks whether `KV_URL` contains the placeholder string `xxx` (indicating Vercel KV is not provisioned). All KV read/write functions in `cache.ts` and `reports.ts` are guarded with this check, preventing SSR hangs when KV is unavailable.
+
+---
+## 11. Design System: Newsprint
+
+### 9.1 Design Tokens
 
 ```
 Background:  #F9F9F7  (Newsprint Off-White)
@@ -332,7 +397,7 @@ Border:     1px solid #111111, radius 0px everywhere
 Shadows:    None (flat). Hover: box-shadow 4px 4px 0 #111111
 ```
 
-### 7.2 Key Design Rules
+### 9.2 Key Design Rules
 
 1. **Zero radius.** Every element — buttons, cards, inputs, containers — has `border-radius: 0`.
 2. **No soft shadows.** Flat design. Hover uses hard offset shadow.
@@ -344,9 +409,9 @@ Shadows:    None (flat). Hover: box-shadow 4px 4px 0 #111111
 
 ---
 
-## 8. Security
+## 10. Security
 
-### 8.1 Secret Management
+### 10.1 Secret Management
 
 All API keys stored as environment variables, accessed via `process.env` on the server only:
 - `FIRECRAWL_API_KEY`
@@ -355,7 +420,7 @@ All API keys stored as environment variables, accessed via `process.env` on the 
 - `REFRESH_TOKEN`
 - KV credentials (auto-injected by Vercel)
 
-### 8.2 HTTP Security Headers
+### 10.2 HTTP Security Headers
 
 Configured in `vercel.json`:
 ```
@@ -366,21 +431,21 @@ Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: camera=(), microphone=(), geolocation=()
 ```
 
-### 8.3 Refresh Protection
+### 10.3 Refresh Protection
 
 The `/api/trending?refresh=` endpoint requires a `REFRESH_TOKEN` query parameter that matches the server-side environment variable. Without it, the cache is served normally.
 
 ---
 
-## 9. Deployment
+## 11. Deployment
 
-### 9.1 Platform
+### 11.1 Platform
 
 - **Hosting:** Vercel (Hobby plan)
 - **KV Store:** Vercel KV (included in Hobby)
 - **CI/CD:** Automatic deploys from `main` branch via Vercel Git integration
 
-### 9.2 Environment Variables (set in Vercel Dashboard)
+### 11.2 Environment Variables (set in Vercel Dashboard)
 
 ```
 FIRECRAWL_API_KEY
@@ -392,7 +457,7 @@ KV_REST_API_URL   (auto-configured)
 KV_REST_API_TOKEN (auto-configured)
 ```
 
-### 9.3 Build & Deploy
+### 11.3 Build & Deploy
 
 ```bash
 npm run build    # Next.js production build
@@ -401,7 +466,7 @@ npm run build    # Next.js production build
 
 ---
 
-## 10. Performance Budget
+## 12. Performance Budget
 
 | Metric | Target | Measurement |
 |--------|--------|-------------|
