@@ -4,6 +4,8 @@
 
 **"All the Tech That's Fit to Print."** — A digital newspaper tracking what's trending in software engineering and AI research, styled with the authority and clarity of a print broadsheet.
 
+🔗 **Live:** [https://the-tech-ledger.vercel.app](https://the-tech-ledger.vercel.app)
+
 ---
 
 ## Features
@@ -11,8 +13,16 @@
 - **Trending Feed** — Real-time signals from GitHub, Hacker News, arXiv, and engineering blogs, with per-source time decay
 - **Source Filtering** — Tab-based navigation across data sources with medal-ranking (gold/silver/bronze)
 - **AI Editorial Reports** — DeepSeek v4-flash generates daily newspaper-style editorial summaries; weekly and monthly digests synthesize via summary-of-summaries pipeline
-- **Reports Archive** — Calendar-based navigation with daily/weekly/monthly report pages and hourly Vercel Cron snapshots
+- **Reports Archive** — Calendar-based navigation with daily/weekly/monthly report pages
 - **Newsprint Design** — Zero border radius, Playfair Display + Lora + Inter + JetBrains Mono typography, Beige Paper texture, dot-grid overlay, visible grid lines, hard-shadow hover
+
+---
+
+## Screenshots
+
+| Trending Feed | Reports | About |
+|:---:|:---:|:---:|
+| ![Trending](public/screenshot-hero.png) | ![Reports](public/screenshot-reports.png) | ![About](public/screenshot-about.png) |
 
 ---
 
@@ -58,6 +68,17 @@ Without API keys, the site renders with zero signals — all sections still load
 
 ---
 
+## CI/CD
+
+Every push to `main` triggers:
+
+- **TypeCheck + Lint + Build** — `tsc --noEmit` → `next lint` → `npm run build`
+- **Security Audit** — `npm audit`
+- **Secret Scan** — Gitleaks detects hardcoded keys
+- **Vercel Auto-Deploy** — production deploy on build success
+
+---
+
 ## Project Structure
 
 ```
@@ -89,9 +110,11 @@ Without API keys, the site renders with zero signals — all sections still load
 │   ├── dedup.ts             # URL + title deduplication
 │   ├── ai-summary.ts        # DeepSeek AI summary generation
 │   └── reports.ts           # Report snapshot + retrieval
+├── .github/workflows/       # CI/CD (TypeCheck, Lint, Build, Audit, Secret Scan)
 ├── docs/                    # PRD, Architecture, Specs, Plans
 ├── CLAUDE.md                # AI agent instructions + design system
 ├── CHANGELOG.md             # All notable changes
+├── README_ZH.md             # Chinese README
 └── .env.example             # Environment variable template
 ```
 
@@ -118,15 +141,22 @@ npm run build
 # Deploy to Vercel — auto-detects Next.js framework
 # Connect Vercel KV in Dashboard → Storage → KV
 # Set environment variables in Vercel Dashboard
-# Cron job auto-snapshots hourly (configured in vercel.json)
 ```
-
-### Vercel Cron
-
-The cron job at `/api/reports/snapshot` runs hourly. Replace `REPLACE_WITH_YOUR_REFRESH_TOKEN` in `vercel.json` with your actual `REFRESH_TOKEN` before deploying.
 
 ---
 
 ## License
 
-Open source — built as a full-stack portfolio project.
+Copyright 2026 HeWenWan
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
