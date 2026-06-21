@@ -17,8 +17,13 @@ function topCategories(signals: TrendingResponse["signals"], n: number): string[
     .map(([cat]) => cat);
 }
 
-function plural(n: number, word: string): string {
-  return n === 1 ? `${n} ${word}` : `${n} ${word}s`;
+function plural(n: number, word: string, pluralForm?: string): string {
+  if (n === 1) return `${n} ${word}`;
+  if (pluralForm) return `${n} ${pluralForm}`;
+  if (word.endsWith("y") && !word.endsWith("ay") && !word.endsWith("ey") && !word.endsWith("oy") && !word.endsWith("uy")) {
+    return `${n} ${word.slice(0, -1)}ies`;
+  }
+  return `${n} ${word}s`;
 }
 
 export function AiReport({
