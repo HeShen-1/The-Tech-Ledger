@@ -66,16 +66,12 @@ export function ReportCalendar({ year, month, dates }: CalendarProps) {
                   href={`/reports/${dateStr}`}
                   className="flex flex-col items-center transition-colors hover:bg-[#F5F5F5]"
                 >
-                  <span className="font-mono text-sm font-bold text-[#111111]">
-                    {d}
-                  </span>
+                  <span className="font-mono text-sm font-bold text-[#111111]">{d}</span>
                   <span className="mt-0.5 h-1.5 w-1.5 bg-[#CC0000]" />
                 </Link>
               ) : (
                 <span className="flex flex-col items-center">
-                  <span className="font-mono text-sm text-[#E5E5E0]">
-                    {d}
-                  </span>
+                  <span className="font-mono text-sm text-[#737373]">{d}</span>
                 </span>
               )}
             </div>

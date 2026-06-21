@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { ReportCalendar } from "@/components/report-calendar";
+import { ReportPreview } from "@/components/report-preview";
 import Link from "next/link";
 import { Calendar, ArrowRight } from "lucide-react";
 
@@ -111,6 +112,22 @@ export default async function ReportsPage() {
           month={now.getMonth()}
           dates={dates}
         />
+
+        {dates.length === 0 && (
+          <p className="mt-4 font-body text-sm italic text-[#737373]">
+            No snapshots yet. Reports are generated hourly — check back soon.
+          </p>
+        )}
+
+        {/* Latest snapshot preview */}
+        {dates.length > 0 && (
+          <div className="mt-16 border-t-4 border-[#111111] pt-10">
+            <h2 className="mb-6 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#737373]">
+              Latest Report — {dates[0]}
+            </h2>
+            <ReportPreview date={dates[0]} />
+          </div>
+        )}
       </main>
       <Footer />
     </>

@@ -287,10 +287,17 @@
       "status": "completed",
       "completed_at": "2026-06-21T16:32:55.064Z",
       "duration_ms": 170231
+    },
+    {
+      "agent_id": "a5241601b151e2dd4",
+      "agent_type": "general-purpose",
+      "started_at": "2026-06-21T16:48:06.734Z",
+      "parent_mode": "none",
+      "status": "running"
     }
   ],
-  "total_spawned": 32,
+  "total_spawned": 33,
   "total_completed": 32,
   "total_failed": 0,
-  "last_updated": "2026-06-21T16:32:55.179Z"
+  "last_updated": "2026-06-21T16:48:06.842Z"
 }

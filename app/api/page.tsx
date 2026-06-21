@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Globe, Search, FileText } from "lucide-react";
+import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "API — The Tech Ledger",
@@ -29,7 +31,9 @@ const apis = [
 
 export default function ApiPage() {
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-28">
+    <>
+      <Nav />
+      <main className="mx-auto max-w-screen-xl px-4 py-28">
       <p className="mb-4 font-mono text-[10px] font-bold uppercase tracking-[0.3em] text-[#CC0000]">
         Infrastructure
       </p>
@@ -90,6 +94,8 @@ export default function ApiPage() {
       >
         &larr; Back to the Ledger
       </Link>
-    </div>
+      </main>
+      <Footer />
+    </>
   );
 }
