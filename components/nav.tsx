@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { LiveIndicator } from "./live-indicator";
-import { Menu, X } from "lucide-react";
+import { Github, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const links = [
@@ -47,7 +47,7 @@ export function Nav() {
           <a href="/" className="font-serif text-lg font-black tracking-tight text-[#111111]">
             THE TECH LEDGER
           </a>
-          <div className="hidden items-center gap-3 lg:flex">
+          <div className="hidden items-center gap-3 lg:flex border border-[#111111] px-3 py-1">
             <div className="h-4 w-px bg-[#E5E5E0]" />
             <span className="font-mono text-[9px] uppercase tracking-[0.1em] text-[#737373]">
               Vol. 1 &nbsp;|&nbsp; {new Date().toLocaleDateString("en-US", { year: "numeric", month: "numeric", day: "numeric" })} &nbsp;|&nbsp; {city} Edition
@@ -67,6 +67,15 @@ export function Nav() {
         </div>
 
         <div className="flex items-center gap-4">
+          <a
+            href="https://github.com/HeShen-1/The-Tech-Ledger"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="min-h-[44px] min-w-[44px] flex items-center justify-center text-[#111111] transition-colors duration-200 hover:text-[#CC0000]"
+            aria-label="View source on GitHub"
+          >
+            <Github className="h-5 w-5" />
+          </a>
           <LiveIndicator />
           <button
             onClick={() => setOpen(!open)}
