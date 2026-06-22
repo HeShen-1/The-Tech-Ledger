@@ -45,7 +45,7 @@ export function Hero({ signalCount }: { signalCount: number }) {
           ))}
           <motion.span
             variants={fadeInWord}
-            className="inline-block italic"
+            className="block italic w-fit"
             style={{ borderBottom: "4px solid #CC0000", paddingBottom: "0.02em" }}
           >
             Today
