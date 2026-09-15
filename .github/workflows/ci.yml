@@ -48,7 +48,7 @@ jobs:
 
       - name: Audit dependencies
         run: npm audit || true
-  secret-scan:
+secret-scan:
     name: Secret Scan
     runs-on: ubuntu-latest
     timeout-minutes: 3
