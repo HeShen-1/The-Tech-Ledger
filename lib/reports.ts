@@ -1,7 +1,8 @@
 import { kv } from "@vercel/kv";
 import type { TrendingResponse, Signal } from "./types";
 import { getTrending } from "./aggregator";
-import { generateAiSummary, generateAiSummaryFromSummaries } from "./ai-summary";
+import { generateAiSummary, generateAiSummaryFromSummaries, type NewsRef } from "./ai-summary";
+import { getDigest } from "./digest";
 
 const REPORT_PREFIX = "report:daily:";
 const WEEKLY_PREFIX = "report:weekly:";
@@ -34,6 +35,16 @@ function monthKey(date?: Date): string {
 export async function snapshotDaily(): Promise<{ ok: boolean; key: string }> {
   const key = todayKey();
   const data = await getTrending();
+  // 当日日报（content/digest）一并纳入快照与 AI 社论
+  const digest = getDigest(key);
+  const newsRefs: NewsRef[] | undefined = digest
+    ? digest.items.map((it) => ({
+        title: it.title,
+        url: `/digest/${key}/${it.n}`,
+        sourceLabel: it.sourceName,
+        summary: it.summary,
+      }))
+    : undefined;
   await kv.set(
     REPORT_PREFIX + key,
     {
@@ -41,6 +52,7 @@ export async function snapshotDaily(): Promise<{ ok: boolean; key: string }> {
       snapshotAt: new Date().toISOString(),
       total: data.total,
       sources: data.signals.length,
+      newsCount: newsRefs?.length ?? 0,
     },
     { ex: 86400 * 90 },
   );
@@ -62,7 +74,7 @@ export async function snapshotDaily(): Promise<{ ok: boolean; key: string }> {
   }
 
   if (shouldGenerate) {
-    const aiSummary = await generateAiSummary(data.signals, "daily");
+    const aiSummary = await generateAiSummary(data.signals, "daily", newsRefs);
     if (aiSummary) {
       await kv.set(REPORT_PREFIX + key + ":ai", aiSummary, { ex: 86400 * 90 });
       await kv.set(REPORT_PREFIX + key + ":ai:time", new Date().toISOString(), { ex: 86400 });
@@ -80,6 +92,7 @@ export async function getDailyReport(
   snapshotAt: string;
   total: number;
   sources: number;
+  newsCount?: number;
   aiSummary?: string;
 } | null> {
   if (!kvAvailable()) return null;
@@ -88,6 +101,7 @@ export async function getDailyReport(
     snapshotAt: string;
     total: number;
     sources: number;
+    newsCount?: number;
   }>(REPORT_PREFIX + date);
   if (!report) return null;
   const aiSummary = await kv.get<string>(REPORT_PREFIX + date + ":ai");

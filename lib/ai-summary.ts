@@ -2,26 +2,52 @@ import type { Signal } from "./types";
 
 const DEEPSEEK_KEY = process.env.DEEPSEEK_API_KEY;
 
-function buildPrompt(signals: Signal[], period: string): string {
+/** 传给 AI 社论的日报条目引用（url 为站内阅读页路径） */
+export interface NewsRef {
+  title: string;
+  url: string;
+  sourceLabel: string;
+  summary?: string;
+}
+
+function buildPrompt(signals: Signal[], period: string, news?: NewsRef[]): string {
   const topItems = signals
     .slice(0, 15)
     .map(
       (s, i) =>
         `${i + 1}. [${s.source.toUpperCase()}] ${s.title} — ${s.scoreLabel} — ${
           s.category
-        }${s.summary ? ` — ${s.summary.slice(0, 150)}` : ""}`,
+        } — ${s.url}${s.summary ? ` — ${s.summary.slice(0, 150)}` : ""}`,
     )
     .join("\n");
 
-  return `You are the editor-in-chief of "The Tech Ledger", a digital newspaper covering technology trends. Write a ${period} editorial report based on the following trending signals. Write in the style of a newspaper editorial — authoritative, concise, insightful. Include: a lead paragraph highlighting the top story, source-by-source analysis, dominant categories, and a brief outlook. Keep it under 500 words. Do not use bullet points. Write in flowing prose.
+  const newsItems = (news ?? [])
+    .map(
+      (it, i) =>
+        `${i + 1}. [NEWS] ${it.title} — ${it.sourceLabel}${
+          it.summary ? ` — ${it.summary.slice(0, 150)}` : ""
+        } — ${it.url}`,
+    )
+    .join("\n");
+
+  return `You are the editor-in-chief of "The Tech Ledger", a digital newspaper covering technology trends. Write a ${period} editorial report based on the following trending signals${
+    news && news.length > 0 ? " and the curated industry news digest" : ""
+  }. Write in the style of a newspaper editorial — authoritative, concise, insightful. Include: a lead paragraph highlighting the top story, source-by-source analysis, dominant categories, and a brief outlook. Keep it under 500 words. Do not use bullet points. Write in flowing prose.
+
+Linking rule: whenever you mention a specific trending signal or news item, turn its title into a markdown link using EXACTLY the URL listed for that item — trending signals link to their source URL, news items link to their on-site reading page. Link each mentioned item at most once. Never invent or alter URLs.
 
 TRENDING SIGNALS:
-${topItems}`;
+${topItems}${
+    news && news.length > 0
+      ? `\n\nCURATED NEWS DIGEST (industry news of the day, titles link to the given on-site paths):\n${newsItems}`
+      : ""
+  }`;
 }
 
 export async function generateAiSummary(
   signals: Signal[],
   period: string = "daily",
+  news?: NewsRef[],
 ): Promise<string | null> {
   if (!DEEPSEEK_KEY) {
     console.warn("[ai-summary] DEEPSEEK_API_KEY not set");
@@ -43,7 +69,7 @@ export async function generateAiSummary(
             content:
               "You are a newspaper editor writing concise, insightful technology reports.",
           },
-          { role: "user", content: buildPrompt(signals, period) },
+          { role: "user", content: buildPrompt(signals, period, news) },
         ],
         max_tokens: 1200,
         temperature: 0.7,

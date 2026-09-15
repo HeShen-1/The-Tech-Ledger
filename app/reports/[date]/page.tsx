@@ -2,10 +2,50 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { AiReport } from "@/components/ai-report";
+import { ProseLinks } from "@/components/prose-links";
 import Link from "next/link";
 import { getDailyReport } from "@/lib/reports";
 import { getTrending } from "@/lib/aggregator";
 import { getSourceStatuses } from "@/lib/sources";
+import { getDigest } from "@/lib/digest";
+
+function NewsSection({ date }: { date: string }) {
+  const digest = getDigest(date);
+  if (!digest) return null;
+  return (
+    <section className="mt-14 border-t-2 border-[#111111] pt-6">
+      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+        <h2 className="font-serif text-2xl font-black text-[#111111]">News Digest</h2>
+        <span className="font-mono text-[10px] uppercase tracking-widest text-[#737373]">
+          {digest.items.length} 条 ·{" "}
+          <Link href="/news" className="font-bold text-[#111111] hover:text-[#CC0000]">
+            全部日报
+          </Link>
+        </span>
+      </div>
+      <ol>
+        {digest.items.map((it) => (
+          <li key={it.n} className="flex items-baseline gap-3 border-b border-[#E5E5E0] py-3">
+            <span className="min-w-[28px] font-serif text-lg font-black leading-none text-[#111111]">
+              {String(it.n).padStart(2, "0")}
+            </span>
+            <div className="min-w-0 flex-1">
+              <Link
+                href={`/digest/${digest.date}/${it.n}`}
+                className="font-serif text-sm font-bold leading-snug text-[#111111] hover:text-[#CC0000]"
+              >
+                {it.title}
+              </Link>
+              <span className="ml-2 font-mono text-[10px] text-[#737373]">
+                {it.date} · {it.sourceName}
+              </span>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
 
 export default async function DailyReportPage({
   params,
@@ -35,13 +75,14 @@ export default async function DailyReportPage({
           </p>
           {report.aiSummary ? (
             <div className="space-y-6 font-body text-base leading-relaxed text-[#525252]">
-              {report.aiSummary.split("\n\n").map((p, i) => (<p key={i}>{p}</p>))}
+              {report.aiSummary.split("\n\n").map((p, i) => (<p key={i}><ProseLinks text={p} /></p>))}
             </div>
           ) : (
             <div className="border border-[#111111] py-16 text-center">
               <p className="font-serif text-lg italic text-[#737373]">Report snapshot exists but no AI summary was generated.</p>
             </div>
           )}
+          <NewsSection date={params.date} />
           <Link href="/reports" className="mt-10 inline-flex items-center gap-2 border border-[#111111] bg-[#111111] px-6 py-3 font-mono text-xs font-bold uppercase tracking-widest text-[#F9F9F7] transition-all duration-200 hover:bg-[#F9F9F7] hover:text-[#111111] min-h-[44px]">&larr; All Reports</Link>
         </main>
         <Footer />
@@ -68,6 +109,7 @@ export default async function DailyReportPage({
         ) : (
           <AiReport trending={trending} sources={{ sources, updatedAt: new Date().toISOString() }} />
         )}
+        <NewsSection date={params.date} />
         <Link href="/reports" className="mt-10 inline-flex items-center gap-2 border border-[#111111] bg-[#111111] px-6 py-3 font-mono text-xs font-bold uppercase tracking-widest text-[#F9F9F7] transition-all duration-200 hover:bg-[#F9F9F7] hover:text-[#111111] min-h-[44px]">&larr; All Reports</Link>
       </main>
       <Footer />
