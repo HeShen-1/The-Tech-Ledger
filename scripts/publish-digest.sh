@@ -24,7 +24,7 @@ if git -C "$REPO" diff --cached --quiet -- "content/digest/$DAY.json"; then
   exit 0
 fi
 
-git -C "$REPO" -c user.name="ai-news-agent" -c user.email="raugust910@gmail.com" \
+git -C "$REPO" -c user.name="ai-news-agent" -c user.email="143700831+HeShen-1@users.noreply.github.com" \
   commit -m "news: digest $DAY"
 
 export GIT_ASKPASS="$REPO/scripts/git-askpass.sh"
