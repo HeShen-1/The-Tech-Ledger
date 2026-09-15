@@ -19,6 +19,11 @@ export const metadata: Metadata = {
     title: "The Tech Ledger",
     description: "Real-time tech intelligence. No noise. Just signal.",
   },
+  alternates: {
+    types: {
+      "application/rss+xml": "/feed/digest.xml",
+    },
+  },
 };
 
 export const viewport: Viewport = {
