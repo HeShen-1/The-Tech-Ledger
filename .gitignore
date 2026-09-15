@@ -9,6 +9,9 @@ out/
 .env.local
 .env*.local
 
+# GitHub push token (news digest automation) — NEVER commit
+.ai-news-github-token
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
