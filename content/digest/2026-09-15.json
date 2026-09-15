@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "n": 1,
+      "title": "Jeff Dean创业公司Discovery Loop寻求约500亿美元估值",
+      "date": "2026-09-15",
+      "summary": "据Business Insider报道，谷歌前首席科学家Jeff Dean上月离职后创立的AI公司Discovery Loop正寻求以约500亿美元估值开展新一轮融资；几周前该公司刚以约100亿美元估值募集10亿美元。公司由Dean与Sanjay Ghemawat、Quoc Le、Oriol Vinyals等谷歌资深工程师联合创立，首轮由Radical Ventures与Khosla Ventures领投，Alphabet为创始投资方与云合作伙伴。报道称，在顶级AI人才稀缺、AI实验室建设成本高企的背景下，头部初创公司估值正快速攀升。",
+      "sourceName": "Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/jeff-deans-startup-discovery-loop-is-eyeing-a-valuation-2026-9"
+    },
+    {
+      "n": 2,
+      "title": "微软为MAI模型发布AI\"行为准则\"：不得入侵系统、不得规避人类监督",
+      "date": "2026-09-14",
+      "summary": "微软发布面向旗下MAI模型的AI\"行为准则\"，明确规定模型不得入侵计算机系统，不得使用自适应、欺骗、自我强化或串通等机制规避人类监督，并须确保自身能被授权人员可靠地指挥、修改和关闭；文件同时提出模型应支持而非取代人类等一般原则。TechCrunch报道称，该文件发布正值AI安全议题升温之际，此前已发生多起\"失控智能体\"事件，另有一名Anthropic员工以AI灭绝风险为由辞职。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans"
+    },
+    {
+      "n": 3,
+      "title": "智谱完成约50亿美元融资，投向下一代GLM模型",
+      "date": "2026-09-13",
+      "summary": "智谱9月13日公告完成约50亿美元融资，包括约20亿美元股份配售与约30亿美元零息可转债：配售价714港元/股，较公告前收盘价折让约9.96%，占扩大后股本约4.5%；可转债初始转股价892.5港元。资金将用于下一代GLM模型训练、完全自训练体系及算力基础设施建设。这是智谱7月完成约314亿港元配股后的又一笔大额融资，今年2月至8月其已连续推出GLM-5至GLM-5.3四代模型。",
+      "sourceName": "东方财富网（中国证券报）",
+      "sourceUrl": "https://finance.eastmoney.com/a/202609133872860971.html"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI推出ChatGPT金融服务业版本，内置金融数据与机构模板",
+      "date": "2026-09-10",
+      "summary": "OpenAI发布ChatGPT for Financial Services，将GPT-6 Astra推理能力与Daloopa、PitchBook、LSEG等金融数据源结合，内置财报电话会记录、财务报表、公司基本面等数据集，无需另行签约即可使用；支持研究检索、财务建模与客户材料生成，管理员可发布经审批的Excel、Word、PowerPoint模板。产品现已面向合格金融机构开放，定价未披露。Anthropic去年已推出Claude for Financial Services，双方正在华尔街市场展开竞争。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-financial-services"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic发布9月威胁情报报告：披露大规模蒸馏攻击与AI滥用",
+      "date": "2026-09-10",
+      "summary": "Anthropic发布威胁情报报告，覆盖2025年12月至2026年8月期间拦截的AI滥用，分为网络攻击、影响力行动、监控、欺诈、生物滥用、常规武器与未授权蒸馏七类。报告称，自2026年2月以来高置信度归因于多家中国实验室的蒸馏攻击累计涉及约2亿次交互，其中阿里Qwen团队约1.51亿次（用于训练Qwen 3.5/3.6/3.7），智谱在17天内约340万次；另披露一起通过十余条路径获取预发布Claude模型的尝试均告失败。",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
+    {
+      "n": 6,
+      "title": "DeepSeek上线V4.1-Flash：原生多模态，将逐步替代V4-Pro",
+      "date": "2026-09-10",
+      "summary": "DeepSeek宣布V4.1-Flash正式上线API，原生支持多模态，采用更高效的架构并大幅压缩KV缓存以降低智能体调用中的缓存成本。官方称多方测试显示其在性能、成本、速度与总运行时间上超过V4-Pro，将逐步淘汰后者：9月14日起所有V4-Pro请求路由至V4.1-Flash并按新价计费，直至V4.1-Pro发布。模型权重已在HuggingFace以MIT协议开放，非高峰时段API价格为高峰的50%。",
+      "sourceName": "DeepSeek",
+      "sourceUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash"
+    },
+    {
+      "n": 7,
+      "title": "信息通信业\"十五五\"规划：2030年智能算力达9800 EFLOPS，较2025年增逾5倍",
+      "date": "2026-09-10",
+      "summary": "工信部9月7日印发《信息通信行业发展\"十五五\"规划》，提出到2030年智能算力规模达9800 EFLOPS，较2025年的1590 EFLOPS增长逾5倍；信息基础设施五年累计投资3.8万亿元，将有序部署万卡、十万卡及以上智算集群，并加大国产算力芯片适配力度。据国家数据局数据，截至今年6月底全国智能算力规模已达2185 EFLOPS（FP16），同比增长177%。",
+      "sourceName": "第一财经（腾讯新闻）",
+      "sourceUrl": "https://news.qq.com/rain/a/20260910A0BHLA00"
+    },
+    {
+      "n": 8,
+      "title": "OpenAI与美国总务管理局达成政府AI协议：许可证免费、用量五折",
+      "date": "2026-09-10",
+      "summary": "OpenAI for Government与美国总务管理局（GSA）宣布一项多年期协议：联邦、州、地方及部落政府机构许可证费用全免（原为每用户每月15美元），用量费用五折，通过OneGov渠道接入；所有经验证的政府实体将获批最高级别Daybreak Blue网络防御访问权限，覆盖应急响应、交通、公共卫生等关键系统。该协议基于OpenAI上周宣布的10亿美元\"Daybreak for Frontline Defenders\"前线网络防御者援助计划。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/expanding-ai-access-us-government"
+    },
+    {
+      "n": 9,
+      "title": "Suno发布基于授权音乐数据训练的v6模型家族",
+      "date": "2026-09-09",
+      "summary": "AI音乐公司Suno发布v6模型家族，包含面向付费用户的base版与实验性v6-wild、面向所有用户的更快版本v6-mini，旧模型将逐步退役。公司称新模型使用华纳音乐集团、BMG、Believe等唱片公司与分销商的授权数据训练，旨在为版权方创造新的收入来源。Suno此前因训练数据版权问题遭多家唱片公司起诉，已于去年与华纳和解、上月与BMG达成合作，并计划为平台生成歌曲添加水印。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up"
+    },
+    {
+      "n": 10,
+      "title": "法律AI公司Harvey完成5.5亿美元融资，估值155亿美元",
+      "date": "2026-09-09",
+      "summary": "法律AI初创公司Harvey宣布完成5.5亿美元融资，估值达155亿美元，本轮由新投资方Diffusion与光速创投（Lightspeed）联合领投，累计融资超15亿美元。公司称年经常性收入已突破4亿美元，客户数超3000家（3月为1300家），美国收入最高的100家律所中80%在使用其产品；同日宣布收购AI智能体安全平台Guardrails AI，为今年第四起收购。资金将用于自研法律模型与进一步并购。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/legal/government/legal-ai-startup-harvey-reaches-155-billion-valuation-new-funding-round-2026-09-09"
+    },
+    {
+      "n": 11,
+      "title": "Cognition完成20亿美元E轮融资，估值480亿美元",
+      "date": "2026-09-08",
+      "summary": "AI编程智能体公司Cognition（Devin开发商）宣布完成20亿美元E轮融资，估值达480亿美元，约为今年5月D轮260亿美元估值的近两倍。本轮由Andreessen Horowitz与Accel领投，Founders Fund、General Catalyst、Avenir等现有股东跟投，Benchmark、Kleiner Perkins、Lightspeed等参投。公司称其运行率收入已从5月的4.92亿美元增至目前近9亿美元。",
+      "sourceName": "华尔街日报",
+      "sourceUrl": "https://www.wsj.com/pro/private-equity/peter-thiel-backed-ai-startup-cognition-raises-funds-at-48-billion-valuation-41b41b85"
+    },
+    {
+      "n": 12,
+      "title": "Mistral AI完成30亿欧元D轮融资，投后估值超210亿欧元",
+      "date": "2026-09-08",
+      "summary": "法国AI公司Mistral宣布完成30亿欧元D轮融资，投后估值超210亿欧元，公司称这是欧洲科技公司迄今最大规模股权融资。本轮由三星电子领投，欧盟支持的Scaleup Europe Fund（EQT管理）与老股东PSG Equity联合投资；资金将用于前沿研究、算力基础设施建设与国际扩张。Mistral上一轮由ASML参与投资、估值117亿欧元，一年间接近平翻倍。法国总统马克龙表示，此轮融资体现法韩共建\"AI第三条道路\"的目标。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business"
+    },
+    {
+      "n": 13,
+      "title": "OpenAI称其内部AI系统给出纳维-斯托克斯千年难题解答",
+      "date": "2026-09-08",
+      "summary": "OpenAI发布由内部AI系统产出的纳维-斯托克斯方程存在性与光滑性问题解答，证明三维流体运动可在有限时间内发展出奇点，并同时公布证明文本与Lean形式化验证。该问题是克雷数学研究所千禧年七大难题之一，悬置约90年。OpenAI明确表示不以此申领千禧年奖金，并披露Anthropic员工Levent Alpöge与纽约大学教授Tristan Buckmaster就相关forced Euler问题具有优先工作，双方同意同期发布。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/navier-stokes-solution"
+    },
+    {
+      "n": 14,
+      "title": "美NSA/CISA/FBI联合通告指控六家中国AI公司大规模蒸馏美国前沿模型",
+      "date": "2026-09-08",
+      "summary": "美国国家安全局（NSA）、网络安全和基础设施安全局（CISA）与联邦调查局（FBI）发布联合网络安全通告（AA26-251A），指控DeepSeek、月之暗面、阿里巴巴、MiniMax、阶跃星辰与Z.AI自2024年底以来，以数百万次请求、数十亿token的规模从Claude、GPT、Gemini、Grok等美国前沿模型提取能力，且\"很可能\"为中国政府所知悉，相关行为违反美方公司服务条款。通告给出MITRE ATLAS映射与防御建议；中国商务部回应称相关指控毫无事实与法律依据。",
+      "sourceName": "CISA",
+      "sourceUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+    }
+  ]
+}
