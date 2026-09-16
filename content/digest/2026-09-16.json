@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI酝酿新一轮融资，估值或达1.2万亿美元",
+      "date": "2026-09-15",
+      "summary": "据英国《金融时报》报道，OpenAI正与大型投资者就新一轮私募融资进行早期洽谈，估值约达1.2万亿美元，较3月上一轮8520亿美元估值明显提升，该轮共募集1220亿美元。据报道，洽谈由投资方而非公司发起，仍处于早期阶段，最终数字未来数月可能变化，是否推进取决于OpenAI的上市时间安排。OpenAI拒绝置评，CEO奥特曼此前表示受AI安全辩论影响，公司2026年内不会上市。",
+      "sourceName": "路透社",
+      "sourceUrl": "https://www.reuters.com/legal/transactional/openai-mulls-funding-round-12-trillion-valuation-ahead-ipo-ft-reports-2026-09-15"
+    },
+    {
+      "n": 2,
+      "title": "谷歌发布Gemini 3.8 Live语音模型，登顶语音到语音榜单",
+      "date": "2026-09-15",
+      "summary": "谷歌发布原生语音对话模型Gemini 3.8 Live与Gemini 3.8 Live Extended Thinking，通过Live API面向开发者提供。两款模型支持在对话进行中后台执行工具调用与API请求，Extended Thinking版本以82.6分登顶Artificial Analysis语音到语音指数，τ-Voice智能体任务完成率为68.6%。音频定价为输入每分钟0.005美元、输出每分钟0.018美元，所有生成音频均嵌入SynthID水印。",
+      "sourceName": "谷歌官方博客",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio"
+    },
+    {
+      "n": 3,
+      "title": "扎克伯格回应\"放缓AI\"呼声：应靠独立外部评估而非减速",
+      "date": "2026-09-16",
+      "summary": "针对近期业界呼吁放缓AI开发的声音，Meta CEO扎克伯格在X平台发文表示，保障AI安全应依靠引入独立的外部评估机构与顾问，而非放慢研发速度。他认为用户不会使用价值观不对齐、无法完成任务的智能体，实验室有内在动力提升对齐水平，模型造成危害时实验室也将承担重大法律责任。扎克伯格称Meta曾为确保安全将Muse发布推迟数月，超级智能实验室（MSL）已在多个业务领域引入外部评估并成效显著。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/002/854.htm"
+    },
+    {
+      "n": 4,
+      "title": "英伟达黄仁勋：AI行业不需要新法律，速度与安全可以兼得",
+      "date": "2026-09-16",
+      "summary": "英伟达CEO黄仁勋在9月15日举行的Salesforce活动中表示，AI行业不需要为安全制定新的法律或监管规定，在速度与安全之间二选一是一种\"虚假对立\"，二者完全可以兼得。他认为企业可根据产品成熟度控制发布节奏，对可能造成危害的产品可选择不发布，市场竞争、用户选择与商业声誉会促使企业改进产品安全。据报道，黄仁勋本周早些时候还与美国总统特朗普现场连线，双方均反驳了放缓AI发展的观点。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/002/834.htm"
+    },
+    {
+      "n": 5,
+      "title": "AI编程智能体公司Factory融资2亿美元，估值增至50亿美元",
+      "date": "2026-09-15",
+      "summary": "面向企业工程团队的AI编程智能体公司Factory宣布完成2亿美元融资，估值增至50亿美元，较4月上一轮的15亿美元增长逾两倍，投资方包括Blackstone、Khosla Ventures、红杉资本、Insight Partners等。公司成立于2023年，总部位于旧金山，平台支持企业用AI智能体构建、测试和维护软件，与Cognition、Cursor等同业竞争；本月早些时候Cognition刚以480亿美元估值完成20亿美元融资。AI辅助编程已成为生成式AI应用最广泛的场景之一。",
+      "sourceName": "路透社",
+      "sourceUrl": "https://www.reuters.com/business/ai-coding-agent-startup-factory-triples-valuation-5-billion-latest-funding-round-2026-09-15"
+    },
+    {
+      "n": 6,
+      "title": "TypeSafe AI发布\"System One\"模型Jev，完成4000万美元种子融资",
+      "date": "2026-09-15",
+      "summary": "总部位于旧金山的AI公司TypeSafe AI结束两年隐身研发，发布首个\"System One\"模型Jev，并宣布完成由DCVC领投的4000万美元种子轮融资。Jev放弃自然语言文本生成，专注输出结构化决策结果，采用全新架构与\"校准决策强化学习\"（RLCD）训练方法，官方称其无法产生\"幻觉\"，延迟低于100毫秒，速度与成本较现有前沿模型低约两个数量级，定价为每10亿token 42美元，现已开放早期访问。",
+      "sourceName": "TypeSafe AI官方博客",
+      "sourceUrl": "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+    },
+    {
+      "n": 7,
+      "title": "全球首款量产AI智能体手机努比亚NaviX Ultra今日开售",
+      "date": "2026-09-15",
+      "summary": "字节跳动豆包手机助手消费者版9月14日正式发布，首款量产搭载机型努比亚NaviX Ultra于9月16日开售，开售前京东平台预约量已突破36万台。该助手在操作系统层与手机厂商合作，支持语音及带指纹鉴权的实体AI按键唤醒，可在用户授权后检索本机相册、短信等信息并跨应用完成任务；\"操作手机\"功能以Beta形式上线，字节同步推出SAEP屏幕自动化操作声明协议并设30天公示期，第三方应用可自主声明是否允许AI在其应用内执行自动化操作。",
+      "sourceName": "36氪",
+      "sourceUrl": "https://m.sohu.com/a/1076496214_114778"
+    },
+    {
+      "n": 8,
+      "title": "Gartner发布2026中国人工智能十大趋势",
+      "date": "2026-09-15",
+      "summary": "研究机构Gartner在北京发布2026年中国人工智能十大趋势，包括世界模型、智能体能力、基于本体的语义层、模型技术栈韧性、开源权重策略、多模态AI内容创作等方向。报告称中国在生成式人工智能（如GLM-5.2、Kimi K3、DeepSeek V4等模型）领域的进展正在重塑全球AI格局；同时指出美国出口管制不断升级、前沿AI模型访问限制具有突发性，模型技术栈韧性已成为企业AI战略的核心要素。",
+      "sourceName": "Gartner",
+      "sourceUrl": "https://www.gartner.com/cn/newsroom/press-releases/2026-09-15-gartner-releases-2026-top-ai-trends-for-china"
+    },
+    {
+      "n": 9,
+      "title": "中文互联网基础语料4.0发布，120GB数据支持大模型训练",
+      "date": "2026-09-15",
+      "summary": "据中国网络空间安全协会官方公众号消息，在济南召开的2026年国家网络安全宣传周人工智能安全治理分论坛上，中文互联网基础语料4.0于9月15日下午正式向社会发布，数据量达120GB，并已在\"中文互联网语料资源平台\"上线，用于支持大模型训练和AI发展。中文互联网基础语料此前已迭代多个版本，4.0版本数据量进一步扩大。",
+      "sourceName": "新浪财经（IT之家）",
+      "sourceUrl": "https://finance.sina.com.cn/stock/t/2026-09-15/doc-inirxtrn6793795.shtml"
+    }
+  ]
+}
