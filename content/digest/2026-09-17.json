@@ -1,0 +1,77 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic发布威胁情报报告：披露多起针对Claude的非法蒸馏行动",
+      "date": "2026-09-15",
+      "summary": "Anthropic发布9月AI威胁情报报告，称在2025年12月至2026年8月间发现并干扰了七起针对Claude的大规模非法蒸馏行动，涉及阿里巴巴、月之暗面、DeepSeek、智谱、小米、商汤与MiniMax等公司。报告称月之暗面曾将用户请求静默转发给Claude并把结果当作Kimi的回复展示，2026年5月至7月间相关交互超2300万次；同期归因于阿里的交互超1.51亿次。Anthropic表示已封禁相关欺诈账号，并将强化思维链保护等防御措施。",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI宣布打造AI广告平台，ChatGPT Ads新增AI创作与投放功能",
+      "date": "2026-09-16",
+      "summary": "OpenAI发布《Reimagining advertising with AI》，宣布以AI为中心重构广告业务：在ChatGPT中提供更贴近用户决策场景的广告体验；广告管理工具Ads Manager集成AI助手，可根据广告主落地页和营销目标生成建议文案与图片，广告主审核修改后可采用；另推出可选的AI文案定制功能，按对话语境自动调整标题描述并翻译成用户偏好语言。OpenAI称新方案旨在让广告对用户更有帮助，让商家把更多时间用于经营。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai"
+    },
+    {
+      "n": 3,
+      "title": "工信部、发改委印发《电子信息制造业发展\"十五五\"规划》，2030年营收目标突破30万亿元",
+      "date": "2026-09-16",
+      "summary": "工业和信息化部、国家发展改革委9月15日联合印发《电子信息制造业发展\"十五五\"规划》，在17项重点任务中将\"推动集成电路全链条攻关\"列于首位，并提出到2030年规模以上企业营业收入突破30万亿元、研发投入强度达3.5%、算力供给能力大幅增长。规划布局四大新增长点，包括夯实人工智能硬件底座：做强算力硬件、做大人工智能终端、发展智能机器人装备。截至2026年6月底，我国智能算力规模同比增长177%。",
+      "sourceName": "央视网经济频道（第一财经）",
+      "sourceUrl": "https://jingji.cctv.com/2026/09/16/ARTIoE4PmXabSHcerWzQHadV260916.shtml"
+    },
+    {
+      "n": 4,
+      "title": "加拿大、德国向Bengio创办的LawZero投入最高3亿加元研发安全AI",
+      "date": "2026-09-16",
+      "summary": "在蒙特利尔ALL In AI大会上，加拿大与德国政府宣布向图灵奖得主Yoshua Bengio创办的非营利机构LawZero提供合计最高3亿加元资助，其中加拿大出资1.5亿加元、德国出资1亿欧元，这是该机构首次获得政府资金。资金将用于研发\"Scientist AI\"——一个以可验证事实为基础、不追求自身目标的系统，可用于监控智能体AI并为其设置护栏；同时将扩充国际研究团队、采购算力，并在柏林设立办公室。",
+      "sourceName": "CBC News",
+      "sourceUrl": "https://www.cbc.ca/news/politics/lawzero-artificial-intelligence-safety-investment-9.7347286"
+    },
+    {
+      "n": 5,
+      "title": "壁仞科技考虑再度配售融资约10亿美元，锁定期将于10月初届满",
+      "date": "2026-09-16",
+      "summary": "据彭博报道，中国GPU\"四小龙\"之一的上海壁仞科技正考虑进行约10亿美元的港股配售融资，银行处于早期试探投资者意向阶段，规模与结构尚未确定。壁仞今年1月在港交所上市，7月通过首次配售募集约70.7亿港元（约9亿美元），90天锁定期将于10月初到期。近期中国AI公司密集再融资：智谱此前宣布50亿美元的股票与可转债发售，阿里巴巴8月配售募资800亿港元投向AI；受摊薄担忧影响，恒生科技指数今年累计下跌22%。",
+      "sourceName": "The Standard",
+      "sourceUrl": "https://www.thestandard.com.hk/finance/article/342830/Chinese-AI-chipmaker-Biren-weighs-US1b-share-placement-Bloomberg"
+    },
+    {
+      "n": 6,
+      "title": "DeepSeek拟聘高瓴创投合伙人严文韬出任首任CFO，科创板IPO筹备推进",
+      "date": "2026-09-16",
+      "summary": "据媒体报道，DeepSeek计划聘请高瓴创投合伙人严文韬出任公司首任CFO，严文韬已启动离职流程，预计近期到岗，此前多家头部投资机构人士参与该岗位竞聘。公开资料显示其出生于1991年，曾参与投资MiniMax、智谱AI等项目。DeepSeek今年6月完成约74亿美元首轮融资，投后估值超500亿美元；目前二轮融资传闻估值约5000亿元人民币，并已聘请中信证券筹备科创板上市，目标2027年挂牌。",
+      "sourceName": "中华网（金融界）",
+      "sourceUrl": "https://news.china.com/socialgd/10000169/20260916/49745624.html"
+    },
+    {
+      "n": 7,
+      "title": "联发科发布天玑9600 Pro：业界首个宣布采用台积电2nm制程的旗舰手机SoC",
+      "date": "2026-09-15",
+      "summary": "联发科宣布推出旗舰SoC天玑9600 Pro，成为首家宣布迈入2nm制程的手机芯片公司，采用台积电N2P工艺。该芯片CPU采用全大核设计，配备两颗4.55GHz的C2-Ultra核心，多核功耗较上代下降61%，单核与多核性能分别提升约17%和15%；集成双NPU架构，面向端侧智能体（agentic AI）体验优化。OPPO已确认Find X10 Pro Max将搭载该芯片并在全球市场推出。",
+      "sourceName": "MediaTek",
+      "sourceUrl": "https://www.mediatek.com/press-room/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips"
+    },
+    {
+      "n": 8,
+      "title": "Nature发表Paper2Agent：可将任何论文转变成可协作的AI智能体",
+      "date": "2026-09-16",
+      "summary": "《自然》当日发表斯坦福大学James Zou团队等的研究：工具Paper2Agent能读取论文正文、代码与数据集，将其部署为MCP服务器，再由一组AI智能体自动构建可复用论文方法的工具。用户用自选大语言模型连接服务器后，即可获得担任\"虚拟通讯作者\"的论文专属智能体，它能即时回答关于论文的问题、将论文方法应用到新数据集，甚至与其他学科的论文智能体自主协作，把静态论文变成动态的知识载体。",
+      "sourceName": "Nature",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-02899-2"
+    },
+    {
+      "n": 9,
+      "title": "Meta推出Meta One订阅服务，将付费AI能力打包进Instagram等应用",
+      "date": "2026-09-16",
+      "summary": "Meta于9月15日推出订阅服务Meta One，把更高的AI用量与付费功能捆绑到Instagram、Facebook、WhatsApp和Meta AI中，Core档定价每月7.99美元，Meta AI基础访问保持免费。与推出独立AI应用不同，Meta选择在用户已有的社交应用内直接展示升级入口，在用户需要更多生成次数的时机完成转化，以此测试现有使用习惯能否支撑持续性的AI订阅收入。",
+      "sourceName": "The Neuron",
+      "sourceUrl": "https://www.theneuron.ai/news/meta-one-ai-instagram-subscription"
+    }
+  ]
+}
