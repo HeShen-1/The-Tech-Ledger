@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "n": 1,
+      "title": "华为发布昇腾960超节点：全球首个采用NPO光引擎的超节点",
+      "date": "2026-09-17",
+      "summary": "华为在全联接大会2026上发布全球首个采用NPO（近封装光学）技术的超节点——昇腾960超节点，基于\"灵衢+Hi-ONE\"打造，采用正交架构与全液冷设计，可扩展至4096卡规模，实现8 EFLOPS FP8、16 EFLOPS FP4算力；单个超节点以5500个Hi-ONE光引擎替代约4.8万颗800G光模块，功耗降低超550千瓦，系统可用度达99.8%。多个超节点经灵衢网络或RoCE连接，最大集群规模可达51.2万卡，结合多轨道拓扑可支持百万卡集群。会上同步发布256TB统一内存池的鲲鹏超节点与PB级KV缓存方案OceanStor M900。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/003/700.htm"
+    },
+    {
+      "n": 2,
+      "title": "智谱公开国内大模型首个递归自我改进工程实践：AI在十万卡国产集群自建推理系统",
+      "date": "2026-09-17",
+      "summary": "智谱GLM团队披露递归自我改进（RSI）方向的首个工程化实践：由GLM-5.3驱动的Infra Agent完成了GLM-5.3-Flash推理基础设施的设计、调试与优化，在超10万张国产芯片组成的集群上从零搭建生产级推理服务，不到两周将端到端吞吐提升至初始基线的3倍，硬件利用效率与单Token成本达到主流NVIDIA GPU相当水平。该系统已投入真实使用，GLM-5.3-Flash以匿名模型Ox-Alpha在OpenCode、OpenRouter上线，6天Token调用量超62万亿。这是国内大模型厂商首次公开将\"AI自我改进\"用于生产环境。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/003/705.htm"
+    },
+    {
+      "n": 3,
+      "title": "Anthropic合并Claude聊天与Cowork界面，新增幻灯片与文档协作功能",
+      "date": "2026-09-17",
+      "summary": "Anthropic正在合并Claude聊天界面与Cowork前端，统一后的界面可在同一窗口使用对话、Cowork与Artifacts，系统能自动识别用户需求并分配处理路径，今年4月推出的Claude Design也可在任意位置调用。公司同时新增演示文稿与Docs功能：支持创建、编辑、放映幻灯片并导出PDF或PowerPoint文件；文档支持协同写作、追加章节与批注，可通过链接分享并在手机端继续编辑。新功能将在数周内优先面向网页、桌面与移动端的Pro和Max付费用户推送，后续向免费版与团队版开放。本次更新前Cowork记忆层已完成升级。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/003/667.htm"
+    },
+    {
+      "n": 4,
+      "title": "Anthropic推出Claude Code Projects：常驻式开发协调智能体",
+      "date": "2026-09-17",
+      "summary": "Anthropic发布Claude Code Projects，一个\"常驻\"的Claude驱动协调智能体：接收开发者对长期任务的自然语言描述后，自动拆分为并行线程执行，并在项目演进中维持共享记忆（如发布日期变更、功能取舍、修改特定服务前需咨询谁等决策），用户可调节其检查频率、建线程节奏与汇报详细度。OpenAI的Codex应用是最接近的竞品，两者都将并行多智能体开发常态化，支持并行运行多个编码智能体并隔离各自变更。",
+      "sourceName": "VentureBeat",
+      "sourceUrl": "https://venturebeat.com/orchestration/anthropic-launches-claude-code-projects-an-always-on-conversation-that-remembers-and-delegates-your-long-running-dev-work"
+    },
+    {
+      "n": 5,
+      "title": "AI数据中心开发商Crusoe完成39亿美元融资，估值接近310亿美元",
+      "date": "2026-09-17",
+      "summary": "据BlockBeats消息，AI数据中心开发商Crusoe完成39亿美元融资，估值接近310亿美元。该公司此前因在得克萨斯州阿比林建造OpenAI使用的大型数据中心综合体而闻名，目前正大力布局小型数据中心：在自有工厂预制、装载至平板卡车、运往任何可找到可用电力的地点部署。在美国大型数据中心项目成本攀升、工期延期的背景下，Crusoe认为工厂预制加卡车运输模式可大幅缩短交付周期。Bain Capital Ventures本周披露的材料将其视为近期IPO候选。",
+      "sourceName": "鉅亨網",
+      "sourceUrl": "https://m.cnyes.com/news/id/6609346"
+    },
+    {
+      "n": 6,
+      "title": "Emerald AI组建电网联盟：与Google、Nvidia、Anthropic合作为数据中心腾出电网容量",
+      "date": "2026-09-17",
+      "summary": "电网软件公司Emerald AI与Google、Nvidia组建联盟，利用其技术为更多数据中心争取电网容量。该公司软件将公用事业公司与数据中心直接连接，使数据中心能像电池一样快速响应电网请求；近期已完成1.5亿美元A轮融资，由Energize Capital与DCVC领投。高盛此前研究显示，数据中心若在数小时内将最大用电量限制在90%，可释放76吉瓦电网容量。Google也在自研类似工具，Enel X则允许数据中心利用不间断电源削峰。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers"
+    },
+    {
+      "n": 7,
+      "title": "Baseten成立Base Labs，与Hugging Face、Goodfire共建开放权重模型安全标准",
+      "date": "2026-09-17",
+      "summary": "AI推理服务商Baseten发布研究部门Base Labs，并联手Hugging Face与模型可解释性公司Goodfire AI，为开放权重模型建设安全评估与监控基础设施，将安全能力内建于训练与部署流程而非事后附加。Hugging Face托管的模型中目前已列出超6000个经\"abliteration\"（移除安全护栏）处理的变体。Baseten今年6月完成15亿美元F轮融资、估值130亿美元；Goodfire今年完成B Capital领投的1.5亿美元B轮。三方称开放性本身即安全优势，可提供对模型行为更高的可见性。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire"
+    },
+    {
+      "n": 8,
+      "title": "PrismML获2225万美元种子轮：押注小参数高性能推理模型",
+      "date": "2026-09-17",
+      "summary": "AI实验室PrismML完成2225万美元种子轮融资，核心方向为LLM压缩：其认为高性能推理大模型不必依赖庞大参数量，并计划在未来数月推出数千亿参数级别的压缩模型，创始人称压缩技术在更大参数规模上保留智能的可行性更高。该赛道还有西班牙Multiverse Computing等公司，压缩推理被视为降低AI推理成本的关键路径之一。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai"
+    },
+    {
+      "n": 9,
+      "title": "Bain Capital Ventures募集16亿美元新基金，主要投向AI与算力基础设施",
+      "date": "2026-09-17",
+      "summary": "Bain Capital Ventures（BCV）宣布完成16亿美元新基金募集，表示资金将主要投向AI初创企业。BCV认为AGI（定义为智能体在多数任务上达到人类水平）已经到来，下一波初创公司将围绕其构建运行基础设施；公司计划持续投资算力基础设施，直至AI运行成本\"便宜到无需计量\"。其投资组合中的数据中心开发商Crusoe据报道估值达300亿美元，被视为近期IPO候选，BCV曾于2019年领投其A轮。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/how-bain-capital-ventures-plans-to-deploy-its-fresh-1-6b-fund"
+    },
+    {
+      "n": 10,
+      "title": "AI for Science公司创材深造完成近亿元A+轮融资",
+      "date": "2026-09-17",
+      "summary": "AI for Science企业创材深造宣布完成近亿元A+轮融资，由老股东源码资本与新股东金雨茂物联合领投，亿宸资本等跟投。资金将用于核心智能系统M-Loop研发、自动化高通量实验平台M-Lab复制扩产、材料数据集M-Data积累及分布式自驱实验室网络OPL建设。公司称M-Lab已迭代至3.0版本，数据生产效率提升数百倍、成本降低数十倍；已将材料研发及测试验证周期从5至10年缩短至2至3个月，成本降至约十分之一，累计发布近20款高性能材料，多款实现量产落地。",
+      "sourceName": "央广网",
+      "sourceUrl": "https://m.sohu.com/a/1077287247_362042"
+    },
+    {
+      "n": 11,
+      "title": "安全合规初创Comp AI完成3400万美元A轮融资",
+      "date": "2026-09-17",
+      "summary": "网络安全与合规初创Comp AI宣布完成3400万美元A轮融资，由Roo Capital与Grand Ventures领投，累计融资3750万美元。公司提供AI驱动的合规管理平台，其中包括AI渗透测试功能，可主动检测代码库与基础设施中的漏洞。团队表示本轮融资将用于产品扩展；公司此前运营过一个百万用户级的消费级产品，因未找到足够粘性的使用场景而关停，随后转向企业安全合规赛道。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/comp-ai-sets-eyes-on-a-continously-agentic-future-for-security-and-complaince"
+    },
+    {
+      "n": 12,
+      "title": "Pinterest测试AI房间重设计功能Restyle",
+      "date": "2026-09-17",
+      "summary": "Pinterest宣布在美国与加拿大beta测试消费级AI功能Restyle，基于Pinterest Intelligence帮助用户在自己房间照片中可视化家居改造与商品搭配效果，推动产品从灵感搜索向购买决策延伸。Pinterest Intelligence基础设施结合Nvidia Blackwell GPU、Nvidia Dynamo与开源模型及自研技术构建，同时将增强Pinterest Assistant的视觉搜索、AI商品发现与推荐能力。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai"
+    },
+    {
+      "n": 13,
+      "title": "端侧AI方案商集贤科技完成数千万元A轮融资",
+      "date": "2026-09-17",
+      "summary": "端侧AI方案商集贤科技宣布完成数千万元A轮融资，由浙江省创新投资集团旗下杭州金投鼎融基金与珊瑚资本联合投资。公司同时具备AI Agent研发与硬件量产交付能力，面向拥有大量产品线的家电企业提供跨芯片、跨品类可复用的端侧AI平台方案。本轮资金将用于AI Agent、端侧交互、嵌入式开发工具与全球设备运营体系投入，并拓展AI陪伴、AI家电与机器人等终端场景。",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/roll/2026-09-17/doc-inisczpt3916908.shtml"
+    }
+  ]
+}
