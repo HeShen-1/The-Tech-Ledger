@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 发布 GPT-6 Sol 与 Luna，API 价格下调 50%",
+      "date": "2026-09-22",
+      "summary": "OpenAI 扩展 GPT-6 产品线，发布 GPT-6 Sol 与 GPT-6 Luna，与本月早些时候推出的旗舰模型 Astra 形成三档布局。两款模型面向专业工作、编码、自动化及计算机使用任务，定价较 GPT-5.6 同档促销价下调 50%：Sol 为每百万输入/输出 token 2/10 美元，Luna 为 0.10/0.50 美元，缓存读取享 90% 折扣。OpenAI 称缓存与推理效率改进降低了服务成本，并将节省让利给用户。第三方评测机构 Artificial Analysis 测算，GPT-6 Sol 单任务成本较上代约减半，编码智能体指数得分提升 2 分。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/technology/openai-expands-gpt-6-lineup-with-cheaper-sol-luna-models-2026-09-22"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic 发布 Claude Opus 5.5，性能对标 Fable 5.1、运行成本降四成",
+      "date": "2026-09-22",
+      "summary": "Anthropic 于 9 月 22 日发布 Claude 5.5 系列首款模型 Opus 5.5，官方称其在多数任务上达到自家顶级模型 Fable 5.1 的性能水平，典型工作负载运行成本较 7 月发布的 Opus 5 降低 40%。API 定价为每百万输入/输出 token 4/20 美元，较 Opus 5 下降 20%，缓存读取价格下降 60%，输出速度提升超过 30%。模型已在 Claude 平台及 AWS、Google Cloud、Azure 上线，Sonnet 5.5 与 Haiku 5.5 将在数周内推出。该模型发布前由 METR、Frontier Design 等外部机构进行了评估。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22"
+    },
+    {
+      "n": 3,
+      "title": "阿里云栖大会：Qwen4 已投入训练，全模态模型矩阵集中更新",
+      "date": "2026-09-22",
+      "summary": "9 月 22 日 2026 云栖大会开幕，阿里巴巴公布大模型最新进展：Qwen3.8-Max 在 Artificial Analysis 全球大模型排行榜得分由 40 升至 45；基于下一代架构的 Qwen4 已投入训练，后续 Qwen4.5、Qwen5 参数规模计划扩展至 5-10 万亿。多模态方面发布图像模型 Qwen-Image-3.1、语音模型 Qwen-Audio-3.1 系列（含 ASR、TTS、实时交互）、音乐模型 Happy Shrimp 1.1 及世界模型 HappyOyster 2.0 Preview；视频模型 Wan3.0 位列文生视频与视频编辑双榜第一，下一代视频模型拟于 11 月发布。阿里已开源 460 余个 Qwen 模型，累计下载量突破 30 亿次。",
+      "sourceName": "量子位",
+      "sourceUrl": "https://www.qbitai.com/2026/09/493625.html"
+    },
+    {
+      "n": 4,
+      "title": "xAI 发布 Grok 4.7，主打长时程编码与知识工作",
+      "date": "2026-09-21",
+      "summary": "xAI 于 9 月 21 日发布 Grok 4.7，称其为目前面向编码与知识工作能力最强的模型。该版本采用比 Grok 4.6 更大的基座模型并延长了强化学习训练时长，上下文窗口 50 万 token，支持文本与图像输入，提供从低到最高四档推理强度设置。定价维持每百万输入/输出 token 2/6 美元，另提供速度翻倍、价格翻倍的 Fast 版本，该版本仅限 Cursor 与 Grok Build 内使用。模型已通过 xAI API、Cursor 及多家云平台向开发者提供。",
+      "sourceName": "YourStory",
+      "sourceUrl": "https://yourstory.com/ai-story/grok-4-7-xai-smartest-model-coding-work"
+    },
+    {
+      "n": 5,
+      "title": "Meta 个人 AI 智能体应用 Muse 登顶美国 App Store 免费榜",
+      "date": "2026-09-22",
+      "summary": "Meta 于 9 月 8 日上线的个人 AI Agent 应用 Muse 近日超越 ChatGPT，登顶美国 iPhone App Store 免费榜。该应用基于 Meta 最新 Muse Spark 模型，用户授权后可连接邮箱、日历、支付、购物等类别应用，由智能体自主完成订票、发邮件、管理日程等任务；每个智能体运行在独立虚拟机上，可在用户不活跃时后台继续执行请求。Fortune 报道称，亚马逊已对 Muse 访问其平台采取限制措施，理由涉及其绕过常规购物入口与广告展示环节。",
+      "sourceName": "Fortune",
+      "sourceUrl": "http://fortune.com/2026/09/22/metas-muse-ai-is-exploding-in-popularity-and-drawing-heated-backlash"
+    },
+    {
+      "n": 6,
+      "title": "阿里云无影团队研发\"千问平板\"QwenBook，试水 AI 终端",
+      "date": "2026-09-22",
+      "summary": "据晚点 LatePost 报道，阿里云旗下无影团队正在研发名为 QwenBook 的 AI 设备，定位\"原生智能体电脑\"，产品形态接近一台\"千问平板\"，主打办公场景。项目团队约 150 人，于今年 4 月启动，目前接入 Qwen3.8-Max 与 Qwen3.8-Flash 模型；系统内置系统级听记、Wiki、智能文件夹、知识库 MyNote、记忆管理 MyZone 等自有应用，并正与金山深度合作打通 WPS。云栖大会上展示了该设备的演示版本，完整产品预计今年底或明年初发布。",
+      "sourceName": "网易科技（转晚点 LatePost）",
+      "sourceUrl": "https://www.163.com/dy/article/L7E7GI8F05118I96.html"
+    },
+    {
+      "n": 7,
+      "title": "腾讯混元发布图像 3.5 预览版，2K 输出定价 0.15 元/张",
+      "date": "2026-09-22",
+      "summary": "腾讯混元 9 月 22 日发布混元图像 3.5 预览版（Hy Image3.5 preview），支持文生图、图生图与多轮对话创作，单次最多上传 5 张参考图，最高可输出 2K 分辨率图像。模型经内部数百名专业设计师 GSB 盲测，较上一版 Hy Image3.0 提升 30%；已接入腾讯元宝、ima 等多款原生 AI 应用，腾讯云 API 2K 图像定价 0.15 元/张，仅对输出图片收费。自今年 2 月基础设施重建以来，腾讯混元大模型保持约每两个月一次大版本迭代节奏。",
+      "sourceName": "钛媒体",
+      "sourceUrl": "https://m.sohu.com/a/1079740466_116132"
+    },
+    {
+      "n": 8,
+      "title": "小米发布 MiMo-V2.6 系列模型，覆盖旗舰推理与高速场景",
+      "date": "2026-09-22",
+      "summary": "小米 9 月 22 日在 MiMo 平台发布 MiMo-V2.6 系列三款模型：mimo-v2.6-pro 为万亿参数全模态旗舰推理模型，面向复杂项目、长程任务、高价值工作与科研需求；mimo-v2.6-flash 定位高智能、低成本的高效推理模型，适合专业办公中的高频调用与规模化任务；mimo-v2.6-pro-ultraspeed 在保持 Pro 旗舰性能的同时提供最高 20 倍推理速度，服务强实时交互与对响应速度敏感的生产场景。",
+      "sourceName": "小米 MiMo 官方文档",
+      "sourceUrl": "https://mimo.mi.com/docs/zh-CN/updates/model"
+    },
+    {
+      "n": 9,
+      "title": "芬兰 AI 云初创 Verda 融资 1.89 亿美元，估值超 10 亿美元",
+      "date": "2026-09-22",
+      "summary": "据 Bloomberg 报道，芬兰 AI 云初创 Verda 完成 1.89 亿美元新一轮融资，投后估值至少 10 亿美元。本轮由 Emergence Capital 领投，MUFG Innovation Partners、算力公司 Super Micro Computer、Varma 相互养老保险及 Lifeline Ventures 等参投。公司主攻支撑 AI 工作负载的云基础设施，本轮融资延续了投资人对 AI 算力基础设施层的大额投入趋势。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-22/ai-cloud-startup-verda-raises-189-million-in-funding-round"
+    },
+    {
+      "n": 10,
+      "title": "AI 数据公司 Micro1 融资超 1 亿美元，估值达 40 亿美元",
+      "date": "2026-09-22",
+      "summary": "据 Forbes 报道，总部位于旧金山的 AI 数据初创公司 Micro1 完成超 1 亿美元新一轮融资，估值 40 亿美元。公司由一位 25 岁创始人创立，业务聚焦为 AI 模型训练与评估提供数据服务。在模型能力竞争加剧背景下，高质量数据供给赛道持续获得大额资本投入，Micro1 是该赛道最新一例。",
+      "sourceName": "Forbes",
+      "sourceUrl": "https://www.forbes.com/sites/annatong/2026/09/22/this-25-year-old-raised-over-100-million-for-his-ai-data-startup-at-a-4-billion-valuation"
+    }
+  ]
+}
