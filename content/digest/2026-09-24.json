@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic 宣布 Claude 自主发现类 CRISPR 新酶系统",
+      "date": "2026-09-23",
+      "summary": "Anthropic 于 9 月 23 日宣布成立生命科学研究组及配套湿实验室，并公布首个研究成果：Claude 在分析大规模 DNA 序列数据库时发现一个此前未被表征的酶系统，命名为\"阵列关联逆转录酶\"（ART），其重复 DNA 序列模式与 CRISPR 相似。该过程动用近 950 个 Claude 代理，耗时 21 小时、处理约 2.1 亿 token，人类科学家仅参与初始指令与后续实验验证。公司表示该系统的功能与实际应用前景尚待研究，CRISPR 先驱、MIT 教授张锋已审阅相关预印本。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/anthropic-says-claude-ai-helped-discover-novel-enzyme-system-2026-09-23"
+    },
+    {
+      "n": 2,
+      "title": "Meta Connect 2026 开幕：AI 眼镜与个人 AI 代理 Muse 成主角",
+      "date": "2026-09-24",
+      "summary": "Meta Connect 2026 于美国东部时间 9 月 23 日 19 时（北京时间 24 日 7 时）开幕，CEO 扎克伯格发表主题演讲，重心落在 AI 眼镜与个人 AI 代理 Muse 生态。发布会涵盖 Ray-Ban Meta Gen 3 智能眼镜、以六麦克风阵列替代摄像头的无摄像头智能眼镜，以及较 Quest 更轻、采用外接算力单元的混合现实头显。Meta 还宣布智能眼镜的部分 AI 功能将迁移至安全服务器端处理，该隐私架构与 WhatsApp 同源，将率先应用于实时翻译功能。",
+      "sourceName": "Engadget",
+      "sourceUrl": "https://www.engadget.com/2266105/meta-connect-2026-live-blog-ai-vr"
+    },
+    {
+      "n": 3,
+      "title": "Altman 与 Amodei 在联合国安理会呼吁建立 AI 国际标准",
+      "date": "2026-09-23",
+      "summary": "联合国安理会 9 月 23 日举行人工智能专题会议。OpenAI CEO 奥尔特曼现场出席，呼吁建立衡量模型能力、评估风险、验证安全保障并保留人类监督的国际标准，并建议各国建立 AI 事故通报与信息共享机制。Anthropic CEO Dario Amodei 通过视频参会，提出三项合作建议：达成禁止利用 AI 研发生物武器的窄协议、建立评估与验证系统、制定全球统一的模型测试标准。Hugging Face CEO Clément Delangue 同场表示开源 AI 有助于防御网络攻击。",
+      "sourceName": "CNN",
+      "sourceUrl": "https://www.cnn.com/2026/09/23/tech/altman-amodei-ai-safety-un-security-council"
+    },
+    {
+      "n": 4,
+      "title": "小米 18 Pro 系列发布，首发高通 2nm 骁龙 8 至尊版芯片",
+      "date": "2026-09-23",
+      "summary": "小米 18 Pro 系列 9 月 23 日 19 时发布，起售价 5999 元，Pro Max 版 6999 元起、搭载 8500mAh 电池。全系全球首发台积电 2nm 工艺的第六代骁龙 8 超级至尊版，并首发搭载澎湃 OS 4。小米集团总裁卢伟冰称该系列是\"小米用 AI 全面改造智能手机的开始\"，AI 能力覆盖系统软件、芯片硬件、影像算法与大模型应用四个维度，机身新增可一键唤醒大模型的 AI 实体按键，背屏功能同步 AI 化。新机计划年内登陆全球市场。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/006/425.htm"
+    },
+    {
+      "n": 5,
+      "title": "Basecamp Research 完成 1.4 亿美元 C 轮融资，NVIDIA 与 Anthropic 参投",
+      "date": "2026-09-23",
+      "summary": "伦敦 AI 制药公司 Basecamp Research 9 月 23 日宣布完成超额认购的 1.4 亿美元 C 轮融资，S32 领投，NVIDIA、Anthropic 旗下 Anthology Fund 等机构参投，公司估值达 8 亿美元，总融资额升至 2.25 亿美元。资金将用于训练新一代 EDEN 生物基础模型，并推进 AI 设计的体内细胞疗法管线向临床阶段发展。公司同时任命前 Biogen 高管 Richard Pearce 为首席商务官，S32 普通合伙人、Verily 前 CEO Andy Conrad 将加入董事会。",
+      "sourceName": "GEN",
+      "sourceUrl": "https://www.genengnews.com/topics/artificial-intelligence/anthropic-nvidia-backed-basecamp-research-raise-140m-series-c-financing-toward-advancing-ai-designed-drugs"
+    }
+  ]
+}
