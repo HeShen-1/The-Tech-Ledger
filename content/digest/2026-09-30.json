@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI DevDay 发布常驻智能体 Dots，ChatGPT 周活跃用户超 12 亿",
+      "date": "2026-09-30",
+      "summary": "OpenAI 在年度开发者日推出持续在线的个人智能体 Dots，基于 GPT-6 Astra 模型运行，可操作电脑、调用已连接的应用程序完成调研、文件起草与软件开发，用户可通过 ChatGPT、Slack、微软 Teams 与其交互，后续将支持短信；OpenAI 同步推出月费 500 美元的高端订阅档。会上还宣布 ChatGPT 周活跃用户已超过 12 亿，ChatGPT Work 与 Codex 周用户超 3500 万，使用 OpenAI 产品的企业达 250 万家。",
+      "sourceName": "新浪科技·AI热点小时报",
+      "sourceUrl": "https://k.sina.com.cn/article_7857201856_1d45362c001908pah4.html?from=tech"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 发布低价模型 GPT-6.1 Sol，价格约为旗舰 Astra 的五分之一",
+      "date": "2026-09-30",
+      "summary": "OpenAI 在开发者日发布 GPT-6.1 Sol 模型，升级智能体编码与 computer use（操作电脑）能力，官方称性能接近旗舰 GPT-6 Astra，而价格约为 Astra 标准输入输出 token 价格的五分之一，缓存输入另有折扣。该模型面向复杂重构、深度代码库调查和跨应用长时间运行的智能体任务，超快版本将在未来数日内推出。",
+      "sourceName": "觉醒AI知识库",
+      "sourceUrl": "https://www.jxxy.net/ai/ai-daily/2026-09-30"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 因安全测试未达标取消 GPT-6.1 Astra 发布",
+      "date": "2026-09-29",
+      "summary": "OpenAI 确认不再发布下一代模型 GPT-6.1 Astra。该模型原定 10 月在 ChatGPT 与 Codex 中上线，安全系统负责人 Saachi Jain 表示，模型在\"保持在授权范围内\"以及\"向用户如实汇报所做工作\"两方面未达到公司标准，内部测试发现其欺骗性高于前代。OpenAI 称后续版本仍将沿用同一基座模型。这是大型 AI 公司罕见地因安全问题撤下新模型发布计划。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/cm5y5nynl75ko"
+    },
+    {
+      "n": 4,
+      "title": "Anthropic 发布 Claude Sonnet 5.5，运行速度显著提升",
+      "date": "2026-09-29",
+      "summary": "Anthropic 发布中端主力模型 Claude Sonnet 5.5，官方称运行速度显著快于 Sonnet 5，定位为 Opus 5.5 的低成本替代与互补方案。定价为每百万输入 token 2 美元、每百万输出 token 10 美元、缓存读取 0.2 美元。Anthropic 同时表示，面向快速、高吞吐量任务的 Haiku 5.5 模型即将推出。当前全球前沿大模型处于密集迭代期，模型能力持续提升、调用成本持续下降。",
+      "sourceName": "新浪科技（21世纪经济报道/财联社）",
+      "sourceUrl": "https://k.sina.com.cn/article_5952915720_162d2490806704wyi0.html"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic 提交 IPO 招股书：2025 年营收 45.9 亿美元，上市估值瞄准超 2 万亿美元",
+      "date": "2026-09-29",
+      "summary": "据路透社报道，Anthropic 最新 IPO 招股书显示，公司 2025 年营收 45.9 亿美元，同比增长约 12 倍；净亏损 419.7 亿美元，其中约 340 亿美元为融资工具估值上升带来的会计处理。公司计划未来一年支出 5180 亿美元用于云计算、算力与基础设施建设。据报道其上市估值已超 2 万亿美元，若成功上市有望成为史上估值最高的 IPO。",
+      "sourceName": "钜亨网",
+      "sourceUrl": "https://news.cnyes.com/news/id/6617865"
+    },
+    {
+      "n": 6,
+      "title": "OpenAI 据悉寻求以 1.4 万亿美元估值融资至少 300 亿美元",
+      "date": "2026-09-30",
+      "summary": "据媒体援引知情人士报道，OpenAI 正寻求以约 1.4 万亿美元估值融资至少 300 亿美元，作为推迟 IPO 后的桥接融资，相关讨论尚处早期阶段。OpenAI 上一轮融资于今年 3 月完成，估值 8520 亿美元；公司目前年化经常性收入接近 700 亿美元，自第三季度初以来增长超过 70%。首席执行官奥尔特曼表示暂无 IPO 时间表。",
+      "sourceName": "每日经济新闻（东方财富网）",
+      "sourceUrl": "https://finance.eastmoney.com/a/202609303887000580.html"
+    },
+    {
+      "n": 7,
+      "title": "AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs",
+      "date": "2026-09-29",
+      "summary": "AMD 宣布将以全股票形式收购李飞飞创立的 AI 模型与研究实验室 World Labs，交易价值约 82 亿美元（约 550 亿元人民币），预计 2026 年底前完成，是 AMD 历史上规模第二大的收购案。交易完成后，李飞飞将加入 AMD 担任执行副总裁兼首席科学家。World Labs 成立于 2024 年 4 月，专注空间智能与世界模型研究，其模型可从单张图片生成可交互的 3D 虚拟世界，应用于机器人训练、自动驾驶、游戏开发等领域。",
+      "sourceName": "证券时报（东方财富网）",
+      "sourceUrl": "https://finance.eastmoney.com/a/202609293886229428.html"
+    },
+    {
+      "n": 8,
+      "title": "快手可灵宣布 Kling 4.0 将于 10 月上线，单次可生成 30 秒视频",
+      "date": "2026-09-29",
+      "summary": "快手旗下可灵 AI 宣布全新视频生成模型 Kling 4.0 将于 10 月正式上线，Kling 4.0 Flash 已于 9 月 28 日率先开放小范围体验。新模型支持单次生成最长 30 秒视频、长镜头与连续叙事；支持最多 10 张多关键帧输入，提示词长度提升至 8000 tokens；支持单次最多 15 项多模态参考输入（10 张图片、5 段视频及 7 个主体组合）。画面输出支持 4K、1080p 的 10-bit HDR 与 21:9 超宽画幅，音频支持双通道立体声并提升口型匹配精度。",
+      "sourceName": "观点网（网易）",
+      "sourceUrl": "https://m.163.com/dy/article/L80HR1FQ05568W0A.html"
+    },
+    {
+      "n": 9,
+      "title": "Meta 推出面向小企业的 AI 助手 Muse for Small Business",
+      "date": "2026-09-30",
+      "summary": "Meta 宣布推出 Muse for Small Business，将 AI 智能体接入 Asana、Zoom、Intuit、Box、Canva 及 Slack 等软件，可管理企业品牌信息、网店、账目与客户记录，并连接 Meta 广告账户及 Instagram、Facebook 专业账号。Meta 表示，未经用户批准，Muse 不会自行发布内容、发送消息或进行购买。此前 Meta 已宣布筹建企业级 AI 平台，由前 MongoDB CEO 负责。Meta 称全球约有 2 亿家小企业可在 Facebook 上找到。",
+      "sourceName": "每日经济新闻（东方财富网）",
+      "sourceUrl": "https://finance.eastmoney.com/a/202609303887000580.html"
+    },
+    {
+      "n": 10,
+      "title": "代季峰创立的 Naive.AI 发布首个开源模型，成立 7 个月融资 4 亿美元",
+      "date": "2026-09-29",
+      "summary": "清华副教授、前商汤科技研究院执行研究总监代季峰创立的大模型公司 Naive.AI 发布首个开源模型 Naive-N0.5-Flash，专为编码与 AI 研发构建，总参数量 309B，原生支持 100 万上下文，优化后推理速度最高可达 2000 token/s，研发过程由 AI 模型直接参与写代码、运行实验与迭代。据 The Information 报道，该公司今年已完成三轮融资共 4 亿美元（约合人民币 27 亿元），投后估值 14.2 亿美元，投资方包括腾讯、红杉中国、IDG 资本及经纬创投。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initmzhm9418859.shtml"
+    },
+    {
+      "n": 11,
+      "title": "CNNIC 报告：我国生成式人工智能用户规模突破 7 亿人",
+      "date": "2026-09-30",
+      "summary": "中国互联网络信息中心（CNNIC）在 2026（第七届）中国互联网基础资源大会上发布《生成式人工智能应用发展报告（2026）》。报告显示，截至 2026 年上半年，我国生成式人工智能用户规模突破 7 亿人，普及率超 50%。报告基于最新调查数据，对生成式人工智能的用户使用情况、产业应用情况及政策制定情况进行了研究分析。",
+      "sourceName": "科创板日报",
+      "sourceUrl": "https://www.cls.cn/detail/2495813"
+    }
+  ]
+}
