@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "n": 1,
+      "title": "谷歌发布 Gemini 4 前沿模型 Argon：编码与网络安全基准对标 Astra、Opus",
+      "date": "2026-09-30",
+      "summary": "谷歌宣布发布新旗舰 AI 模型\"Gemini 4 Argon\"，作为 Gemini 4 系列首发型号，规模大于此前的 Pro 系列模型。谷歌称其为面向复杂工作负载\"迄今性能最强的模型\"，在关键编码与网络安全基准上与 OpenAI 的 Astra、Anthropic 的 Opus 水平相当。该模型暂不全面开放，首批通过 Fairwind 计划向经审核的网络安全专家开放，并参与美国政府的自愿性发布前模型访问流程；早期测试者已借助 Argon 发现一款全球医院广泛使用的软件中的漏洞。谷歌表示 Argon 会拒绝可能用于网络攻击或生化核武器研发的请求。",
+      "sourceName": "路透社",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/google-announces-gemini-4-flagship-ai-model-after-months-delays-2026-09-30"
+    },
+    {
+      "n": 2,
+      "title": "红杉参投，硬件设计 AI 智能体公司 Flow Engineering 估值达 7.5 亿美元",
+      "date": "2026-09-30",
+      "summary": "成立三年的旧金山初创公司 Flow Engineering 完成新一轮融资，估值达 7.5 亿美元，投资方包括 Valor、Atreides 和红杉资本（Sequoia）。该公司面向硬件设计流程，提供可自动对齐 CAD 图纸、产品需求、仿真结果与测试数据的 AI 智能体，客户包括 Anduril、Rivian、Joby Aviation、通用汽车合资公司 GM PPU、Rivian-大众合资公司 RV Tech 以及 Stoke Space 等，计划将同一工作流复制到更多硬件工程团队。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation"
+    },
+    {
+      "n": 3,
+      "title": "Destro AI 扩大仓储机器人部署并完成种子融资",
+      "date": "2026-09-30",
+      "summary": "仓储物流机器人初创公司 Destro AI 将其首个试点扩展为 26 台机器人的完整部署，并将在南加州 Yusen Logistics 设施启动 17 台机器人的新试点。工人在卸货转运区把货物分装到不同推车后，机器人负责识别满载推车并送达目的地，人类、推车与卡车均由其 Mothership 操作系统统一调度。本轮融资由 Base10 Partners 与 Bonfire Ventures 领投、CoFound Partners 参投，公司计划将该越库装卸流程复制到数千个同类仓库。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page"
+    },
+    {
+      "n": 4,
+      "title": "消费级 AI 迎来回潮：Meta Muse 走红，智能体助手 Instinct 估值达 100 亿美元",
+      "date": "2026-09-30",
+      "summary": "TechCrunch 发文分析消费级 AI 市场回暖：Meta 个人 AI 助手 Muse 及其毛绒吉祥物 Jolly 成为意外爆款，OpenAI 刚发布的 Dots 也在追逐同类卡通化个人助手路线；主打跑腿代办（订机票、餐厅预订、取消订阅）的智能体助手 Instinct 估值已达 100 亿美元。文章认为，智能体 AI 处理日常任务的可靠性已明显提升，普通用户开始获得实际价值，投资人将这一阶段类比为 2022 年 ChatGPT 开启的新品类时刻。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai"
+    },
+    {
+      "n": 5,
+      "title": "Meta 与 OpenAI 借\"萌系\"软件智能体为个人 AI 硬件铺路",
+      "date": "2026-09-30",
+      "summary": "The Verge 分析指出，专用 AI 硬件此前多以受挫收场（Friend、Humane AI Pin 均遭大量负面反馈），Meta 与 OpenAI 正换道推进：先以软件端\"萌系\"智能体（Muse、Dots）培养用户使用习惯与情感依附，再推出实体设备。Meta 计划赶在年底假日购物季前推出吊坠形态的 AI 设备；OpenAI 与前苹果设计师 Jony Ive 合作的设备根据公开文件最早要到 2027 年 2 月才能发货。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices"
+    }
+  ]
+}
