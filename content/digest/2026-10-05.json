@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "n": 1,
+      "title": "PwC预测：到2050年全球数据中心累计投资将达31.6万亿美元",
+      "date": "2026-10-03",
+      "summary": "普华永道与牛津经济研究院联合发布的《全球数据中心展望》显示，在AI算力需求驱动下，2026至2050年全球数据中心累计资本支出在中性情景下将达31.6万亿美元，快速采用情景下接近50万亿美元；年度支出将从2026年约8000亿美元增至2050年的1.8万亿美元。路透社10月3日的分析指出，AI行业当前年收入约1000亿美元，巨额基础设施投入与经济回报之间的差距正成为投资者关注的核心问题。",
+      "sourceName": "The American Quorum",
+      "sourceUrl": "https://www.theamericanquorum.com/ai-data-center-buildout-31-6-trillion-2050"
+    },
+    {
+      "n": 2,
+      "title": "博通据报筹组约600亿美元AI芯片融资，Blackstone领投次级债",
+      "date": "2026-10-02",
+      "summary": "据彭博社与路透社报道，博通及其华尔街银团正筹组约600亿美元新融资，用于支持Anthropic等AI公司采购芯片与基础设施。银行将就其中420亿美元高级担保份额分发银团材料，Blackstone牵头180亿美元次级债并计划自行出资90亿美元。该安排承接Anthropic IPO招股书中披露的博通最高420亿美元可转债融资，Anthropic预计将于2027年成为博通最大的计算客户。",
+      "sourceName": "Quartz",
+      "sourceUrl": "https://qz.com/broadcom-60-billion-debt-financing-anthropic-ai-chips-100226"
+    },
+    {
+      "n": 3,
+      "title": "机器人AI公司FieldAI据报以100亿美元估值融资7亿美元",
+      "date": "2026-10-02",
+      "summary": "据Business Insider报道，开发机器人通用智能模型的FieldAI已签署投资意向书，拟融资7亿美元，估值达100亿美元，约为去年8月估值的五倍。公司成立于2023年，为人形机器人、机器狗、无人机和工业巡检设备提供通用\"机器人大脑\"模型，现有投资方包括Bezos Expeditions、英伟达NVentures和英特尔资本，此前已与Boston Dynamics就Spot四足机器人达成集成合作。",
+      "sourceName": "SiliconANGLE",
+      "sourceUrl": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding"
+    },
+    {
+      "n": 4,
+      "title": "DeepSeek Harness Desktop 发布 0.2.0-rc.2，dsh 命令与插件管理进入桌面端",
+      "date": "2026-09-29",
+      "summary": "DeepSeek AI在GitHub发布DeepSeek Harness Desktop v0.2.0-rc.2预发布版，将 dsh 命令与插件管理引入桌面应用，自带运行时与包管理工具，无需预装Node或pnpm；本次更新修复了任务状态判定、Windows PowerShell退出码丢失及权限界面等问题，并新增实验性异步提问模式。10月2日该版本在Hacker News引发讨论，焦点集中在桌面Agent的权限边界设计。",
+      "sourceName": "AlphaLab",
+      "sourceUrl": "https://www.alphalab.site/deepseek-harness-desktop-rc2-2026"
+    },
+    {
+      "n": 5,
+      "title": "MiniMax 上线 M3.1-Flash-Preview 编程模型：100万token上下文、免费可用",
+      "date": "2026-09-27",
+      "summary": "MiniMax在旗下智能体编程工具MiniMax Code中上线M3.1-Flash-Preview，为M3.1系列首个发布的模型。该模型采用428B总参数、约23B激活参数的MoE架构，支持100万token上下文窗口，可接收文本、图像与视频输入并输出文本；推理不可关闭，强制启用自适应思考，提供五档推理力度调节，可在MiniMax Code中免费使用。",
+      "sourceName": "MiniMax Agent Tools",
+      "sourceUrl": "https://agent.minimax.io/tools/m3-1-flash-preview"
+    }
+  ]
+}
