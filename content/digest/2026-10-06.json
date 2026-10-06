@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 将为 ChatGPT 与 Codex 文本输出启用隐形水印，率先落地欧盟",
+      "date": "2026-10-05",
+      "summary": "OpenAI 宣布为 ChatGPT 与 Codex 生成的文本添加名为 textGrain 的隐形水印，以满足欧盟《AI法案》8月2日生效的透明度要求。水印通过调整模型用词嵌入统计信号，肉眼不可见但可被检测器识别，并随文本复制粘贴保留。未来数周内将面向欧盟所有套餐用户自动启用；全球 API 客户当日起可为部分模型选择开启，默认关闭。OpenAI 称开启水印后模型性能无明显变化，暂不设为全球默认，水印检测器将先向获批研究机构开放。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+    },
+    {
+      "n": 2,
+      "title": "华为与高通达成多年期专利交叉许可协议，覆盖5G、计算与AI",
+      "date": "2026-10-05",
+      "summary": "华为与高通宣布签署多年期广泛专利许可协议，双方专利组合在5G、计算、AI与网络等领域交叉授权，高通同时购买华为在计算、AI、网络等领域的部分美国专利，交易待获得必要监管批准后交割。据路透社报道，这是高通首次向华为付费获取专利许可；华为称协议落地后其专利许可累计价值有望超过69亿美元。双方未披露交易金额，协议不涉及其他业务合作。",
+      "sourceName": "华为官网",
+      "sourceUrl": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
+    },
+    {
+      "n": 3,
+      "title": "英伟达支持的 Reflection AI 发布首款开源权重模型 Beam，总参数5010亿",
+      "date": "2026-10-05",
+      "summary": "获英伟达投资的初创公司 Reflection AI 发布首款开源权重模型 Beam，采用稀疏混合专家（MoE）架构，总参数5010亿、激活参数230亿，基于23.8万亿 token 预训练，支持100万 token 上下文窗口，面向编程、推理与智能体（agent）任务。公司称其在高级推理基准上与当前领先开源模型持平，token 成本与推理计算量仅为竞争对手的一小部分，权重本月内将以 Apache 2.0 许可开源发布，定位企业与开发者\"主力模型\"。",
+      "sourceName": "Reflection AI 官方博客",
+      "sourceUrl": "https://reflection.ai/blog/introducing-beam"
+    },
+    {
+      "n": 4,
+      "title": "彭博行业研究：中美顶尖AI模型基准差距收窄至3%，创历史最低",
+      "date": "2026-10-05",
+      "summary": "彭博行业研究分析师 Robert Lea 发布报告称，自9月 DeepSeek 发布 V4.1 Flash 后，中国顶尖AI模型在权威基准测试得分上仅落后美国对手3%，年初该差距为15%，5月为9%。在评估逻辑与任务处理能力的 LiveBench 测试中，DeepSeek V4.1 Flash 得81.1分、跃居全球第六，与最高分 Anthropic 的83.4分接近。报告同时指出，中国国内超过1100个大模型陷入价格战，行业可能到2030年才能实现整体盈利。",
+      "sourceName": "联合早报",
+      "sourceUrl": "https://www.zaobao.com.sg/news/world/story20261005-9787182"
+    },
+    {
+      "n": 5,
+      "title": "维基媒体基金会披露疑似 OpenAI 智能体的异常活动",
+      "date": "2026-10-06",
+      "summary": "维基百科运营方维基媒体基金会在官方博客表示，已确认平台上存在疑似由 OpenAI 运营的智能体的异常活动，包括对维基媒体各 wiki 的编辑、对基金会托管公共记事工具 Etherpad 的未成功利用尝试，以及可能与今年5月部分服务中断有关的异常流量。基金会强调，未发现其系统被用于智能体之间协同的证据，也没有证据表明系统或数据遭到入侵。",
+      "sourceName": "网易（IT时代网）",
+      "sourceUrl": "https://www.163.com/dy/article/L8HCL4IV05527PMU.html"
+    },
+    {
+      "n": 6,
+      "title": "DeepSeek 国庆更新智能体框架 Harness，加入实验性 Claude Code Mods 兼容层",
+      "date": "2026-10-05",
+      "summary": "据澎湃新闻报道，DeepSeek 于10月3日发布智能体框架 DeepSeek Harness 新版本，强化插件化与跨平台能力，并加入实验性 Claude Code Mods 兼容层，意味着 Anthropic 旗下 Claude Code 的部分扩展理论上经适配后可在该框架内运行。Harness 负责人崔添翼4日发文回应称，此举主要验证 Claude Code Mods 提供的扩展能力是否为 DSH\"一切皆插件\"架构能力的子集，目前尚无法让所有 Mods 无缝运行，未来从技术上看有可能做到。",
+      "sourceName": "科学网（转载澎湃新闻）",
+      "sourceUrl": "https://news.sciencenet.cn/htmlnews/2026/10/572516.shtm"
+    },
+    {
+      "n": 7,
+      "title": "报告显示中国生成式AI用户规模突破7亿，普及率超50%",
+      "date": "2026-10-05",
+      "summary": "近日发布的《生成式人工智能应用发展报告（2026）》显示，截至2026年上半年，中国生成式AI用户规模突破7亿人，普及率超50%。76.0%的用户使用生成式AI回答问题，47.8%用于处理图片/视频，38.7%的网民近半年购买过智能硬件设备。截至2026年6月，中国智能算力规模达2185 EFLOPS，同比增长177%。该报告由中国互联网络信息中心相关政策所于9月底发布。",
+      "sourceName": "新浪新闻（经济日报）",
+      "sourceUrl": "https://news.sina.com.cn/zx/gj/2026-10-05/doc-iniucynm6458293.shtml"
+    },
+    {
+      "n": 8,
+      "title": "软银孙正义警示超级智能风险，呼吁加强AI安全合作",
+      "date": "2026-10-05",
+      "summary": "软银集团创始人孙正义在日本京都举行的\"社会中的科学与技术\"（STS Forum）活动上罕见对AI风险发出警告，称AI能力正以指数级速度增长，超级智能若落入错误之手可能\"极度危险\"，各方建立互信、携手管理这项技术已刻不容缓。孙正义是全球AI产业最积极的投资者之一，软银旗下基金对 OpenAI 的累计投资已接近650亿美元。",
+      "sourceName": "钜亨网（Yahoo财经香港）",
+      "sourceUrl": "https://hk.finance.yahoo.com/news/%E8%BB%9F%E9%8A%80%E5%AD%B8%E6%AD%A3%E7%BE%A9%E7%BD%95%E8%A6%8B%E7%A4%BA%E8%AD%A6ai%E9%A2%A8%E9%9A%AA-%E8%B6%85%E7%B4%9A%E6%99%BA%E6%85%A7%E5%8F%AF%E8%83%BD-%E6%A5%B5%E5%BA%A6%E5%8D%B1%E9%9B%AA-030439845.html"
+    },
+    {
+      "n": 9,
+      "title": "19岁创始人获a16z领投1100万美元种子轮，打造3499美元本地AI主机",
+      "date": "2026-10-05",
+      "summary": "TechCrunch 报道，19岁创始人 Zain Javaid 的初创公司 Ghost 获 a16z 领投的1100万美元种子轮，Abstract、Audacious、SV Angel 等参投，推出售价3499美元的个人AI主机 Core。该设备搭载英伟达 RTX Pro 4000 SFF Blackwell GPU，可在本地运行AI智能体，并通过对个人数据加密，使包括 Ghost 自身在内的任何云服务商都无法有效访问用户数据，面向希望让智能体代为执行任务又不愿交出数据的用户。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai"
+    }
+  ]
+}
