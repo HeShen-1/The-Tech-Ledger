@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "n": 1,
+      "title": "Google 与 Unity 达成战略合作，共推自然语言 AI 游戏创作平台",
+      "date": "2026-10-07",
+      "summary": "谷歌与 Unity 宣布战略合作，将于今年晚些时候推出全新整合游戏平台。谷歌实验性平台 Playground 当日上线，用户无需编程即可通过自然语言提示生成、定制可玩游戏，仅面向18岁以上用户；Unity 将在 Playground 上推出基于 Unity 引擎的浏览器端创作工具 Unity Spark，今年晚些时候启动 Beta 测试，支持提示词驱动的3D游戏设计、多人实时协作，并直接连接 Unity Asset Store。Unity 方面表示 Spark 将使用多种生成式 AI 模型，不绑定谷歌技术。消息公布后 Unity 股价一度上涨约6%，Roblox 股价下跌约4%。",
+      "sourceName": "Business Wire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261007399251/en/Google-and-Unity-Partner-on-New-AI-Gaming-Platform-for-the-Next-Era-of-Interactive-Entertainment"
+    },
+    {
+      "n": 2,
+      "title": "美国政府机构、谷歌与 Meta 加入 Biohub 18亿美元 AI 生物学计划",
+      "date": "2026-10-07",
+      "summary": "据路透社报道，扎克伯格夫妇创办的非营利机构 Biohub 宣布其\"虚拟生物学计划\"总投入达到18亿美元：Meta、Google DeepMind 与药物发现公司 Isomorphic Labs 共同出资3亿美元；美国能源部五年内投入逾5亿美元用于实验室测量、建模与计算；美国国立卫生研究院将协调基于逾5亿美元既有联邦资金建立的数据集。该计划旨在生成开放生物学数据集并训练可预测细胞行为的 AI 模型，以压缩药物研发周期。首个数据集约一年内就绪，准确预测模型目标五年内实现；商业出资方对所产出数据享有一年独家访问期。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-google-join-zuckerberg-backed-biohub-18-billion-push-ai-biology-2026-10-07"
+    },
+    {
+      "n": 3,
+      "title": "博通为 OpenAI 定制芯片筹组逾500亿美元融资",
+      "date": "2026-10-08",
+      "summary": "据《华尔街日报》报道，博通正在为其与 OpenAI 联合开发的定制 AI 芯片安排逾500亿美元融资，Apollo 与 Blackstone 等机构正在洽谈参与；甲骨文亦据报在与 Apollo 和高盛商谈芯片采购融资。博通今年6月已设立融资平台，以 Apollo 与 Blackstone 为锚定投资者，计划到2028年为包括 Anthropic、OpenAI 在内的 AI 开发商提供超过20吉瓦算力融资支持，首期350亿美元已落地。报道指出，AI 数据中心建设成本飙升正促使大型科技公司寻求新型融资方式。",
+      "sourceName": "The Business Times",
+      "sourceUrl": "https://www.businesstimes.com.sg/startups-tech/technology/broadcom-plans-us50-billion-financing-openai-chips-wsj-says"
+    },
+    {
+      "n": 4,
+      "title": "华尔街银行启动600亿美元博通-Anthropic 芯片租赁融资银团",
+      "date": "2026-10-06",
+      "summary": "据英国《金融时报》报道，美国银行、花旗与摩根士丹利已开始向其他银行分销一个600亿美元债务包，用于资助 Anthropic 租赁谷歌半导体，为迄今规模最大的芯片融资交易。其中约420亿美元为博通部分担保的优先担保贷款，已于本周启动银团分销；另约180亿美元次级债务不含博通担保，Blackstone 已承诺其中约90亿美元。该融资将支持 Anthropic 的2027年芯片订单，租赁付款自芯片交付后开始。该交易被视为市场对 AI 相关债务承接能力的重要测试。",
+      "sourceName": "Dealroom News",
+      "sourceUrl": "https://dealroom.co/news/other-5oppuj-wall-street-banks-launch-record-60bn-chip-deal-for-broadcom-and-anthropi"
+    },
+    {
+      "n": 5,
+      "title": "Marvell 投资者日上调长期指引：2031财年收入目标最高900亿美元",
+      "date": "2026-10-06",
+      "summary": "Marvell Technology 在2026年投资者日大幅上调长期财务指引：2028财年收入目标从约180亿美元上调至约200亿美元，并设定2031财年700亿至900亿美元的长期收入目标，约为2026财年82亿美元收入的十倍。公司将2030年可服务市场规模预估提高至约4000亿美元，2031财年模型对应毛利率56%-59%、Non-GAAP 每股收益超30美元。CEO Matt Murphy 表示数据中心收入预计年增约80%。受新指引提振，Marvell 股价当日一度上涨近8%，竞争对手博通同日上涨约4%。",
+      "sourceName": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/marvell-technology-targets-90b-revenue-200205162.html"
+    },
+    {
+      "n": 6,
+      "title": "OpenAI 洽谈300亿美元新融资，投前估值1.4万亿美元",
+      "date": "2026-10-05",
+      "summary": "据彭博社报道，OpenAI 正与包括阿布扎比 MGX 在内的多家阿联酋投资机构洽谈，寻求锚定至少300亿美元的新一轮融资，投前估值约1.4万亿美元，且该估值被作为固定价格提出。相关机构讨论组成银团合计出资至多100亿美元，BlackRock 亦在洽谈参与，现有股东 Thrive Capital、a16z 及加州大学捐赠基金也在讨论追加投资。OpenAI 上一轮融资为今年3月完成的1220亿美元，估值8520亿美元。报道并称 OpenAI 已将 IPO 计划推迟至至少明年。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round"
+    },
+    {
+      "n": 7,
+      "title": "麦当劳因 AI 定价工具遭联邦反垄断集体诉讼",
+      "date": "2026-10-06",
+      "summary": "据美联社报道，麦当劳面临一项在伊利诺伊州联邦法院提起的拟议全国性集体诉讼，指控其 AI 增强定价工具在可能相互竞争的加盟店之间共享门店级销量等非公开数据，构成\"算法合谋定价\"并推高美国门店价格。麦当劳回应称诉状\"充满不准确之处\"并将积极抗辩，强调加盟商独立决定菜单价格、定价工具为可选项，\"AI 不设定麦当劳餐厅的菜单价格\"。麦当劳美国约1.4万家门店中95%由加盟商运营；公司此前承认2019至2024年美国菜单价格累计上涨40%。",
+      "sourceName": "ABC News",
+      "sourceUrl": "https://abcnews.com/Technology/wireStory/mcdonalds-sued-ai-tool-recommends-prices-us-franchisees-137046042"
+    }
+  ]
+}
