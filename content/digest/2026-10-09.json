@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "n": 1,
+      "title": "谷歌发布企业级 Gemini 通用智能体，可自主规划并跨应用执行任务",
+      "date": "2026-10-09",
+      "summary": "谷歌于 10 月 8 日在\"Gemini at Work\"活动上发布面向企业客户的通用 Gemini 智能体。该系统定位为单一 AI 入口，可承担知识工作、内容创作与编码任务，能自主规划并推进任务，在多个业务应用与系统间协同工作，还可将工作分派给子智能体完成。产品率先面向企业客户推出，谷歌借此与 OpenAI、Anthropic 及微软在企业 AI 市场展开直接竞争。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2499939"
+    },
+    {
+      "n": 2,
+      "title": "Tavus 发布视频对话模型 Griffin-Lite，48% 受试者误认为真人",
+      "date": "2026-10-09",
+      "summary": "据科技日报 10 月 9 日报道，美国旧金山 AI 视频公司 Tavus 在官网宣布发布新模型 Griffin-Lite。该公司组织 54 名受试者与模型进行一分钟视频通话测试，其中 26 人误以为对方是真人，占比达 48%。报道指出，新模型在视频对话中的表现已几可乱真，该测试结果由 Tavus 官网公布。",
+      "sourceName": "科技日报",
+      "sourceUrl": "https://www.stdaily.com/web/gdxw/2026-10/09/content_592666.html"
+    },
+    {
+      "n": 3,
+      "title": "Anthropic 修订 Claude 使用政策，首次禁止用户\"虐待\"AI 模型",
+      "date": "2026-10-09",
+      "summary": "据 The Verge 10 月 9 日报道，Anthropic 修订 Claude 使用政策，这是其一年多来首次全面更新。新规首次明确禁止用户对 Claude 实施持续辱骂或残酷行为，普通的使用不满与批评不在限制之列；同时更新了面向高风险应用领域的使用规则。修订后的政策将于 2026 年 11 月 12 日正式生效。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+    },
+    {
+      "n": 4,
+      "title": "AI 模型评测平台 Arena 完成 2 亿美元融资，估值达 31 亿美元",
+      "date": "2026-10-09",
+      "summary": "据彭博社报道，AI 模型评测平台 Arena（Arena Intelligence）完成 2 亿美元新一轮融资，估值达 31 亿美元，较今年 1 月的 17 亿美元估值接近翻倍，本轮由光速创投（Lightspeed Venture Partners）领投。该公司旗下运营广受欢迎的 AI 模型排行榜。PANews 10 月 9 日援引彭博社消息进行了报道。",
+      "sourceName": "PANews（TradingView 转载）",
+      "sourceUrl": "https://tw.tradingview.com/news/panews:038742a4dacdf:0/"
+    },
+    {
+      "n": 5,
+      "title": "三名被解雇 OpenAI 前研究员发表公开信，称担忧\"寒蝉效应\"",
+      "date": "2026-10-09",
+      "summary": "据 IT 之家 10 月 9 日消息，上周被 OpenAI 解雇的三名研究人员米基塔·巴莱斯尼、托梅克·科尔巴克和贾斯敏·王于当日发表公开信，回应解雇事件。信中表示，担心此次处理方式会对公司其他员工产生\"寒蝉效应\"，并警告这可能影响对先进 AI 模型推理的监督能力，呼吁建立更强的外部监督机制。",
+      "sourceName": "IT之家（金融界转载）",
+      "sourceUrl": "https://m.jrj.com.cn/madapter/finance/2026/10/09082358636675.shtml"
+    }
+  ]
+}
