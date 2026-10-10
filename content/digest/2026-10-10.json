@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "n": 1,
+      "title": "Google 向员工推出 Gemini 4 新内部模型 Carbon，旗舰模型 Argon 蓄势待发",
+      "date": "2026-10-10",
+      "summary": "Business Insider 报道，Google 正在模型公开发布前向员工推送新一代 Gemini 4 内部测试版本，最新代号 Carbon，此前已有 Argon、Barium 等版本，员工对最新模型反馈积极。另据该媒体报道，Google 正准备向公众推出旗舰模型 Argon。Argon 于 9 月 30 日官宣，官方称其在编码等基准上可与 OpenAI、Anthropic 旗舰模型比肩，主打软件工程、法律、金融等复杂知识工作场景。",
+      "sourceName": "Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/google-employees-test-new-gemini-4-model-argon-barium-carbon-2026-10"
+    },
+    {
+      "n": 2,
+      "title": "Gemini 4 Argon 通过 Fairwind Program 向受信任的网络防御者开放",
+      "date": "2026-10-10",
+      "summary": "据 Mashable 报道，Google 本周四亮相的前沿模型 Gemini 4 Argon 正通过 Fairwind Program 向一批受信任的网络安全防御者开放，属于全面公开发布前的定向推送阶段。Google 将 Argon 定位为应对复杂工作流的\"前沿\"级模型。目前该模型尚无确认的全量公开上线时间表。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/google-gemini-4-argon"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 文本水印功能将覆盖 ChatGPT 与 Codex",
+      "date": "2026-10-10",
+      "summary": "据 Mashable 报道，OpenAI 的文本水印功能将随 ChatGPT 与 Codex 在欧盟推出。该能力于 10 月 6 日公布，可在 AI 生成文本中加入不可见水印，用于标识内容由 AI 生成，帮助区分人工撰写与机器生成内容。此举是 OpenAI 在 AI 内容溯源方向的一次产品化落地，欧盟将成为首批落地市场之一。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/openai-chatgpt-text-watermark-invisible-eu"
+    },
+    {
+      "n": 4,
+      "title": "Nvidia 宣布投资 AI 芯片公司 d-Matrix",
+      "date": "2026-10-09",
+      "summary": "据 The Information 率先报道、GuruFocus 转述，Nvidia 于 10 月 9 日宣布计划投资专注 AI 服务器芯片的初创公司 d-Matrix。报道指出，Nvidia 此举旨在推动其硬件与竞争芯片实现兼容协作，分析认为这可能进一步强化 Nvidia 在 AI 基础设施生态中的影响力。截至当日，Nvidia 股价报 230 美元。",
+      "sourceName": "GuruFocus",
+      "sourceUrl": "https://www.gurufocus.com/news/9117478/nvidia-nvda-to-invest-in-ai-chipmaker-dmatrix-enhancing-chip-compatibility"
+    },
+    {
+      "n": 5,
+      "title": "AI 创业公司 Manus 母公司完成超 5 亿美元融资",
+      "date": "2026-10-10",
+      "summary": "据科技媒体 Newcomer 报道，AI 创业公司 Manus 的母公司 Butterfly Effect 完成超 5 亿美元新一轮融资，由博裕资本领投。Manus 以 AI Agent 产品知名，本轮融资后其资金储备进一步扩充。同一报道还指出，当前市场对多家 AI 公司年度经常性收入（ARR）的估计口径存在明显分歧，估值测算的透明度受到关注。",
+      "sourceName": "Newcomer",
+      "sourceUrl": "https://www.newcomer.co/p/competing-arr-estimates-and-fuzzy"
+    },
+    {
+      "n": 6,
+      "title": "OpenAI 向投资者修正收入预期：较此前表述少约 180 亿美元",
+      "date": "2026-10-09",
+      "summary": "据 SiliconAngle 报道，OpenAI 本周向投资者表示，其实际收入较上月对外披露的 680 亿美元少约 180 亿美元。Newcomer 等媒体对比不同报道后发现，对 OpenAI 年度经常性收入的估计相差约 200 亿美元，凸显 AI 公司收入核算与披露口径的模糊性，引发市场对 AI 行业收入数据可信度的讨论。",
+      "sourceName": "SiliconAngle",
+      "sourceUrl": "https://siliconangle.com/2026/10/09/openai-revenue-falls-short-models-play-hopscotch-and-trump-cracks-down-on-tech-green-cards/"
+    },
+    {
+      "n": 7,
+      "title": "AI 需求推动网络安全行业并购持续升温",
+      "date": "2026-10-10",
+      "summary": "Dark Reading 报道，原生 AI 网络安全服务需求激增，叠加企业部署 agentic AI 所需的安全治理能力，正推动 2026 年网络安全行业并购活动持续活跃，行业有望迎来又一个并购高峰年。兼具 AI 能力与安全能力的标的成为买方争夺焦点，行业整合明显加速。",
+      "sourceName": "Dark Reading",
+      "sourceUrl": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom"
+    },
+    {
+      "n": 8,
+      "title": "研究称仅 10 分钟 AI 使用或削弱用户在困难任务上的坚持性",
+      "date": "2026-10-10",
+      "summary": "据 Mirage News 报道，研究人员设计了一系列随机对照试验并招募 1,222 名参与者，测试 AI 工具使用对专注力与坚持性的影响。结果显示，仅 10 分钟的 AI 使用就可能使参与者在后续困难任务中的专注度与坚持性明显下降。该研究为 AI 工具对人类认知习惯与学习行为的影响提供了新的实验证据。",
+      "sourceName": "Mirage News",
+      "sourceUrl": "https://www.miragenews.com/just-10-minutes-of-ai-use-may-erode-persistence-1757973/"
+    },
+    {
+      "n": 9,
+      "title": "Anthropic 新规：11 月 12 日起禁止对 Claude 的持续虐待行为",
+      "date": "2026-10-09",
+      "summary": "据 BBC 报道，Anthropic 宣布将把\"持续且无谓\"地虐待其 AI 模型 Claude 的行为列为使用政策违规，新规自 11 月 12 日生效，届时 Claude 可主动结束此类对话。一年前公司已允许 Claude 终止与持续辱骂用户的对话。这一在业内属首次明确成文的政策，引发关于人机交互伦理边界的广泛讨论。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/c6j9k1l72wkgo"
+    },
+    {
+      "n": 10,
+      "title": "第七届中国人工智能大赛启动报名，聚焦 AI 生成内容鉴别等三大方向",
+      "date": "2026-10-10",
+      "summary": "第七届中国人工智能大赛正式启动报名，赛事聚焦三大 AI 前沿方向，其中包括 AI 生成合成内容鉴别，以应对技术滥用引发的信任危机。主办方将发布基于最新生成合成技术制作的高质量样本集，参赛队伍需基于开源或自建数据集构建算法模型完成鉴别任务。",
+      "sourceName": "厦门网",
+      "sourceUrl": "https://www.xmnn.cn/news/xmxw/202610/t20261010_454995.html"
+    },
+    {
+      "n": 11,
+      "title": "OpenAI 撤回三篇数学预印本论文",
+      "date": "2026-10-10",
+      "summary": "据澎湃新闻援引媒体报道，OpenAI 于 10 月 6 日在 GitHub 发布 700 多份预印本，描述其内部 AI 模型取得的数学成果，涉及 370 多个此前未解决的问题。但不到 24 小时，公司即因符号错误撤回其中 3 篇手稿。该事件成为 AI 生成科研内容质量管理问题的最新案例。",
+      "sourceName": "澎湃新闻",
+      "sourceUrl": "https://m.thepaper.cn/newsDetail_forward_34218263"
+    }
+  ]
+}
