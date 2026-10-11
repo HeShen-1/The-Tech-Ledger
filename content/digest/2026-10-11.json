@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "n": 1,
+      "title": "英伟达洽谈收购或增持开源模型公司 Reflection AI",
+      "date": "2026-10-11",
+      "summary": "据英国《金融时报》报道，英伟达正与美国开源权重模型初创公司 Reflection AI 洽谈收购或追加投资，交易形式还可能包括收购式招聘（acquihire）或提供算力支持。Reflection AI 由两名前谷歌 DeepMind 研究人员创立，2026 年 4 月完成融资时投前估值达 250 亿美元，英伟达此前已参与投资。路透社、彭博社随后跟进报道，目前谈判尚在进行中，最终结果未定。",
+      "sourceName": "路透社",
+      "sourceUrl": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+    },
+    {
+      "n": 2,
+      "title": "微软 CEO 纳德拉：AI 模型应内置\"紧急制动\"机制",
+      "date": "2026-10-11",
+      "summary": "微软董事长兼 CEO 萨提亚·纳德拉发表博文称，企业应假设 AI 模型已被入侵并从设计之初加以隔离，先进 AI 系统需要具备遏制措施、独立控制能力以及由人工掌控的\"紧急制动\"——授权人员应能随时在任务执行中途暂停或关闭模型。他还建议企业将大语言模型作为潜在\"内部风险\"纳入安全管理体系。该表态引发业界对 AI 安全治理机制的讨论。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html"
+    },
+    {
+      "n": 3,
+      "title": "FT：OpenAI 年化收入接近 500 亿美元，低于此前沟通口径",
+      "date": "2026-10-11",
+      "summary": "据《金融时报》援引投资者文件报道，OpenAI 向投资者披露其 9 月底年化收入接近 500 亿美元，较此前对外沟通的约 700 亿美元低约 200 亿美元；OpenAI 回应称两组数字基于不同统计口径。报道发布后，市场对 AI 行业收入增长节奏的讨论升温，部分 AI 概念股与半导体股价当日承压回落。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/openai-20-billion-less-revenue"
+    },
+    {
+      "n": 4,
+      "title": "谷歌被曝内测 Gemini 4 新检查点 Carbon，编码能力对标 Claude Opus 5.5",
+      "date": "2026-10-11",
+      "summary": "据 Business Insider 报道，谷歌员工正在内部编码平台 Jetski 上测试 Gemini 4 的额外检查点 Carbon，有员工称其编码体验\"感觉可与 Claude Opus 5.5 打平\"；此前谷歌编程工具 Antigravity 的 CLI 中已出现 Gemini 4 Argon 模型引用，包含低、中、高三档推理强度。报道称谷歌计划对外公开发布的版本为 Barium-B，官方尚未公布发布时间与基准测试数据。",
+      "sourceName": "开源中国",
+      "sourceUrl": "https://www.oschina.net/news/502949/google-employees-test-new-gemini-4-model-argon-barium-carbon"
+    },
+    {
+      "n": 5,
+      "title": "AI 小游戏平台 Astrocade 月活跃用户突破 1000 万",
+      "date": "2026-10-11",
+      "summary": "AI 游戏生成平台 Astrocade 宣布月活跃用户突破 1000 万，较四个月前的约 500 万实现翻倍；玩家每月在平台超过十万款 UGC 游戏中累计游玩约 2.2 亿局，平台覆盖 191 个国家和地区，拥有数十万创作者。用户可通过文本提示与多模态 AI 生成可玩的小游戏，无需编写代码。数据显示 AI 生成内容在轻量化游戏场景的用户规模正快速增长。",
+      "sourceName": "Techmeme",
+      "sourceUrl": "https://www.techmeme.com/261010/p17"
+    }
+  ]
+}
