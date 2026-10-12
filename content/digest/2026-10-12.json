@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI公开722篇AI生成数学手稿，覆盖数论与几何等多领域难题",
+      "date": "2026-10-12",
+      "summary": "据媒体报道，OpenAI近日一次性公开722篇由其内部前沿模型生成的数学手稿，归为372组研究成果，覆盖数论、几何等领域的多个难题。此前9月，OpenAI曾宣称一款未公开的大模型耗时88小时求解千禧年大奖难题之一的纳维-斯托克斯方程存在性与光滑性问题。目前数学界正对这些成果进行审读验证，AI在数学研究中的角色引发广泛讨论。",
+      "sourceName": "东方财富网",
+      "sourceUrl": "https://finance.eastmoney.com/a/202610123892144513.html"
+    },
+    {
+      "n": 2,
+      "title": "台积电三季度营收约467亿美元创纪录，同比增长约50%",
+      "date": "2026-10-12",
+      "summary": "台积电公布月度营收数据：9月营收约5118.6亿元新台币（约160亿美元），同比增长54.6%；第三季度营收约1.49万亿元新台币（约467.1亿美元），同比增长约50%，超出市场预期并创历史新高，主要受AI芯片需求拉动。同期2纳米制程产能目标提升至12万片，完整三季度财报定于10月15日发布。",
+      "sourceName": "Pulse 2",
+      "sourceUrl": "https://pulse2.com/tsmc-q3-revenue-jumps-50-to-record-46-7-billion-on-ai-demand/"
+    },
+    {
+      "n": 3,
+      "title": "亚马逊洽购AI初创Decart，交易金额约70亿美元",
+      "date": "2026-10-12",
+      "summary": "据《华尔街日报》报道，亚马逊正洽谈以约70亿美元收购AI初创公司Decart。Decart此前已从红杉资本、Benchmark、Radical Ventures等机构累计融资超过4亿美元，近期一轮由英伟达参投的融资对其估值约40亿美元，亚马逊并已作为战略客户与其合作。目前谈判仍在进行，交易能否达成尚未确定。",
+      "sourceName": "The Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/business/amazon-in-talks-to-buy-ai-startup-decart-for-around-us7-billion-report"
+    },
+    {
+      "n": 4,
+      "title": "英伟达洽谈扩大对开源模型公司Reflection AI的投资，估值或达250亿美元",
+      "date": "2026-10-12",
+      "summary": "据《华尔街日报》报道，由两位前谷歌DeepMind研究员创立的开源权重模型公司Reflection AI正洽谈以250亿美元估值融资25亿美元，现有股东英伟达计划进一步扩大投资，相关收购商谈处于早期阶段。Reflection AI于10月初发布稀疏混合专家架构模型Beam，总参数量约5010亿。",
+      "sourceName": "The Star",
+      "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/10/12/nvidia-in-talks-to-expand-reflection-investment"
+    },
+    {
+      "n": 5,
+      "title": "英伟达拟向人形机器人公司Figure追加投资10亿美元",
+      "date": "2026-10-12",
+      "summary": "据台湾媒体援引外电报道，英伟达计划向人形机器人公司Figure追加投资10亿美元，以加速布局机器人市场。Figure当前估值约380亿美元，英伟达已是其主要股东之一。Figure近期正寻求更多融资以扩大运营规模，机器人成为AI落地的重要方向之一。",
+      "sourceName": "联合新闻网",
+      "sourceUrl": "https://udn.com/news/story/7240/9808220"
+    },
+    {
+      "n": 6,
+      "title": "英伟达投资的\"AI工厂\"开发商Firmus约440亿美元IPO流产",
+      "date": "2026-10-12",
+      "summary": "据《福布斯（澳大利亚版）》报道，获英伟达投资的\"AI工厂\"（AI数据中心）开发商Firmus原计划推进澳大利亚证交所史上规模最大的上市之一，涉及金额约440亿美元，但开放认购数日后上市宣告失败。报道援引相关说法称，认购信心快速消退是IPO流产的直接原因。",
+      "sourceName": "Forbes Australia",
+      "sourceUrl": "https://www.forbes.com.au/news/investing/firmus-44-billion-ipo-collapse-explained/"
+    },
+    {
+      "n": 7,
+      "title": "Harness收购AI编程公司Augment Code部分资产，加码自主软件开发",
+      "date": "2026-10-12",
+      "summary": "软件交付平台Harness宣布收购AI编程公司Augment Code的部分资产，包括Cosmos与Auggie CLI产品、Code Context Engine及相关团队，但不涉及公司主体。Harness称此次收购旨在推进自主软件开发生命周期（Autonomous SDLC）能力建设，双方暂未披露交易金额及存量客户的后续安排。",
+      "sourceName": "SD Times",
+      "sourceUrl": "https://sdtimes.com/software-factory/harness-acquires-augment-code-assets-to-advanced-autonomous-sdlc/"
+    },
+    {
+      "n": 8,
+      "title": "具身智能投融资升温：年内已发生565起，金额超1126亿元",
+      "date": "2026-10-12",
+      "summary": "IT桔子数据显示，截至10月11日，2026年内具身智能领域一级市场投融资事件已达565起，金额合计1126.22亿元，数量已超过2025年全年的379起。投融资活动覆盖整机、核心零部件等多个环节，具身智能产业进入高速成长期。",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/jjxw/2026-10-12/doc-iniuxfms0421923.shtml"
+    },
+    {
+      "n": 9,
+      "title": "比尔·盖茨警告：未来一年AI驱动的网络攻击将大幅增加",
+      "date": "2026-10-12",
+      "summary": "据阿联酋通讯社（WAM）报道，微软联合创始人比尔·盖茨于10月11日发出警告，称未受监管的人工智能构成日益增长的风险，并预计未来一年由AI驱动的网络攻击数量将显著上升。该表态发布之际，AI安全与治理正持续成为行业关注议题。",
+      "sourceName": "Big News Network",
+      "sourceUrl": "https://www.bignewsnetwork.com/news/279367596/bill-gates-warns-of-surge-in-ai-powered-cyberattacks-over-next-year"
+    },
+    {
+      "n": 10,
+      "title": "李飞飞出任AMD首席科学家后首次发声：AI取代不了人类",
+      "date": "2026-10-12",
+      "summary": "新任AMD执行副总裁兼首席科学家李飞飞近期在一档播客访谈中表示，AI取代不了人类。她称，当人们把\"取代\"一词与AI联系在一起时会感到不适，并就AI与人类的关系阐述了个人看法。这是李飞飞就任AMD新职务后首次公开接受媒体访谈。",
+      "sourceName": "凤凰科技",
+      "sourceUrl": "https://i.ifeng.com/c/8x8CSYp7qq9"
+    }
+  ]
+}
