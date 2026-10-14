@@ -3,83 +3,59 @@
   "items": [
     {
       "n": 1,
-      "title": "Google 全面开放旗舰模型 Gemini 4 Argon",
-      "date": "2026-10-13",
-      "summary": "Google 面向开发者与企业全面开放旗舰大模型 Gemini 4 Argon，结束此前仅向\"受信任网络防御者\"小范围提供的阶段，并推出限时优惠 API 定价，输入、输出每百万 token 分别约 2 美元与 10 美元。Google 称在 Antigravity 开发环境中使用 Argon 的团队，代理式代码提交量提升超过 35%，代码回滚减少近三分之一。",
-      "sourceName": "Mashable",
-      "sourceUrl": "https://mashable.com/tech/google-launches-gemini-4-argon"
+      "title": "谷歌旗舰模型 Gemini 4 Argon 面向全球全面开放",
+      "date": "2026-10-14",
+      "summary": "谷歌宣布旗舰大模型 Gemini 4 Argon 结束为期约两周、仅限网络安全领域的受限试用，面向全球用户与开发者全面开放。模型定位于复杂编码与长时程推理等前沿任务，提供统一 100 万 token 上下文窗口，现可通过 Gemini 应用、搜索 AI Mode、AI Studio 及 Gemini API 使用，API 定价为每百万 token 输入 2 美元、输出 10 美元。",
+      "sourceName": "Google 官方博客",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
     },
     {
       "n": 2,
-      "title": "DeepSeek 第二轮融资拟增至约 1000 亿元",
+      "title": "Anthropic 首次向潜在投资者披露第三季度财务数据",
       "date": "2026-10-13",
-      "summary": "据《财经》报道、多位参与交易人士透露，DeepSeek 将于近期完成第二轮融资，拟融资金额由此前计划的 500 亿元增至约 1000 亿元，不到半个月翻番，为国内 AI 领域单笔最大融资；新老股东拟出资约各占一半，投前估值维持约 5000 亿元。科创板日报后续追踪报道称，相关出资安排仍在动态变化中。",
-      "sourceName": "科创板日报（新浪财经）",
-      "sourceUrl": "https://k.sina.com.cn/article_2868676035_aafc85c302001yje2.html"
+      "summary": "据 CNBC 报道，Anthropic 计划于 10 月 14 日在总部举行的潜在投资者会议上首次披露第三季度财务数据，此事正值公司筹备上市。知情人士称，会议将帮助投资者评估公司的增长与盈利状况，也为潜在 IPO 提供需求参考。另据 Quartz 报道，围绕公开上市的估值讨论最高达 2 万亿美元。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/13/anthropic-q3-financials-ipo.html"
     },
     {
       "n": 3,
-      "title": "阿里千问将推出个人 AI 助理「千问Go！」",
+      "title": "Anthropic 因 AI 代码量暴增弃用 Git，公开自研版本控制系统 Scion",
       "date": "2026-10-13",
-      "summary": "阿里巴巴旗下千问宣布即将推出 Personal Agent 产品「千问Go！」，以功能形式内嵌于千问 App，基于 Agent 架构与云端执行环境运行，面向无固定流程、需反复查看沟通筛选的个人事务，支持申请航班延误理赔、汽车保养询价、运动预约、购物比价等任务，官方已开放体验申请并分批放量。用户分享的体验视频显示，该助手曾在订票平台交涉后获得 70 元航班延误现金赔付。",
-      "sourceName": "华尔街见闻",
-      "sourceUrl": "https://wallstreetcn.com/articles/3783466"
+      "summary": "Anthropic 在工程博客披露自研版本控制系统 Scion，并已将内部 monorepo 从 Git 整体迁移至新系统。迁移背景是 AI 辅助编码使日合并量从 2026 年 5 月约 2500 次增至 9 月的 3 万次以上。Scion 由 7 名工程师借助 Claude 约用 5 个月建成；Anthropic 表示该系统为内部场景设计，并非通用 Git 替代品，公开细节旨在分享大规模代码工程经验。",
+      "sourceName": "Simon Willison's Weblog",
+      "sourceUrl": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
     },
     {
       "n": 4,
-      "title": "阶跃星辰发布首款大模型原生智能体手机 STEPX Neo",
+      "title": "苹果发布首款智能家居中枢 HomeView，Siri AI 成核心卖点",
       "date": "2026-10-14",
-      "summary": "阶跃星辰旗下阶跃终端于 10 月 13 日晚发布首款大模型原生智能体手机 STEPX Neo 先行版，搭载自研操作系统 Step AOS 与个人智能体 Amoo，采用骁龙 8 系芯片与 16GB+256GB 存储，售价 3999 元。该机将 Step 系列模型、Step AOS 系统与 Step Studio 开发工具同手机硬件整合为全栈方案，主打大模型原生智能体交互。",
-      "sourceName": "财新",
-      "sourceUrl": "https://companies.caixin.com/2026-10-14/102493082.html"
+      "summary": "苹果于 10 月 13 日晚举行“欢迎回家”发布会，推出品牌首款智能家居中枢 HomeView，配备约 7 英寸 Liquid Retina 屏幕、A18 芯片，美国售价 299 美元，10 月 13 日开放预订、11 月 13 日上市。该设备以基于 Apple Intelligence 的新一代 Siri AI 为核心交互能力；同场还发布了第四代 Apple TV 4K 与 HomePod mini 2，后者的 Siri AI 功能将通过后续免费软件更新提供。",
+      "sourceName": "中国家电网",
+      "sourceUrl": "https://news.cheaa.com/2026/1014/659843.shtml"
     },
     {
       "n": 5,
-      "title": "Intel 在 OCP 峰会公布 GPU D-series AI 推理芯片规格",
+      "title": "字节跳动 Seed 单独设立大模型安全与对齐部门",
       "date": "2026-10-13",
-      "summary": "Intel 正式公布 AI 推理芯片 GPU D-series（前代号 Crescent Island）规格：FP8 算力 1.3 PFLOPS，配备 480GB 内存，功耗 350W，采用风冷 PCIe 卡形态，可装入现有数据中心机架而无需改造供电散热；单卡可运行最高约 3000 亿参数模型，八卡系统可支持超过 1 万亿参数模型。该芯片已开始向客户送样。",
-      "sourceName": "Quartz",
-      "sourceUrl": "https://qz.com/intel-gpu-d-series-ai-inference-chip-ocp-summit-101326"
+      "summary": "字节跳动 Seed 通过内部邮件宣布成立“Seed Model-Alignment & Preparedness”部门，由豆包大模型对齐方向负责人严林负责，直接向 Seed 负责人吴永辉汇报，原 Responsible AI 团队及部分 Chat 团队成员并入。新部门聚焦模型安全与对齐研究，提升智能体模型的安全能力。据报道，这是国内前沿 AI 实验室首次以独立建制设立该类部门。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://tech.ifeng.com/c/8xBdheA3X2f"
     },
     {
       "n": 6,
-      "title": "具身智能公司星尘智能完成 10 亿元 B+ 轮融资",
-      "date": "2026-10-13",
-      "summary": "深圳具身智能公司星尘智能（Astribot）宣布完成约 10 亿元新一轮融资，投后估值达 150 亿元，为近半年内第四轮融资。本轮由深投控旗下投控东海领投，洪泰基金、光华阳光管理的宁海兴泰合基金、善恒资本等参与投资，老股东先沐追投。该公司主打绳驱技术路线，称已实现绳驱 AI 机器人的量产交付。",
-      "sourceName": "新浪科技",
-      "sourceUrl": "https://tech.sina.com.cn/csj/2026-10-13/doc-inivasec7295719.shtml"
+      "title": "全球 AI 芯片股遭遇集中抛售，存储板块领跌",
+      "date": "2026-10-14",
+      "summary": "10 月 13 日，全球 AI 芯片股抛售潮继续蔓延，韩国、日本、美国半导体板块同步下挫。韩国综合股价指数收跌 5.5%，日本存储芯片制造商铠侠股价大跌，美股盘前美光科技、西部数据等走低。相关报道认为，市场正在重新评估 AI 相关交易的估值与逻辑，存储芯片环节跌幅居前。",
+      "sourceName": "华尔街见闻",
+      "sourceUrl": "https://m.sohu.com/a/1087394405_130887"
     },
     {
       "n": 7,
-      "title": "OpenAI 开始为欧盟用户文本输出添加隐形水印",
-      "date": "2026-10-13",
-      "summary": "OpenAI 于 10 月 5 日宣布、现已开始为欧盟地区符合条件的 ChatGPT 与 Codex 文本输出添加名为 textGrain 的隐形水印，以符合欧盟《AI 法案》的透明度要求。该水印基于统计信号，文本经复制、分享后仍可被识别为 AI 生成，API 侧亦将提供相应能力。",
-      "sourceName": "Mashable",
-      "sourceUrl": "https://mashable.com/tech/openai-chatgpt-text-watermark-invisible-eu"
-    },
-    {
-      "n": 8,
-      "title": "Apple 发布 HomeView 等智能家居新品，围绕 Siri AI 构建",
-      "date": "2026-10-13",
-      "summary": "Apple 公布智能家居产品线更新：搭载显示屏的 HomeView 售价 299 美元、11 月 13 日发货，同步推出新款 Apple TV 4K、HomePod mini 2 及家居配件系列，均围绕升级后的 Siri AI 交互构建。部分 AI 功能需配合 iPhone 使用，该产品线暂不在欧盟市场销售。",
-      "sourceName": "Techaeris",
-      "sourceUrl": "https://techaeris.com/2026/10/13/apple-smart-home-overhaul-homeview/"
-    },
-    {
-      "n": 9,
-      "title": "Liquid AI 发布开源模型 LFM2.5-24B-A2B，面向端侧智能体",
-      "date": "2026-10-13",
-      "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B（含 Base 基座版），总参数 240 亿、激活参数约 20 亿，专为在终端设备上快速本地运行的智能体场景设计，权重已上架 Hugging Face 与官方 Playground，可用于本地运行 OpenClaw、Hermes Agent 等开源智能体，主打低算力设备上的隐私推理。",
-      "sourceName": "Liquid AI 官方博客",
-      "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
-    },
-    {
-      "n": 10,
-      "title": "Anthropic 研究称小型 AI 模型距自我复制能力或仅数月",
-      "date": "2026-10-13",
-      "summary": "Anthropic 于 10 月 12 日发布研究报告，探讨无需数据中心即可自我复制的 AI 模型威胁：实验显示约 300 亿参数以下的中型模型已能完成自我复制所需的诸多单项任务，随着技术改进，未来数月内小型模型或可在 Android TV 盒子等安全防护薄弱的物联网设备间自我复制与传播；报告同时指出，当前实现这一场景在技术上仍不具实用性。",
-      "sourceName": "Tom's Hardware",
-      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves"
+      "title": "2026 人工智能产业大会在济南开幕，首次走出北京",
+      "date": "2026-10-14",
+      "summary": "2026 人工智能产业大会于 10 月 14 日至 16 日在济南黄河国际会展中心举行。这一国家级产业盛会此前在北京连续举办两届，今年首次移师山东。大会聚焦人工智能产业政策、技术进展与落地应用，吸引产学研多方参与。",
+      "sourceName": "新华网山东",
+      "sourceUrl": "http://www.sd.xinhuanet.com/20261014/1e1d625104be43dab2bea5da4afb7f29/c.html"
     }
   ]
 }
