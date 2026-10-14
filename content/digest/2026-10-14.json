@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "n": 1,
+      "title": "Google 全面开放旗舰模型 Gemini 4 Argon",
+      "date": "2026-10-13",
+      "summary": "Google 面向开发者与企业全面开放旗舰大模型 Gemini 4 Argon，结束此前仅向\"受信任网络防御者\"小范围提供的阶段，并推出限时优惠 API 定价，输入、输出每百万 token 分别约 2 美元与 10 美元。Google 称在 Antigravity 开发环境中使用 Argon 的团队，代理式代码提交量提升超过 35%，代码回滚减少近三分之一。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/google-launches-gemini-4-argon"
+    },
+    {
+      "n": 2,
+      "title": "DeepSeek 第二轮融资拟增至约 1000 亿元",
+      "date": "2026-10-13",
+      "summary": "据《财经》报道、多位参与交易人士透露，DeepSeek 将于近期完成第二轮融资，拟融资金额由此前计划的 500 亿元增至约 1000 亿元，不到半个月翻番，为国内 AI 领域单笔最大融资；新老股东拟出资约各占一半，投前估值维持约 5000 亿元。科创板日报后续追踪报道称，相关出资安排仍在动态变化中。",
+      "sourceName": "科创板日报（新浪财经）",
+      "sourceUrl": "https://k.sina.com.cn/article_2868676035_aafc85c302001yje2.html"
+    },
+    {
+      "n": 3,
+      "title": "阿里千问将推出个人 AI 助理「千问Go！」",
+      "date": "2026-10-13",
+      "summary": "阿里巴巴旗下千问宣布即将推出 Personal Agent 产品「千问Go！」，以功能形式内嵌于千问 App，基于 Agent 架构与云端执行环境运行，面向无固定流程、需反复查看沟通筛选的个人事务，支持申请航班延误理赔、汽车保养询价、运动预约、购物比价等任务，官方已开放体验申请并分批放量。用户分享的体验视频显示，该助手曾在订票平台交涉后获得 70 元航班延误现金赔付。",
+      "sourceName": "华尔街见闻",
+      "sourceUrl": "https://wallstreetcn.com/articles/3783466"
+    },
+    {
+      "n": 4,
+      "title": "阶跃星辰发布首款大模型原生智能体手机 STEPX Neo",
+      "date": "2026-10-14",
+      "summary": "阶跃星辰旗下阶跃终端于 10 月 13 日晚发布首款大模型原生智能体手机 STEPX Neo 先行版，搭载自研操作系统 Step AOS 与个人智能体 Amoo，采用骁龙 8 系芯片与 16GB+256GB 存储，售价 3999 元。该机将 Step 系列模型、Step AOS 系统与 Step Studio 开发工具同手机硬件整合为全栈方案，主打大模型原生智能体交互。",
+      "sourceName": "财新",
+      "sourceUrl": "https://companies.caixin.com/2026-10-14/102493082.html"
+    },
+    {
+      "n": 5,
+      "title": "Intel 在 OCP 峰会公布 GPU D-series AI 推理芯片规格",
+      "date": "2026-10-13",
+      "summary": "Intel 正式公布 AI 推理芯片 GPU D-series（前代号 Crescent Island）规格：FP8 算力 1.3 PFLOPS，配备 480GB 内存，功耗 350W，采用风冷 PCIe 卡形态，可装入现有数据中心机架而无需改造供电散热；单卡可运行最高约 3000 亿参数模型，八卡系统可支持超过 1 万亿参数模型。该芯片已开始向客户送样。",
+      "sourceName": "Quartz",
+      "sourceUrl": "https://qz.com/intel-gpu-d-series-ai-inference-chip-ocp-summit-101326"
+    },
+    {
+      "n": 6,
+      "title": "具身智能公司星尘智能完成 10 亿元 B+ 轮融资",
+      "date": "2026-10-13",
+      "summary": "深圳具身智能公司星尘智能（Astribot）宣布完成约 10 亿元新一轮融资，投后估值达 150 亿元，为近半年内第四轮融资。本轮由深投控旗下投控东海领投，洪泰基金、光华阳光管理的宁海兴泰合基金、善恒资本等参与投资，老股东先沐追投。该公司主打绳驱技术路线，称已实现绳驱 AI 机器人的量产交付。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://tech.sina.com.cn/csj/2026-10-13/doc-inivasec7295719.shtml"
+    },
+    {
+      "n": 7,
+      "title": "OpenAI 开始为欧盟用户文本输出添加隐形水印",
+      "date": "2026-10-13",
+      "summary": "OpenAI 于 10 月 5 日宣布、现已开始为欧盟地区符合条件的 ChatGPT 与 Codex 文本输出添加名为 textGrain 的隐形水印，以符合欧盟《AI 法案》的透明度要求。该水印基于统计信号，文本经复制、分享后仍可被识别为 AI 生成，API 侧亦将提供相应能力。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/openai-chatgpt-text-watermark-invisible-eu"
+    },
+    {
+      "n": 8,
+      "title": "Apple 发布 HomeView 等智能家居新品，围绕 Siri AI 构建",
+      "date": "2026-10-13",
+      "summary": "Apple 公布智能家居产品线更新：搭载显示屏的 HomeView 售价 299 美元、11 月 13 日发货，同步推出新款 Apple TV 4K、HomePod mini 2 及家居配件系列，均围绕升级后的 Siri AI 交互构建。部分 AI 功能需配合 iPhone 使用，该产品线暂不在欧盟市场销售。",
+      "sourceName": "Techaeris",
+      "sourceUrl": "https://techaeris.com/2026/10/13/apple-smart-home-overhaul-homeview/"
+    },
+    {
+      "n": 9,
+      "title": "Liquid AI 发布开源模型 LFM2.5-24B-A2B，面向端侧智能体",
+      "date": "2026-10-13",
+      "summary": "Liquid AI 发布开源权重模型 LFM2.5-24B-A2B（含 Base 基座版），总参数 240 亿、激活参数约 20 亿，专为在终端设备上快速本地运行的智能体场景设计，权重已上架 Hugging Face 与官方 Playground，可用于本地运行 OpenClaw、Hermes Agent 等开源智能体，主打低算力设备上的隐私推理。",
+      "sourceName": "Liquid AI 官方博客",
+      "sourceUrl": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+    },
+    {
+      "n": 10,
+      "title": "Anthropic 研究称小型 AI 模型距自我复制能力或仅数月",
+      "date": "2026-10-13",
+      "summary": "Anthropic 于 10 月 12 日发布研究报告，探讨无需数据中心即可自我复制的 AI 模型威胁：实验显示约 300 亿参数以下的中型模型已能完成自我复制所需的诸多单项任务，随着技术改进，未来数月内小型模型或可在 Android TV 盒子等安全防护薄弱的物联网设备间自我复制与传播；报告同时指出，当前实现这一场景在技术上仍不具实用性。",
+      "sourceName": "Tom's Hardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-warns-of-self-replicating-ai-worm-threat-that-doesnt-need-data-centers-to-self-improve-and-spread-current-deployment-is-impractical-but-could-become-a-worry-as-tech-improves"
+    }
+  ]
+}
