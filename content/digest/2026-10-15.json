@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic 计划向投资者披露 Q3 财务，IPO 目标估值约 2 万亿美元",
+      "date": "2026-10-14",
+      "summary": "据 CNBC 报道，Anthropic 计划本周向潜在投资者披露第三季度财务数据。公司今年早些时候已向美国 SEC 秘密提交 IPO 申请，讨论中的估值约 2 万亿美元，若成行将是史上规模最大的 IPO 之一；路透社此前报道其计划 11 月挂牌上市。Nasdaq Private Market 数据显示，Anthropic 最近一轮估值约 1.35 万亿美元。",
+      "sourceName": "Yahoo Finance / CNBC",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-ai-lab-reportedly-080251755.html"
+    },
+    {
+      "n": 2,
+      "title": "DeepSeek 完成约 1000 亿元 B 轮融资，筹备科创板上市",
+      "date": "2026-10-14",
+      "summary": "天眼查披露信息显示，杭州深度求索（DeepSeek）已完成约 1000 亿元人民币 B 轮融资，为最初 500 亿元目标的两倍；投资方包括石溪资本、中芯聚源、CPE 源峰、君联资本、宁德时代、腾讯投资、IDG 资本、吉利等十家机构。前高瓴创投合伙人严文韬已出任首席财务官，公司正接洽中信证券推进上交所科创板上市筹备，此前市场讨论的本轮投前估值约 5000 亿元。",
+      "sourceName": "同花顺财经",
+      "sourceUrl": "https://news.10jqka.com.cn/20261014/c680656443.shtml"
+    },
+    {
+      "n": 3,
+      "title": "Broadcom 为 OpenAI 定制 AI 芯片安排逾 500 亿美元融资",
+      "date": "2026-10-15",
+      "summary": "据行业消息源确认，Broadcom 正为 OpenAI 的定制 AI 芯片项目安排超过 500 亿美元的融资，采用债务与股权组合方式；Oracle 据报道也在洽谈为大规模芯片采购追加出资。资金将覆盖芯片设计、制造与测试成本，为 AI 芯片领域迄今规模最大的融资安排之一；OpenAI 计划借此构建面向自身工作负载的定制芯片平台，官方预期可降低能耗并提升吞吐量。",
+      "sourceName": "TechBriefe",
+      "sourceUrl": "https://techbriefe.com/tech/ai/broadcom-secures-over-50-billion-to-fund-openais-new-ai-chip"
+    },
+    {
+      "n": 4,
+      "title": "苹果 Apple Intelligence 将于 12 月随 iOS 27.3 登陆中国大陆",
+      "date": "2026-10-14",
+      "summary": "据彭博社报道，苹果计划 12 月通过 iOS 27.3 更新在中国大陆正式上线 Apple Intelligence，首批功能包括 Genmoji、通知摘要、写作工具与照片清理功能；基于 Gemini 重构的新版 Siri 不在首发行列。苹果与阿里巴巴合作开发合规防护机制，并与百度合作推进搜索及 Siri 本地化。另据南华早报报道，工信部已发放入网许可，允许 iPhone 接入阿里通义千问与通义万相模型。",
+      "sourceName": "MacRumors",
+      "sourceUrl": "https://www.macrumors.com/2026/10/14/apple-intelligence-china-ios-27-3"
+    },
+    {
+      "n": 5,
+      "title": "英伟达联合半导体龙头推进\"AI 定义晶圆厂\"，发布新库 cuPotential",
+      "date": "2026-10-14",
+      "summary": "在 SEMICON West 2026 上，英伟达宣布应用材料、Cadence、KLA、泛林集团、西门子、新思科技等半导体龙头正采用其 CUDA-X 系列库推进\"AI 定义晶圆厂\"。新库 cuPotential 可用于构建模拟原子与分子相互作用的 AI 智能体，早期测试中使已 GPU 优化的工作流再提速 2-3 倍；开源库 NanoVDB 帮助泛林集团将芯片制造仿真提速 30 倍，Cadence 借 cuDSS 将先进封装热应力优化提速 8 倍。",
+      "sourceName": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs"
+    },
+    {
+      "n": 6,
+      "title": "爱芯元智发布 AX8860 边缘大算力 AI 芯片：单芯片 256 TOPS",
+      "date": "2026-10-14",
+      "summary": "在 2026 中国国际工业博览会上，爱芯元智正式发布 AX8860 系列边缘大算力 AI 芯片：单芯片提供 256 TOPS 混合精度算力（原生支持 FP4）、273GB/s 内存带宽，配备 128GB LPDDR5X，支持 AXLink 级联与 PCIe 5.0 高速互联，可实现多芯片协作与算力弹性扩展，面向边缘侧与端侧大模型部署；同期发布元溪 A256S 模组及推理卡、推理服务器。10 月 14 日早盘，其港股股价一度涨逾 8%。",
+      "sourceName": "moomoo 新闻",
+      "sourceUrl": "https://www.moomoo.com/news/post/1001101541/axera-surges-as-it-officially-launches-the-ax8860-series-of"
+    },
+    {
+      "n": 7,
+      "title": "英特尔 CEO 陈立武：DeepSeek、Kimi、GLM 等中国模型已\"足够好\"",
+      "date": "2026-10-15",
+      "summary": "据 TrendForce 报道，英特尔 CEO 陈立武在公开表态中称，DeepSeek、Kimi、GLM 等中国大模型的能力已经\"足够好\"（good enough），并指出这些模型的 token 成本低、市场采用速度快。该评价来自全球主要芯片厂商的 CEO，直接点名了多家中国大模型在成本与普及速度上的表现，是其在近期的行业访谈中给出的判断。",
+      "sourceName": "TrendForce",
+      "sourceUrl": "https://www.trendforce.com/news/2026/10/15/news-intel-ceo-lip-bu-tan-calls-deepseek-kimi-glm-good-enough-notes-low-token-costs-and-fast-adoption/"
+    },
+    {
+      "n": 8,
+      "title": "Google DeepMind 与新加坡政府合作开发端侧反诈骗检测模型",
+      "date": "2026-10-14",
+      "summary": "在新加坡国际网络周上，Google DeepMind 与新加坡政府科技局（GovTech）宣布合作开发端侧反诈骗检测模型：基于轻量级 Gemma 模型微调，采用\"轻量分类器初筛+上下文分析确认\"两级流水线，在用户设备本地分析对话模式，检测到操纵意图时实时弹出告警。模型完全在端侧运行，不经云端扫描，仅在用户授权后才能访问设备内对话，训练数据来自脱敏的诈骗报告与情报语料。",
+      "sourceName": "Google DeepMind Blog",
+      "sourceUrl": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+    },
+    {
+      "n": 9,
+      "title": "Google DeepMind 向欧洲约 200 名科研人员开放前沿模型与 300 万美元算力",
+      "date": "2026-10-14",
+      "summary": "Google 宣布 Google DeepMind 与 Google Cloud 将为最多 200 名欧洲科研人员提供前沿模型的直接访问权限，并提供总额 300 万美元的算力额度。研究人员可使用 AlphaFold 3、WeatherNext、AlphaGenome、AlphaEvolve、AlphaEarth Foundations 等科研工具，覆盖分子结构预测、极端天气预报、基因组分析等方向；该项目在都柏林 AI 峰会上宣布，支持欧盟委员会 RAISE 框架下的 AI for Science 计划。",
+      "sourceName": "Unite.AI",
+      "sourceUrl": "https://www.unite.ai/google-pledges-frontier-models-and-compute-to-european-scientists"
+    },
+    {
+      "n": 10,
+      "title": "YouTube Music 上线 AI 生成歌曲标注，Deezer 年底前推出一键过滤",
+      "date": "2026-10-14",
+      "summary": "YouTube Music 宣布为生成式 AI 参与创作的歌曲添加标注，标签显示在播放器页面，点击可查看 AI 在作曲、演唱中的具体作用，后续将扩展至 YouTube 主应用。同日 Deezer 宣布将在 2026 年底前上线过滤开关，允许用户将完全 AI 生成的歌曲从搜索结果中移除；该公司披露其平台每日新增约 9 万首全 AI 生成曲目，AI 生成内容在上传曲目中的占比已超过一半。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms"
+    },
+    {
+      "n": 11,
+      "title": "英伟达五年内向英国投入 2.5 亿美元算力，支持 AI 安全研究",
+      "date": "2026-10-14",
+      "summary": "英伟达宣布在未来五年向英国捐赠价值 2.5 亿美元的算力资源（每年约 5000 万美元），专项支持智能体（agentic）AI 安全与安全研究。大部分资源面向英国更广泛的 AI 安全研究社区，另一部分支持牛津大学 BOLD 实验室、UCL SOFAIR 实验室与帝国理工的相关工作，研究主题涵盖安全智能体、开放模型安全与现实威胁缓解；算力将通过英国本土的英伟达云合作伙伴提供，基础设施托管在英国境内。",
+      "sourceName": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+    }
+  ]
+}
