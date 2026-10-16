@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "n": 1,
+      "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、可在 Mac Studio 桌面运行",
+      "date": "2026-10-15",
+      "summary": "Meta 官方发布开源权重模型 Muse Spark Open，参数规模达 8160 亿，定位 any-to-text 多模态模型，官方称其为美国迄今能力最强的开源权重模型（open-weight）。该模型首次将领先的智能体（agentic）能力带到桌面端，可在搭载 Apple M5 Ultra 芯片的 Mac Studio 上本地运行。英特尔同日宣布为该模型提供 Day-0 支持。",
+      "sourceName": "Meta AI Research",
+      "sourceUrl": "https://research.meta.ai/blog/muse-spark-open"
+    },
+    {
+      "n": 2,
+      "title": "阶跃星辰开源 Step 5 Preview 权重，华为昇腾、沐曦、壁仞实现 0Day 适配",
+      "date": "2026-10-15",
+      "summary": "阶跃星辰宣布开放 Step 5 Preview 模型权重，提供 BF16 与 FP8 两个版本，官方称其在 AI 编程、软件工程、专业知识工作、金融等任务上达到前沿水平。权重已上线 Hugging Face 与 ModelScope。华为昇腾基于 vLLM 推理引擎实现 0Day 支持并完成高效推理优化，沐曦、壁仞等国产芯片同步完成适配；华为还于 10 月 15 日点亮 1024 卡超节点算力产品。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/013/663.htm"
+    },
+    {
+      "n": 3,
+      "title": "NVIDIA 发布 Nemotron 3.5 Super VL，面向常驻型智能体与多模态推理",
+      "date": "2026-10-15",
+      "summary": "NVIDIA 在技术博客发布 Nemotron 3.5 Super VL 大语言模型系列，面向需要长期在线的 always-on 智能体与企业级复杂工作流。官方介绍称，单个请求可能涉及读取文档、跨系统核查信息等多步骤任务，新模型支持多模态推理，具备可定制与高能效特性，用于支撑专业化智能体场景。",
+      "sourceName": "NVIDIA Developer Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+    },
+    {
+      "n": 4,
+      "title": "国行 Apple Intelligence 落地细节曝光：苹果系统层 + 阿里通义大模型方案",
+      "date": "2026-10-15",
+      "summary": "据国内媒体报道，国行版 Apple Intelligence 采用\"苹果系统层 + 阿里系大模型\"的本地化方案：通义千问负责文本理解、写作与问答，通义万相负责图像及多模态生成，相关数据留存境内。这一组合构成国行版本地化落地的核心技术方案。",
+      "sourceName": "快科技",
+      "sourceUrl": "https://news.mydrivers.com/blog/20261015.htm"
+    },
+    {
+      "n": 5,
+      "title": "OpenAI 推出 GPT-Live-1.1 语音模型更新，新增 13 个声音",
+      "date": "2026-10-15",
+      "summary": "OpenAI 宣布 GPT-Live-1.1 语音模型更新，自 10 月 15 日起向所有 ChatGPT Voice 用户推送。本次更新覆盖 ChatGPT、Codex 与 Dots 的语音功能，新增 13 个声音选项，并改进口音与多语种语音表现。",
+      "sourceName": "ABAB News",
+      "sourceUrl": "https://www.ababnews.com/news/2f47abde-8349-4108-85c5-98c3a0012a3e"
+    },
+    {
+      "n": 6,
+      "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并持续加码 AI",
+      "date": "2026-10-15",
+      "summary": "企业支出管理公司 Ramp 宣布完成 18.5 亿美元新一轮融资，估值达 600 亿美元，距上一轮融资仅过去四个月。公司表示正将业务深入拓展至 AI 领域，此轮融资为其 AI 相关产品与市场扩张提供资金支持。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/"
+    },
+    {
+      "n": 7,
+      "title": "台积电季度业绩创纪录，英伟达、苹果、博通、AMD 激烈争抢产能",
+      "date": "2026-10-15",
+      "summary": "据 CNBC 报道，台积电季度业绩创下纪录，但先进制程产能仍无法满足所有客户需求，英伟达、苹果、博通与 AMD 正围绕台积电晶圆产能展开激烈竞争，产能争夺已成为 AI 芯片供应链的关键瓶颈。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html"
+    },
+    {
+      "n": 8,
+      "title": "西门子将 NVIDIA cuLitho 集成至 Calibre，加速计算光刻流程",
+      "date": "2026-10-15",
+      "summary": "西门子宣布在与 NVIDIA 的合作中取得重要进展，将 NVIDIA cuLitho 计算光刻库集成到 Calibre 平台中，用于加速计算光刻工作流，提升先进制程芯片设计验证效率。此举是 NVIDIA 半导体制造工具生态的最新落地案例。",
+      "sourceName": "Siemens Newsroom",
+      "sourceUrl": "https://news.siemens.com/cs-cz/siemens-calibre-nvidia-culitho/"
+    },
+    {
+      "n": 9,
+      "title": "Adobe 与 NVIDIA 扩大合作，加速智能体内容创作",
+      "date": "2026-10-15",
+      "summary": "Adobe 与 NVIDIA 宣布扩大双方合作，聚焦\"智能体创作\"（agentic creation）方向，将 NVIDIA 的 AI 计算能力与 Adobe 的创意工具和平台结合，提升创意生产力与客户体验类产品的工作效率。",
+      "sourceName": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation"
+    },
+    {
+      "n": 10,
+      "title": "Labelbox 完成超 1 亿美元 E 轮融资，扩展强化学习与企业智能体平台",
+      "date": "2026-10-15",
+      "summary": "AI 数据平台 Labelbox 宣布完成超 1 亿美元 E 轮融资。资金将用于加速开发 Horizon 平台（帮助前沿 AI 实验室训练与评估模型）以及 Recursion Managed Agents（企业智能体管理）等产品线，重点布局强化学习数据基础设施。",
+      "sourceName": "HPCwire",
+      "sourceUrl": "https://www.hpcwire.com/aiwire/2026/10/15/labelbox-raises-over-100m-to-expand-reinforcement-learning-and-enterprise-ai-agents/"
+    },
+    {
+      "n": 11,
+      "title": "英特尔老兵创立的芯片公司 Mueon 获 6500 万美元融资",
+      "date": "2026-10-15",
+      "summary": "波特兰芯片创业公司 Mueon 宣布完成 6500 万美元融资。该公司由英特尔资深人士创立，主攻面向 AI 与数据中心计算能效的模块化芯片架构，本轮融资将用于推进该架构的商业化。",
+      "sourceName": "Portland Business Journal",
+      "sourceUrl": "https://www.bizjournals.com/portland/news/2026/10/15/mueon-ai-chip-startup-maverick-silicon.html"
+    },
+    {
+      "n": 12,
+      "title": "AI 安全公司 Harmonic Security 获 5000 万美元融资",
+      "date": "2026-10-15",
+      "summary": "专注于职场 AI 安全的初创公司 Harmonic Security 宣布获得 5000 万美元新融资。该公司产品用于治理企业员工对 AI 工具的使用，帮助企业管控生成式 AI 带来的数据与合规风险。",
+      "sourceName": "SC Media",
+      "sourceUrl": "https://www.scworld.com/brief/harmonic-security-raises-50-million-to-govern-employee-ai-tool-usage"
+    },
+    {
+      "n": 13,
+      "title": "Faraday Future 发布 FF Nova，美国首款低于 2500 美元的具身智能人形机器人",
+      "date": "2026-10-15",
+      "summary": "Faraday Future 与 FFR 联合发布 FF Nova，定位美国市场首款售价低于 2500 美元的具身智能（EAI）人形机器人，被描述为\"背包里的 Physical AI 实验室\"。同期还推出 FF Nova Mini、Physical AI Spark 课程体系、Nova 强化学习开发者计划及开发者社区招募。",
+      "sourceName": "Business Wire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261015292642/en/Faraday-Future-and-FFR-Jointly-Launch-FF-Nova-First-Embodied-AI-Humanoid-Robot-Priced-Below-%242500-in-U.S.-FF-Nova-Mini-Physical-AI-Spark-Program-Curriculum-Nova-Reinforcement-Learning-Developer-Program-and-Developer-Community-Recruitment"
+    },
+    {
+      "n": 14,
+      "title": "RoboParty 发布 RP1 全栈开源人形机器人",
+      "date": "2026-10-15",
+      "summary": "RoboParty 官方发布 RP1（ROBOTO 01），一款面向高级机器人研究的高性能全栈开源人形机器人，硬件与软件栈全部开源，主打\"Born to Be Open\"理念，为研究社区提供可自由修改与复现的人形机器人平台。",
+      "sourceName": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/born-to-be-open-roboparty-launches-rp1-a-full-stack-open-source-humanoid-302910163.html"
+    },
+    {
+      "n": 15,
+      "title": "PitchBook-NVCA 数据：AI 初创公司吸收美国风险投资总额的 86%",
+      "date": "2026-10-16",
+      "summary": "PitchBook-NVCA 最新数据显示，2026 年上半年 AI 初创公司获得美国风险投资总额的约 86%，平均每五美元风投中约有四美元流向 AI 公司，非 AI 方向创始人在种子轮与 A 轮融资中面临明显挤压。",
+      "sourceName": "Startup Fortune",
+      "sourceUrl": "https://startupfortune.com/ai-startups-are-now-swallowing-roughly-four-out-of-five-venture-dollars-in-the-us/"
+    }
+  ]
+}
