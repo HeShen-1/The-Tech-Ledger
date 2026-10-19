@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "n": 1,
+      "title": "我国首个全国产十万卡AI超集群\"曙光8000\"真机亮相",
+      "date": "2026-10-18",
+      "summary": "在10月18日于深圳举行的2026全国高性能计算学术大会上，我国首个全国产十万卡AI超集群曙光8000真机亮相，并发布十大应用成果。该系统将十万张AI加速卡高速互联，实现超算与智算原生融合：同一算力底座既可运行高精度科学计算，也可承载大模型训练与推理，算力可支撑数字孪生大脑构建及百亿光年尺度的宇宙演化模拟，已在气象海洋、生命科学、新材料等领域投入应用。",
+      "sourceName": "新浪财经（央视新闻）",
+      "sourceUrl": "https://finance.sina.com.cn/jjxw/2026-10-18/doc-inivqyip6791353.shtml"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic承诺将5%股份投入\"公共利益基金\"",
+      "date": "2026-10-18",
+      "summary": "据TechCrunch 10月18日报道，Anthropic宣布创建\"公共利益基金\"，将公司5%的股份投入该基金，用于支持应对AI社会影响（如就业市场冲击）的项目，基金规模将随公司估值增长。公司称该安排为其支持社会公益项目提供更大的灵活性与规模，资金不得用于国内外政治游说或竞选活动，基金结构与治理细节将在未来数月公布。另据多家媒体报道，Anthropic正筹备最早于11月启动IPO推介。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund"
+    },
+    {
+      "n": 3,
+      "title": "Anthropic与律所商讨AI智能体谈判规则，探索代理砍价与纠纷处理",
+      "date": "2026-10-18",
+      "summary": "据《金融时报》10月18日报道，Anthropic正与律师事务所等法律机构磋商，研究AI智能体应如何代表用户谈判，例如替用户砍价、处理纠纷或洽谈薪资。公司正探索模型交互时的\"谈判规范\"，权衡智能体在谈判中寻求人类反馈的程度、对AI谈判对手的警惕水平等议题，并讨论过由用户签署文件确认委托事项与规则的方案。Anthropic此前已在内部开展智能体买卖商品的谈判实验。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/014/519.htm"
+    },
+    {
+      "n": 4,
+      "title": "DeepSeek更新V4.1-Flash-1017模型，性能提升价格不变",
+      "date": "2026-10-18",
+      "summary": "据新浪AI热点小时报10月18日汇总，DeepSeek于10月17日官方更新DeepSeek-V4.1-Flash-1017模型，官方跑分与社区实测显示其性能较此前版本上涨，部分基准表现接近Claude Opus 5.5，API单价维持不变。V4.1-Flash系列面向高频调用场景，与旗舰V4 Pro形成产品分层，本次为该系列10月内的又一次迭代。",
+      "sourceName": "新浪新闻",
+      "sourceUrl": "https://k.sina.com.cn/article_7857201856_1d45362c001908ri1w.html?from=tech"
+    },
+    {
+      "n": 5,
+      "title": "花旗：中国AI供应链企业赴港上市势头预计保持稳健",
+      "date": "2026-10-18",
+      "summary": "据路透社报道，花旗中国投行及亚太区金融机构业务主管袁峥怡10月18日在IMF会议期间表示，尽管市场对估值担忧升温、审视趋严，中国AI供应链企业赴港上市势头预计仍将保持稳健：拟上市企业所获投资需求约一半来自中国境内、一半来自国际市场，南向资金正成为重要买入力量。其预计明年港股焦点将从纯硬件企业转向AI模型与应用开发商。今年前三季度香港共有118家企业上市，募资3880亿港元，同比增长106%。",
+      "sourceName": "俄罗斯卫星通讯社",
+      "sourceUrl": "https://sputniknews.cn/20261018/1073670534.html"
+    },
+    {
+      "n": 6,
+      "title": "企业AI平台RapidCanvas完成2900万美元B轮融资",
+      "date": "2026-10-18",
+      "summary": "据TechNode Global 10月18日报道，企业级AI平台公司RapidCanvas完成2900万美元B轮融资，由Vertex Ventures东南亚及印度公司领投，Hitachi Ventures及Accel、Peak XV Partners等现有投资方参投，累计融资额达5250万美元。公司称资金将用于拓展美国、巴西和印度市场的AI工程业务。该公司披露服务超75家企业客户，过去六个季度年经常性收入增长八倍。",
+      "sourceName": "TechNode Global",
+      "sourceUrl": "https://technode.global/2026/10/18/rapidcanvas-29m-series-b-vertex-ventures"
+    },
+    {
+      "n": 7,
+      "title": "Tether投资AI支付初创AIsa，后者累计融资超900万美元",
+      "date": "2026-10-18",
+      "summary": "据crypto.news 10月18日报道，稳定币发行商Tether与HIVEN参投旧金山AI支付初创AIsa的种子轮扩展融资，使其累计融资额超过900万美元。AIsa面向企业级AI智能体构建支付基础设施，支持智能体在授权规则下访问付费数据、软件工具并发起交易。Tether确认投资但未披露金额与持股比例，该投资与其推动USDT应用于机器间交易场景的方向一致。",
+      "sourceName": "crypto.news",
+      "sourceUrl": "https://crypto.news/tether-invests-aisa-ai-agent-funding-9m"
+    }
+  ]
+}
