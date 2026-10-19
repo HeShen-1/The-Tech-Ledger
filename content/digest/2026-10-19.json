@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "n": 1,
+      "title": "Meta 发布 Muse Wonder 模型家族，登顶 Artificial Analysis 榜单",
+      "date": "2026-10-19",
+      "summary": "Meta 推出名为 Muse Wonder 的新 AI 模型家族。据 Mashable 报道，新模型在 Artificial Analysis 智能指数排行榜上超过 Google Gemini 4、OpenAI GPT-Astra 与 Anthropic Fable 5，被视为 Meta 在与 OpenAI、Anthropic 的模型竞赛中取得的领先身位。Meta 自 2026 年起以 Muse 系列逐步取代 Llama，成为旗下主力模型家族，Muse Wonder 为该系列目前发布的最高配置版本。",
+      "sourceName": "Mashable",
+      "sourceUrl": "https://mashable.com/tech/meta-launches-muse-wonder-ai-model-family"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic 承诺将 5% 股份投入新设公共利益基金",
+      "date": "2026-10-19",
+      "summary": "Anthropic 在官方公告中宣布，经股东批准后公司将把 5% 的股份投入新设立的公共利益基金（public benefit fund），该基金拟采用全资有限责任公司形式；此后公司估值每增长 50%，董事会可酌情追加 2% 股份。公司两位联合创始人此前已承诺捐赠 80% 的个人财富，约半数员工参与了公司现有的股权捐赠匹配计划。",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/news/public-benefit-fund"
+    },
+    {
+      "n": 3,
+      "title": "DeepSeek-V4.1-Flash 登上 Code Arena 开源模型榜首",
+      "date": "2026-10-19",
+      "summary": "DeepSeek 于 10 月 17 日发布的 DeepSeek-V4.1-Flash-20261017 模型登上 Arena.ai Code Arena WebDev 榜单开源模型首位，成为当前该榜单排名最高的开源模型。该模型采用 MoE 架构，总参数 552B，每 token 仅激活 8B-16B 参数，主打低成本、高吞吐的推理场景。",
+      "sourceName": "Crypto Briefing",
+      "sourceUrl": "https://cryptobriefing.com/deepseek-v4-1-flash-tops-code-arena/"
+    },
+    {
+      "n": 4,
+      "title": "花旗：大陆 AI 供应链赴港 IPO 热度将延续，明年转向模型与应用开发商",
+      "date": "2026-10-19",
+      "summary": "据台湾经济日报报道，花旗集团预期，尽管估值担忧加剧与上市审查趋严，大陆 AI 供应链企业赴港 IPO 热度仍将维持稳定，明年香港股权资本市场活动有望持续活跃，且融资热点预计从上游供应链逐步转向 AI 模型与应用开发商。大陆 AI 产业近期掀起上市潮，香港已成为其重要融资市场。",
+      "sourceName": "经济日报",
+      "sourceUrl": "https://money.udn.com/money/story/5604/9822812"
+    },
+    {
+      "n": 5,
+      "title": "Fortune 分析 Nvidia AI 融资安排：AI 竞赛下一阶段取决于资本市场",
+      "date": "2026-10-18",
+      "summary": "Fortune 发文分析 Nvidia 最新公布的 AI 基础设施融资安排：在与六家合作伙伴的合作中，资本主要来自养老金、保险公司等第三方机构资金，而非 Nvidia 自有资金。公告再度引发关于循环融资的讨论，即 Nvidia 投出的资金以芯片订单形式回流公司。文章认为，AI 竞赛的下一阶段胜负将更多取决于资本市场的信贷投放能力。",
+      "sourceName": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/10/18/nvidia-ai-financing-capital-markets/"
+    },
+    {
+      "n": 6,
+      "title": "AI 路由初创 TrustedRouter 完成 600 万美元种子轮融资",
+      "date": "2026-10-19",
+      "summary": "总部位于迈阿密的 AI 初创公司 TrustedRouter 完成 600 万美元种子轮融资，由 Sierra Ventures 领投。该公司提供跨模型 AI 请求路由服务，可根据任务特征将用户的 AI 请求分配至不同模型执行，并将提示词隐私保护作为产品核心定位。",
+      "sourceName": "Dealroom",
+      "sourceUrl": "https://dealroom.co/news/163714-ai-router-trustedrouter-raises-6m-seed-to-keep-prompts-private/"
+    },
+    {
+      "n": 7,
+      "title": "Forbes：OpenAI、Google、Workday 争夺企业 AI Agent 控制权",
+      "date": "2026-10-18",
+      "summary": "Forbes 发布分析文章指出，企业 AI Agent 的控制权成为厂商竞争新焦点：OpenAI、Google 与 Workday 分别希望企业客户将 AI agent 部署在自家平台上，但三家出售的 agent 产品定位与架构并不相同，企业买家需要在相互竞争的技术路线之间做出选择。Workday 同日披露其 Agent Passport 平台作为企业 AI agent 信任层取得新进展。",
+      "sourceName": "Forbes",
+      "sourceUrl": "https://www.forbes.com/sites/guneyyildiz/2026/10/18/every-ai-company-now-sells-an-agent-they-are-not-selling-the-same-thing/"
+    }
+  ]
+}
