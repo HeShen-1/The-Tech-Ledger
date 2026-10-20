@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "n": 1,
+      "title": "英伟达GTC柏林大会10月20日开幕，黄仁勋21日发表主题演讲",
+      "date": "2026-10-20",
+      "summary": "英伟达GTC柏林大会于10月20日至22日在德国柏林举行，面向欧洲研究人员、开发者与工程师。英伟达创始人兼CEO黄仁勋将于当地时间10月21日上午11时发表主题演讲。本届大会预计将聚焦Vera Rubin平台部署进展、AI智能体与欧洲主权AI等议题。",
+      "sourceName": "NVIDIA官方博客",
+      "sourceUrl": "https://blogs.nvidia.com/gtc-berlin-2026-news/"
+    },
+    {
+      "n": 2,
+      "title": "报道称Anthropic正开发主打\"意图推断\"的新一代模型",
+      "date": "2026-10-20",
+      "summary": "据The Information报道，Anthropic正准备推出新一代AI模型，其推理与直觉能力将优于目前市面产品：即使用户没有清楚说明目标，模型也能推断其背后意图，并主动提出解决方案。报道称OpenAI与Google也在同步筹备竞争产品。外界猜测新模型可能为Fable系列的下一代版本，官方尚未公布发布时间。",
+      "sourceName": "世界日报",
+      "sourceUrl": "https://www.worldjournal.com/wj/story/121477/9825079"
+    },
+    {
+      "n": 3,
+      "title": "消息人士称Nscale与Anthropic洽谈450亿美元AI云服务协议",
+      "date": "2026-10-20",
+      "summary": "据路透社援引消息人士报道，英伟达支持的云计算初创公司Nscale正与Anthropic洽谈一项价值450亿美元的新AI云服务协议，由Anthropic向Nscale采购大规模AI算力。目前谈判仍在进行中，协议最终金额与条款尚未确定。",
+      "sourceName": "BusinessWorld",
+      "sourceUrl": "https://bworldonline.com/technology/2026/10/20/788050/nvidia-backed-nscale-anthropic-in-talks-for-new-45-billion-ai-cloud-deal-source-says"
+    },
+    {
+      "n": 4,
+      "title": "OpenRouter数据：中国大模型周调用量连续25周超过美国",
+      "date": "2026-10-20",
+      "summary": "据每日经济新闻援引OpenRouter最新数据测算，上周（10月12日至18日）全球AI大模型总调用量为164万亿Token，环比下滑4.65%。其中，中国AI大模型周调用量达79.18万亿Token，环比下滑8.72%；美国AI大模型周调用量为17.36万亿Token，环比下滑8.49%。中国大模型周调用量已连续25周超过美国。",
+      "sourceName": "凤凰网科技",
+      "sourceUrl": "https://news.ifeng.com/c/8xMu6nvfCEp"
+    },
+    {
+      "n": 5,
+      "title": "奇瑞全球创新大会发布首个汽车垂域大模型及人形机器人\"墨宝\"",
+      "date": "2026-10-20",
+      "summary": "奇瑞汽车于10月20日在芜湖举办以\"Change·改变\"为主题的2026奇瑞全球创新大会。会上，奇瑞发布首个汽车行业垂域大模型，并全球首发消费级家庭陪伴人形机器人\"墨宝\"，将行业垂域大模型与人形机器人产品在同一场大会落地。",
+      "sourceName": "创业邦",
+      "sourceUrl": "http://www.iheima.com/article-403147.html"
+    },
+    {
+      "n": 6,
+      "title": "AI服务首次加入天猫\"双11\"，智谱、MiniMax、千问推出Token优惠",
+      "date": "2026-10-20",
+      "summary": "据证券时报报道，AI服务将首次加入天猫\"双11\"大促，智谱、MiniMax、千问等模型厂商集体推出优惠活动，消费者可以在\"双11\"期间以折扣价格\"囤Token\"（词元）。这是AI大模型服务首次进入国内头部电商平台的年度大促。",
+      "sourceName": "证券时报",
+      "sourceUrl": "https://www.stcn.com/article/detail/4227132.html"
+    },
+    {
+      "n": 7,
+      "title": "OpenAI加码机器人研发，官网已发布19个机器人相关岗位",
+      "date": "2026-10-20",
+      "summary": "据前瞻产业研究院梳理，截至10月19日，OpenAI已在官网发布19个与机器人（Robotics）相关的职位招聘，业务方向从\"用大模型给机器人当大脑\"进一步延伸至机器人硬件、控制系统和制造环节。此前OpenAI CEO奥特曼已在采访中确认公司正在推进人形机器人相关计划。",
+      "sourceName": "前瞻网",
+      "sourceUrl": "https://t.qianzhan.com/caijing/detail/261020-c4bfec3b.html"
+    },
+    {
+      "n": 8,
+      "title": "路透社：云计算公司Modal将首次采用英伟达Vera CPU",
+      "date": "2026-10-20",
+      "summary": "据路透社报道，云计算初创公司Modal计划首次采用英伟达Vera中央处理器，为能够持续执行任务的AI智能体提供算力支持，此前其此类工作负载全部运行在英特尔处理器上。Vera是英伟达面向AI数据中心的新一代CPU平台。",
+      "sourceName": "爱范儿",
+      "sourceUrl": "https://www.ifanr.com/1684957"
+    }
+  ]
+}
