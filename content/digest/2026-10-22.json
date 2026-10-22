@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI前沿模型与Codex智能体将上架谷歌云Model Garden",
+      "date": "2026-10-22",
+      "summary": "OpenAI与谷歌云宣布扩大合作：未来几周内，OpenAI前沿模型（GPT-6 Astra等）及Codex代码智能体将通过谷歌云Model Garden对外提供，并接入谷歌Antigravity开发工具。此举延续了主要AI公司在竞争的同时开展基础设施合作的趋势，OpenAI模型此前的云渠道还包括微软Azure等平台。相关消息于10月22日获得多家科技媒体报道。",
+      "sourceName": "AndroidHeadlines",
+      "sourceUrl": "https://www.androidheadlines.com/2026/10/openai-google-cloud-gpt-6-launch.html"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic推出主动式AI智能体Claude Duet，开启研究预览",
+      "date": "2026-10-22",
+      "summary": "Anthropic宣布推出独立智能体应用Claude Duet，当前以研究预览形式上线，由Claude Opus 5.5模型驱动，面向小企业与专业人士。该应用可在用户不在线时持续监控已连接的应用、发送每日简报并自主处理复杂任务，支持接入邮件、日历及6000余个插件（如Stripe），首先面向美国Pro与Max订阅用户开放候补申请。该产品与Meta的Muse、OpenAI的Dots形成直接竞争。",
+      "sourceName": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/science/anthropic-launches-claude-duet--proactive-ai-companion-for-small-businesses/3558809"
+    },
+    {
+      "n": 3,
+      "title": "Meta三季度营收646亿美元同比增26%，AI智能体Muse早期表现强劲",
+      "date": "2026-10-22",
+      "summary": "Meta发布2026年第三季度财报：营收646亿美元，同比增长26%，超出610亿至640亿美元的指引区间；广告收入631亿美元，第四季度营收指引为730亿至760亿美元。受99亿美元一次性法律和解费用影响，运营利润同比下降37%至130亿美元。公司将2026年全年资本支出预期区间调整至1350亿至1450亿美元（下限上调50亿美元）。财报电话会披露，AI智能体Muse早期用户增长强劲，首周购物交易量超出预期额度。",
+      "sourceName": "TradingKey",
+      "sourceUrl": "https://www.tradingkey.com/zh-hans/news/transcripts/262230693-tradingkey"
+    },
+    {
+      "n": 4,
+      "title": "瑞典法律AI公司Legora获5.5亿美元融资，估值达88亿美元",
+      "date": "2026-10-22",
+      "summary": "总部位于瑞典的法律AI公司Legora发布公告，完成约5.5亿美元新一轮融资，估值达88亿美元。公司称资金将用于拓展北美、欧洲及亚太市场，并改进面向法律工作的智能体操作系统Legora aOS。Legora目前与全球约250家律所合作；其上一轮1.5亿美元C轮融资（2025年10月）估值为18亿美元，本轮估值在一年内增长近四倍。",
+      "sourceName": "搜狐财经",
+      "sourceUrl": "https://m.sohu.com/a/1090875801_122014422"
+    },
+    {
+      "n": 5,
+      "title": "OpenAI发布前沿AI治理文章，呼吁明确模型与智能体安全责任",
+      "date": "2026-10-22",
+      "summary": "OpenAI在其前沿AI治理系列文章《赋能网络防御者》中提出，应明确各组织在保障前沿模型与智能体安全、检测危险行为、为各自运行活动维持可靠关停机制等方面的责任，并探讨利用AI能力加强网络防御。文章呼吁业界加强先进AI的安全保障与防护协作，为智能体大规模部署建立责任框架。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/zh-Hans-CN/index/empowering-cyber-defenders"
+    },
+    {
+      "n": 6,
+      "title": "美股AI硬件板块集体走强，纳指涨超1%领涨三大指数",
+      "date": "2026-10-22",
+      "summary": "据新浪科技10月22日早间AI热点汇总，隔夜美股收盘纳斯达克指数上涨超1%，领涨三大指数；芯片、存储、光模块等AI算力硬件相关板块集体走强。报道指出，市场对AI基础设施产业链的投入预期持续升温，算力硬件供应链成为近期资金关注的主要方向之一。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://k.sina.com.cn/article_7857201856_1d45362c001908ryhe.html?from=tech"
+    }
+  ]
+}
