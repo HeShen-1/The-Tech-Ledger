@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "n": 1,
+      "title": "月之暗面发布最强模型 Kimi K3.1 Pro：3万亿级参数、100万Token上下文",
+      "date": "2026-10-24",
+      "summary": "10月24日凌晨，月之暗面正式推出 K3.1 系列首个模型 Kimi K3.1 Pro，为公司迄今能力最强的 3 万亿级参数模型，支持 100 万 Token 上下文。作为 Kimi K3 的后训练版本，该模型在大规模强化学习算力上大幅增加，并在 RL 框架、长上下文推理、训练效率及沙箱基础设施等技术栈上全面优化，面向编程、3D 创作与金融研究等复杂专业任务。官方同步推出运行速度为标准版 2 至 3 倍的 Kimi K3.1 Pro Highspeed，并计划于 11 月 4 日前开放完整模型权重。",
+      "sourceName": "华尔街见闻",
+      "sourceUrl": "https://wallstreetcn.com/articles/3784358"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 切断最强模型训练环境互联网访问，强化前沿模型安全管控",
+      "date": "2026-10-24",
+      "summary": "凤凰网科技 10 月 24 日援引彭博社报道，OpenAI 已开始在其性能最强的 AI 模型训练过程中切断互联网访问。OpenAI 此前于 10 月 23 日发文称，针对最先进\"前沿模型\"的训练与评估环境已实施更严格的安全管控，明确模型在训练与评估的特定阶段不得直接访问实时互联网，以降低模型被诱导越狱攻击等意外行为风险，该措施将长期执行。",
+      "sourceName": "凤凰网科技",
+      "sourceUrl": "https://original.ifeng.com/c/8xTYc1j1Y5Z"
+    },
+    {
+      "n": 3,
+      "title": "国内首部 AI 超写实院线电影《三星堆：未来往事》上映",
+      "date": "2026-10-24",
+      "summary": "东方财富 10 月 24 日报道，国内首部拿到公映许可证的 AI 超写实院线电影《三星堆：未来往事》于 10 月 23 日正式登陆影院，首日排片超过 1 万场。该片从单镜头 AI 创作到全流程虚拟片场搭建均由 AI 参与完成，部分观众观影后评价\"超预期\"，也有报道称其预售票房表现平淡。该片被视为 AI 改写影视工业流程的标志性案例，后续数字资产运营模式受到行业关注。",
+      "sourceName": "东方财富",
+      "sourceUrl": "https://emwap.eastmoney.com/a/202610243906825112.html"
+    },
+    {
+      "n": 4,
+      "title": "英国政府宣布扩大 AI 安全领域资金投入",
+      "date": "2026-10-24",
+      "summary": "据《海峡时报》10 月 24 日报道，英国政府当日宣布计划扩大人工智能安全领域的资金投入，以应对网络风险等 AI 相关安全问题的持续增长。报道指出，此举反映英国官方对 AI 网络安全风险升级的关注，相关资金将用于加强 AI 安全治理与风险防护方面的能力建设。",
+      "sourceName": "The Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/world/europe/britain-pledges-more-funding-to-guard-against-ai-risks"
+    },
+    {
+      "n": 5,
+      "title": "SAP 将 AI 引入认证续期流程",
+      "date": "2026-10-24",
+      "summary": "企业软件公司 SAP 宣布，其 Stay Certified 认证计划新增可选的 AI 辅助方式，供顾问完成年度再认证。该机制将 AI 评估引入企业级技术认证体系，持证者可通过 AI 交互方式检验技能时效性。这是大型企业软件厂商在培训与认证体系中规模化应用 AI 的最新案例，标志着 AI 评估工具开始进入企业专业资质管理场景。",
+      "sourceName": "CIO",
+      "sourceUrl": "https://www.cio.com/article/4239657/sap-lets-ai-play-key-role-in-its-certification-renewal-process.html"
+    },
+    {
+      "n": 6,
+      "title": "比尔·盖茨：AI 在最佳情境下也可能带来 20 年动荡",
+      "date": "2026-10-24",
+      "summary": "据安纳多卢通讯社 10 月 24 日报道，微软联合创始人比尔·盖茨表示，人工智能可能扰乱就业、重塑社会，即便在最乐观的情境下，未来 20 年社会仍将经历由 AI 引发的大规模调整。盖茨称 AI 对劳动力市场的影响需要被认真对待，相关表态延续了其近期对 AI 社会影响的持续关注。",
+      "sourceName": "Anadolu Agency",
+      "sourceUrl": "https://www.aa.com.tr/en/world/bill-gates-warns-of-20-years-of-turmoil-from-artificial-intelligence/4099155"
+    },
+    {
+      "n": 7,
+      "title": "WSJ：AI 驱动的网络攻击激增，互联网安全体系承压",
+      "date": "2026-10-24",
+      "summary": "《华尔街日报》10 月 24 日报道，随着一处严重互联网漏洞的细节扩散，网络犯罪分子正加速使用新一代 AI 驱动的黑客工具，相关攻击被业界称为\"Black October\"安全事件潮。报道指出，AI 生成的攻击载荷与自动化利用工具使攻击频率和规模快速上升，给互联网基础设施与安全响应体系带来显著压力。",
+      "sourceName": "华尔街日报",
+      "sourceUrl": "https://www.wsj.com/tech/ai/ai-hacks-are-coming-thick-and-fast-and-overwhelming-the-internet-4529c26c"
+    }
+  ]
+}
