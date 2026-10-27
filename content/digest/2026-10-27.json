@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 宣布在数学、计算机科学、物理学领域取得三项重大科学突破",
+      "date": "2026-10-27",
+      "summary": "OpenAI 发布公告，宣布其 AI 模型在数学、计算机科学与物理学领域取得三项重大发现，分别涉及调和分析、复杂性理论与量子场理论，其中包括证明\"指数时间假设不成立\"的结果。OpenAI 称这些成果展现出 AI 独立发现并证明复杂科学理论的能力，而不只是回答问题或辅助研究，并介绍了与全球学术社区合作推进科学理解的工作机制。学术期刊《自然》随后刊发报道，多位数学家就 OpenAI 声称的重大证明发表评价。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-10-27/doc-iniwrkkz4798293.shtml"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic 递交 S-1 申请纳斯达克上市：代码\"ANT\"，冲刺 2 万亿美元估值",
+      "date": "2026-10-27",
+      "summary": "据钛媒体 Edge AI Daily 早报，Anthropic 已向美国证券交易委员会递交 S-1 注册文件，计划在纳斯达克上市，股票代码为\"ANT\"，目标估值约 2 万亿美元，或成人类史上最大 IPO 之一，据报道最快 11 月 19 日或 20 日挂牌。文件相关信息显示，其 2026 年上半年营收 163 亿美元，同比增长约 13.5 倍，净亏损 807 亿美元。该公司今年 5 月曾以 9650 亿美元估值完成 650 亿美元融资。",
+      "sourceName": "钛媒体",
+      "sourceUrl": "https://www.tmtpost.com/8182929"
+    },
+    {
+      "n": 3,
+      "title": "Meta 启动至多 950 亿美元股票发行，预计 2026 年资本开支最高 1450 亿美元",
+      "date": "2026-10-27",
+      "summary": "据每日经济新闻全球科技早参，Meta 于美东时间 10 月 26 日宣布启动至多 950 亿美元股票发行，包括约 350 亿美元普通股与优先股发行，以及最高约 600 亿美元的市场发售（ATM）计划，为 AI 基础设施建设和\"超级智能\"方向筹资。公司同时表示，预计 2026 年资本开支为 1350 亿至 1450 亿美元，称 AI 投资已通过提升用户参与度、改善广告表现及提高变现效率带来实际回报，未来还将投向个人超级智能等方向。",
+      "sourceName": "每日经济新闻",
+      "sourceUrl": "https://www.mrjjxw.com/articles/2026-10-27/4617231.html"
+    },
+    {
+      "n": 4,
+      "title": "SpaceX 与 Apollo 签署约 400 亿美元 AI 芯片融资协议",
+      "date": "2026-10-27",
+      "summary": "据 TechCrunch 与 36 氪报道，SpaceX 已与资产管理公司 Apollo 全球管理旗下实体签署具有约束力的融资协议，规模约 400 亿美元，用于采购 AI 芯片及相关算力基础设施。路透社报道称，交易形式为数据中心硬件租赁协议，其中包含人工智能芯片，本金支付总额约 400 亿美元。该协议是近期 AI 算力领域规模最大的融资安排之一。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo"
+    },
+    {
+      "n": 5,
+      "title": "DeepSeek 新版模型 OpenRouter 单周调用量登顶全球第一",
+      "date": "2026-10-27",
+      "summary": "据东方财富网 10 月 27 日报道，DeepSeek 新版模型在大模型 API 聚合平台 OpenRouter 的单周调用量登顶全球第一，对第二名智谱 GLM 5.3 Flash 的领先优势扩大到 92 个基点，DeepSeek 另一模型版本位居第三，调用量环比暴增 801%。榜单前十其余席位涵盖智谱 GLM 5.3 Flash、腾讯 Hy4 preview，以及 OpenAI、Anthropic、英伟达等厂商的模型。",
+      "sourceName": "东方财富网",
+      "sourceUrl": "https://finance.eastmoney.com/a/202610273908058664.html"
+    }
+  ]
+}
