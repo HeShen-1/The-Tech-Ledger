@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "n": 1,
+      "title": "谷歌DeepMind发布世界模型Genie 4研究预览：音画同步生成、支持实时交互调整",
+      "date": "2026-10-28",
+      "summary": "谷歌DeepMind以研究预览形式发布新一代世界模型Genie 4，首次实现背景音乐、环境音、交互对话等声音与画面同步生成，用户可在模拟过程中实时修改天气、切换镜头、增删元素。架构上采用\"Gemini负责规划校验、Genie负责渲染\"的混合模式；官方承认模拟时间越长细节漂移越明显，世界一致性目前约维持两分钟。生成内容带SynthID水印，现阶段仅面向受信任测试者，未来数周将扩展至Google AI Ultra订阅用户及Gemini API、AI Studio早期合作伙伴。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+    },
+    {
+      "n": 2,
+      "title": "英伟达30亿美元、AMD 10亿美元参与Meta股票发行，深化Muse模型合作",
+      "date": "2026-10-28",
+      "summary": "英伟达与AMD分别宣布参与Meta的股票发行：英伟达投资30亿美元并与Meta扩大Muse系列AI模型合作，Meta将扩大Vera Rubin算力集群与Vera CPU部署，搭配Spectrum-X以太网与BlueField-4 DPU；AMD投资10亿美元，Meta同时使用AMD Helios机架级系统运行前沿模型。此举配合Meta本周宣布的至多950亿美元融资计划，为AI基础设施建设筹资。据Dealroom统计，英伟达今年已参与121轮投资，2022年全年仅13轮。",
+      "sourceName": "Investor's Business Daily",
+      "sourceUrl": "https://www.investors.com/news/technology/nvidia-stock-amd-rise-on-meta-muse-deals/"
+    },
+    {
+      "n": 3,
+      "title": "Oracle宣布与OpenAI合作，将ChatGPT与Codex嵌入企业应用与云基础设施",
+      "date": "2026-10-28",
+      "summary": "Oracle宣布与OpenAI达成新的合作协议，将ChatGPT与Codex进一步嵌入其企业应用产品线，把OpenAI模型、ChatGPT、Codex同Oracle的应用软件、数据及云基础设施相结合，扩大企业客户对OpenAI工具的访问范围。同日，Oracle还宣布扩展其云计算芯片产品阵容。分析认为此举延续了大型企业软件厂商将前沿AI能力直接集成进核心业务系统的趋势。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/video/2026/10/27/oracle-announces-new-agreement-to-embed-chatgpt-in-more-of-its-products.html"
+    },
+    {
+      "n": 4,
+      "title": "Oracle将成为首家在自有数据中心采购谷歌TPU的外部公司",
+      "date": "2026-10-28",
+      "summary": "Alphabet将于周三盘后发布三季度财报，市场聚焦AI业务增长与超大规模资本开支回报。同日，Oracle宣布将成为首家采购谷歌TPU AI芯片用于自有数据中心的公司。TD Cowen分析师John Blackledge预计，谷歌2026年下半年TPU销售收入可达94亿美元。分析师对Alphabet三季度每股收益的一致预期为3.01美元，营收预期1278亿美元，其中云业务营收预计同比增长91%至289亿美元。",
+      "sourceName": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/technology/article/google-to-report-q3-results-as-investors-focus-on-ai-growth-weigh-meta-muse-ai-risk-191624324.html"
+    },
+    {
+      "n": 5,
+      "title": "台积电拟上调先进封装报价最高20%，CoWoS产能紧张加剧",
+      "date": "2026-10-28",
+      "summary": "据每日经济新闻数智早参报道，受AI需求爆发与半导体供应链产能全面紧张影响，台积电计划上调先进芯片封装服务价格，最高涨幅达20%；晶圆代工与封测厂商正酝酿新一轮提价，拟将CoWoS封装报价上调10%至20%。CoWoS封装广泛用于高端AI处理器，需求已从GPU延伸至服务器CPU及定制ASIC，叠加AI芯片测试周期更长，封测环节供给压力进一步加大。",
+      "sourceName": "每日经济新闻",
+      "sourceUrl": "https://www.mrjjxw.com/articles/2026-10-27/4620686.html"
+    },
+    {
+      "n": 6,
+      "title": "亚马逊被曝洽购世界模型公司Decart，交易规模约70亿美元",
+      "date": "2026-10-28",
+      "summary": "据《华尔街日报》报道，亚马逊正洽谈以约70亿美元收购AI视频与世界模型初创公司Decart；后者2026年5月估值约40亿美元，Anthropic此前曾洽购约60亿美元并在尽调后退出。世界模型赛道近期进入整合期：AMD已于9月宣布约82亿美元全股票收购李飞飞创办的World Labs，Rivian亦收购英国初创Third Dimension。芯片厂商、云厂商与车企均在收购\"生成可计算世界\"的基础能力。",
+      "sourceName": "钛媒体",
+      "sourceUrl": "https://www.tmtpost.com/8184055.html"
+    },
+    {
+      "n": 7,
+      "title": "Guidewire以17亿美元现金收购保险定价AI公司Hyperexponential",
+      "date": "2026-10-28",
+      "summary": "保险科技公司Guidewire宣布以17亿美元现金收购智能承保保险AI公司Hyperexponential，交易总额约20亿美元，其中包含4亿美元与营收目标挂钩的追加对价，预计明年完成交割。Hyperexponential成立于2017年，获Andreessen Horowitz与Battery Ventures投资，累计融资近9000万美元，其软件已服务40个国家近600家保险公司。收购旨在让AI代理与人类协同完成承保、分析与定价决策。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/"
+    },
+    {
+      "n": 8,
+      "title": "Disruptive关闭100亿美元巨型基金，专注AI与国防领域后期投资",
+      "date": "2026-10-28",
+      "summary": "总部位于达拉斯的投资机构Disruptive宣布完成100亿美元募资，成立专注AI、国防与软件初创企业的巨型基金，计划以每家10亿美元的规模投资10家后期公司。新基金使该机构管理资产总额翻倍，其模式亦从按单笔交易向有限合伙人募集专项载体，转向可自主决策的单一基金。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-27/disruptive-closes-10-billion-megafund-for-ai-defense-startups"
+    },
+    {
+      "n": 9,
+      "title": "AI\"新云\"板块多空博弈：CoreWeave股债双杀，空头月内获利近17亿美元",
+      "date": "2026-10-28",
+      "summary": "AI基建举债扩张引发的信用担忧持续发酵，CoreWeave股价本月累计跌超30%，债券价格落入困境区间，做空该公司的投资者本月账面获利近17亿美元。同行Crusoe首席执行官Chase Lochmiller公开表示，市场对\"新云\"企业的抛售属于反应过度，称AI算力需求\"既深又广\"。研究机构Gartner预计，到2030年八成新云企业将不再独立运营；CoreWeave则回应称约1040亿美元的未交付订单足以支撑其债务。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2517160"
+    },
+    {
+      "n": 10,
+      "title": "三菱电力燃气轮机新订单交付排至2031年，AI数据中心电力供给瓶颈凸显",
+      "date": "2026-10-28",
+      "summary": "据彭博社报道，三菱电力在新加坡国际能源周表示，受AI数据中心与公用事业需求推动，当前新订购的大型燃气轮机交付周期已排至2031年前后；其大型燃气轮机积压订单达35吉瓦，高于一年前的23吉瓦，近期订单多安排在2028至2030年间交付。行业数据显示，全球燃气发电容量年需求已突破100吉瓦，约为疫情前平均水平的三倍，供给瓶颈正在延缓传统电力项目与AI数据中心供电项目。",
+      "sourceName": "Energy News Beat",
+      "sourceUrl": "https://energynewsbeat.co/electrical-generation/mitsubishi-power-deliveries-stretch-to-2031-as-gas-turbine-shortage-hits-data-centers-and-utilities/"
+    },
+    {
+      "n": 11,
+      "title": "Anthropic致函加州州长：法院应有权叫停高风险AI系统",
+      "date": "2026-10-28",
+      "summary": "据Politico报道，Anthropic致函加州州长，主张法院应有权阻止构成严重风险的AI程序，AI公司应为技术部署\"关断开关\"（kill switch），并接受外部安全审计员常驻公司内部；大型AI开发商应至少每六个月发布一次风险报告。此前OpenAI也向加州州长发函，表示支持对强大AI模型施加\"关停控制\"，并允许独立安全审计员进驻前沿AI公司。",
+      "sourceName": "Politico",
+      "sourceUrl": "https://www.politico.com/news/2026/10/27/anthropic-ai-letter-newsom-01135648"
+    }
+  ]
+}
