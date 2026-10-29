@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "n": 1,
+      "title": "谷歌发布前沿模型 Gemini 4 Carbon，主打智能体编程与网络安全",
+      "date": "2026-10-29",
+      "summary": "谷歌宣布推出最新前沿模型 Gemini 4 Carbon，距 Gemini 4 Argon 发布仅两周。该模型可视为 Argon 的改进版本，在智能体编程与网络安全任务上表现更强。谷歌表示，鉴于模型能力，将采取审慎的分阶段发布策略：先在美国政府设立的自愿测试框架内完成测试，再通过 Fairwinds 网络防御项目开放，公司未给出全面开放的时间表。",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/"
+    },
+    {
+      "n": 2,
+      "title": "谷歌 DeepMind 发布世界模型 Genie 4，支持实时交互与原生音频",
+      "date": "2026-10-29",
+      "summary": "谷歌本周还发布了新一代世界模型 Genie 4，已向受信任测试者开放研究预览并开放候补名单。该模型可实时生成逼真的可交互世界，用户可在模拟运行中通过文本提示实时改变天气、移动视角或添加人物与物体，并且是谷歌首个支持原生音频生成的实时世界模型。Genie 4 基于谷歌 Gemini 系列模型构建，可与 Gemini 协同完成规划与模拟任务。",
+      "sourceName": "CNET",
+      "sourceUrl": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/"
+    },
+    {
+      "n": 3,
+      "title": "GitHub Universe 发布 Copilot Fusion，按任务智能调度多个 AI 模型",
+      "date": "2026-10-29",
+      "summary": "GitHub 在 GitHub Universe 开发者大会上发布 Copilot Fusion。该系统可自动决定编码任务的每一步由哪个或哪几个 AI 模型处理，按推理、代码生成、调试和工具使用等维度权衡任务需求。微软 CEO 纳德拉表示，Fusion 以前进 40%、成本低至 77% 的方式交付前沿级质量。同日起 GitHub Enterprise 客户无需单独订阅即可使用全部 Copilot 功能；GitHub 称当前约 40% 的拉取请求由 AI 发起。",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/github-universe-copilot-fusion-octoverse-agents"
+    },
+    {
+      "n": 4,
+      "title": "微软披露单季从 OpenAI 获得 100 亿美元收入",
+      "date": "2026-10-29",
+      "summary": "微软在监管文件中披露，在截至 9 月 30 日的季度里，公司从与 OpenAI 的商业安排中获得 100 亿美元收入，包括收入分成付款，约占该季总营收 923 亿美元的近 11%。据报道，依据此前微软投资逾 130 亿美元的交易，OpenAI 需将约 20% 的收入分给微软，双方均未公开确认这一比例；按 2026 年 4 月协议，该分成安排将持续至 2030 年并设有上限。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    },
+    {
+      "n": 5,
+      "title": "OpenAI 与 ServiceNow 扩大合作，模型与智能体进入企业工作流",
+      "date": "2026-10-29",
+      "summary": "OpenAI 官方宣布与 ServiceNow 扩大合作，将把 OpenAI 的模型与智能体引入 ServiceNow 的企业工作流，覆盖从开发到安全的多种场景，并向企业员工扩展 ChatGPT Work 与 Codex 的使用。双方还推出新的 ServiceNow 插件，让客户能够通过 ChatGPT 以受治理、安全的方式完成 ServiceNow 工作流操作；OpenAI 同时计划在其产品中集成 ServiceNow 能力。",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/openai-servicenow-partnership-expansion/"
+    },
+    {
+      "n": 6,
+      "title": "ServiceNow 发起 AI 治理\"控制塔联盟\"，NVIDIA、Anthropic 等加入",
+      "date": "2026-10-29",
+      "summary": "ServiceNow 宣布发起 Control Tower Alliance（控制塔联盟），旨在帮助企业大规模安全地采用 AI，并将 AI 治理视为任何单一供应商都无法独立解决的生态系统问题。联盟创始成员包括 Anthropic、AWS、Cisco、HiddenLayer、Kong、NVIDIA、Okta、OpenAI、Stripe、WitnessAI 与 Zenity，覆盖模型厂商、云平台与安全厂商。",
+      "sourceName": "Business Wire",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261028900396/en/ServiceNow-launches-Control-Tower-Alliance-to-help-enterprises-adopt-AI-safely-at-scale"
+    },
+    {
+      "n": 7,
+      "title": "云安全 AI 公司 Upwind 完成 4 亿美元 C 轮融资，估值 38 亿美元",
+      "date": "2026-10-29",
+      "summary": "总部位于旧金山的云安全 AI 创业公司 Upwind 完成 4 亿美元 C 轮融资，估值 38 亿美元，由 Bessemer Venture Partners 领投，Greylock Partners、Craft Ventures 等现有投资方参投。据报道，该公司每季度新增 2000 万至 3000 万美元年度经常性收入，预计年底 ARR 约达 9000 万美元；本轮融资谈判期间，公司曾拒绝 Datadog 的收购要约。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/"
+    },
+    {
+      "n": 8,
+      "title": "谷歌开放搜索与 Gemini 第三方接入，联合 XREAL 发布 Android XR 眼镜",
+      "date": "2026-10-29",
+      "summary": "谷歌推出互联应用平台，向第三方开放搜索与 Gemini 的接入能力；安卓开发工具同步升级，支持超过 40 款外部智能体接入。谷歌还联合 XREAL 发布售价 1099 美元的 Android XR 智能眼镜，进一步扩展其 AI 与 XR 生态布局。",
+      "sourceName": "亿邦动力",
+      "sourceUrl": "https://www.ebrun.com/20261029/717732.shtml"
+    },
+    {
+      "n": 9,
+      "title": "人民日报聚焦\"人工智能+\"：AI 应用加速融入千行百业",
+      "date": "2026-10-29",
+      "summary": "人民日报刊发\"深阅读\"报道聚焦\"人工智能+\"。报道指出，\"十五五\"规划纲要提出深化拓展\"人工智能+\"，赋能经济社会发展和治理能力提升；当前 AI 应用不断延伸，进入千行百业、走近普通人生活，人工智能正加速融入经济社会发展各领域。",
+      "sourceName": "人民网",
+      "sourceUrl": "http://finance.people.com.cn/n1/2026/1029/c1004-40823494.html"
+    },
+    {
+      "n": 10,
+      "title": "A 股 AI 板块 11 家公司三季报高增，5 家净利增幅上限翻倍",
+      "date": "2026-10-29",
+      "summary": "据中金在线统计，截至 10 月 19 日，A 股人工智能板块已有 11 家公司披露 2026 年三季报快报或业绩预告，整体业绩高增，其中 5 家公司净利润增幅上限实现翻倍，已披露数据反映 AI 板块公司三季度业绩表现突出。",
+      "sourceName": "中金在线",
+      "sourceUrl": "http://sc.stock.cnfol.com/shichangjuejin/20261029/32410479.shtml"
+    }
+  ]
+}
