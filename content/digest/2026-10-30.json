@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "n": 1,
+      "title": "谷歌在 AI Mode 推出\"多轮对话广告\"，扩展 AI 搜索商业化",
+      "date": "2026-10-30",
+      "summary": "谷歌正在美国市场扩展 AI 搜索产品的广告投放，推出\"multiturn ads\"（多轮对话广告）：当用户在 AI Mode 中进行具有商业相关性的追问时，广告将以\"sponsored\"标注直接出现在追问结果中，初始查询同样可展示广告。谷歌首席商务官 Philipp Schindler 表示，三季度搜索广告收入增速放缓，原因是用户查询加速迁移至变现率较低的 AI Overviews 与 AI Mode。谷歌占据全球搜索引擎约 90% 的市场份额，三季度查询量同比增长为五年来最快。",
+      "sourceName": "CNET",
+      "sourceUrl": "https://www.cnet.com/tech/services-and-software/google-expands-advertising-ai-mode-overviews/"
+    },
+    {
+      "n": 2,
+      "title": "科技股因财报抛售，资金轮动撤离 AI 交易",
+      "date": "2026-10-30",
+      "summary": "据彭博市场综述，科技股连续第二个交易日下跌，新一轮不及预期的财报促使资金撤出人工智能（AI）交易。亚马逊财报后股价在盘后交易中下跌 7.3%，原因是公司支出增加且在线业务增长放缓。报道还指出，亚洲股市承压、债券获得避险买盘，比特币价格亦出现下跌，市场正在对 AI 相关资产进行仓位再平衡。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates"
+    },
+    {
+      "n": 3,
+      "title": "英特尔披露工厂爆炸将造成约 6 亿美元营收影响",
+      "date": "2026-10-30",
+      "summary": "英特尔披露，其位于以色列 Kiryat Gat 的半导体制造工厂本月早些时候发生爆炸并停产约两周，预计造成约 6 亿美元营收损失。CFO David Zinsner 确认，生产中断预计使第四季度营收减少约 3 亿美元，毛利率下降约 200 个基点，2027 年第一季度将受类似影响。公司同时表示，PC 市场需求疲软预计将持续至 2027 年上半年。",
+      "sourceName": "Notebookcheck",
+      "sourceUrl": "https://www.notebookcheck.net/Intel-reveals-600-Million-revenue-impact-from-factory-explosion-as-PC-demand-weaken.1437704.0.html"
+    },
+    {
+      "n": 4,
+      "title": "第八届工业互联网大赛\"向智\"主题赛决赛在沪举行，60 支工业智能团队齐聚张江",
+      "date": "2026-10-30",
+      "summary": "第八届工业互联网大赛\"向智\"主题赛决赛在上海张江人工智能创新小镇举行，全国 60 支工业智能团队晋级决赛，其中领军组 50 支、新锐组 10 支，通过\"项目路演+专家问辩\"集中展示工业大模型、工业智能体等 AI 技术在工业领域的创新应用。张江人工智能创新小镇在 2 平方公里内集聚超 1200 家科技企业，其中 AI 企业 600 余家，正加快打造具有全球影响力的人工智能产业集群。",
+      "sourceName": "新浪新闻",
+      "sourceUrl": "https://k.sina.com.cn/article_5953466437_162dab0450670bgbyu.html"
+    },
+    {
+      "n": 5,
+      "title": "\"链上鲁渝\"大模型专场产业协作对接活动在重庆举行",
+      "date": "2026-10-30",
+      "summary": "\"链上鲁渝\"大模型专场产业协作对接活动在重庆举行，衔接 2026 人工智能产业大会（山东）与 2026 通用人工智能大会（重庆）成果。山东\"齐鲁七星\"企业代表团与重庆制造业企业开展对接，浪潮云、海尔卡奥斯、极视角等企业展示了工业大模型、行业大模型平台、机器视觉 AI 等技术方案。两地企业围绕场景开放、联合方案打造深入洽谈，并组建常态化交流群组，推动东西部人工智能产业协同发展。",
+      "sourceName": "搜狐新闻",
+      "sourceUrl": "https://m.sohu.com/a/1094501712_121332524"
+    },
+    {
+      "n": 6,
+      "title": "新加坡 NCS 启动 AI Mission Centre，两年内将前置部署工程师扩至 300 人以上",
+      "date": "2026-10-30",
+      "summary": "新加坡科技公司 NCS 启动 AI Mission Centre，定位为帮助公共与私营机构从 AI 实验走向全面企业级部署的创新与执行中心。NCS 承诺未来两年内通过内部转岗培训与外部招聘，将\"智能化前置部署工程师\"（iFDE）队伍从目前的 100 人扩充至 300 人以上，并与樟宜机场集团（CAG）、心理卫生学院（IMH）及 Life3 Biotech 签署三项合作备忘录，联合开发并规模化 AI 解决方案。启动仪式由新加坡数码发展及新闻部长 Josephine Teo 主持。",
+      "sourceName": "PRNewswire",
+      "sourceUrl": "https://us.acrofan.com/detail.php?number=1024225"
+    },
+    {
+      "n": 7,
+      "title": "FT 专访 Sarvam AI 创始人：没有主权 AI，印度可能沦为\"数字殖民地\"",
+      "date": "2026-10-30",
+      "summary": "据《金融时报》报道，印度大模型初创公司 Sarvam AI 联合创始人 Vivek Raghavan 在专访中表示，若印度不发展主权 AI（即自主可控的人工智能能力），国家可能沦为\"数字殖民地\"。该报道聚焦印度本土 AI 产业的发展路径与主权 AI 议题，讨论本土模型能力建设在印度数字经济中的位置。",
+      "sourceName": "Financial Times",
+      "sourceUrl": "https://www.ft.com/content/b662e99e-764c-42cc-a2df-391214b2a56f"
+    },
+    {
+      "n": 8,
+      "title": "美国肯塔基大学一员工因人文主义信念获\"AI 宗教豁免\"",
+      "date": "2026-10-30",
+      "summary": "美国肯塔基大学一名管理人员以 AI 使用与其人文主义（humanist）信念冲突为由，获得校方批准的宗教便利安排，成为已知首例授予人文主义者的职场 AI 豁免。当事员工表示审批过程约一个月、较为顺畅，但该安排不代表完全避免接触 AI。校方资料显示，肯塔基大学正推进\"AI-ready workforce\"建设，已收到 80 余项员工培训申请，并标准化采用 Microsoft 365 Copilot、GitHub Copilot 等 AI 工具。",
+      "sourceName": "Newsweek",
+      "sourceUrl": "https://www.newsweek.com/religious-exemption-ai-work-kentucky-employee-12639136"
+    }
+  ]
+}
