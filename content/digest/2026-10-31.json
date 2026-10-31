@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "n": 1,
+      "title": "阿里巴巴官宣千问大模型全面接入国行Apple智能，11月4日开放测试",
+      "date": "2026-10-31",
+      "summary": "阿里巴巴通过官方公众号宣布与Apple达成合作，将千问大模型集成至面向中国用户的Apple智能。更新后，Siri可直接调用千问回答问题，用户可用自选文档和照片向千问提问，发送前Siri会先征得用户同意；系统级写作工具新增\"千问创作（Compose with Qwen）\"功能，支持基于不同主题生成文本与图像。相关功能将于11月4日随iOS开发者Beta版开放测试，12月iOS 27.3正式发布时面向中国用户推出。今年7月苹果智能已通过生成式AI服务备案，10月中旬库克在上海确认合作获批。",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/roll/2026-10-31/doc-inixakvf4143942.shtml"
+    },
+    {
+      "n": 2,
+      "title": "快手可灵AI完成约198亿元增资交割，文生视频赛道资本热度不减",
+      "date": "2026-10-31",
+      "summary": "快手发布公告称，旗下视频生成大模型可灵AI宣布落地完成本轮增资，所有投资人已就其认购金额支付增资款且认购事项已交割，增资款总额约198亿元（约合超过29亿美元）。本轮融资覆盖国家级及地方产业基金、BAT等相关科技公司。公告还显示，可灵已与达康兰五及BFI MIDCO订立终止协议，达康兰五将其部分认购份额转让给金蝶软件（中国）、温州睿达、共青城君可、沐曦上海及宁波知春华燕。",
+      "sourceName": "每日经济新闻",
+      "sourceUrl": "https://www.mrjjxw.com/articles/2026-10-30/4632536.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI、谷歌、微软、Anthropic联手支持AI爬虫\"共享退出令牌\"标准",
+      "date": "2026-10-31",
+      "summary": "OpenAI、谷歌、微软和Anthropic宣布将支持一项针对AI爬虫的共享\"政策令牌\"标准：网站出版方只需在robots.txt中设置单一条目，即可一次性向多家AI公司表达拒绝被抓取的偏好，无需逐家通知。该提案由Anthropic标准负责人Kevin Kelley起草并经互联网工程任务组（IETF）提交。Anthropic已率先实施，OpenAI计划数月内落地，谷歌和微软目标明年支持；微软还将提供更细粒度控制，允许分别退出AI训练或AI grounding。Meta表示有兴趣但未作承诺。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out"
+    },
+    {
+      "n": 4,
+      "title": "AI支出担忧加深，纳斯达克指数10月市值蒸发约2万亿美元",
+      "date": "2026-10-31",
+      "summary": "据路透社报道，纳斯达克综合指数10月遭遇约2万亿美元市值蒸发，市场对AI基础设施支出的担忧持续加深。摩根大通预计全球AI资本开支到2030年将达5.5万亿美元，仅2026年就将投入约9000亿美元。亚马逊、Alphabet等科技巨头今年的AI资本开支持续高企，投资者对投入回报周期与盈利兑现的疑虑引发科技股回调，AI相关资产正在被市场重新定价。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/nasdaq-faces-2-trillion-wipeout-october-ai-spending-fears-deepen-2026-10-30"
+    },
+    {
+      "n": 5,
+      "title": "港股IBS拟5.63亿港元收购边缘AI芯片设计公司QuantumCompute",
+      "date": "2026-10-31",
+      "summary": "香港上市公司International Business Settlement（IBS）披露，已于10月30日与卖方Brainwave Innovations签署股份购买协议，拟以5.63亿港元（约7240万美元）收购QuantumCompute Solutions全部股权。标的核心运营实体上海天境孚联专注于AI系统级芯片（SoC）产品设计开发，面向低功耗AI推理与边缘计算应用，并为联发科授权的独立芯片设计公司。交易为附条件交易，尚需完成标的集团重组，完成后QuantumCompute将成为IBS全资子公司。",
+      "sourceName": "TechNode Global",
+      "sourceUrl": "https://technode.global/2026/10/31/ibs-quantumcompute-ai-chip-acquisition"
+    },
+    {
+      "n": 6,
+      "title": "Cognizant组建OpenAI前沿能力集团，2.5万名专业人员投入企业AI部署",
+      "date": "2026-10-31",
+      "summary": "IT服务巨头Cognizant宣布成立\"OpenAI Frontier Capability Group\"，汇聚超过2.5万名专业人员，帮助企业规模化部署和集成Codex、ChatGPT等OpenAI产品。该集团初期聚焦AI原生软件工程、应用现代化与智能体客户运营三大方向。Cognizant表示将先在自身销售与客户成功业务中规模化应用OpenAI工具，把经企业级验证的方法再输出给客户。",
+      "sourceName": "Rediff Money（PTI）",
+      "sourceUrl": "https://money.rediff.com/news/market/cognizant-launches-openai-frontier-group-for-enterprise-ai/57205520261030"
+    },
+    {
+      "n": 7,
+      "title": "鹿明机器人携NexCore技能进化引擎亮相教育装备展，布局具身智能科教市场",
+      "date": "2026-10-31",
+      "summary": "第88届中国教育装备展示会在长沙开幕，鹿明机器人展示自研机器人技能进化引擎Lumos NexCore，覆盖数据采集、模型训练、真机部署到量化评测的任务闭环，并推出配套院校实训方案，覆盖\"采、调、测、用\"全流程。行业数据显示，2026年上半年国内具身智能赛道融资规模达935亿元，同比增长约5倍；国内人形机器人出货量超4万台，约占全球97%。全国职业教育专业目录已陆续增补具身智能机器人技术、人形机器人工程技术等专业。",
+      "sourceName": "教育在线",
+      "sourceUrl": "https://news.eol.cn/hot/hangye/202610/t20261030_2788688.shtml"
+    },
+    {
+      "n": 8,
+      "title": "法国Bleu Robotics获500万欧元pre-seed融资，推进工厂人形机器人落地",
+      "date": "2026-10-31",
+      "summary": "总部位于巴黎的初创公司Bleu Robotics宣布完成500万欧元pre-seed轮融资，由Contrarian Ventures与OVNI Capital联合领投，Kvanted、WEPA Ventures、Motier Ventures及Meta董事会成员Charlie Songhurst参投。该公司开发面向工业人形机器人的AI模型，联合创始人Benoît Berkoukch表示，制造业中的人形机器人将是\"下一个汽车产业\"，有潜力帮助欧美实现制造业回流。",
+      "sourceName": "Robotics & Automation News",
+      "sourceUrl": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/"
+    }
+  ]
+}
