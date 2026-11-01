@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI下调新一轮融资目标至最高200亿美元，投后估值传闻为1.25万亿美元",
+      "date": "2026-11-01",
+      "summary": "CNBC确认，OpenAI正寻求在新一轮融资中筹集最高200亿美元，较此前最高300亿美元的目标下调100亿美元。《金融时报》率先报道称，本轮对应投后估值为1.25万亿美元，公司为投资者设定了周五的承诺截止期，部分投资者选择缩减认购额度；《华尔街日报》称其已落实约110亿美元，部分大型投资者反应平淡。本轮调整发生在市场质疑科技巨头AI基础设施支出回报的一周之后，融资仍在进行中尚未关闭。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html"
+    },
+    {
+      "n": 2,
+      "title": "BBC聚焦\"新云\"算力租赁商：CoreWeave、Nebius成为AI泡沫担忧焦点",
+      "date": "2026-11-01",
+      "summary": "BBC报道称，CoreWeave、Nebius等被称为\"新云\"（neocloud）的算力租赁商正成为AI泡沫争论的焦点。这类公司运营装满高价GPU的数据中心，把算力租给Anthropic、OpenAI和Meta等AI开发商；由于硬件需要前置付款，行业内普遍依赖债务融资。近期Nebius、IREN、Applied Digital等公司股价均大幅回撤。报道指出，这类公司的前景已与AI开发商及超大规模云厂商的命运深度绑定。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/cje36degrgv5o"
+    },
+    {
+      "n": 3,
+      "title": "苹果CEO Ternus谈AI战略：不愿\"为AI而AI\"",
+      "date": "2026-11-01",
+      "summary": "苹果CEO John Ternus接受《连线》记者Steven Levy采访，阐述公司AI立场。今年9月初正式出任CEO的Ternus表示\"我很喜欢我们现在的位置\"，称苹果\"绝对会在新产品中利用AI\"，但\"不想为AI而AI\"——做对了的时候，用户不必分辨背后是AI还是传统软件。被问及AI智能体是否会让App变得不再必要时，他回应称产品的创造是深度人性化和个人化的事情，是苹果热爱去做的事。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/"
+    },
+    {
+      "n": 4,
+      "title": "法官驳回xAI撤案动议，孟菲斯Colossus数据中心相关诉讼将继续审理",
+      "date": "2026-11-01",
+      "summary": "美国联邦法官驳回了xAI提出的撤案动议，针对其孟菲斯Colossus数据中心的诉讼将继续推进。由南方环境法律中心代理的起诉方称，xAI在Colossus场地安装并运行了至少35台燃烧涡轮机及其他空气污染源，未取得必要的事前建设或运营许可，涉嫌违反《清洁空气法》；xAI此前主张这些涡轮机属于可移动设备、豁免于许可要求。xAI现为SpaceX旗下公司。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/"
+    },
+    {
+      "n": 5,
+      "title": "ONLYOFFICE 10.0发布：开源办公套件全面引入上下文感知AI",
+      "date": "2026-11-01",
+      "summary": "开源办公套件ONLYOFFICE发布10.0大版本更新，在文档、表格、演示文稿和PDF编辑器中内置上下文感知AI能力，新增AI标签页与内置聊天，支持起草、摘要、翻译、清理与格式化操作，无需离开文件或把内容复制到外部工具。移动端App新增AI助手，接入Grok、DeepSeek等新模型提供商，并提供表单AI自动填充与设备端语音输入。本次更新同时带来模块化Apps与面向组织的安全升级。",
+      "sourceName": "Business Insider",
+      "sourceUrl": "https://markets.businessinsider.com/news/stocks/onlyoffice-10-0-brings-ai-tools-modular-apps-and-stronger-security-to-its-open-source-office-suite-1036695279"
+    },
+    {
+      "n": 6,
+      "title": "Socure报告：AI正在催生\"新型欺诈者\"而非仅放大原有风险",
+      "date": "2026-11-01",
+      "summary": "身份验证厂商Socure发布报告，提出\"AI熟练型欺诈者\"画像：该群体中超过半数在没有AI工具的情况下并无欺诈行为，其基线欺诈率4.1%与普通人群的5.0%接近；但其中50.6%的人至少重复实施欺诈十次以上，重复作案率约为传统欺诈者的5.5倍，典型画像为30岁以下男性。报告认为，围绕已知欺诈团伙设计的核验与监控策略难以识别这类人群，相关机构的模型训练数据集需要更新。",
+      "sourceName": "The Fintech Times",
+      "sourceUrl": "https://thefintechtimes.com/socure-report-ai-is-creating-new-fraudsters-not-just-better-ones/"
+    },
+    {
+      "n": 7,
+      "title": "Theranos吹哨人：AI公司NDA\"很可能违法\"，投资人需做真正尽调",
+      "date": "2026-11-01",
+      "summary": "Theranos吹哨人Tyler Shultz接受采访表示，AI公司的能力造假并不难，\"很难区分真正独特的新东西和ChatGPT套壳\"，投资人需要对AI公司做真正的尽职调查。他指出当前几乎没有法律监管AI，这让公司内部人员更难吹哨；他还称AI实验室用来限制员工发声的保密协议\"很可能违法\"，员工应知道自己有权联系律师和监管机构。该采访正值一部关于Elizabeth Holmes的新片上映。",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/theranos-whistleblower-tyler-shultz-ai-due-diligence-ndas"
+    },
+    {
+      "n": 8,
+      "title": "美国工会就AI与数据中心建设出现态度分裂",
+      "date": "2026-11-01",
+      "summary": "据Axios报道，美国工会组织对AI的态度出现分裂：行业工会支持数据中心建设带来的大量工程岗位，而Teamsters等工会则主张出台限制AI的政策。康奈尔大学劳工关系学者Arthur Wheaton表示，\"劳工必须在所有事情上保持一致\"本身就是一种误解，只要伴随培训且不替代现有岗位，很多工会愿意支持AI落地。Teamsters高层称劳工有责任参与塑造AI的部署方式，确保其\"以人为本\"。",
+      "sourceName": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/10/31/unions-ai-big-labor-data-centers"
+    }
+  ]
+}
