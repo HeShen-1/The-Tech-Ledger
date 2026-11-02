@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 灰测 GPT-6.2 Astra，Anthropic 官网源码曝光 Claude Mythos 5.5 与 Fable 5.5",
+      "date": "2026-11-02",
+      "summary": "据华尔街见闻等媒体报道，OpenAI 与 Anthropic 同日曝出下一代模型动态：OpenAI 正在悄悄灰度测试 GPT-6.2 Astra，重点修复安全隐患，该版本在后台流量中占比已接近两成；同日有人在 Anthropic 官网源代码中发现 Claude Mythos 5.5 的名字，以及新旗舰 Fable 5.5 的信息，后者配备严格的安全护栏以拦截高危指令，将作为通用商业旗舰向全球开发者全量开放。",
+      "sourceName": "华尔街见闻",
+      "sourceUrl": "https://wallstreetcn.com/articles/3784958"
+    },
+    {
+      "n": 2,
+      "title": "2026 年世界互联网大会乌镇峰会今日举行，首次向社会开放预约",
+      "date": "2026-11-02",
+      "summary": "2026 年世界互联网大会乌镇峰会于 11 月 2 日至 5 日在浙江乌镇举行，开幕式定于 11 月 3 日上午。本次峰会主题为\"开源开放共建共享——携手构建网络空间命运共同体\"，是峰会落地乌镇的第 13 个年头，并首次向社会开放预约。同期\"互联网之光\"博览会于 11 月 2 日上午在乌镇启幕，人工智能仍是本届峰会的核心议题之一。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://tech.sina.cn/2026-11-02/detail-inixicic0477077.d.html"
+    },
+    {
+      "n": 3,
+      "title": "微软 AI 负责人苏莱曼：当前 AI 不具备意识，也不应开发有意识的 AI",
+      "date": "2026-11-02",
+      "summary": "微软 AI 业务负责人穆斯塔法·苏莱曼在 X 平台发长文表示，基于他所了解的一切，当前 AI 模型并不具备意识，开发者也应保持这一状态；开发有意识的 AI 是鲁莽行为，AI 开发者无权把一个有意识的新物种带入世界。他强调全球 80 亿人类并未同意这项实验，开发者的首要义务是保护人类的道德权利、安全与福祉。此前 Anthropic 曾于今年 4 月启动\"模型福利\"研究项目。",
+      "sourceName": "Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/mustafa-suleyman-microsoft-ai-consciousness-2026-11"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI 筹备新一轮形象攻势，或把数据中心改称\"AI 计算园区\"",
+      "date": "2026-11-02",
+      "summary": "据 Axios 报道，OpenAI 正筹备一轮公关攻势，其中包括将数据中心重新命名为\"AI compute campuses\"（AI 计算园区）。OpenAI 首席全球事务官 Chris Lehane 称 2028 年 AI 将成为大选的核心议题，公司还提出多项主张：为 AI 设置\"限速\"规则、帮助人们把 AI 视作日常生活中的赋能工具、推动美国参与全球标准制定。他还表示，围绕数据中心的讨论\"良好且健康\"。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/"
+    },
+    {
+      "n": 5,
+      "title": "AI 与芯片股自 10 月初以来市值蒸发约 5 万亿美元，美股期指周一小幅高开",
+      "date": "2026-11-02",
+      "summary": "据雅虎财经统计，自 10 月 6 日以来，美国规模最大的 AI 与芯片股合计损失约 5 万亿美元市值，同期其余约 625 只大盘股合计增加约 1.3 万亿美元。周日晚间开盘的股指期货小幅上涨，标普 500、纳斯达克 100 与道指期货涨幅在 0.2% 至 0.4% 之间。本周市场重点关注苹果、Palantir、AMD 等财报及美国劳动力市场数据；上周五微软市值收于约 5.03 万亿美元，超过英伟达的约 4.93 万亿美元。",
+      "sourceName": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/markets/article/stock-futures-open-a-monster-week-after-a-5-trillion-ai-wipeout-232500194.html"
+    },
+    {
+      "n": 6,
+      "title": "MIT 调查：约 76% 的数学研究生因 AI 发展考虑离开学术数学",
+      "date": "2026-11-02",
+      "summary": "MIT 相关研究人员本周发表论文，对 268 名早期职业数学工作者（研究生与博士后）的调查显示，约 76% 的受访者表示因 AI 发展，自己越来越不可能在取得学位后继续从事学术数学研究，同样比例的人称 AI 发展降低了其研究动力。论文提到 OpenAI 与 Anthropic 已对数学界作出部分让步，但 AI 对数学研究价值与学术职业路径的冲击仍在持续引发讨论。",
+      "sourceName": "Business Insider",
+      "sourceUrl": "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11"
+    }
+  ]
+}
