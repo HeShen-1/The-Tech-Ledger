@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "n": 1,
+      "title": "AI推理初创公司Fal完成13亿美元融资，估值翻倍至160亿美元",
+      "date": "2026-11-04",
+      "summary": "AI推理初创公司Fal宣布完成13亿美元新一轮融资，估值达160亿美元，较今年4月的上一轮估值翻倍。本轮融资由Bessemer Venture Partners领投，英伟达等参投。该公司为创作者和开发者托管图像、视频、音频生成模型的推理服务，年化营收已突破8亿美元。此轮融资反映生成式媒体推理需求激增背景下，AI基础设施赛道持续获得大额资本投入。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-03/ai-inference-startup-fal-raises-capital-at-16-billion-valuation"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic上市前向投资者推介Claude芯片设计能力，引发EDA行业担忧",
+      "date": "2026-11-04",
+      "summary": "据财联社11月4日报道，Anthropic在上市前向投资者展示借助Claude加速芯片研发的能力，称其可缩短定制芯片研发周期。该消息引发市场对传统电子设计自动化（EDA）行业可能受到冲击的担忧，投资者关注大模型进入芯片设计流程后对现有研发工具链格局的改变。这是AI大模型厂商向垂直工程领域渗透的最新案例。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2524317"
+    },
+    {
+      "n": 3,
+      "title": "Google警告LLMjacking攻击：企业云AI欺诈费用损失可达100万美元",
+      "date": "2026-11-04",
+      "summary": "Google披露一类被称作LLMjacking的攻击手法：攻击者劫持企业接入云端的大语言模型资源，盗用AI推理算力，产生的欺诈性云费用在部分受害组织处已达100万美元。Google提示企业需加强对云上AI资源的访问控制、凭证管理与用量监控，以防范此类针对大模型服务的新型安全风险。",
+      "sourceName": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/"
+    },
+    {
+      "n": 4,
+      "title": "马斯克称Grok Bot成本\"不可持续\"，OpenAI承认Dots算力消耗巨大",
+      "date": "2026-11-04",
+      "summary": "据《财富》杂志报道，马斯克表示Grok Bot的运行成本\"高得不可持续\"，OpenAI也承认其Dots设备\"算力消耗巨大\"。随着科技公司竞相推出个人AI智能体硬件，高昂的计算成本正成为大规模普及的关键制约，业界开始讨论个人AI智能体产品能否在现有成本结构下持续商业化，算力开销已成为这一品类面临的核心难题。",
+      "sourceName": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/11/03/musk-says-grok-bots-costs-are-unsustainably-high-while-openai-admits-dots-are-compute-heavy-is-the-personal-ai-agent-push-dead-on-arrival/"
+    },
+    {
+      "n": 5,
+      "title": "AI运维初创Traversal融资1.2亿美元，估值达10亿美元",
+      "date": "2026-11-04",
+      "summary": "初创公司Traversal宣布完成1.2亿美元融资，估值达到10亿美元。该公司帮助美国运通、百事等企业排查软件系统故障和站点中断问题，业务随企业系统复杂度上升而快速增长。据《福布斯》报道，随着AI越来越多地参与软件构建、系统规模持续膨胀，排查和修复AI所构建系统的故障正形成一个十亿美元级的新市场。",
+      "sourceName": "Forbes",
+      "sourceUrl": "https://www.forbes.com/sites/the-prompt/2026/11/03/the-billion-dollar-business-of-fixing-what-ai-builds/"
+    },
+    {
+      "n": 6,
+      "title": "中孚恒升发布\"AI能力基建者\"战略，以词元效率构建AI能力新标尺",
+      "date": "2026-11-04",
+      "summary": "据央广网11月4日消息，深圳中孚恒升科技于11月3日举办战略发布会，发布\"AI能力基建者\"战略。创始人丁艳以\"算力可以一夜建成，能力不能\"作为开场，直指当前AI产业高速扩张背后的能力短板问题，提出以词元效率作为衡量AI能力的新标尺，推动行业从单纯堆砌算力转向AI能力体系建设。",
+      "sourceName": "央广网（搜狐转载）",
+      "sourceUrl": "https://m.sohu.com/a/1096897015_362042"
+    },
+    {
+      "n": 7,
+      "title": "金刚石材料开辟芯片散热新赛道，缓解AI服务器散热瓶颈",
+      "date": "2026-11-04",
+      "summary": "据中国新闻网11月4日转载经济日报报道，随着芯片制程不断精进，智能手机高频使用发烫降频、AI服务器满载运转过热卡顿、高端芯片高温制约性能释放等问题日益突出。金刚石凭借优异的导热性能在芯片散热领域开辟出新的产业赛道，产业链上下游正加快布局，为AI算力硬件面临的散热瓶颈提供新的材料方案。",
+      "sourceName": "中国新闻网",
+      "sourceUrl": "https://www.chinanews.com.cn/cj/2026/11-04/10725718.shtml"
+    }
+  ]
+}
