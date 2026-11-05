@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 发布 ChatGPT Images 2.6，支持 GIF 动图生成并推出两款新图像模型",
+      "date": "2026-11-05",
+      "summary": "OpenAI 在官方开发者社区宣布 ChatGPT Images 2.6 上线，新增 GIF 动图生成能力，用户可基于提示词或现有图片生成动图，并调整动画速度、编辑单帧；同时支持保存人物、宠物等参考图，在多次生成中复用。面向开发者，API 推出 GPT-Image-2.6 Flare 与 Sunburst 两款模型，最快约 6 秒完成生成，支持图像标注（image markup）与 SVG 导出。官方称新版本生成速度提升 50%，正向 ChatGPT、Codex 及 API 的网页、桌面与移动端逐步推出。",
+      "sourceName": "OpenAI 开发者社区",
+      "sourceUrl": "https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901"
+    },
+    {
+      "n": 2,
+      "title": "高盛与阿波罗启动 SpaceX 400 亿美元 AI 芯片融资租赁份额分销",
+      "date": "2026-11-05",
+      "summary": "据彭博报道，高盛与阿波罗全球管理开始与华尔街投资人磋商，出售 SpaceX 约 400 亿美元 AI 芯片融资租赁方案的部分份额，为迄今规模最大的 GPU 表外融资交易。该交易由阿波罗关联实体出资采购 GPU 与服务器后回租给 SpaceX，债务不计入其资产负债表；所筹资金用于采购英伟达下一代 Vera Rubin 芯片，支撑其算力基础设施建设。文件显示设备预计今年底前完成交割，租赁安排自 2027 年上半年起陆续启动。",
+      "sourceName": "鉅亨網",
+      "sourceUrl": "https://news.cnyes.com/news/id/6647379"
+    },
+    {
+      "n": 3,
+      "title": "世界互联网大会乌镇峰会发布《携手构建开放AI行动倡议》",
+      "date": "2026-11-05",
+      "summary": "2026 世界互联网大会乌镇峰会发布《携手构建开放AI行动倡议》，提出各国共建共享算力池与高质量数据集、设立开源种子基金，鼓励以宽松许可、免费商用、自由微调方式开放模型权重，降低企业与科研人员的研发成本；倡议同时提出按模型能力实施分级风险管理，推动模型参数、训练数据来源与训练过程透明可追溯，并计划搭建全球开发者培训网络。本届峰会于 11 月 2 日至 5 日举行，主题为\"开源开放 共建共享\"。",
+      "sourceName": "央视新闻（东方财富网转载）",
+      "sourceUrl": "https://emwap.eastmoney.com/a/202611043922181379.html"
+    },
+    {
+      "n": 4,
+      "title": "报道称 Anthropic 未发布模型将 Linux 内核漏洞转化为可远程提权的利用链",
+      "date": "2026-11-05",
+      "summary": "据媒体报道，Anthropic 一款尚未发布的前沿模型在测试中将 Linux 内核高危漏洞 CVE-2026-98432（CVSS 9.8 分）从理论层面转化为无需凭据、可远程获取 root 权限的完整利用链，将漏洞武器化所需时间从数月压缩至数小时。该漏洞存在于 IPv4 TCP 握手过程，影响 Linux 4.4 以来近十年的主流服务器内核，Ubuntu 与 RHEL 尚未发布正式补丁，Debian、Amazon Linux 等发行版已从内核层面完成修复。",
+      "sourceName": "智源社区",
+      "sourceUrl": "https://hub.baai.ac.cn/view/59370"
+    },
+    {
+      "n": 5,
+      "title": "Nothing 宣布 12 月发布首款无屏 AI 设备，CEO 称其\"无法以 App 形式实现\"",
+      "date": "2026-11-05",
+      "summary": "Nothing CEO 裴宇（Carl Pei）在 X 平台发文宣布，公司首款\"AI 原生\"设备将于 12 月上市，该产品没有屏幕，\"也无法以 App 形式实现\"，定位为兼具品牌设计风格的工具类产品，具体形态、功能与价格尚未披露。裴宇同时表示，行业通过吊坠、别针、眼镜等形态寻找\"AI 的 iPhone 时刻\"是死路一条。此前 Humane AI Pin、Friend 等无屏 AI 硬件产品均未取得市场成功。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+    },
+    {
+      "n": 6,
+      "title": "AI 办公赛道竞争升级，行业焦点从模型能力转向业务场景",
+      "date": "2026-11-05",
+      "summary": "北京日报报道称，AI 办公赛道近三个月竞争明显加剧：千问办公 10 月推出首个行业版本\"电商版\"并开启邀测；字节跳动豆包工作自 8 月底发布以来一个月内更新 20 余次，上线创作画布、多 Agent 并行等能力；腾讯 WorkBuddy 上线独立文件浏览器，支持本地文件右键直接调用 AI 处理。报道援引业内人士观点称，通用模型能力快速拉齐后，\"懂行业\"正取代\"拼模型\"成为新的竞争壁垒，各家竞争正向电商、设计等细分场景延伸。",
+      "sourceName": "北京日报",
+      "sourceUrl": "https://xinwen.bjd.com.cn/content/s6aebc4a6e4b039a8e2f33198.html"
+    },
+    {
+      "n": 7,
+      "title": "AI Agent 初创 Cowboy 获 500 万美元种子轮融资，上线 Agent 市场平台",
+      "date": "2026-11-05",
+      "summary": "总部位于纽约的 AI 初创公司 Cowboy 宣布完成 500 万美元种子轮融资并结束隐身状态，推出云平台 Cowboy Cloud 与市场 Cowboy General Store，开发者可在平台上创建、部署、运营并售卖自主 AI Agent，也可提供数据源、模型、算力与软件技能供付费调用。该公司由 CEO Chad DePue 与风险投资基金 Uncommon Projects 于 2025 年创立。",
+      "sourceName": "citybiz",
+      "sourceUrl": "https://www.citybiz.co/article/929506/cowboy-raises-5-million-in-seed-funding-launches-ai-agent-marketplace"
+    },
+    {
+      "n": 8,
+      "title": "Pangram 发布 Image 1.0 与 Flash 1.0，推出 AI 图像与视频检测新模型",
+      "date": "2026-11-05",
+      "summary": "AI 检测公司 Pangram 发布旗舰图像检测模型 Image 1.0，官方称在由 12 种前沿图像生成器构造的 1200 张测试图集上准确率达 99.96%，支持输出热力图定位图像中 AI 生成区域，并对编辑、压缩与低分辨率保持鲁棒；同时推出更小更快的 Flash 1.0，可对 AI 编辑视频进行逐帧分析。公司还上线支持检测信息流 AI 内容的 Chrome 扩展，API 新增图像与视频检测能力。",
+      "sourceName": "Pangram 官方博客",
+      "sourceUrl": "https://www.pangram.com/zh/blog/introducing-pangram-image-1-0"
+    }
+  ]
+}
