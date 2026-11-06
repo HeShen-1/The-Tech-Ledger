@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "n": 1,
+      "title": "蚂蚁百灵发布原生多模态大模型 Ling-3.2-flash，多项评测得分超越 Claude Opus 5",
+      "date": "2026-11-06",
+      "summary": "蚂蚁百灵团队宣布推出原生多模态模型 Ling-3.2-flash，总参数 560B、激活参数 25B，支持 1M 上下文窗口，原生处理图像、文本与视频输入，重点强化复杂视觉理解、多模态长程智能体、3D 理解交互与医疗多模态四类能力。官方评测显示，该模型在 OmniDocBench1.5、ZEROBench、Vision2Web 三项基准上超过 Claude Opus 5（max），并以 1238 的 Elo 分数进入 DesignArena 前十。API 输入 0.30 美元/百万 token、输出 0.90 美元，兼容 OpenAI 与 Anthropic 协议，已在蚂蚁百炼平台上线，前两周限时免费。",
+      "sourceName": "IT之家（搜狐转载）",
+      "sourceUrl": "https://m.sohu.com/a/1097844551_114760"
+    },
+    {
+      "n": 2,
+      "title": "OpenAI 发布网络安全专用模型 GPT-6 Cyber，面向 Daybreak Red 认证客户开放",
+      "date": "2026-11-06",
+      "summary": "OpenAI 发布网络安全专用模型 GPT-6 Cyber，基于 GPT-6 Astra 训练，面向授权漏洞研究与安全测试，在其 Preparedness Framework 中列为最高级 Critical 档。模型通过 API 与 Codex 向 Daybreak Red 计划认证客户开放，Mozilla、Palo Alto Networks、Cisco 等安全团队已开始使用；早期研究在 Firefox 中发现 81 个此前未知漏洞，相关 Linux 内核研究扫描出 948 个潜在问题。OpenAI 同步宣布 10 亿美元投入支持关键基础设施安全研究者，并表示将逐步扩大 Daybreak 计划覆盖范围。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 总裁布罗克曼称公司 2027 年具备 IPO 条件，三季度年化营收环比增长 70%",
+      "date": "2026-11-06",
+      "summary": "OpenAI 联合创始人兼总裁 Greg Brockman 在《华尔街日报》科技峰会上表示，公司 2027 年将具备上市条件。他透露第三季度年化营收环比增长 70%，主要来自企业业务翻倍增长，企业收入已成为公司营收主体，而此前仅占约 30%，新签客户包括摩根大通。Brockman 同时承认上半年经营状况\"相当艰难\"，公司在智能体编程赛道曾落后于 Anthropic 的 Claude Code，此后通过持续投入 Codex 逐步追赶。OpenAI 此前已于 6 月提交保密版 S-1 注册文件。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027"
+    },
+    {
+      "n": 4,
+      "title": "Meta 收购多智能体编程平台 Conductor，团队并入超级智能实验室",
+      "date": "2026-11-06",
+      "summary": "Meta 宣布收购 AI 编程初创公司 Conductor，创始人 Charlie Holtz 与团队加入 Meta 超级智能实验室（MSL）。Conductor 成立于 2024 年，其平台支持在 Mac、iPhone 与云端并行调度 Claude Code、Codex、Cursor 等多个编程智能体，今年 3 月完成 2200 万美元 A 轮融资；被收购后 Conductor Cloud 托管服务将在数周内关停，本地功能维持正常。此前一天 OpenAI 宣布收购为 Codex 托管代码仓库的开发工具公司 Pierre，AI 编程工具链正成为大厂并购的重点方向。",
+      "sourceName": "DevOps.com",
+      "sourceUrl": "https://devops.com/meta-acquires-conductor-to-support-multi-agent-ai-coding"
+    },
+    {
+      "n": 5,
+      "title": "月之暗面发布 Kimi Hosted Agents 托管智能体服务，Agent 运行框架上云",
+      "date": "2026-11-06",
+      "summary": "月之暗面宣布发布 Kimi Hosted Agents（托管智能体），将支撑 Agent 运行的 Harness 层以云端服务形式提供给企业与开发者，提供 7×24 小时托管环境，支持长程任务执行与多智能体协作，沙箱运行与插件调用单独计费。服务内置 140 余项技能与 30 余项插件，首批上线 8 个金融 Agent 模板，覆盖投研建模、IPO 跟踪、持仓监控等场景，并提供推理前安全检查组件 Kimi Inference Hook，按企业规则拦截敏感数据。使用方式包括网页控制台、命令行与 API，与云厂商同类托管服务形成竞争。",
+      "sourceName": "每日经济新闻",
+      "sourceUrl": "https://www.mrjjxw.com/articles/2026-11-05/4639931.html"
+    },
+    {
+      "n": 6,
+      "title": "视频大模型公司 Sand.ai 完成 2 亿美元 A+ 轮融资，跻身独角兽",
+      "date": "2026-11-06",
+      "summary": "视频生成大模型公司 Sand.ai（三呆科技）宣布完成 2 亿美元 A+ 轮融资，基石资本、网宿科技联合领投，时代资本、磐霖资本、东证资本等机构参投，上海国资等多方力量参与。这是公司 2026 年内完成的第三轮融资，10 个月累计融资约 3 亿美元，投后正式跻身独角兽行列。Sand.ai 以开源 MoE 架构与低成本路线参与视频生成竞争，C 端产品 VidMuse 已初步验证付费意愿；目前该赛道头部玩家可灵年化收入超 3 亿美元，行业集中度持续提升。",
+      "sourceName": "搜狐科技·晚集",
+      "sourceUrl": "https://m.sohu.com/a/1097702331_115060"
+    },
+    {
+      "n": 7,
+      "title": "Anthropic Claude Code 产品负责人 Cat Wu 跳槽 OpenAI",
+      "date": "2026-11-06",
+      "summary": "Anthropic 高级产品经理 Cat Wu 于 10 月底离职，本周宣布加入竞争对手 OpenAI，将负责 Core Products 团队的产品管理，向编程智能体 Codex 负责人 Thibault Sottiaux 汇报。Wu 此前主导 Claude Code 产品并兼管 Cowork 产品，是 Claude Code 成长为 Anthropic 重要收入来源过程中的代表人物之一。此次转会是两家公司在编程智能体赛道人才争夺的最新动向。",
+      "sourceName": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/11/05/openais-dots-are-coming-up-against-the-price-of-privacy-and-the-price-of-compute"
+    },
+    {
+      "n": 8,
+      "title": "苹果推送 iOS 27.3 首个公测版，国行 Apple Intelligence 首批功能开测",
+      "date": "2026-11-06",
+      "summary": "苹果发布 iOS 27.3 与 macOS Golden Gate 27.3 等系统首个公开测试版。国行 Apple Intelligence 首批功能开始向支持机型推送，包括写作工具、实时翻译、视觉智能与 Genmoji 等，但完整版 Siri AI 及后续 iOS 27 新功能不在此轮范围内。新版 Safari 引入竖排标签页与自适应深色模式，Siri AI 扩展了邮件、信息、相册、日历等原生应用的可执行操作，并新增繁体中文等语言支持。",
+      "sourceName": "MacDailyNews",
+      "sourceUrl": "https://macdailynews.com/2026/11/05/apple-releases-first-public-betas-of-ios-27-3-macos-golden-gate-27-3-and-companion-os-updates"
+    }
+  ]
+}
