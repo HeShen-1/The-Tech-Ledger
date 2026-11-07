@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-07",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI 据报再融资 110 亿美元，估值达 1.25 万亿美元",
+      "date": "2026-11-07",
+      "summary": "据 TechCrunch 报道，OpenAI 在一轮尚未正式完结的融资中追加募集 110 亿美元，投后估值达到 1.25 万亿美元，预计未来数周内完成。同一时点，竞争对手 Anthropic 正推进 IPO 进程，两家头部 AI 公司的估值动态成为行业关注焦点。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic IPO 估值存分歧：1.5 万亿美元仍被投资者嫌贵",
+      "date": "2026-11-07",
+      "summary": "据路透社报道，Anthropic 的 IPO 计划面临部分投资者对估值的质疑，认为 1.5 万亿美元的定价仍然偏高。公司原计划 11 月 9 日当周启动路演、次周定价并争取 11 月挂牌，最初寻求高达 2 万亿美元的估值，目前估值预期不断下调。Anthropic 拒绝就相关疑虑置评。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/023/640.htm"
+    },
+    {
+      "n": 3,
+      "title": "Crusoe 将怀俄明州数据中心项目出售给 Google",
+      "date": "2026-11-07",
+      "summary": "AI 基础设施公司 Crusoe 已将其位于怀俄明州夏延（Cheyenne）的数据中心园区项目出售给 Google。该项目此前因建设进展与客户锁定问题陷入困境，规划中的园区占地约 716 英亩、设计容量约 1.8GW。TechCrunch 评论称，这笔交易凸显了超大规模 AI 数据中心开发所面临的现实挑战。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/"
+    },
+    {
+      "n": 4,
+      "title": "台积电考虑进军先进内存芯片制造，有望为英伟达打造 3D DRAM",
+      "date": "2026-11-07",
+      "summary": "据 The Information 援引两名知情人士报道，台积电正考虑扩大业务版图、进军先进内存芯片制造，以在快速扩张的 AI 硬件供应链中获取更大份额，并有望为英伟达打造 3D DRAM。若付诸实施，这将改变台积电长期专注逻辑晶圆代工的既有业务格局。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/023/619.htm"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic 发布 Claude 智能体记忆研究，引入\"做梦\"机制",
+      "date": "2026-11-07",
+      "summary": "Anthropic 发布研究文章《The components of agent memory》，系统拆解 Claude 智能体的跨会话记忆机制，将智能体记忆划分为会话日志、记忆笔记、知识表征和注入上下文四个层次，并引入\"做梦\"（dreaming）机制：模型在两次交互之间的空闲时间回顾日志、修正错误、提炼规则并更新知识库，以提升长周期任务表现。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/023/613.htm"
+    },
+    {
+      "n": 6,
+      "title": "Meta 为 Muse 智能体推出\"Spaces\"协作功能",
+      "date": "2026-11-07",
+      "summary": "Meta 为其 Muse AI 智能体推出名为\"Spaces\"的新协作方式。Muse 智能体近期持续获得新功能与集成更新，Spaces 旨在为用户提供与 AI 助手协作互动的新形式，进一步扩展 Muse 在 Meta 生态中的使用场景。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+    },
+    {
+      "n": 7,
+      "title": "宇树科技联合巨星传奇发布首款消费级收藏机器狗 UNI-DOGGIE，首发价 43900 元",
+      "date": "2026-11-07",
+      "summary": "在第九届中国国际进口博览会上，巨星传奇首发与宇树科技联合开发的 UNI-DOGGIE 机器狗，首发价 43900 元。官方介绍称其为赛博朋克潮流艺术机器狗，定位消费级收藏与陪伴场景。这是宇树科技在工业与科研场景之外，向消费级市场的一次延伸。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/023/636.htm"
+    },
+    {
+      "n": 8,
+      "title": "工信部就机器人\"身份证\"暂行办法征求意见，全品类机器人\"一机一码\"",
+      "date": "2026-11-07",
+      "summary": "工信部装备工业一司就《机器人产品标识码管理暂行办法（征求意见稿）》公开征求意见，公示期至 12 月 5 日。文件核心是建立统一的机器人产品\"身份证\"体系，为每台出厂机器人赋予唯一产品标识码，由制造商代码、产品说明代码、产品顺序号代码等组成，支撑行业安全治理与全生命周期管理。",
+      "sourceName": "IT之家",
+      "sourceUrl": "https://www.ithome.com/1/023/625.htm"
+    },
+    {
+      "n": 9,
+      "title": "数百个 Artex AI 黑客工具实例被发现公开暴露于互联网",
+      "date": "2026-11-07",
+      "summary": "安全研究人员发现数百台托管 AI 渗透测试工具 Artex 的服务器暴露在公共互联网上，任何访问者无需凭证即可使用该黑客工具。相关发现由 TechCrunch 报道，涉及实例规模达数百个，暴露状态使该工具的访问控制问题受到关注。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+    }
+  ]
+}
