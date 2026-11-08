@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "n": 1,
+      "title": "微软知名研究员John Langford离职，宣告AI Frontiers研究组终结",
+      "date": "2026-11-08",
+      "summary": "微软研究院纽约实验室合伙人研究经理John Langford宣布离开微软，并宣告其2023年在微软研究院内部创立的AI Frontiers研究组就此终结。该组已于今年9月初从微软研究院划入Microsoft AI部门。Langford表示已尽可能为团队成员安排去处，并称Microsoft AI的领导理念更侧重规模扩张而非研究本身，他不适应研究成果缺乏落地路径的环境。他还是微软研究院纽约实验室的创始成员之一。",
+      "sourceName": "Business Examiner",
+      "sourceUrl": "https://businessexaminer.ca/victoria-articles/item/microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared-finished/"
+    },
+    {
+      "n": 2,
+      "title": "物理AI升温背后：三大瓶颈待解，产业仍处早期爬坡阶段",
+      "date": "2026-11-08",
+      "summary": "澎湃新闻发布分析报道指出，物理AI（Physical AI）正成为具身智能板块的新引擎。宇树科技创始人王兴兴近日多次在公开场合谈及物理AI的技术突破预期，引发资本市场对该方向的关注。报道认为，尽管概念持续升温，物理AI产业目前仍处于早期爬坡阶段，面临三大待解瓶颈，技术成熟度与商业化落地之间尚存距离。",
+      "sourceName": "澎湃新闻",
+      "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_34427169"
+    },
+    {
+      "n": 3,
+      "title": "ADNOC联手G42与OpenAI，\"物理AI\"被视为工业应用下一前沿",
+      "date": "2026-11-08",
+      "summary": "印度快报发文分析\"物理AI\"（Physical AI）在工业场景的应用前景。文章以阿布扎比国家石油公司ADNOC为例：本周早些时候，ADNOC与AI公司G42、OpenAI签署新协议，在其能源业务中部署先进AI能力，用于提升运营效率并解决复杂工程问题。在市场担忧AI资本开支回报的背景下，此类合作展示了AI工具在能源等实体产业中的变现路径。",
+      "sourceName": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/article/explained/explained-ai/physical-ai-artificial-intelligence-applications-adnoc-openai-10954879"
+    },
+    {
+      "n": 4,
+      "title": "进博会观察：AI成为千行百业聚焦热点，国际巨头寻找AI时代新优势",
+      "date": "2026-11-08",
+      "summary": "据北京市人民政府门户网站转载报道，AI正在改写国际巨头的生意经。记者走访今年进博会发现，几乎各行各业都在努力拥抱人工智能：工业企业用AI识别产品缺陷，医疗设备商将AI嵌入影像、手术等设备。AI应用成为本届进博会千行百业共同聚焦的热点，国际巨头正围绕AI调整自身业务布局，寻找新时代的竞争位置。",
+      "sourceName": "北京市人民政府门户网站（转载）",
+      "sourceUrl": "https://www.beijing.gov.cn/fuwu/lqfw/gggs/202611/t20261108_4937273.html"
+    },
+    {
+      "n": 5,
+      "title": "世界媒体峰会在京举行，全球新闻机构讨论应对AI快速发展",
+      "date": "2026-11-08",
+      "summary": "据共同社11月8日刊发的新闻摘要，世界媒体峰会相关会议11月7日在北京举行，来自全球主要新闻机构的代表当天讨论了新闻编辑室应如何应对人工智能的快速发展。随着生成式AI加速渗透内容生产环节，AI对新闻行业的冲击与应对方式成为国际媒体机构共同关注的议题。",
+      "sourceName": "共同社",
+      "sourceUrl": "https://english.kyodonews.net/articles/-/90712"
+    },
+    {
+      "n": 6,
+      "title": "2026年度\"十大\"科普热词揭晓：人工智能+、智能体、具身智能等入选",
+      "date": "2026-11-08",
+      "summary": "据新湖南报道，11月7日，中国科普作家协会在2026年学术年会上发布年度\"十大\"科普热词，\"人工智能＋\"\"科学玩具\"\"人机协同\"\"脑机接口\"\"智能体\"\"人形机器人\"\"科技伦理\"\"健康管理\"\"词元\"\"具身智能\"入选。其中AI相关词条占据多数，反映出过去一年人工智能话题在公众科学传播中的热度持续攀升。",
+      "sourceName": "新湖南",
+      "sourceUrl": "https://m.voc.com.cn/xhn/news/202611/34200333.html"
+    },
+    {
+      "n": 7,
+      "title": "韩国UNIST开发EchoTrace工具，诊断大模型推荐系统\"复读式\"风险",
+      "date": "2026-11-08",
+      "summary": "据韩国亚洲经济报道，蔚山科学技术院（UNIST）研究团队开发出名为EchoTrace的诊断工具，用于评估大语言模型驱动的推荐系统风险。研究发现，基于LLM的产品推荐服务会从自身过往错误中重新学习，并反复产生同样的错误推荐，暴露出此类算法在反馈闭环中的盲区。该工具为推荐系统的可靠性评估提供了新的技术手段。",
+      "sourceName": "亚洲经济（韩国）",
+      "sourceUrl": "https://www.asiae.co.kr/en/article/2026110810330046887"
+    }
+  ]
+}
