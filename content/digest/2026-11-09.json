@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-09",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic拟感恩节前完成IPO：募资最高1000亿美元，估值区间降至1.25万亿–1.75万亿美元",
+      "date": "2026-11-09",
+      "summary": "据英国《金融时报》报道，Anthropic计划在11月26日感恩节前完成IPO，并于下周启动投资者路演，拟募资800亿至1000亿美元，目标估值区间为1.25万亿至1.75万亿美元，低于10月初讨论的约2万亿美元水平。公司披露的文件显示，其今年前九个月营收332亿美元，同比增长1206%。此前一周AI板块经历大幅回调，市场关注本次巨型发行的估值定档与资金承接情况。",
+      "sourceName": "Yahoo Finance",
+      "sourceUrl": "https://ca.finance.yahoo.com/news/anthropics-ipo-dilemma-after-the-ai-sell-off-damned-if-you-do-damned-if-you-dont-231326634.html"
+    },
+    {
+      "n": 2,
+      "title": "Google与Microsoft加入OpenAI网站抓取标准，支持网站拒绝AI数据抓取",
+      "date": "2026-11-09",
+      "summary": "据TechRadar报道，Google与Microsoft宣布加入OpenAI此前提出的网站抓取新标准，与OpenAI、Anthropic一样承诺遵守robots.txt中用于声明网站内容能否被AI系统抓取的协议行，网站可借此选择退出AI数据抓取。至此四家头部AI与搜索公司均表态支持该机制，为出版方与AI公司之间的数据使用授权提供了统一的机器可读途径。",
+      "sourceName": "TechRadar",
+      "sourceUrl": "https://www.techradar.com/pro/google-and-microsoft-among-those-signing-up-to-openais-plan-for-a-new-website-crawling-standard-including-opting-out-of-internet-scraping"
+    },
+    {
+      "n": 3,
+      "title": "苹果探索将Siri升级为个人智能体，iOS 28或将迎来重大改版",
+      "date": "2026-11-09",
+      "summary": "彭博社Mark Gurman在Power On通讯中透露，苹果正探索将Siri升级为类似ChatGPT Dots、Meta Muse与Grok的个人智能体，使其能处理生活各领域的任务，相关调整预计随iOS 28的整体改版落地。报道提到，iOS 27.3中的Siri已能在用户指令下完成日益复杂的操作；苹果此前还悄然上线了首个真正意义上的智能体式iOS功能，可在后台代表用户执行敏感任务。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up"
+    },
+    {
+      "n": 4,
+      "title": "AI代码洪峰挤压GitHub：单月73.8亿次提交，增配400万核仍不够",
+      "date": "2026-11-09",
+      "summary": "据36氪报道，今年9月开发者与AI智能体在GitHub上合计提交代码73.8亿次，是一年前的五倍多。AI生成代码的洪峰使平台基础设施明显承压，近期一次GitHub宕机进一步暴露问题：海量AI写出的代码缺少合适的归置去向。GitHub表示已增配400万核算力，但在需求持续增长下仍显不足。",
+      "sourceName": "36氪",
+      "sourceUrl": "https://www.36kr.com/p/4061131778806921"
+    },
+    {
+      "n": 5,
+      "title": "姚期智与杨植麟首次联名发表论文，评估前沿大模型理论计算机科学能力",
+      "date": "2026-11-09",
+      "summary": "清华大学姚期智与月之暗面创始人杨植麟等人首次联名发表论文《TCSEXAM：在TCS研究的全范围内评估前沿大型语言模型》，对前沿大模型在理论计算机科学任务上的表现进行系统评测。结果显示，GPT-6 Astra在裸命题定理证明任务中得分70%，Kimi K3.1 Pro以38.3%位列第二，其余六个参评模型得分更低。文章称，大模型已开始改写人类的数学研究记录。",
+      "sourceName": "网易",
+      "sourceUrl": "https://www.163.com/dy/article/LB9DOMAK0511C4AA.html"
+    },
+    {
+      "n": 6,
+      "title": "英伟达为AI项目聚拢超5000亿美元第三方资本，股价盘中震荡",
+      "date": "2026-11-09",
+      "summary": "据《投资者商业日报》报道，英伟达已为AI相关项目聚拢合计超过5000亿美元的第三方资本。消息公布后，英伟达股价盘中反复震荡。此前AI板块刚经历一轮明显回调，AI基础设施建设的大规模融资进展持续受到市场密切关注。",
+      "sourceName": "Investor's Business Daily",
+      "sourceUrl": "https://www.investors.com/news/technology/nvidia-stock-ai-buildout-financing/"
+    }
+  ]
+}
