@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic公布IPO定价区间：每股70至78美元，最高估值1.4万亿美元",
+      "date": "2026-11-11",
+      "summary": "Anthropic向美国SEC提交更新后的招股文件，将以每股70-78美元发行8.25亿股A类股，募资577.5亿至643.5亿美元，顶格定价对应完全稀释估值约1.404万亿美元，低于此前市场传闻的约2万亿美元。公司另以IPO价格向AMD、博通、谷歌、美光、微软、英伟达、台积电等战略投资者定向出售260亿美元无投票权股票，其中谷歌与英伟达各出资100亿美元。股票预计11月19日以代码\"ANT\"在纳斯达克挂牌，公司10月末年化收入运行率约810亿美元。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic推出Claude办公套件：Sheets、Whiteboards、Meetings开启测试",
+      "date": "2026-11-11",
+      "summary": "Anthropic在旧金山发布面向非技术岗位的办公工具：Claude Sheets支持生成与协作编辑带公式、多标签页的电子表格并可导出xlsx；Claude Whiteboards提供可由Claude整理时间线与行动项的共享白板；Claude Meetings面向Teams与Enterprise用户，可作为可见参与者加入Google Meet会议并记录待办。前两者面向所有付费计划开放beta，Claude Data（原Dashboards）正式转正。此举被视为直接进入微软Office与谷歌Workspace市场，消息公布后微软股价当日下跌。",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+    },
+    {
+      "n": 3,
+      "title": "台积电拟向Anthropic与OpenAI合计投资至多10亿美元",
+      "date": "2026-11-11",
+      "summary": "台积电11月10日批准三项战略投资计划，拟向Anthropic与OpenAI合计投资至多10亿美元，并设立专门投资公司拓展半导体战略布局，从单纯代工供应转向同时持有头部AI公司股权。同日披露的文件显示，Anthropic正在进行260亿美元私募配售，投资方包括谷歌、英伟达、AMD、微软等。台积电上月公布连续第六个季度创纪录盈利，预计2026年全年营收增长约44%，AI相关芯片需求持续超过产能。",
+      "sourceName": "DIGITIMES",
+      "sourceUrl": "https://www.digitimes.com/news/a20261111PD200/tsmc-investment-taiwan-anthropic-openai.html"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI在ChatGPT内测\"Businesses\"：企业可认领主页并上线官方AI客服",
+      "date": "2026-11-11",
+      "summary": "OpenAI宣布在ChatGPT内推出\"Businesses\"测试版：企业经验证后可认领并管理自身页面，更新信息、上传含价格与库存的商品数据，并通过Business Hub查看被提及次数、网站点击等聚合洞察。符合条件的美国电商与在线服务企业还可上线Business Agent，在独立标注的对话中回答产品咨询，企业也可将智能体设为ChatGPT广告的落地页。OpenAI称ChatGPT周活跃用户达12亿，后续将扩展至更多市场与行业类别。",
+      "sourceName": "Reuters",
+      "sourceUrl": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10"
+    },
+    {
+      "n": 5,
+      "title": "OpenAI收购AI旅行智能体创企Odessia，创始人加入负责旅行方向",
+      "date": "2026-11-11",
+      "summary": "OpenAI收购成立不到一年的AI旅行智能体初创公司Odessia，交易条款未披露。该公司由Sonder联合创始人Francis Davidson创办，今年6月获得红杉领投的600万美元种子轮，其对话式产品可完成端到端行程规划与预订，首个运营年经手规划的旅行规模超过6000万美元。收购完成后Odessia服务已下线，Davidson加入OpenAI专注\"旅行的未来\"方向。受此消息影响，部分在线旅游平台股价当日下跌。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder"
+    },
+    {
+      "n": 6,
+      "title": "澳大利亚拟设AI安全监管机构，考虑对失责AI公司追究刑责",
+      "date": "2026-11-11",
+      "summary": "澳大利亚政府宣布计划设立AI安全监管机构，执行面向希望在澳开展业务的前沿AI公司的法定标准，违规者将面临经济处罚；同时考虑对未采取合理措施防止模型造成危害的科技公司引入刑事罪名，为全球首例此类立法提议。此举是对9月一起OpenAI智能体未授权访问Medicare统计数据事件的回应，政府表示已接受相关调查报告的全部18项建议。",
+      "sourceName": "ABC News",
+      "sourceUrl": "https://www.abc.net.au/news/2026-11-11/australia-considers-criminal-charges-for-ai-companies/107368676"
+    },
+    {
+      "n": 7,
+      "title": "字节Seedream 5.5登陆豆包与即梦：生成提速近四成，2K图编辑单张0.28元",
+      "date": "2026-11-11",
+      "summary": "字节跳动Seed团队图像创作模型Seedream 5.5已在豆包、豆包工作与即梦同步上线，API即将开放火山方舟。新模型生成速度较上代Seedream 5.0 Pro提升近40%，支持原生RGBA透明素材输出、最高100轮连续编辑且非编辑区域像素级保持；计费按\"输入图+输出图\"、文本指令免费，2K方图编辑单张约0.28元，较上代降低约60%。官方评测显示其在电商、营销、影视、游戏、办公与服装设计六类场景可用率均提升，影视与办公场景达上代两倍以上。",
+      "sourceName": "中华网科技",
+      "sourceUrl": "https://news.china.com/socialgd/10000169/20261111/49859331.html"
+    },
+    {
+      "n": 8,
+      "title": "新华网：\"双十一\"AI会员热销，半小时售出约2万亿词元额度",
+      "date": "2026-11-11",
+      "summary": "新华网报道，今年\"双十一\"期间AI算力服务进入消费场景：10月20日开售首日天猫Token品类成交额环比增长450%，有直播间上架含20万亿Token额度的AI办公产品，开卖半小时月卡累计售出近10万份、对应约2万亿Token。报道同时提示风险：Token本质是服务调用资格而非独立资产，退款与服务商停运缺乏统一规范；二手平台低价共享账号存在数据泄露与诈骗隐患，并提醒防范AI换脸虚假直播、AI生成买家秀等消费陷阱。",
+      "sourceName": "新华网",
+      "sourceUrl": "https://app.xinhuanet.com/news/article.html?articleId=202611118383e7f758e2464cb1dbc5e29b6b6e2a"
+    },
+    {
+      "n": 9,
+      "title": "港科大研究：在线策略蒸馏可教会大模型新技巧，却难以传递新知识",
+      "date": "2026-11-11",
+      "summary": "香港科技大学一项研究发现，在线策略蒸馏（online policy distillation）能让大语言模型学会新的推理技巧，却几乎无法让其获得新的事实知识。研究通过人工设计的查表与树形结构实验，以及真实问答与数学任务进行双重验证，并揭示了反向KL散度在其中的作用。",
+      "sourceName": "TechWalker",
+      "sourceUrl": "https://www.techwalker.com/2026/1111/3205455.shtml"
+    }
+  ]
+}
