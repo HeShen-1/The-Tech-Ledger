@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "n": 1,
+      "title": "阿里官宣Qwen4即将发布，Qwen4-Max预览版上线Token Plan，最低1折体验",
+      "date": "2026-11-12",
+      "summary": "阿里巴巴11月11日宣布新一代旗舰大模型Qwen4即将发布，Qwen4-Max预览版（模型标识qwen4-max-preview）当日率先上线，首发接入阿里云Token Plan订阅且不支持按量计费，预览期至11月25日。模型支持文本生成、推理与视觉理解，主打复杂编程、智能体长任务与专业办公，千问办公、Qoder、千问App、QwenStudio同步接入。预览期调用限时2折，新用户可再叠加5折、最低约1折体验；基准分数与参数规模尚未公布。",
+      "sourceName": "阿里云开发者社区",
+      "sourceUrl": "https://developer.aliyun.com/article/1782435"
+    },
+    {
+      "n": 2,
+      "title": "百度发布文心5.5 Flash Preview：2800亿参数、百万Token上下文，权重11月25日开源",
+      "date": "2026-11-12",
+      "summary": "百度文心5.5 Flash Preview正式发布并上线千帆平台，Web端与API同步开放。模型总参数2800亿、每Token激活140亿，支持100万Token上下文，千帆API单用户推理速度超过200 tokens/s；编程方向使用超1400万个可执行代码任务与多Agent框架执行轨迹训练，知识工作后训练覆盖30万个工作空间、1000万份文件。模型权重将于11月25日前以Apache 2.0协议面向全球开源，支持SGLang与vLLM部署；部分推理优化由自动研究系统ERNIE Evolve完成，在昆仑芯P800低时延场景将生成速度做到基线的623.6%。这是文心一周内第三次发布（11月5日开源Flash Base、11月9日披露ERNIE Evolve）。",
+      "sourceName": "AI科技评论（网易）",
+      "sourceUrl": "https://c.m.163.com/news/a/LBGHG6KG0511DPVD.html"
+    },
+    {
+      "n": 3,
+      "title": "MiniMax开源H3-Image图像模型：10秒生成4K图，全球芯片厂商Day 0接入",
+      "date": "2026-11-12",
+      "summary": "MiniMax于11月10日23时发布图像生成模型H3-Image并开放权重，可在10秒内生成4096×4096像素（约16MP）的4K图像，速度最高达主流工具5倍，定价约为同档工具的50%-70%，首周对16MP及以上生成请求五折。模型支持文生图、图像参考与编辑，最多支持16张参考图，已上架Hugging Face，可通过MiniMax开放平台、MiniMax Code与海螺调用。开源首日，MiniMax与华为昇腾、平头哥、昆仑芯、摩尔线程、壁仞、海光、沐曦、天数、NVIDIA、AMD、英特尔等芯片企业及主流推理、云服务平台推进Day 0接入；此前H3开源不到一个月下载量已突破2400万次。",
+      "sourceName": "华尔街见闻（中国基金报）",
+      "sourceUrl": "https://wallstreetcn.com/articles/3785766"
+    },
+    {
+      "n": 4,
+      "title": "谷歌推出Gemini Decisions API：单次评估1000个问题，切入“决策模型”新赛道",
+      "date": "2026-11-12",
+      "summary": "谷歌推出Gemini Decisions API，由新模型Gemini Decision 1驱动，已通过Gemini API在Google AI Studio上线。该端点面向封闭选项集合的快速决策场景，不逐Token生成文本，单次请求可对共享的多模态输入（文本、图像、音频、视频、PDF）评估最多1000个独立问题，以单次前向计算返回各选项概率与置信度，端到端延迟150-250毫秒。“决策模型”品类由初创公司TypeSafe的Jev于9月开创，OpenAI已于10月推出基于GPT-6 Luna的Decisions API（单次最多400问，称最快为Responses API的10倍），微软也在Foundry上线Decision-1，该赛道竞争正快速升温。",
+      "sourceName": "Interesting Engineering",
+      "sourceUrl": "https://interestingengineering.com/ai-robotics/google-gemini-decisions-api-fast-ai-agents"
+    },
+    {
+      "n": 5,
+      "title": "Google DeepMind发布Gemini Robotics 2.5：奔驰产线PoC分拣成功率96%",
+      "date": "2026-11-12",
+      "summary": "Google DeepMind于11月10日发布新一代视觉-语言-动作（VLA）模型Gemini Robotics 2.5，称其为迄今最强的机器人模型。团队在200余项真实任务中评测，部分任务成功率相对提升30%-100%、执行速度提高20%-30%，其中用夹子装取糕点成功率由5%升至100%，解开蝴蝶结由0升至70%。在与Apptronik、梅赛德斯-奔驰合作的德国辛德尔芬根与匈牙利凯奇凯梅特产线，Apollo 2人形机器人基于该模型自主完成汽车零部件分拣与摆放，概念验证成功率达96%；系统采用Gemini Robotics ER跟踪任务流程、2.5控制手臂动作的双模型协同，已适配Apollo 2与Franka Duo平台，通过Apptronik、Boston Dynamics等合作伙伴开放。",
+      "sourceName": "新浪财经（虎嗅）",
+      "sourceUrl": "https://finance.sina.cn/stock/jdts/2026-11-12/detail-iniykzmt2073781.d.html"
+    },
+    {
+      "n": 6,
+      "title": "英国AI芯片创企Fractile完成7.2亿美元C轮融资，估值达70亿美元",
+      "date": "2026-11-12",
+      "summary": "英国AI芯片初创公司Fractile完成7.2亿美元C轮融资，估值达70亿美元，投资方包括英国主权AI基金，英国政府称此举旨在“确保英国在未来经济底座硬件中占有更大份额”。公司总部位于伦敦与布里斯托，开发面向大模型推理优化的AI加速器，采取含自研机器学习编译器的全栈路线以提升LLM在其芯片上的执行速度。CEO Walter Goodwin表示新资金将支持公司明年交付首批芯片与系统。至此，Fractile与Axelera、Etched、OLIX并列专用AI芯片赛道融资最多的初创公司之列。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips"
+    },
+    {
+      "n": 7,
+      "title": "阿里推进平头哥赴港分拆上市，港交所已放行，拟募资20亿至30亿美元",
+      "date": "2026-11-12",
+      "summary": "据南华早报报道，阿里巴巴已通过港交所文件正式推进芯片设计子公司平头哥（T-Head）分拆并在香港上市，港交所已允许分拆程序继续进行。平头哥此前于9月11日秘密递交Form A1上市申请，拟采用香港公开发售加机构配售方式，报道称为寻求募资20亿至30亿美元；最终上市批准、发行规模与时间表尚未确定，上市后预计仍为阿里控股子公司。平头哥新一代芯片据称可用于构建连接至多50万颗芯片的算力集群，面向AI训练与推理，计划2027年一季度量产。分析认为此次上市将重新评估阿里被云业务掩盖的半导体资产价值。",
+      "sourceName": "DigitalToday",
+      "sourceUrl": "https://www.digitaltoday.co.kr/en/view/124431/alibaba-t-head-ipo-test-for-hidden-valuation"
+    },
+    {
+      "n": 8,
+      "title": "OpenAI三季度营收首破100亿美元，环比增长近50%，经营亏损同步扩大",
+      "date": "2026-11-12",
+      "summary": "据彭博与华尔街日报报道，OpenAI在周二的投资者电话会上披露，受最新AI软件强劲需求推动，截至9月的第三季度营收首次达到100亿美元，环比增长近50%（二季度环比增速为17%-18%），接近上年同期的三倍。财务文件同时显示，其调整后经营亏损由二季度的101亿美元扩大至109亿美元，收入高速增长尚未转化为盈利。这是OpenAI单季营收首次突破百亿美元量级，公司正在推进新融资与新商业化布局。",
+      "sourceName": "Eurasia Business News",
+      "sourceUrl": "https://eurasiabusinessnews.com/2026/11/12/openai-quarterly-revenue-reportedly-hits-10-billion-for-first-time"
+    },
+    {
+      "n": 9,
+      "title": "Anthropic七位联合创始人拟在IPO中套现17.5亿美元，承销商考虑上调估值",
+      "date": "2026-11-12",
+      "summary": "据界面新闻援引的招股文件，Anthropic七位联合创始人拟在下周IPO中合计出售价值17.5亿美元的股票，按发行价区间中点计算，每人拟出售约2.5亿美元。公司寻求通过IPO与私募配售合计筹集最多904亿美元，对应估值约1.4万亿美元；另据报道，其上市承销商正考虑将IPO估值推高至1.5万亿美元以上。此前披露的招股书显示，Anthropic还将向AMD、博通、谷歌、美光、微软、英伟达、台积电等战略投资者定向出售260亿美元股票。",
+      "sourceName": "界面新闻",
+      "sourceUrl": "https://www.jiemian.com/article/15322512.html"
+    },
+    {
+      "n": 10,
+      "title": "智元发布终身具身智能框架LIFE：为机器人接入持续感知与长期记忆",
+      "date": "2026-11-12",
+      "summary": "智元发布终身具身智能框架LIFE（Learning to Live），将持续感知、长期记忆与能力复用结合，支持机器人在任务执行期间及任务间隔期持续获取环境信息，并将历史观察用于后续决策。框架由三部分构成：轻量决策模型RoboBeats（提供0.8B/2B/4B三种规模）负责条件跟踪与事件发现，以读取true/false标签得分的方式判断“电梯门是否打开”等条件；可塑性记忆模块Plastic Memory分别保存原始画面与结构化记录；能力复用机制EDM将问题求解方法转化为经过验证的工具与技能。目前论文、推理代码、模型权重及SSS-Bench评测资源已开放。此前Anthropic旗舰Fable 5.2刚在具身任务上展现出强势表现，专用具身模型的价值正引发行业讨论。",
+      "sourceName": "文汇报（搜狐）",
+      "sourceUrl": "https://m.sohu.com/a/1100234732_120244154"
+    }
+  ]
+}
