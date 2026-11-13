@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "n": 1,
+      "title": "英伟达官宣CEO更替：黄仁勋辞任，董事会启动独立调查与新CEO搜寻",
+      "date": "2026-11-13",
+      "summary": "英伟达宣布CEO更替，联合创始人黄仁勋辞去首席执行官职务，董事会已启动独立调查并开始搜寻永久CEO人选。受此影响，英伟达股价在11月12日美股交易中下跌4.34%，市值蒸发约1817亿美元，13日盘前一度再跌超13%。据报道，黄仁勋将放弃约1.08亿美元未归属股权；英伟达此前承诺出资100亿美元认购Anthropic IPO股票，该计划在管理层变动背景下受到市场关注。",
+      "sourceName": "The Straits Times",
+      "sourceUrl": "https://www.straitstimes.com/world/while-you-were-sleeping-5-stories-you-might-have-missed-nov-13-2026"
+    },
+    {
+      "n": 2,
+      "title": "谷歌发布Gemini 4 Hydrogen：面向Agent工作流，速度较3.8 Flash提升2.5倍",
+      "date": "2026-11-13",
+      "summary": "谷歌在官方博客发布新模型Gemini 4 Hydrogen，定位面向智能体（Agentic）工作流的日常模型，主打编程、文档处理与AI智能体任务。官方及多家媒体称其运行速度较Gemini 3.8 Flash提升约2.5倍；第三方评测显示，该模型发布即在部分基准测试中得分超过四周前发布的更大规模模型Argon。产品定位上接替Flash系列，已面向Gemini Pro与Ultra订阅用户开放，开发者可通过API调用。",
+      "sourceName": "Google官方博客",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "n": 3,
+      "title": "Anthropic IPO据报道获约六倍超额认购，隐含估值约1.4万亿美元",
+      "date": "2026-11-13",
+      "summary": "据彭博社报道，Anthropic的IPO已获约六倍超额认购。该公司此前公布发行价区间为每股70至78美元，隐含估值约1.404万亿美元，有望成为规模最大的IPO之一。此前有报道称英伟达承诺出资约100亿美元参与本次发行认购；在英伟达CEO更替的背景下，该认购承诺的执行情况受到市场关注。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-12/anthropic-s-ipo-is-said-to-be-about-six-times-oversubscribed"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI收购对话式AI旅行规划创企Odessia",
+      "date": "2026-11-13",
+      "summary": "OpenAI宣布收购AI旅行初创公司Odessia，该公司开发通过对话完成行程规划与预订的AI智能体，创始人Francis Davidson（住宿平台Sonder创始人）随收购加入OpenAI。报道称，此次交易为OpenAI带来具备IATA认证资质的旅行社、端到端预订技术与酒店内容供给，减少其对第三方预订平台的依赖，被视为ChatGPT从对话助手向可完成交易的个人助理方向扩展的举措。",
+      "sourceName": "DigitalToday",
+      "sourceUrl": "https://www.digitaltoday.co.kr/en/view/125148/openai-acquires-odessia-as-chatgpt-eyes-ai-travel-assistant-role"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic校友创企Mirendil完成10亿美元A轮融资",
+      "date": "2026-11-13",
+      "summary": "据华尔街日报报道，由Anthropic前员工创立的AI研发公司Mirendil宣布完成10亿美元A轮融资，由Kleiner Perkins与Clearlake Capital领投。这是该公司六个月前宣布2亿美元种子轮之后的又一轮融资，公司称其目标是让更多团队以更快速度、更少人力投入开展前沿AI研发。",
+      "sourceName": "华尔街日报",
+      "sourceUrl": "https://www.wsj.com/pro/venture-capital/this-startup-raised-1-billion-to-build-ai-faster-and-with-fewer-humans-f7f07a59"
+    },
+    {
+      "n": 6,
+      "title": "Anthropic推出自托管版Claude Managed Agents私有测试",
+      "date": "2026-11-13",
+      "summary": "Anthropic开放自托管版Claude Managed Agents的私有测试，企业可在自有云账户或本地数据中心运行该智能体服务，自主管理服务器、会话与沙箱环境，凭据与会话历史保留在企业自己的环境中，模型可按需选择，定价采用报价制。此举面向对数据边界与合规要求较高的企业客户，是其企业级智能体产品线在部署方式上的扩展。",
+      "sourceName": "Help Net Security",
+      "sourceUrl": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/"
+    },
+    {
+      "n": 7,
+      "title": "美联航禁止AI机器人预订、改签与支付机票",
+      "date": "2026-11-13",
+      "summary": "据Computerworld报道，全球第二大航空公司美联航成为最新一家对客户机器人关闭访问渠道的大型企业，将在运输合同层面禁止AI代理为其机票执行预订、更改与支付，理由包括机器人造成的意外购票行为与监管规则限制；有分析指出，问题根源在于行业缺乏统一的机器人访问标准。此前已有多家大型企业对第三方AI智能体采取类似限制。",
+      "sourceName": "Computerworld",
+      "sourceUrl": "https://www.computerworld.com/article/4248152/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots.html"
+    }
+  ]
+}
