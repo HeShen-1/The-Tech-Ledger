@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI解散独立机器人团队，GPT-6 Astra等通用模型可直接驱动物理AI",
+      "date": "2026-11-14",
+      "summary": "据《财富》杂志报道，OpenAI已解散独立运营的机器人团队，机器人研究团队并入主研究团队向首席研究官Mark Chen汇报，应用机器人与硬件团队划归Applied组织。直接原因是GPT-6 Astra等通用前沿模型展现出直接用于机器人控制的能力：在英伟达一项模拟操作基准测试中，Astra驱动的智能体成功率达74.8%，高于榜单最佳专用机器人模型的51.0%。OpenAI最近一个季度运营亏损达109亿美元，公司正聚焦核心业务并筹备2027年初IPO，同时表示仍在开发自研人形机器人，目标2027年完成首次公开演示。",
+      "sourceName": "智通财经（证券之星）",
+      "sourceUrl": "https://wap.stockstar.com/detail/IG2026111400007754"
+    },
+    {
+      "n": 2,
+      "title": "DeepSeek开放“全家桶”应用API，开发者可1:1复刻DeepSeek App",
+      "date": "2026-11-14",
+      "summary": "DeepSeek宣布正式开放全家桶应用API，将联网搜索、深度思考搜索、文件输入、阅读链接、安全校验等App能力整合进原有API：V4.1-Flash模型已在Messages、Responses与Chat Completions接口下支持上述能力，工具调用与上下文拼接由服务端自动完成；Search、Fetch、OCR、ASR、TTS等底层能力同步开放独立接口，支持单独或组合调用。扩展能力在Token费用之外按工具调用单独计价，其中文字/图片搜索5元/千次、网页抓取5元/千次、语音识别0.39元/小时。官方同步开源了一份支持导入历史对话的前端Demo。",
+      "sourceName": "澎湃新闻（东方财富网）",
+      "sourceUrl": "https://finance.eastmoney.com/a/202611143931281813.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI上线ChatGPT Wallet，AI智能体可代用户完成线上购物与支付",
+      "date": "2026-11-14",
+      "summary": "OpenAI面向美国Pro订阅用户推出ChatGPT Wallet，允许AI智能体代表用户完成商品选购与支付。每笔支付需通过Face ID或指纹授权确认，真实卡号不触达商户，支付通过Visa、Mastercard等合作方生成的令牌完成。Anthropic的Claude Duet、Meta的Muse、xAI的Grok Bot以及Google、Perplexity此前均已提供类似的智能体购物或支付功能，OpenAI此次上线属于对该能力的补齐。",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet"
+    },
+    {
+      "n": 4,
+      "title": "Anthropic推出Claude for Manufacturing，携17项专业技能进军制造业",
+      "date": "2026-11-14",
+      "summary": "Anthropic发布面向制造业的Claude for Manufacturing，包含17项覆盖业务运营与生产环节的专业技能，并提供与Autodesk Fusion、Infor、Microsoft 365、Oracle NetSuite的软件连接器，可从企业业务记录中检索、分析数据并完成指定任务。Anthropic同时宣布与Infor合作推出Infor Industry AI for Claude，并表示正在研究支持物理AI部署的框架。截至2026年9月，Anthropic称已服务11900家大型企业，其中包括超过半数财富500强。",
+      "sourceName": "Manufacturing Digital",
+      "sourceUrl": "https://manufacturingdigital.com/news/what-can-anthropics-claude-for-manufacturing-do"
+    },
+    {
+      "n": 5,
+      "title": "AI云服务商Nscale上市文件披露：债务增至55亿美元，深度绑定英伟达与Anthropic",
+      "date": "2026-11-14",
+      "summary": "英国AI云服务商Nscale提交修订后的S-1文件：截至9月30日债务规模达55亿美元，较6月底的1.374亿美元激增近39倍；英伟达在9月达成的逾30亿美元可转换融资协议中承诺出资20亿美元，高于此前披露的10亿美元。Nscale最大客户Anthropic与其签订六年、总价值446亿美元的算力供应合同（460兆瓦），公司需至少再融资300亿美元完成西弗吉尼亚州数据中心建设，否则可能面临违约处罚；目前已投运容量对应合同价值约64亿美元，占约1060亿美元合同总价值的6%。",
+      "sourceName": "英为财情（智通财经）",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3667848"
+    },
+    {
+      "n": 6,
+      "title": "llama.cpp发布1.0.0版本，承诺稳定API并确立语义化版本规则",
+      "date": "2026-11-14",
+      "summary": "开源C/C++本地大模型推理引擎llama.cpp与底层张量库ggml同时发布1.0.0版本，移除35个已弃用的公共API函数，并明确承诺：公共C API出现破坏性变更时将提升主版本号，向后兼容的新功能与新增模型支持递增次版本号，不涉及API变更的缺陷修复递增修订号。项目目前支持超过150种模型架构变体及全部主流投机解码方法，GitHub星标约13.5万，预编译产物覆盖Linux、macOS、Windows、Android与iOS。ggml.ai团队已于2026年2月加入Hugging Face。",
+      "sourceName": "MLQ.ai",
+      "sourceUrl": "https://mlq.ai/news/llamacpp-reaches-version-10-and-promises-a-stable-api-for-local-ai-apps"
+    },
+    {
+      "n": 7,
+      "title": "Luminal完成2300万美元A轮融资，瞄准打破英伟达CUDA生态壁垒",
+      "date": "2026-11-14",
+      "summary": "AI基础设施创企Luminal完成2300万美元A轮融资，Standard Capital领投，Y Combinator、Felicis等现有投资者参投，累计融资超2800万美元。其产品由自研搜索编译器与全托管推理云组成：编译器系统性探索神经网络在目标芯片上的执行方式并自动生成最优代码，使AI工作负载无需重写底层代码即可迁移至非英伟达芯片运行。平台上线四个月月处理Token量已超45万亿，并与亚马逊云科技合作，将大量工作负载运行于Trainium处理器。",
+      "sourceName": "至顶头条（搜狐科技）",
+      "sourceUrl": "https://m.sohu.com/a/1101181066_114765"
+    },
+    {
+      "n": 8,
+      "title": "英伟达董事会接触Arm CEO Rene Haas，新任CEO遴选名单浮现",
+      "date": "2026-11-14",
+      "summary": "据英国《金融时报》报道，英伟达董事会已就CEO继任事宜接触Arm控股首席执行官Rene Haas；英伟达声明称正在遴选猎头公司，尚未正式接触任何候选人。Haas曾在英伟达任职约七年，2013年加入Arm，2022年出任CEO。报道提及的候选人还包括内部人选临时CEO克雷斯、数据中心业务负责人Ian Buck，以及外部人选苏姿丰、美光CEO Mehrotra、Marvell的Matt Murphy与苹果硬件主管Srouji。消息公布当日Arm美股下跌4.8%。",
+      "sourceName": "华尔街见闻",
+      "sourceUrl": "https://wallstreetcn.com/articles/3785925"
+    }
+  ]
+}
