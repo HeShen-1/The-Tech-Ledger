@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-17",
+  "items": [
+    {
+      "n": 1,
+      "title": "月之暗面宣布Kimi模型战略转向科学领域",
+      "date": "2026-11-17",
+      "summary": "据The Decoder报道，月之暗面（Moonshot AI）表示将停止追逐编程基准测试排名，把Kimi系列语言模型的研发重心转向生物学、化学等科学领域，原因是在通用编码基准上的性能收益已趋于平缓。这是国内头部大模型公司在基准竞争白热化背景下，首次明确将模型能力重心转向垂直科学赛道的战略调整。",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/"
+    },
+    {
+      "n": 2,
+      "title": "英伟达发布Nemotron for Science开放模型，面向科研智能体",
+      "date": "2026-11-17",
+      "summary": "英伟达在官方技术博客公布面向科学研究的Nemotron开放模型及配套化学数据集，瞄准化学、生命科学、蛋白质设计与材料科学等研究方向。该模型支持科研人员以自然语言描述科学假设，交由自主智能体执行后续研究流程；英伟达同时发布了针对特定科学领域的后训练实践指南，帮助开发者提升模型在专业领域内的准确率。",
+      "sourceName": "NVIDIA Developer Blog",
+      "sourceUrl": "https://developer.nvidia.com/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/"
+    },
+    {
+      "n": 3,
+      "title": "英伟达公开回应\"黄仁勋回归\"运动",
+      "date": "2026-11-17",
+      "summary": "据BBC报道，英伟达公开拒绝了部分科技界人士发起的\"请黄仁勋回归公司\"运动，相关请愿此前已获得超过16万人联署支持。黄仁勋此前已辞任英伟达CEO，公司目前由临时CEO克雷斯（Colette Kress）执掌，将于美东时间11月17日盘后发布季度财报，这是新领导层首次面对资本市场的业绩检验。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/cry49plv8v3go"
+    },
+    {
+      "n": 4,
+      "title": "LangChain完成3亿美元C轮融资，估值达30亿美元",
+      "date": "2026-11-17",
+      "summary": "据《华尔街日报》独家报道，AI应用开发框架公司LangChain完成3亿美元C轮融资，由Alphabet旗下成长基金CapitalG领投，投后估值达30亿美元，较此前估值翻倍以上。LangChain以开源大模型应用开发框架起家，本轮融资时正凭借其智能体（Agent）开发平台拓展企业客户市场，目标客户为需要构建智能体应用的企业开发团队。",
+      "sourceName": "华尔街日报",
+      "sourceUrl": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad"
+    },
+    {
+      "n": 5,
+      "title": "AI网络安全初创Corma完成1.25亿美元A轮融资，估值破10亿美元",
+      "date": "2026-11-17",
+      "summary": "据《华尔街日报》报道，总部位于特拉维夫和旧金山的网络安全初创公司Corma完成1.25亿美元A轮融资，估值达10亿美元，成立仅三个月即跻身独角兽行列。该公司今年8月刚宣布6000万美元种子轮，累计融资1.85亿美元，主要构建运行于网络安全专属AI模型之上的自动化防御智能体，服务大型企业客户。",
+      "sourceName": "华尔街日报",
+      "sourceUrl": "https://www.wsj.com/pro/cybersecurity/cyber-startup-corma-raises-125-million-for-defensive-ai-agents-f30a4387"
+    },
+    {
+      "n": 6,
+      "title": "谷歌为AdMob引入Ask AdMob等AI工具，延伸至广告变现环节",
+      "date": "2026-11-17",
+      "summary": "据凤凰网科技援引IT之家报道，谷歌于11月16日发布官方博文，宣布为移动应用广告平台AdMob引入新一批AI工具，包括对话式助手Ask AdMob以及面向AI编程助手的AdMob接入工具，辅助开发者完成广告运营与变现。该批工具主要面向日益增多的个人开发者群体，将AI辅助能力从应用开发环节延伸至广告变现环节。",
+      "sourceName": "凤凰网科技",
+      "sourceUrl": "https://tech.ifeng.com/c/8y7Yj3I6Q8q"
+    },
+    {
+      "n": 7,
+      "title": "SK电信与晓星重工签约共建吉瓦级AI数据中心",
+      "date": "2026-11-17",
+      "summary": "据朝鲜日报英文版报道，SK电信与晓星重工业于11月16日在首尔签署战略合作备忘录，围绕吉瓦级（GW-class）AI数据中心的电力基础设施建设展开合作，解决大规模AI算力设施的供电与配套需求。这是韩国电信运营商与重工业企业在AI基础设施方向的最新合作动作。",
+      "sourceName": "朝鲜日报英文版",
+      "sourceUrl": "https://www.chosun.com/english/industry-en/2026/11/17/QPBTUFC7GJCRRF6V43CKISAE2M/"
+    },
+    {
+      "n": 8,
+      "title": "邮储银行上线智能量化策略平台U-Quant.AI",
+      "date": "2026-11-17",
+      "summary": "据移动支付网报道，邮储银行正式推出智能量化策略平台U-Quant.AI并上线运行。该平台面向金融市场业务场景，旨在解决量化策略研发流程中依赖人工的环节痛点，缩短量化策略从研发到实际应用的落地周期，推动交易模式从流程自动化向研发智能化升级，提升量化业务整体运行效率。",
+      "sourceName": "移动支付网",
+      "sourceUrl": "https://www.mpaypass.com.cn/news/202611/17090243.html"
+    },
+    {
+      "n": 9,
+      "title": "Sabre推出Grok Bot旅行连接器与主动式Agentic API",
+      "date": "2026-11-17",
+      "summary": "据Unite.AI报道，旅行科技公司Sabre宣布推出面向Grok Bot的旅行连接器及主动式智能体API。该连接器支持AI助手完成从行程探索到端到端预订及预订后服务的完整流程，主动式API则允许合作伙伴在用户未主动发起请求时由智能体推送服务，这是Grok生态在在线旅游预订场景的落地应用。",
+      "sourceName": "Unite.AI",
+      "sourceUrl": "https://www.unite.ai/zh-cn/sabre-announces-grok-bot-travel-connector-and-proactive-agentic-apis/"
+    }
+  ]
+}
