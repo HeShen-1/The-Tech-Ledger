@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "n": 1,
+      "title": "OpenAI发布GPT-6.2 Astra与Sol，旗舰API降价20%",
+      "date": "2026-11-18",
+      "summary": "OpenAI发布GPT-6.2系列两款模型并开放API：Astra面向复杂专业工作，Sol侧重日常任务。Astra的API输入与输出价格均下调20%，调整后每百万Token输入8美元、输出40美元，缓存输入价格下调60%至0.40美元。官方评测显示，Astra在Agents' Last Exam上较上代GPT-6 Astra高出5.2个百分点，单项任务成本不到其三分之一；在GDPval v2上提高6.2个百分点并减少22%的输出Token。两款模型均可将文字简报转为浏览器中可交互的3D体验。发布时点位于Anthropic IPO之前。",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-11-18/doc-inizayrm1292855.shtml"
+    },
+    {
+      "n": 2,
+      "title": "英伟达2027财年Q3营收1158亿美元，同比增长103%",
+      "date": "2026-11-18",
+      "summary": "英伟达公布2027财年第三季度（截至2026年10月25日）业绩：营收1158.4亿美元，同比增长103%、环比增长20%，超出市场约1091亿美元的预期；数据中心营收1076亿美元，同比增长110%。非GAAP摊薄每股收益2.68美元，非GAAP毛利率74.9%。公司预计第四季度营收1274亿至1326亿美元（中值约1300亿美元，含额外一周），毛利率将降至71%–72%。临时CEO兼CFO Colette Kress表示产品路线图保持不变，Vera Rubin平台销售开局强劲。财报公布后股价盘后一度上涨约3%。",
+      "sourceName": "NVIDIA投资者关系",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx"
+    },
+    {
+      "n": 3,
+      "title": "微软发布六款MAI专用模型，以低价对标OpenAI与Anthropic",
+      "date": "2026-11-18",
+      "summary": "微软AI CEO Mustafa Suleyman向Axios表示，公司自研前沿通用模型正取得显著进展，同时在Ignite大会推出六款专用模型，宣称以远低于对手的价格提供相近性能：MAI Code 2达到GPT-6.1 Sol 98%的性能、价格为其40%，达到Claude Opus 5.5 96%的性能、成本仅为其5%；MAI Code 2 Flash对标GPT-6 Luna与Claude Haiku 5.5，价格分别为其65%与20%；MAI Cyber 2 Flash在一项安全基准上超过GPT-6 Astra，单任务成本不到其2%。",
+      "sourceName": "Axios",
+      "sourceUrl": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite"
+    },
+    {
+      "n": 4,
+      "title": "微软自研AI加速器Maia 200投入规模化生产",
+      "date": "2026-11-18",
+      "summary": "微软在Ignite 2026宣布第二代自研AI加速器Maia 200正式投入规模化生产，已在其数据中心运行公司最大规模的前沿AI大模型，并用于Copilot等AI服务负载。据官方口径，以每瓦Token产出衡量，Maia 200最高可达主流GPU基础设施的1.7倍。这是微软降低对第三方GPU依赖、以自研算力支撑自身AI服务的最新动作。",
+      "sourceName": "Interesting Engineering",
+      "sourceUrl": "https://interestingengineering.com/ai-robotics/microsoft-seven-mai-models-launch"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic IPO将于周三定价，或以指导区间上限发行",
+      "date": "2026-11-18",
+      "summary": "Anthropic预计于美东时间周三确定IPO最终发行价、周四在纳斯达克开始交易，成为首家上市的重要纯前沿AI实验室。据彭博报道，公司向投资者表示预计将在每股70至78美元指导区间的上限或更高定价。市场将此次发行视为检验投资者对AI资产定价意愿的关键事件，美股周二主要指数在英伟达财报与该IPO落地前收跌。",
+      "sourceName": "New York Post",
+      "sourceUrl": "https://nypost.com/2026/11/17/business/dow-plummets-800-points-nasdaq-slides-ahead-of-nvidia-earnings-anthropic-ipo/"
+    },
+    {
+      "n": 6,
+      "title": "云知声发布大模型升级版本U2-Flash-1118，Token消耗降低约37%",
+      "date": "2026-11-18",
+      "summary": "港股上市公司云知声（09678.HK）发布大模型全新升级版本U2-Flash-1118。据网易报道，该版本总Token消耗较此前降低约37.0%，是其U2系列智能体大模型的最新迭代。同日财经媒体以\"中美大模型密集上新\"概括本周OpenAI、微软及国内厂商接连发布新模型的更新节奏。",
+      "sourceName": "网易",
+      "sourceUrl": "https://www.163.com/dy/article/LC0KHL4O05568W0A.html"
+    },
+    {
+      "n": 7,
+      "title": "Proton推出AI助手Lumo桌面版，主打隐私控制",
+      "date": "2026-11-18",
+      "summary": "以隐私为卖点的科技公司Proton发布Lumo Desktop，覆盖Windows、macOS与Linux。该应用可调用本地文件与关联应用执行自动化任务，用户可设定AI可访问的数据范围，并指定哪些动作需要人工批准；公司承诺对话与关联应用中的信息不会用于个性化广告或训练AI模型。该产品定位为ChatGPT、Claude桌面端的隐私优先替代方案。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/"
+    },
+    {
+      "n": 8,
+      "title": "Google将Gemini聊天历史与AI训练设置解耦",
+      "date": "2026-11-18",
+      "summary": "Google正在为Gemini应用推出新的活动设置，将\"保留聊天历史\"与\"允许数据用于AI训练\"拆分为两个独立开关；此前用户需要缩短历史保留期限才能退出模型训练。调整后，用户可在保留Gemini基础功能的同时停止将使用数据用于模型训练。Google同时说明，已提交的数据最长可能在三年内以其他方式使用，但不会再被加入AI训练数据集。",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
+    }
+  ]
+}
