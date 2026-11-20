@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic 上市首日大涨 17%，市值达 1.3 万亿美元",
+      "date": "2026-11-20",
+      "summary": "Anthropic 在纳斯达克上市首日股价大涨 17%，收于约 97 美元，市值达约 1.3 万亿美元。公司本次 IPO 募资 810 亿美元，超越 SpaceX 此前纪录，成为史上规模最大的 IPO。Anthropic 成立于 2021 年，由前 OpenAI 研究人员创立，旗下核心产品为 Claude 系列大模型，业务覆盖 AI 编程、企业办公、数据分析和智能体等多个领域，被视为本轮 AI 热潮的核心标的。",
+      "sourceName": "新浪财经",
+      "sourceUrl": "https://finance.sina.com.cn/stock/usstock/c/2026-11-20/doc-inizinvp5782425.shtml"
+    },
+    {
+      "n": 2,
+      "title": "DeepSeek 1050 亿元第二轮融资落定，腾讯等 31 家机构入股",
+      "date": "2026-11-20",
+      "summary": "据每日经济新闻 36 氪转载报道，天眼查显示 11 月 17 日 DeepSeek 工商主体完成投资人变更，新增股东杭州程砚同期引入 31 家合伙人，即公司第二轮融资的外部股东，本轮融资金额达 1050 多亿元。腾讯关联方以 9.5653% 持股比例居首，中国移动、中国电信、宁德时代、小红书、vivo、IDG、博裕等机构入股。本轮设置 7 年资金锁定期，上市后还需追加 5 年锁定，分析认为这或是 DeepSeek 冲刺 IPO 前的收官一轮融资。",
+      "sourceName": "36氪",
+      "sourceUrl": "https://36kr.com/p/4077269019759488"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI 开放 GPT-Live-1.1 API，支持实时双向语音对话",
+      "date": "2026-11-20",
+      "summary": "OpenAI 宣布向开发者开放 GPT-Live-1.1 语音模型 API，支持实时双向对话，第三方开发者可将其集成到自有应用中，构建能够实时聆听、回应并执行复杂任务的 AI 语音智能体。该模型自 2026 年 10 月 15 日起已成为 ChatGPT Plus 及更高级别订阅用户的默认语音模型，此次 API 开放将相关能力进一步提供给第三方开发者。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizitcn7337059.shtml"
+    },
+    {
+      "n": 4,
+      "title": "苹果被曝自研 AI 智能体，可操控设备、浏览网页、编写代码",
+      "date": "2026-11-20",
+      "summary": "据彭博社记者 Mark Gurman 报道，苹果正在开发自主 AI 智能体，已在官网发布招聘信息，其中\"主动式智能体 AI（Agentic AI - Proactive）\"高级工程经理岗位显示，苹果正组建团队开发能够代表用户执行任务的 AI 助手，相关系统将具备编写代码、浏览网页、控制应用程序以及操作设备等能力，以期在 AI 智能体市场与 OpenAI、Anthropic、Meta 等公司竞争。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizitcn7258091.shtml"
+    },
+    {
+      "n": 5,
+      "title": "微软携手英伟达升级云 PC 体验，支持两路 4K 60 帧",
+      "date": "2026-11-20",
+      "summary": "微软宣布与英伟达合作升级云 PC 体验，将支持两路 4K 60 帧画面，计划 2027 年开启预览。同时 Azure Local 将支持英伟达 RTX PRO 6000 Blackwell GPU，并扩展至 Jetson Thor、Jetson Orin 等边缘设备，可用于机器视觉、机器人和自主运营，这意味着工厂摄像头、仓储机器人、工业设备等未来可能直接在本地完成 AI 判断。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizitcn7268553.shtml"
+    },
+    {
+      "n": 6,
+      "title": "谷歌研究：优化 AI 智能体 Harness 后任务成功率提升 8 倍",
+      "date": "2026-11-20",
+      "summary": "谷歌研究人员发文指出，AI 智能体的运行框架（Harness）对任务成功率影响显著。Harness 并非底层模型本身，而是围绕模型构建的运行框架，负责管理上下文和记忆、控制多轮任务执行、调用外部工具以及在任务结束前验证执行结果。在核心测试中，研究人员使用 Gemini 3.8 Flash 作为基础模型，在 40 道未参与优化的 SWE-bench Lite 软件工程任务上，优化 Harness 后任务成功率提升 8 倍。研究同时提示该实验围绕特定模型与任务集展开，尚不足以证明在所有场景下均有效。",
+      "sourceName": "新浪科技",
+      "sourceUrl": "https://finance.sina.com.cn/tech/digi/2026-11-20/doc-inizitcq4091261.shtml"
+    },
+    {
+      "n": 7,
+      "title": "红熊AI 完成数亿元 A+ 轮融资，推进\"记忆驱动\"大模型布局",
+      "date": "2026-11-20",
+      "summary": "红熊AI 宣布完成数亿元 A+ 轮融资。该公司基于\"记忆科学\"技术路线，此前主要提供 To B 服务，现正延伸至 To C 应用，计划推出面向 C 端的\"记忆驱动型通用大模型\" OpenBear，并同步上线 PC 端 AI 编程辅助工具 CodeBear，构建覆盖对话与编程场景的 C 端产品矩阵。",
+      "sourceName": "36氪",
+      "sourceUrl": "https://36kr.com/p/3899612612494976"
+    }
+  ]
+}
