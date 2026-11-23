@@ -3,59 +3,51 @@
   "items": [
     {
       "n": 1,
-      "title": "Anthropic数学家称借助Claude完成黎曼猜想证明",
+      "title": "Anthropic数学家称与Claude协作完成黎曼猜想证明，待数学界验证",
       "date": "2026-11-21",
-      "summary": "Anthropic数学家Levent Alpöge发布四页说明，称其在约六周内与Claude合作发现了黎曼猜想的证明，相关工作同时涉及广义黎曼猜想。证明以Lean形式化语言撰写，Lean与Mathlib社区核查确认代码证明了正确的数学命题，多个独立验证系统接受了该证明。黎曼猜想是延续约170年、关于素数分布的千禧年七大数学难题之一，目前尚待克雷数学研究所认定。哥伦比亚大学教授Brian Greene称其可能是\"过去两个世纪最伟大的数学突破之一\"。",
-      "sourceName": "Euronews",
-      "sourceUrl": "https://www.euronews.com/2026/11/21/anthropic-worker-claims-to-have-solved-famed-167-year-old-maths-problem-with-help-of-ai"
+      "summary": "Anthropic数学家Levent Alpöge发文称，自己与Claude在约六周内协作完成黎曼猜想的证明，并以Lean形式化证明的形式发布。MIT数学家Andrew Sutherland等独立研究者报告称该Lean代码可通过编译、多个核心定理被独立内核接受；数学家陶哲轩表示完整验证仍需时间。同日另有研究者发布了不借助AI的独立证明，两者均待数学界审核，千禧年大奖的认定还需经过同行评审与多年考察。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/c6pqr2g7w059o"
     },
     {
       "n": 2,
-      "title": "Anthropic上市次日股价大跌，纳指抹平年内涨幅",
+      "title": "人民日报：国产大模型引领全球开源生态，累计下载量突破100亿次",
       "date": "2026-11-21",
-      "summary": "Anthropic（NASDAQ:ANT）11月19日以每股83美元发行价登陆纳斯达克，募资约810亿美元，超过SpaceX成为史上最大IPO，首日收涨17.1%，市值一度突破1.7万亿美元。第二个交易日（11月20日）股价一度下跌逾10%，回落至87美元附近。当日纳斯达克综合指数下跌3.6%，抹平2026年以来全部涨幅；标普500指数跌2.1%，道指跌0.7%，双双跌入回调区间，市场对AI基础设施投入回报的担忧持续发酵。",
-      "sourceName": "New York Post",
-      "sourceUrl": "https://nypost.com/2026/11/20/business/sp-500-and-dow-enter-correction-territory-nasdaq-loses-2026-gains-as-anthropic-dives/"
+      "summary": "人民日报11月21日刊文称，11月9日至15日中国模型在全球开源模型聚合平台OpenRouter的周调用量达119.1万亿词元，连续29周居全球首位；工信部数据显示，我国人工智能开源大模型全球累计下载量突破100亿次。报道还指出，我国日均词元调用量已突破500万亿，DeepSeek的MoE架构创新、Kimi K3混合线性注意力机制等底层技术持续突破，开源模型正通过云端推理、智能体平台等方式形成可持续的商业模式。",
+      "sourceName": "人民日报",
+      "sourceUrl": "http://paper.people.com.cn/rmrb/pc/content/202611/21/content_30192380.html"
     },
     {
       "n": 3,
-      "title": "SpaceX完成320亿美元AI芯片抵押债务发售",
+      "title": "2026世界计算大会安全计算论坛在长沙举办，发布AI攻防成果与新品",
       "date": "2026-11-21",
-      "summary": "据《金融时报》报道，SpaceX完成320亿美元债券发售，为总额超400亿美元的\"Project Saturn\"融资计划的一部分，资金用于采购英伟达AI芯片。交易分三部分进行，由高盛与Apollo Global Management领投，大部分收益率超过8%。约430亿美元的英伟达芯片被作为贷款抵押品，贷款方担心芯片若部署于轨道数据中心将难以追回，SpaceX已承诺相关芯片仅用于地面数据中心。",
-      "sourceName": "Gizmodo",
-      "sourceUrl": "https://gizmodo.com/elon-musks-lenders-have-one-request-please-dont-launch-our-ai-chips-into-space-2000843187"
+      "summary": "11月21日上午，2026世界计算大会安全计算论坛在长沙国际会议中心举行，主题为\"AI时代下的安全防御技术与行业应用\"，政府部门、高校科研院所、国家互联网应急机构及电力等重点行业企业代表参会。论坛现场发布\"AI攻防·智御未来\"行业安全计算应用成果，AI安全平台、保护AI平台两款新品同步亮相，并通过真实攻防场景实战演示，展现AI技术在威胁检测、安全响应、风险防护方面的能力。",
+      "sourceName": "华声在线",
+      "sourceUrl": "https://hunan.voc.com.cn/news/202611/34316148.html"
     },
     {
       "n": 4,
-      "title": "CoreWeave被曝负债470亿美元，AI云融资模式受审视",
+      "title": "SpaceX完成320亿美元AI芯片债券发售，用于采购英伟达GPU",
       "date": "2026-11-21",
-      "summary": "据《卫报》11月21日刊登的分析，AI云服务商CoreWeave负债总额达470亿美元，其中逾100亿美元将于2027年到期，近250亿美元借贷以GPU和客户合同作抵押。公司上季度营收36亿美元，净亏损7.09亿美元。英伟达持有其约11%股份，并有63亿美元算力采购承诺，分析师质疑这一循环融资结构的可持续性，GPU抵押债务能否抵御芯片贬值与客户付款风险成为关注焦点。",
-      "sourceName": "Dealroom News",
-      "sourceUrl": "https://dealroom.co/news/174763-coreweave-faces-10b-debt-wall-as-nvidia-rethinks-funding-role"
+      "summary": "据彭博社报道，SpaceX完成320亿美元与AI芯片挂钩的债券发售，大部分收益率高于8%，债券分三部分发行。交易由Apollo管理的特殊目的载体运作，所购英伟达芯片以新一代Rubin为主，由SpaceX以约五年期租约租用，债务不进入其资产负债表。这笔发行是超过400亿美元融资计划的一部分，覆盖约473亿美元GPU设备，交付预计明年1月开始，或成为同类AI算力融资交易的模板。",
+      "sourceName": "The Edge Malaysia",
+      "sourceUrl": "https://theedgemalaysia.com/node/826725"
     },
     {
       "n": 5,
-      "title": "研究显示单个恶意网页可劫持Meta智能体Muse",
+      "title": "当Token走进大众消费：买算力像充话费一样简单",
       "date": "2026-11-21",
-      "summary": "安全研究人员演示，仅通过一个恶意网页即可劫持Meta个人AI智能体Muse。Muse于9月8日上线，通过用户授权的在线账户工作并可代用户购物。实验中，智能体打开的恶意页面可将用户对话历史与存储记忆传输至外部服务器并加以篡改，全程无任何提示；研究人员还将Muse内置浏览器的漏洞与Linux内核漏洞链式利用，完全控制智能体背后的云主机，并可能触及已连接账户的凭证。该演示为实验室环境，未涉及真实用户。",
-      "sourceName": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+      "summary": "上海证券报报道，今年\"双十一\"期间Token（词元）以标准化套餐形式进入直播间，面向个人消费者销售。天猫上线Token充值中心\"AI空间站\"，首批接入阿里云、智谱、MiniMax、DeepSeek等厂商，AI模型充值入口已与话费、水电燃气缴费入口并列。业内分析指出，算力正从企业生产资料转向个人可直接购买的数字服务，购买方式包括按量付费充值券与包月包年订阅，AI服务分层供给趋势显现，计量核算与定价机制仍待规范。",
+      "sourceName": "新浪财经（上海证券报）",
+      "sourceUrl": "https://finance.sina.com.cn/stock/t/2026-11-21/doc-iniznxqa3352704.shtml"
     },
     {
       "n": 6,
-      "title": "伦敦AI安全产业生态加速扩张",
+      "title": "Anthropic与Meta在美国遭图书版权侵权起诉",
       "date": "2026-11-21",
-      "summary": "据BBC报道，随着AI系统能力增强，伦敦已聚集约50家专注AI安全的组织，形成欧洲领先的AI安全产业生态。伦敦是Google DeepMind总部所在地，Anthropic也在当地设有重要基地。非营利组织伦敦AI安全倡议（LISA）将迁入国王十字车站附近的大型总部，成为伦敦\"AI走廊\"的一部分。当地从业者认为，伦敦在全球AI产业中不仅是参与者，也在安全治理层面扮演一定角色。",
-      "sourceName": "BBC",
-      "sourceUrl": "https://www.bbc.com/news/articles/cmvg23q5xq31o"
-    },
-    {
-      "n": 7,
-      "title": "Signal新增截图限制，阻止AI助手读取私密聊天",
-      "date": "2026-11-21",
-      "summary": "通讯应用Signal宣布新增针对AI助手的防护措施：在iOS 27上默认阻止截图，在受支持的Android设备上一旦检测到AI助手尝试读取屏幕，即自动开启Screen Security功能，防止AI助手读取已解密显示的私聊内容。Signal同时表示，仅靠截图限制并不足够，相关措施无法可靠覆盖macOS等平台，并呼吁操作系统厂商提供更广泛的AI排除机制。",
-      "sourceName": "Superpower Daily",
-      "sourceUrl": "https://superpowerdaily.com/posts/signal-adds-screenshot-restrictions-to-keep-ai-assistants-out-of-private-chats"
+      "summary": "据VitalLaw报道，畅销书《Don't Sweat the Small Stuff》系列版权方在美国联邦法院起诉Anthropic与Meta，称两家公司未经授权使用该系列20余册图书训练AI模型。原告此前已选择退出与Anthropic的图书作者集体诉讼和解，转为单独起诉。这是近期又一起将两家AI公司并列列为被告的训练数据版权诉讼，案件聚焦AI训练数据获取的合规边界，尚待法院审理。",
+      "sourceName": "VitalLaw",
+      "sourceUrl": "https://www.vitallaw.com/news/copyright-news-anthropic-and-meta-self-helped-themselves-to-ai-training-materials-new-lawsuit-asserts/ipm01eea3882904794aa786ea89a4f8e8a780"
     }
   ]
 }
