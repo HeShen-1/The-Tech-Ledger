@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "n": 1,
+      "title": "Anthropic数学家称借助Claude完成黎曼猜想证明",
+      "date": "2026-11-21",
+      "summary": "Anthropic数学家Levent Alpöge发布四页说明，称其在约六周内与Claude合作发现了黎曼猜想的证明，相关工作同时涉及广义黎曼猜想。证明以Lean形式化语言撰写，Lean与Mathlib社区核查确认代码证明了正确的数学命题，多个独立验证系统接受了该证明。黎曼猜想是延续约170年、关于素数分布的千禧年七大数学难题之一，目前尚待克雷数学研究所认定。哥伦比亚大学教授Brian Greene称其可能是\"过去两个世纪最伟大的数学突破之一\"。",
+      "sourceName": "Euronews",
+      "sourceUrl": "https://www.euronews.com/2026/11/21/anthropic-worker-claims-to-have-solved-famed-167-year-old-maths-problem-with-help-of-ai"
+    },
+    {
+      "n": 2,
+      "title": "Anthropic上市次日股价大跌，纳指抹平年内涨幅",
+      "date": "2026-11-21",
+      "summary": "Anthropic（NASDAQ:ANT）11月19日以每股83美元发行价登陆纳斯达克，募资约810亿美元，超过SpaceX成为史上最大IPO，首日收涨17.1%，市值一度突破1.7万亿美元。第二个交易日（11月20日）股价一度下跌逾10%，回落至87美元附近。当日纳斯达克综合指数下跌3.6%，抹平2026年以来全部涨幅；标普500指数跌2.1%，道指跌0.7%，双双跌入回调区间，市场对AI基础设施投入回报的担忧持续发酵。",
+      "sourceName": "New York Post",
+      "sourceUrl": "https://nypost.com/2026/11/20/business/sp-500-and-dow-enter-correction-territory-nasdaq-loses-2026-gains-as-anthropic-dives/"
+    },
+    {
+      "n": 3,
+      "title": "SpaceX完成320亿美元AI芯片抵押债务发售",
+      "date": "2026-11-21",
+      "summary": "据《金融时报》报道，SpaceX完成320亿美元债券发售，为总额超400亿美元的\"Project Saturn\"融资计划的一部分，资金用于采购英伟达AI芯片。交易分三部分进行，由高盛与Apollo Global Management领投，大部分收益率超过8%。约430亿美元的英伟达芯片被作为贷款抵押品，贷款方担心芯片若部署于轨道数据中心将难以追回，SpaceX已承诺相关芯片仅用于地面数据中心。",
+      "sourceName": "Gizmodo",
+      "sourceUrl": "https://gizmodo.com/elon-musks-lenders-have-one-request-please-dont-launch-our-ai-chips-into-space-2000843187"
+    },
+    {
+      "n": 4,
+      "title": "CoreWeave被曝负债470亿美元，AI云融资模式受审视",
+      "date": "2026-11-21",
+      "summary": "据《卫报》11月21日刊登的分析，AI云服务商CoreWeave负债总额达470亿美元，其中逾100亿美元将于2027年到期，近250亿美元借贷以GPU和客户合同作抵押。公司上季度营收36亿美元，净亏损7.09亿美元。英伟达持有其约11%股份，并有63亿美元算力采购承诺，分析师质疑这一循环融资结构的可持续性，GPU抵押债务能否抵御芯片贬值与客户付款风险成为关注焦点。",
+      "sourceName": "Dealroom News",
+      "sourceUrl": "https://dealroom.co/news/174763-coreweave-faces-10b-debt-wall-as-nvidia-rethinks-funding-role"
+    },
+    {
+      "n": 5,
+      "title": "研究显示单个恶意网页可劫持Meta智能体Muse",
+      "date": "2026-11-21",
+      "summary": "安全研究人员演示，仅通过一个恶意网页即可劫持Meta个人AI智能体Muse。Muse于9月8日上线，通过用户授权的在线账户工作并可代用户购物。实验中，智能体打开的恶意页面可将用户对话历史与存储记忆传输至外部服务器并加以篡改，全程无任何提示；研究人员还将Muse内置浏览器的漏洞与Linux内核漏洞链式利用，完全控制智能体背后的云主机，并可能触及已连接账户的凭证。该演示为实验室环境，未涉及真实用户。",
+      "sourceName": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+    },
+    {
+      "n": 6,
+      "title": "伦敦AI安全产业生态加速扩张",
+      "date": "2026-11-21",
+      "summary": "据BBC报道，随着AI系统能力增强，伦敦已聚集约50家专注AI安全的组织，形成欧洲领先的AI安全产业生态。伦敦是Google DeepMind总部所在地，Anthropic也在当地设有重要基地。非营利组织伦敦AI安全倡议（LISA）将迁入国王十字车站附近的大型总部，成为伦敦\"AI走廊\"的一部分。当地从业者认为，伦敦在全球AI产业中不仅是参与者，也在安全治理层面扮演一定角色。",
+      "sourceName": "BBC",
+      "sourceUrl": "https://www.bbc.com/news/articles/cmvg23q5xq31o"
+    },
+    {
+      "n": 7,
+      "title": "Signal新增截图限制，阻止AI助手读取私密聊天",
+      "date": "2026-11-21",
+      "summary": "通讯应用Signal宣布新增针对AI助手的防护措施：在iOS 27上默认阻止截图，在受支持的Android设备上一旦检测到AI助手尝试读取屏幕，即自动开启Screen Security功能，防止AI助手读取已解密显示的私聊内容。Signal同时表示，仅靠截图限制并不足够，相关措施无法可靠覆盖macOS等平台，并呼吁操作系统厂商提供更广泛的AI排除机制。",
+      "sourceName": "Superpower Daily",
+      "sourceUrl": "https://superpowerdaily.com/posts/signal-adds-screenshot-restrictions-to-keep-ai-assistants-out-of-private-chats"
+    }
+  ]
+}
