@@ -48,6 +48,14 @@
       "summary": "据VitalLaw报道，畅销书《Don't Sweat the Small Stuff》系列版权方在美国联邦法院起诉Anthropic与Meta，称两家公司未经授权使用该系列20余册图书训练AI模型。原告此前已选择退出与Anthropic的图书作者集体诉讼和解，转为单独起诉。这是近期又一起将两家AI公司并列列为被告的训练数据版权诉讼，案件聚焦AI训练数据获取的合规边界，尚待法院审理。",
       "sourceName": "VitalLaw",
       "sourceUrl": "https://www.vitallaw.com/news/copyright-news-anthropic-and-meta-self-helped-themselves-to-ai-training-materials-new-lawsuit-asserts/ipm01eea3882904794aa786ea89a4f8e8a780"
+    },
+    {
+      "n": 7,
+      "title": "分析显示CoreWeave负债总额达470亿美元，AI云融资模式受审视",
+      "date": "2026-11-21",
+      "summary": "据卫报11月21日刊发的分析报道，AI云服务商CoreWeave债务义务总额达470亿美元，其中逾100亿美元将于2027年到期，近250亿美元以GPU设备与客户合同作为抵押。这一模式通过设备抵押与预收款为扩张融资，但公司同时暴露于芯片贬值、客户付款能力变化与数据中心建设延期等风险。CoreWeave回应称，客户正在为上一代GPU签署超出其折旧年限的多年期合约，且价格高于原始合同，其融资策略正在降低平均借贷成本。",
+      "sourceName": "Superpower Daily（卫报）",
+      "sourceUrl": "https://superpowerdaily.com/posts/coreweave-owes-47-billion-as-analysts-scrutinize-its-ai-cloud-financing"
     }
   ]
 }
