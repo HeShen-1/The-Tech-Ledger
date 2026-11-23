@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "n": 1,
+      "title": "MiniMax公布密码分析研究成果，内部模型刷新多项密码学纪录",
+      "date": "2026-11-23",
+      "summary": "MiniMax于11月22日晚公布其未公开内部模型（MIM）的自动化密码分析研究成果：在8项密码算法挑战上刷新密码分析纪录，与当前最优求解算法相比实测加速数百至数万倍。研究聚焦学术前沿方案、历史竞赛候选设计与公开参数挑战，官方表示相关发现不影响现行主流密码标准的安全性。论文已投至NeurIPS 2026 CryptanalysisBench赛道，推理轨迹以技术报告和代码形式公开。该成果被视为大模型竞赛进入AI4S（AI for Science）阶段的标志性事件。",
+      "sourceName": "东方财富网",
+      "sourceUrl": "https://finance.eastmoney.com/a/202611233937012512.html"
+    },
+    {
+      "n": 2,
+      "title": "Claude Fable 5.2空降DesignArena游戏开发榜第一",
+      "date": "2026-11-23",
+      "summary": "据网易科技报道，全球AI设计评测平台DesignArena游戏开发榜更新：Anthropic的Claude Fable 5.2空降榜首，将OpenAI三款模型挤至第2至第4位。此前GPT-6.2上线仅4天时，OpenAI曾一度包揽该榜前三。头部模型在设计类代码与游戏生成任务上的排名快速易主，显示该能力维度的竞争仍处于胶着状态。",
+      "sourceName": "网易科技",
+      "sourceUrl": "https://www.163.com/dy/article/LCDKQSIQ0511ABV6.html"
+    },
+    {
+      "n": 3,
+      "title": "蚂蚁集团领投Simplexity Robotics一亿美元融资，估值16亿美元",
+      "date": "2026-11-23",
+      "summary": "据彭博社报道，中国物理AI初创公司Simplexity Robotics完成1亿美元Pre-A轮融资，由蚂蚁集团领投，阿里巴巴、腾讯、HongShan与蓝池资本等现有投资方跟投，投后估值达16亿美元。公司董事长兼联合创始人王凯向彭博社披露该消息，并表示资金将支持其在竞争激烈的中国机器人赛道上挑战更成熟的厂商。据彭博统计，中国人形机器人行业出货量约占全球97%。",
+      "sourceName": "彭博社",
+      "sourceUrl": "https://news.bloomberglaw.com/tech-and-telecom-law/ant-group-bets-on-simplexity-to-thrive-in-chinas-humanoid-race"
+    },
+    {
+      "n": 4,
+      "title": "商汤日日新SenseNova U1 Pro获Design Arena双榜中国第一",
+      "date": "2026-11-23",
+      "summary": "据智东西报道，全球AI设计评测平台Design Arena更新图片榜单，商汤科技日日新SenseNova U1 Pro在图片生成与图片编辑两项榜单中均位列中国第一、全球第六。商汤同期披露RoboRSI在物理AI递归自我改进方向的探索，称其在多个榜单超越SOTA，相关能力将逐渐融入商汤新一代原生多模态模型。",
+      "sourceName": "智东西",
+      "sourceUrl": "https://m.zhidx.com/news/43308.html"
+    },
+    {
+      "n": 5,
+      "title": "高盛上调2027年AI项目融资预期逾八成至5450亿美元",
+      "date": "2026-11-23",
+      "summary": "据财联社报道，高盛发布最新预测，将2027年全球AI项目融资预期上调逾八成至5450亿美元，同时提示AI项目融资成本正在走高。该预测反映AI基础设施投资规模持续扩张的市场预期；高盛对融资成本的提示，被市场解读为对AI项目回报与资金成本平衡问题的关注。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2538039"
+    },
+    {
+      "n": 6,
+      "title": "国开行投入超2亿元建设AI算力，三条技术路线并行推进",
+      "date": "2026-11-23",
+      "summary": "据移动支付网报道，国家开发银行AI算力建设项目投入已超2亿元，采用三条技术路线并行验证的方式推进，目前已确定其中一条路线。大型金融机构以\"多路线并行、择优定型\"的方式自建AI算力基础设施，为同类机构的智算落地提供了可参考的工程样本。",
+      "sourceName": "移动支付网",
+      "sourceUrl": "https://www.mpaypass.com.cn/news/202611/23092818.html"
+    },
+    {
+      "n": 7,
+      "title": "梅赛德斯-奔驰在美国启动MB.Drive Assist Pro点到点辅助驾驶",
+      "date": "2026-11-23",
+      "summary": "梅赛德斯-奔驰宣布在美国部署MB.Drive Assist Pro点到点高级辅助驾驶系统：12月起在加州部分城市启动Early Access计划，2027年春季将免手持高速功能扩展至全美，同年晚些时候面向CLA Electric、GLE、GLS、S-Class等2027款车型提供城市点到点导航，并可通过OTA向兼容的存量车辆推送。",
+      "sourceName": "AUTO Connected Car News",
+      "sourceUrl": "https://www.autoconnectedcar.com/2026/11/autonomous-self-driving-vehicle-news-mercedes-benz-tier-iv-aeye-rivian-sonatus-forvia-hella/"
+    },
+    {
+      "n": 8,
+      "title": "江南农商银行落地190余项AI生产场景，覆盖五大业务领域",
+      "date": "2026-11-23",
+      "summary": "据移动支付网报道，江南农商银行已落地190余项AI生产场景，覆盖五大业务领域。中小银行正加速将大模型能力嵌入业务流程，AI应用从单点试点走向规模化生产环境，成为银行业数字化转型的主要方向之一。",
+      "sourceName": "移动支付网",
+      "sourceUrl": "https://www.mpaypass.com.cn/news/202611/23091012.html"
+    }
+  ]
+}
