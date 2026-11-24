@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "n": 1,
+      "title": "亚马逊据悉斥资约75亿美元收购Decart技术与团队，加码Trainium芯片挑战英伟达",
+      "date": "2026-11-24",
+      "summary": "亚马逊宣布签署协议，收购AI初创公司Decart旗下\"Decart优化栈\"（DOS）专有技术，三位联合创始人携AI研究与工程团队一并加盟，知情人士称交易价值约75亿美元，较Decart今年5月融资后近40亿美元的估值高出近九成，交易尚需监管批准。DOS软件可提升AI系统运行效率，并支持企业在英伟达、亚马逊、谷歌等不同厂商AI芯片间灵活切换。据报道，亚马逊拟明年起对外出售自研Trainium芯片，此次收购旨在降低其使用门槛，为其走出AWS、挑战英伟达铺路。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2542336"
+    },
+    {
+      "n": 2,
+      "title": "DeepSeek调用量连续五周登顶OpenRouter，中国大模型周Token量连续30周领先",
+      "date": "2026-11-24",
+      "summary": "全球最大AI模型聚合平台OpenRouter公布最新一周（11月16日至22日）Token统计：平台总调用量210万亿Token，环比增长8.25%；中国大模型周Token处理量连续第30周超过美国，排名前九的模型中中国占6席。其中DeepSeek V4.1 Flash 1017连续五周位居调用榜第一，周调用量65万亿Token，环比增长16%。工商信息显示，DeepSeek第二轮融资已于11月17日完成工商变更，腾讯、宁德时代、中移投资等多家产业机构通过投资平台入股。在高价值任务支出上，代码实现子类中Claude Opus 5.5以22%份额居首，DeepSeek V4.1 Flash以5.2%排第六。",
+      "sourceName": "福布斯中国",
+      "sourceUrl": "https://www.forbeschina.com/business/%E5%95%86%E4%B8%9A/72421"
+    },
+    {
+      "n": 3,
+      "title": "新一轮融资后，梁文锋身家攀升至550亿美元",
+      "date": "2026-11-24",
+      "summary": "中国人工智能初创企业深度求索（DeepSeek）完成新一轮融资后，创始人梁文锋的身家攀升至550亿美元（约710亿新元），成为世界最富有的AI模型创造者。此轮融资完成后，梁文锋个人直接持股，公司控制权结构保持不变。",
+      "sourceName": "联合早报",
+      "sourceUrl": "https://www.zaobao.com.sg/news/china/story20261124-10046913"
+    },
+    {
+      "n": 4,
+      "title": "智谱确认GLM-5.4采用Loop Transformer架构，12月拟推出3万亿参数GLM-5.5",
+      "date": "2026-11-24",
+      "summary": "智谱发布技术说明，确认GLM-5.4是公司首款采用Loop Transformer架构的旗舰模型：将GLM-5基座中的28层循环执行两轮，复用同一组权重来增加推理深度。模型已同步上线ZCode、Trae等平台，面向GLM Coding Plan订阅用户开放，指定周配额档位额度上调，API将在完成安全评估后开放，模型权重计划开源。另据第一财经报道，智谱管理层预计12月推出下一款旗舰模型GLM-5.5，参数规模约3万亿。",
+      "sourceName": "爱范儿",
+      "sourceUrl": "https://www.ifanr.com/1691119"
+    },
+    {
+      "n": 5,
+      "title": "马斯克承认SpaceX AI研发落后于对手，转向数据中心算力租赁",
+      "date": "2026-11-24",
+      "summary": "SpaceX首席执行官埃隆·马斯克近日向员工表示，公司在人工智能研发方面正落后于Anthropic、OpenAI等竞争对手，因此选择将数据中心算力对外出租，Anthropic与谷歌成为主要租户。马斯克认为Grok目前并非市场领先的AI模型，与其将算力用于自研，不如通过租赁获取收入。据报道，SpaceX在上市前提交的招股文件中曾提示，向竞争对手出租数据中心算力可能增加业务运营的复杂性。",
+      "sourceName": "IT时代网",
+      "sourceUrl": "https://www.itsdw.cn/news/51864.html"
+    },
+    {
+      "n": 6,
+      "title": "Thinking Machines Lab发布开源权重模型Inkling 2 Mini",
+      "date": "2026-11-24",
+      "summary": "Thinking Machines Lab（Mira Murati创立）发布开源权重模型Inkling 2 Mini：采用稀疏MoE架构，总参数26.4B，单次基础激活约3.4B，循环层重复运行后每token有效激活计算约5.4B；接受文本与图像输入，最大上下文100万tokens。模型卡列出vLLM、SGLang、Unsloth、llama.cpp、Ollama等多种部署路径，方便开发者在不同推理框架上本地部署。",
+      "sourceName": "钛媒体",
+      "sourceUrl": "https://www.tmtpost.com/8215144.html"
+    },
+    {
+      "n": 7,
+      "title": "上海财经大学向师生免费发放Token额度，每人每周最高1亿",
+      "date": "2026-11-24",
+      "summary": "上海财经大学在校庆活动中接受阿里巴巴捐赠的Token资源，向师生免费发放AI算力额度，每人每周最高1亿Token，额度由学校统一调度，并与校内平台、校企共建算力一起纳入服务体系。该校\"匡时一号\"算力平台2.0自今年7月上线后已覆盖13个学院，运行教学科研任务7300余次。另有高校选择按天发放额度：国家超级计算长沙中心向湖南大学师生开放大模型API，每人每天预设200万Token基础额度，限校园网访问。",
+      "sourceName": "爱范儿",
+      "sourceUrl": "https://www.ifanr.com/1691119"
+    }
+  ]
+}
