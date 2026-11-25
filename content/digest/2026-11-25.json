@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "n": 1,
+      "title": "美股AI硬件板块回调：费城半导体指数跌7.88%，Anthropic跌破发行价",
+      "date": "2026-11-25",
+      "summary": "美东时间11月24日收盘，美股三大指数涨跌不一：标普500指数跌0.5%，纳斯达克指数跌1.48%，道琼斯指数涨0.85%。AI硬件板块领跌，费城半导体指数下跌7.88%，英伟达收跌5.86%，慧与跌16.31%。Anthropic收跌6.54%，跌破83美元的IPO发行价。报道称，市场对AI交易能否持续的疑虑升温，有关OpenAI与Anthropic部分未发布模型安全性的报道也压制了风险偏好。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://www.cls.cn/detail/2543493"
+    },
+    {
+      "n": 2,
+      "title": "戴尔第三财季营收翻倍，AI服务器积压订单达1323亿美元并上调全年指引",
+      "date": "2026-11-25",
+      "summary": "戴尔科技公布2027财年第三财季业绩：营收549亿美元，同比增长103%；非GAAP摊薄每股收益9.45美元，同比增长265%。AI优化服务器收入220亿美元，同比增长291%；当季新增AI订单602亿美元，季末AI订单积压达创纪录的1323亿美元。公司将全年营收指引从1920亿美元上调至2020亿美元，AI服务器收入指引从740亿上调至780亿美元，并新增250亿美元股票回购授权。",
+      "sourceName": "戴尔科技（投资者关系）",
+      "sourceUrl": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+    },
+    {
+      "n": 3,
+      "title": "FT：AI股市抛售之下，Nscale称可选择保持私有，350亿美元IPO计划承压",
+      "date": "2026-11-25",
+      "summary": "据英国《金融时报》报道，英伟达投资的英国AI数据中心公司Nscale首席执行官Josh Payne周二在全员会议上表示，公司已募集的资金足以在可预见的未来保持私有运营。Nscale原计划推进约350亿美元的IPO，但AI相关股票的大幅下跌令上市计划复杂化；管理层此前希望年内上市，Payne称目前目标是尽早推进。报道还提到，Nscale上周暂停了大部分招聘，并失去了微软一笔32亿美元的伦敦附近数据中心协议。",
+      "sourceName": "Financial Times",
+      "sourceUrl": "https://www.ft.com/content/189d0c46-3c66-420b-af7d-a1d0b78d68ac"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI称其最新模型可设计新蛋白质，《自然》：通用大模型能力逼近专用工具",
+      "date": "2026-11-25",
+      "summary": "据《自然》杂志新闻报道，OpenAI宣布其最新语言模型已成功设计出新的蛋白质，其中部分在实验室制备和测试时表现符合预期。OpenAI称，在计算测试中，一个内部研究模型在多项蛋白质任务上达到或超过专用模型，包括设计蛋白质形状和预测分子结合方式。《自然》指出，设计蛋白质、预测氨基酸序列与结构此前被视为AlphaFold等专用工具的能力，通用大模型正在追赶；也有研究人员质疑，部分能力可能来自对训练数据的复述。",
+      "sourceName": "Nature",
+      "sourceUrl": "https://www.nature.com/articles/d41586-026-03836-z"
+    },
+    {
+      "n": 5,
+      "title": "拉美最大风投Kaszek完成6.5亿美元新基金，聚焦AI早期初创公司",
+      "date": "2026-11-25",
+      "summary": "据彭博社报道，拉美最大风险投资公司Kaszek Ventures完成第七只早期基金募集，规模6.5亿美元，超过6亿美元的原定目标，为拉美史上规模最大的早期投资基金。新基金计划投资20至30家公司，首笔投资100万至2000万美元，约60%资金预留用于后续轮次。资金主要投向金融、医疗、在线市场和商业服务等领域的AI“应用层”初创公司，同时关注数据中心、芯片等AI基础设施，巴西和墨西哥仍是主要市场。",
+      "sourceName": "The Next Web",
+      "sourceUrl": "https://thenextweb.com/news/kaszek-650m-fund-latin-america-ai-startups"
+    },
+    {
+      "n": 6,
+      "title": "企业数据运维AI初创Zipher融资5300万美元，由智能体调度数据工作负载",
+      "date": "2026-11-25",
+      "summary": "总部位于纽约的AI基础设施初创公司Zipher宣布完成5300万美元种子轮和A轮融资，投资方包括TLV Partners、Maor Investments和Glilot Capital。其软件让AI智能体自主决定企业数据任务的资源分配、调度和执行引擎，客户只需设定预算和性能目标；产品支持AWS、Azure和谷歌云。新资金将用于扩大研发和美国销售业务，并拓展欧洲、拉美及亚太市场。",
+      "sourceName": "Ynetnews",
+      "sourceUrl": "https://www.ynetnews.com/tech-and-digital/article/b1vqasmjmx"
+    },
+    {
+      "n": 7,
+      "title": "惠普第四财季营收增长9.3%，AI电脑出货占比接近60%",
+      "date": "2026-11-25",
+      "summary": "惠普公布2026财年第四财季业绩：净营收160亿美元，同比增长9.3%；非GAAP每股收益0.83美元。个人系统业务营收118亿美元，同比增长14%，其中商用增长23%、消费下降7%，总出货量下降29%。公司表示，当季AI电脑出货占比接近60%，高于50%的目标，正采取措施应对内存和存储成本上升。惠普预计2027财年非GAAP每股收益为3.15至3.45美元，季度股息上调至每股0.31美元。",
+      "sourceName": "惠普新闻室",
+      "sourceUrl": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results.html"
+    },
+    {
+      "n": 8,
+      "title": "彭博：大众ID. Era 5S起售价约1.8万美元，辅助驾驶系统由中国团队开发",
+      "date": "2026-11-25",
+      "summary": "彭博社报道称，大众汽车新款轿车ID. Era 5S在中国起售价12万元人民币（约1.8万美元），其辅助驾驶系统、插电混动动力总成及大部分底层技术均在中国为中国市场开发，辅助驾驶能力超过大众在其他市场提供的系统。该辅助驾驶软件由大众与地平线合资的Carizon开发，团队约800人，已完成超过10万公里的真实道路测试。由一名前华为高管负责的大众中国软件研发团队将开发周期缩短至8周，德国业务已开始借鉴其产品开发方法。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/vw-s-18-000-self-driving-sedan-shows-how-china-leads-on-car-tech"
+    },
+    {
+      "n": 9,
+      "title": "三一集团在上海宝马展全球首发AI智能体与具身重载机器人底座平台",
+      "date": "2026-11-25",
+      "summary": "财联社报道，三一集团在11月24日开幕的2026上海宝马展上全球首发AI智能体与具身重载机器人底座平台，这是公司首次对外大规模展示其智能化体系。其E3馆“智慧能力馆”是本届展会唯一独立设置的智能化主题馆，按辅助智能、单机智能、无驾舱未来装备、服务智能体、场景智能五级思路布展。现场演示了无人装载机、无人叉车作业及行业首创的百吨级无驾舱智能矿卡；在新疆矿山，120台无人矿卡与无人挖掘机已实现常态化运营。",
+      "sourceName": "财联社（新浪财经转载）",
+      "sourceUrl": "https://finance.sina.com.cn/jjxw/2026-11-25/doc-inizxiar4351482.shtml"
+    }
+  ]
+}
