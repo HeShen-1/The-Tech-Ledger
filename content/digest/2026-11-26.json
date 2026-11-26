@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-26",
+  "items": [
+    {
+      "n": 1,
+      "title": "美股收盘：道指尾盘翻红，英伟达跌3.91%，AI相关信用风险指标创新高",
+      "date": "2026-11-26",
+      "summary": "财联社11月26日报道，隔夜美股三大指数涨跌不一，盘中一度集体重挫，尾盘跌幅收窄、道指转涨：标普500指数跌0.25%，纳斯达克指数跌0.62%，道琼斯指数涨0.33%。英伟达跌3.91%，费城半导体指数跌0.65%，美光跌4.53%，安霸因业绩及指引不及预期暴跌19.77%，惠普涨11.49%。报道称，黄仁勋复职带动的科技股热情消退，CoreWeave与英伟达的信用违约掉期再创历史新高。",
+      "sourceName": "财联社",
+      "sourceUrl": "https://m.cls.cn/detail/2544737"
+    },
+    {
+      "n": 2,
+      "title": "FCC批准SpaceX部署最多100万颗Starmind卫星，在太空建设AI数据中心",
+      "date": "2026-11-26",
+      "summary": "美国联邦通信委员会（FCC）11月25日宣布，批准SpaceX部署最多100万颗Starmind轨道算力卫星，用于在太空建设AI数据中心，这是美国首次批准此类星座。SpaceX今年1月提交申请，其IPO文件预计最早2028年开始部署轨道算力卫星。据CNBC报道，亚马逊Kuiper、Viasat和美国天文学会曾提交反对请愿；谷歌、Starcloud等公司也在推进轨道数据中心计划。",
+      "sourceName": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI开始测试Private Inference，面向企业客户提供私有推理服务",
+      "date": "2026-11-26",
+      "summary": "OpenAI CEO奥特曼11月25日在X上宣布，正面向一小批企业客户测试Private Inference私有推理服务。The Decoder称，该服务让企业在OpenAI无法读取数据的前提下调用其最强模型，查询在安全性可独立验证的隔离硬件上处理；配套的零数据保留与私有安全处理机制，使自动审查无需OpenAI人员接触原始内容，被标记内容加密后存放在客户自有云存储中。支持的模型、定价和上线时间尚未公布。",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI合并ChatGPT的Chat与Work：共用用量额度，重度用户或更快触顶",
+      "date": "2026-11-26",
+      "summary": "TechCrunch报道，OpenAI开始向少数Pro用户推送合并后的Chat与Work统一体验，产品负责人周二在X上宣布。新机制下，Chat与Work共用一个用量额度，使用Instant模型的对话不限量、不计入共享额度。OpenAI发言人称，多数用户不会更频繁遇到额度重置，但少数重度用户可能更快触达上限，共享额度计划12月起更广泛推行。部分订阅者担心，订阅费不变的情况下可用的高级推理模型会变少。",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+    },
+    {
+      "n": 5,
+      "title": "Anthropic披露Messages API迁移至Rust：每请求CPU用量减少约70%",
+      "date": "2026-11-26",
+      "summary": "Anthropic发布工程文章，介绍借助Claude智能体将Messages API从Python迁移至Rust：每请求CPU用量减少约70%，首Token中位延迟降低约20%，API流量自2024年初增长约1800倍。迁移采用多层验证循环：内层由智能体在沙箱中数秒内自测，中层在生产影子流量上比对新旧实现，外层把人工纠正存为规则供后续智能体读取。文章指出，智能体产码提速后，验证而非生成成为新瓶颈。",
+      "sourceName": "Anthropic",
+      "sourceUrl": "https://www.anthropic.com/research/migrating-api-to-rust"
+    },
+    {
+      "n": 6,
+      "title": "彭博：ElevenLabs洽谈新一轮融资，目标估值330亿美元",
+      "date": "2026-11-26",
+      "summary": "彭博社援引知情人士报道，AI语音公司ElevenLabs正就新一轮融资进行初步洽谈，目标估值330亿美元，计划于2027年第一季度正式启动，部分投资人希望提前推进。据同一报道，该公司9月一轮员工老股交易中的估值为220亿美元，年化经常性收入（ARR）已从当时的6亿美元增至7亿美元。报道未公布领投方与具体条款。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-25/elevenlabs-in-early-talks-for-2027-funding-at-33-billion-value"
+    },
+    {
+      "n": 7,
+      "title": "Axios：a16z洽谈为下一组基金募集约200亿美元",
+      "date": "2026-11-26",
+      "summary": "Axios援引三位知情人士报道，Andreessen Horowitz（a16z）正洽谈为其下一组基金募集约200亿美元。Axios称，随着AI公司需要更大规模、更快速的资金，大型基金正以更快的节奏募资。a16z上一组基金于今年1月宣布，规模逾150亿美元，涵盖五只新基金，后通过三只追加载体扩大至200亿美元以上。报道未披露下一组基金的具体构成与目标关闭时间。",
+      "sourceName": "Axios",
+      "sourceUrl": "https://www.axios.com/pro/all-deals/2026/11/25/andreessen-horowitz-20b-fundraise"
+    },
+    {
+      "n": 8,
+      "title": "摩根大通报告：AI行业到2030年代初需每年约3万亿美元客户支出",
+      "date": "2026-11-26",
+      "summary": "据The Financial Express报道，摩根大通私人银行报告估算，到2030年代初，全球AI行业每年需约3万亿美元客户支出才能支撑其基础设施投资，同期AI生态年收入或达约3.5万亿美元。报告称，2022年以来AI资本支出已超2万亿美元，2026年约9000亿美元，到2030年累计可达5.5万亿美元；建设1吉瓦AI数据中心约需400亿美元，每年需产生约110亿美元收入以覆盖运营与资本成本。",
+      "sourceName": "The Financial Express",
+      "sourceUrl": "https://www.financialexpress.com/business/industry/ai-companies-need-3-trillion-in-annual-customer-spending-jpmorgan-explains-why/4393867"
+    }
+  ]
+}
