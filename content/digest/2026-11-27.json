@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "n": 1,
+      "title": "彭博：SAP酝酿AI驱动重组，拟裁减至少1万个岗位",
+      "date": "2026-11-27",
+      "summary": "彭博社11月26日援引知情人士报道，SAP正筹划在AI驱动的重组中裁减至少1万个岗位，约占其全球员工总数的9%，以推动软件业务向AI时代转型。报道称，最终裁员人数尚未敲定，劳资谈判后仍可能调整；各部门高管已被要求评估可裁减的岗位，相关讨论仍在进行中。路透社当日转引了该报道。",
+      "sourceName": "Bloomberg",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+    },
+    {
+      "n": 2,
+      "title": "英国央行警告AI融资风险：大型科技公司债务及表外承诺超4万亿美元",
+      "date": "2026-11-27",
+      "summary": "英国央行11月26日发布金融稳定报告称，AI投资热潮所需融资的规模与覆盖范围持续扩大，可能加剧全球金融体系脆弱性。英国央行估计，大型科技公司的债务及表外承诺总额已超过4万亿美元；其2026年债券发行规模预计将超过3050亿美元，较去年翻倍以上。",
+      "sourceName": "财联社（科创板日报）",
+      "sourceUrl": "https://m.cls.cn/detail/2546032"
+    },
+    {
+      "n": 3,
+      "title": "OpenAI修复GPT-6.2计费错误：Astra触达用量上限快40%，Sol快25%",
+      "date": "2026-11-27",
+      "summary": "BleepingComputer 11月26日报道，OpenAI确认修复了一处对GPT-6.2用量“错误折扣”的计费问题，涉及GPT-6.2 Astra与Sol。产品负责人Sottiaux在X上表示，修复后同样的工作将消耗更多套餐额度：与上周相比，用户在Astra上触达用量上限的速度快40%，Sol快25%；其他模型不受影响，OpenAI不会就过去的用量差额收费。作为补偿，Go、Plus、Pro和Business订阅用户将获得一次可存档的用量重置。",
+      "sourceName": "BleepingComputer",
+      "sourceUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug"
+    },
+    {
+      "n": 4,
+      "title": "OpenAI更新ChatGPT Ads：新增受众指标，Business Agents扩展至国际市场",
+      "date": "2026-11-27",
+      "summary": "Search Engine Land 11月26日报道，OpenAI对ChatGPT Ads广告与商业工具推出五项更新，包括Business Agents面向国际市场扩展、新增受众洞察报告、广告促销控制以及更清晰的广告政策反馈。另据Wisevoter 11月27日报道，ChatGPT Ads目前已覆盖50多个市场，涵盖澳大利亚、新西兰、新加坡、日本、泰国等，Adform被选为其在亚太地区推广的技术合作伙伴。",
+      "sourceName": "Search Engine Land",
+      "sourceUrl": "https://searchengineland.com/chatgpt-ads-adds-audience-metrics-and-expands-business-agents-503051"
+    },
+    {
+      "n": 5,
+      "title": "国家数据局就完善数据规则赋能AI公开征求意见，支持和鼓励为数据付费",
+      "date": "2026-11-27",
+      "summary": "11月26日，国家数据局综合司发布《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿），征求意见时间为11月26日至12月6日。意见稿围绕三大方面提出十二项举措：推动数据产权制度在AI用数领域运用，支持采集生成、衍生创造以及受让、授权许可等方式取得的数据依法合规用于AI训练和推理；支持和鼓励为数据付费；建立AI企业输出的风险防控机制；完善数据流通责任认定和安全治理机制。",
+      "sourceName": "首都之窗",
+      "sourceUrl": "https://www.beijing.gov.cn/ywdt/zybwdt/202611/t20261127_4959038.html"
+    },
+    {
+      "n": 6,
+      "title": "广东印发算力发展“十五五”规划：2028年智算规模突破1000 EFlops",
+      "date": "2026-11-27",
+      "summary": "11月26日，广东省政务服务和数据管理局、省发展改革委印发《广东省算力发展“十五五”规划》，提出到2028年智算规模突破1000 EFlops（FP16），全省数据中心绿电使用占比超80%，新建大型及以上数据中心PUE小于1.2。规划提出集中力量突破产业技术短板，鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模；推进国产大模型、CANN生态、昇腾算子库等生态体系构建，并开展词元经济。",
+      "sourceName": "前瞻经济学人",
+      "sourceUrl": "https://t.qianzhan.com/caijing/detail/261127-7b17c0fc.html"
+    },
+    {
+      "n": 7,
+      "title": "国产大模型集体进军AI4S：前10个月赛道融资超80笔、总额超200亿元",
+      "date": "2026-11-27",
+      "summary": "澎湃新闻11月26日报道，腾讯、阿里、百度、华为、字节跳动、月之暗面、MiniMax及上海人工智能实验室等机构近期在相近时间窗口内将科研场景列为战略重点。第三方统计显示，今年前10个月国内AI4S赛道融资超过80笔，已披露总额超过200亿元。具体动向包括：腾讯混元发布Hyra 2.0自主科研智能体并开源蛋白相互作用模型HyInv；MiniMax公布内部模型在密码分析领域的研究成果。报道同时指出，AI4S的商业模式与落地路径仍不清晰。",
+      "sourceName": "澎湃新闻",
+      "sourceUrl": "https://www.thepaper.cn/newsDetail_forward_34547146"
+    },
+    {
+      "n": 8,
+      "title": "博登智能完成数亿元B轮融资，粤科创投、招商致远资本等参与",
+      "date": "2026-11-27",
+      "summary": "11月26日，宁波博登智能宣布完成数亿元B轮融资，由金雨茂物、甬元基金、粤科创投、招商致远资本、招证投资、宁波高新区科创基金共同参与，大璞资本担任财务顾问。资金将重点用于真机评测生态共建、全模态采集体系迭代及数据生产平台工程化升级。博登智能成立于2019年，专注Physical AI数据基础设施，不自研机器人本体，面向具身智能、大模型、自动驾驶客户提供数据供给、评测验证及“采—标—训—推”一体化平台服务。",
+      "sourceName": "前瞻经济学人",
+      "sourceUrl": "https://t.qianzhan.com/caijing/detail/261127-7b17c0fc.html"
+    },
+    {
+      "n": 9,
+      "title": "AI虚拟细胞企业华源智因完成超亿元天使轮融资，华盖资本领投",
+      "date": "2026-11-27",
+      "summary": "证券之星11月26日消息，天眼查App数据显示，AI虚拟细胞（AIVC）企业华源智因完成超亿元人民币天使轮融资，由华盖资本领投，华方资本、华映资本、梅花创投、同新基金、讯飞创投、启赋资本等跟投。公司自研Wise-Perturb细胞药物扰动应用模型，实现跨细胞、跨癌种、跨新药的泛化预测，此前已完成水木创投领投的千万级种子轮。据医麦客统计，11月16日至26日国内虚拟细胞赛道密集落地4笔融资，合计超5亿元。",
+      "sourceName": "证券之星（搜狐）",
+      "sourceUrl": "https://m.sohu.com/a/1106819585_115377"
+    }
+  ]
+}
